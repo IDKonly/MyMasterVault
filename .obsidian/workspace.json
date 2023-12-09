@@ -277,8 +277,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389,
-    "collapsed": true
+    "width": 389
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -304,7 +303,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dd4647d65db293c4",
+  "active": "fb14a64d84848a3b",
   "lastOpenFiles": [
     "Room_3_Lab/Shelf_1_my works/Work flow.canvas",
     "Room_2_daily notes/23.12.10.md",
