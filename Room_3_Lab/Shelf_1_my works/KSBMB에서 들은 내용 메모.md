@@ -1,11 +1,13 @@
 ---
-creation_date : 23.05.12
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+creation_date: 23.05.12
+last_modified: 
+note_type: basic
+category: note
+memo_level: 
+aliases: 
+tags:
+  - 학회
+  - KSBMB
 ---
 
 Parent : [[]]
