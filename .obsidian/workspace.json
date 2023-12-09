@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_2_daily notes/23.12.10.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_2_daily notes/23.12.10.md"
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md"
               }
             }
           },
@@ -234,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/23.12.10.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/23.12.10.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -302,11 +302,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a1ed11d596305dc2",
+  "active": "fb14a64d84848a3b",
   "lastOpenFiles": [
-    "Room_4_personal work/How to zettelkasten",
-    "Room_2_daily notes/23.12.09.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/_Shelf_1_How to zettelkasten.md",
     "Room_2_daily notes/23.12.10.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten",
+    "Room_2_daily notes/23.12.09.md",
     "Room_2_daily notes/23.12.08.md",
     "_MyMasterVault.md",
     "Room_2_daily notes/23.12.07.md",
@@ -344,7 +346,6 @@
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",
     "Excalidraw",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/hughes2023.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Manuscripts.md",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/zotero.json",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero",
@@ -352,7 +353,6 @@
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 4월/무제 폴더",
-    "Room_3_Lab/Shelf_3_knowledge particle/BOX_4_아무노트",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
