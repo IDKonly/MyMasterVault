@@ -1,0 +1,18 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "Room_0_metadata/Shelf_0_Resource",
+  "userIgnoreFilters": [
+    "Room_0_metadata/"
+  ],
+  "newFileLocation": "current",
+  "showFrontmatter": true,
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "spellcheckLanguages": [
+    "ko",
+    "en-GB-oxendict"
+  ],
+  "tabSize": 3,
+  "trashOption": "local",
+  "readableLineLength": true
+}

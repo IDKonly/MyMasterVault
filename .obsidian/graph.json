@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Room_2_daily notes\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Room_3_Lab/Shelf_3_knowledge particle\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:Room_3_Lab/Shelf_2_library",
+      "color": {
+        "a": 1,
+        "rgb": 3866106
+      }
+    },
+    {
+      "query": "path:\"Room_4_personal work\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 0.804746609564597,
+  "lineSizeMultiplier": 0.916666666666667,
+  "collapse-forces": false,
+  "centerStrength": 0.218058529621699,
+  "repelStrength": 14.9821556031406,
+  "linkStrength": 0.612062812276945,
+  "linkDistance": 363,
+  "scale": 0.010952991388875793,
+  "close": true
+}

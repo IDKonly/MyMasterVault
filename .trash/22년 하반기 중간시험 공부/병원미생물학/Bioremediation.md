@@ -1,0 +1,2 @@
+>오염된 환경을 생물(주로 [미생물](https://terms.naver.com/entry.nhn?docId=6158858&ref=y)) 작용을 이용하여 환경 상태를 회복시킴. 유해한 [무기물](https://terms.naver.com/entry.nhn?docId=6158129&ref=y) 또는 유기 화합물을 분해하거나 구조를 단순화 하여 해가 없는 물질로 변환시켜 오염된 환경을 정화, 회복하는 기술이다.
+>https://terms.naver.com/entry.naver?docId=6160903&cid=67725&categoryId=67725

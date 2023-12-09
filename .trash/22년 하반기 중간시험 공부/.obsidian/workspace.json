@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "0261db258c7679ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9f7278be635f1a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62eb0842e9e5eab4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "생물정보학(12월 19일).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ad0ac69dd3847da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "생물정보학(12월 19일).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "003f37022c9c611a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Genome Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ecbc664625aa266c",
+    "type": "split",
+    "children": [
+      {
+        "id": "65d96b34c4305914",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd7fe5e144b3febe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "71b36dc3ad4b9ba8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9d992678a9617a17",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "6d454e97fce0eaeb",
+    "type": "split",
+    "children": [
+      {
+        "id": "de426c42328ad12d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd1501523963c9bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "생물정보학(12월 19일).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "52413b24f6e2e86c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "생물정보학(12월 19일).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3be4d65bb3be7c2f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c259bfed900d1f93",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "생물정보학(12월 19일).md"
+              }
+            }
+          },
+          {
+            "id": "21f7b81751a84d40",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8ad0ac69dd3847da",
+  "lastOpenFiles": [
+    "생물공학/Chapter 7-1. Heterozygous protein production in Eukaryotic Microbial Cells.md",
+    "생물공학/생물공학.md",
+    "생물정보학(12월 19일).md",
+    "기말시험.md",
+    "Genome Analysis.md",
+    "P. pastoris.md",
+    "유전체학/분생공 기말기출 + answer.md",
+    "생물공학/Chap 7-2 Heterologous protein prodution in eukaryotic incect and animal cells.md",
+    "NGS applications.md",
+    "생물공학/Chap 7-2 Heterologous protein prodution in eukaryotic incect and animal cells.md"
+  ]
+}

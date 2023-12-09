@@ -1,0 +1,15 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "./",
+  "userIgnoreFilters": [
+    "Room_0_metadata/"
+  ],
+  "newFileLocation": "current",
+  "showFrontmatter": true,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-US"
+  ]
+}

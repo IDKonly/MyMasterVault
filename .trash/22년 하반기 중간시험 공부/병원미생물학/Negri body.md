@@ -1,0 +1,2 @@
+> 주로 광견병에 걸린 생체의 뇌신경세포 내에 나타나는 소체로, A.네그리가 발견하였다. 척추나 신경절세포 내에도 나타나는 경우가 있다. 크기는 2∼10μm이며, 원형·타원형 또는 가늘고 긴 소체로 [에오신](https://terms.naver.com/entry.naver?docId=1125375&ref=y)으로 붉게 염색된다. 염색 됐을 경우 내부에 지름 0.2∼0.5μm의 작은 염기성 과립을 볼 수 있다. 네그리는 이것을 광견병 병원체의 원충이라 생각하였다. 광견병에 걸린 개를 진단할 때에는 대뇌의 [아몬각](https://terms.naver.com/entry.naver?docId=1123170&ref=y)(ammon角)의 신경세포 내에 있는 네그리 소체를 검출하는 것이 중요하다.
+> https://terms.naver.com/entry.naver?docId=1076206&cid=40942&categoryId=32322

@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "284622bcfc3cb71a",
+    "type": "split",
+    "children": [
+      {
+        "id": "24f4745b1386afe2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3196b7a5813d0d65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_2_daily notes/23.01.05.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f47337ff3a1f8a8d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b70aa38c3c124286",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "96a904efd17017f5",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "153107be8972c171",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "1ab368682d367993",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "8905079c766f1916",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0ebfac0cc0d50e6b",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Room_2_daily notes/23.01.05.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "8adba8a9d2f358fc",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Room_2_daily notes/23.01.05.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "da6bbfadcf0f6f21",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Room_2_daily notes/23.01.05.md"
+          }
+        }
+      },
+      {
+        "id": "eb2cf4c36b850a87",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "3196b7a5813d0d65",
+  "lastOpenFiles": [
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/4_PCR.md",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/22.11.11 PCR and Gel electrophoresis.md",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/22.11.04 PCR and electrophoresis.md",
+    "Room_0_metadata/Shelf_0_Resource/DreamTaq_user guide_221020_101620.pdf",
+    "Room_2_daily notes/23.01.05.md",
+    "Room_2_daily notes/23.01.04.md"
+  ]
+}

@@ -1,0 +1,2 @@
+>독성 쇼크 증후군은 황색 포도상구균이 만드는 독소에 감염되거나, 균이 혈액 안으로 침범해 독소를 분비하여 생기는 감염성 질병을 의미합니다. 전신적인 홍반성 표피 탈락을 특징으로 하는 급성 발열 질환입니다. 이 질환은 흔하지는 않으나 치명적입니다.
+>https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32315

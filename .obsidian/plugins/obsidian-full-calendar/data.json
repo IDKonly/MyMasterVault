@@ -1,0 +1,31 @@
+{
+  "calendarSources": [
+    {
+      "type": "dailynote",
+      "color": "#2a86fe",
+      "heading": "daily_cal"
+    },
+    {
+      "type": "local",
+      "color": "#42ff4f",
+      "directory": "Room_0_metadata/Shelf_2_work_schedule"
+    },
+    {
+      "type": "ical",
+      "color": "#ff2424",
+      "url": "https://calendar.google.com/calendar/ical/ko.south_korea%23holiday%40group.v.calendar.google.com/public/basic.ics"
+    },
+    {
+      "type": "ical",
+      "color": "#f7f382",
+      "url": "https://calendar.google.com/calendar/ical/6a1c9bbb38eefa2d454ab3615936c62d38a56fcaa5a32c76611abebc884a5f16%40group.calendar.google.com/private-cb47ed3c8352b4b9104a18501eb12e1b/basic.ics"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": false
+}

@@ -1,0 +1,13 @@
+---
+title : primary antibody
+creation_date : 23.03.27
+last_modified :
+note_type : basic
+category :
+memo_level :
+aliases : 
+tags : []
+---
+
+Parent : [[_KnowledgeParticle]]
+Drived from : [[]]

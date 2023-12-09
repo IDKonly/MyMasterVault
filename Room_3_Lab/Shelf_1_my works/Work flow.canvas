@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"2331fce4e81b4bc1","x":-391,"y":-449,"width":3418,"height":585,"type":"group","label":"Mutant strain"},
+		{"type":"text","text":"Primer design","id":"af4c9467d0a2645a","x":-371,"y":-194,"width":250,"height":60},
+		{"type":"text","text":"Working Test","id":"a552c7728458d7a4","x":-74,"y":-194,"width":250,"height":60},
+		{"type":"text","text":"[[PCR]]","id":"9137f2f2cb0d6c40","x":231,"y":-194,"width":250,"height":60},
+		{"type":"text","text":"[[DNA gel extraction]] ","id":"e1d9df9f8b14e98c","x":530,"y":-194,"width":250,"height":60},
+		{"type":"text","text":"[[Yeast transformation]] ","id":"6e3bfaa48dd63a69","x":846,"y":-194,"width":250,"height":60},
+		{"type":"text","text":"DNA가 적절하게 삽입되었는지 알기 위해 함께 conoly PCR을 진행할 수 있다.","id":"0c29e6611657efc4","x":1173,"y":-58,"width":250,"height":114},
+		{"type":"text","text":"[[Subculture]]","id":"1c03bb92fea1c39c","x":1173,"y":-194,"width":250,"height":60},
+		{"type":"text","text":"트러블슈팅을 하는 방법에 대해서 잘 알아야 한다. \n어떤것이 문제가 될 수 있는지, 어떤것을 통제할 수 있는지 최대한 잘 감안하자.","id":"22eed0e8f2e425ec","x":-74,"y":-417,"width":250,"height":160},
+		{"type":"text","text":"실험 Cost를 아끼려는 노력을 해야한다. ","id":"92545007e8d06a60","x":-371,"y":-369,"width":250,"height":64},
+		{"type":"text","text":"[[PCR]] ","id":"80c8a70fd0927655","x":1490,"y":-194,"width":250,"height":60},
+		{"type":"text","text":"무얼 위해 이 실험을 하는지 잘 고민해야 한다.\nKnockout 균주나 tagging 균주를 만드는 것이라면 H3나 actin등으로 loading control을 할 필요가 없다.","id":"782bab70a6e3ea1a","x":1812,"y":-429,"width":250,"height":184},
+		{"type":"text","text":"[[SDS-PAGE]] ","id":"89be49ab99a033e2","x":1812,"y":-194,"width":250,"height":60},
+		{"type":"text","text":"[[Western blot]] ","id":"4fde70eec622177f","x":2129,"y":-194,"width":250,"height":60},
+		{"type":"text","text":"[[Streaking]]","id":"c44b71b37ae2592c","x":2431,"y":-194,"width":250,"height":60},
+		{"type":"text","text":"Single colony isolation이 목적이라면 해야한다.","id":"b52e2d24e16a8a37","x":2430,"y":-337,"width":250,"height":87},
+		{"type":"text","text":"single colony isolation","id":"f5d6980d52f8037f","x":2757,"y":-194,"width":250,"height":60},
+		{"type":"text","text":"[[Cell stock]] ","id":"1ccdf620cc171008","x":2430,"y":56,"width":250,"height":60},
+		{"id":"5159719654ddca64","x":-74,"y":-58,"width":250,"height":60,"type":"text","text":"Plasmid, gDNA"}
+	],
+	"edges":[
+		{"id":"993e2f68b344355c","fromNode":"af4c9467d0a2645a","fromSide":"right","toNode":"a552c7728458d7a4","toSide":"left"},
+		{"id":"1f437f714e1b4df5","fromNode":"a552c7728458d7a4","fromSide":"right","toNode":"9137f2f2cb0d6c40","toSide":"left"},
+		{"id":"0fdca1d4a98a3821","fromNode":"9137f2f2cb0d6c40","fromSide":"right","toNode":"e1d9df9f8b14e98c","toSide":"left"},
+		{"id":"06fc5f200df1bcd2","fromNode":"e1d9df9f8b14e98c","fromSide":"right","toNode":"6e3bfaa48dd63a69","toSide":"left"},
+		{"id":"3d2c02de8fea972a","fromNode":"6e3bfaa48dd63a69","fromSide":"right","toNode":"1c03bb92fea1c39c","toSide":"left"},
+		{"id":"50ba034971abd6aa","fromNode":"1c03bb92fea1c39c","fromSide":"bottom","toNode":"0c29e6611657efc4","toSide":"top"},
+		{"id":"06c79cb407d2b04c","fromNode":"89be49ab99a033e2","fromSide":"right","toNode":"4fde70eec622177f","toSide":"left"},
+		{"id":"f6268b3b63bebe18","fromNode":"89be49ab99a033e2","fromSide":"top","toNode":"782bab70a6e3ea1a","toSide":"bottom"},
+		{"id":"4c762f0104005dd2","fromNode":"92545007e8d06a60","fromSide":"right","toNode":"22eed0e8f2e425ec","toSide":"left"},
+		{"id":"0fb72a1ec61794af","fromNode":"a552c7728458d7a4","fromSide":"top","toNode":"22eed0e8f2e425ec","toSide":"bottom"},
+		{"id":"3d020284c8cc9c57","fromNode":"4fde70eec622177f","fromSide":"right","toNode":"c44b71b37ae2592c","toSide":"left"},
+		{"id":"31dd1fa9f38584ef","fromNode":"c44b71b37ae2592c","fromSide":"top","toNode":"b52e2d24e16a8a37","toSide":"bottom"},
+		{"id":"af096a84db0428e9","fromNode":"c44b71b37ae2592c","fromSide":"right","toNode":"f5d6980d52f8037f","toSide":"left"},
+		{"id":"5a438b4a93470bcb","fromNode":"1c03bb92fea1c39c","fromSide":"right","toNode":"80c8a70fd0927655","toSide":"left"},
+		{"id":"8886b8d95a65c72e","fromNode":"80c8a70fd0927655","fromSide":"right","toNode":"89be49ab99a033e2","toSide":"left"},
+		{"id":"7c73f065e786d269","fromNode":"4fde70eec622177f","fromSide":"bottom","toNode":"1ccdf620cc171008","toSide":"top"},
+		{"id":"b1e47366b8e7dbc9","fromNode":"f5d6980d52f8037f","fromSide":"bottom","toNode":"80c8a70fd0927655","toSide":"bottom","label":"cofirm"},
+		{"id":"585502679bf6c14d","fromNode":"5159719654ddca64","fromSide":"right","toNode":"9137f2f2cb0d6c40","toSide":"left"}
+	]
+}

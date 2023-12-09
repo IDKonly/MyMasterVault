@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/230612 disc assay.png","id":"3008b1fd62993d11","x":340,"y":-577,"width":291,"height":400},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/Pasted image 20230719133509.png","id":"f20280320fc62155","x":763,"y":-577,"width":400,"height":396},
+		{"type":"text","text":"기존 실험 재현성 실험","id":"54767c10f300476f","x":-143,"y":-314,"width":250,"height":60},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/Pasted image 20230719133416.png","id":"f52b7d793f033472","x":486,"y":-48,"width":400,"height":141},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/Pasted image 20230719133432.png","id":"8a1d75482440d061","x":486,"y":176,"width":400,"height":180},
+		{"type":"text","text":"단백질 구조 예측","id":"c4b2a76b95409ae9","x":-143,"y":639,"width":250,"height":60},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/Pasted image 20230719133759.png","id":"bd4c36b6e10c85fa","x":541,"y":469,"width":345,"height":400},
+		{"type":"text","text":"Alphafold2","id":"0546d41777a9edb5","x":215,"y":639,"width":250,"height":60},
+		{"type":"text","text":"pymol","id":"8483de33275ebf77","x":215,"y":1174,"width":250,"height":60},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/Pasted image 20230719133915.png","id":"5f96ca6cb3ceb35e","x":541,"y":1004,"width":276,"height":400},
+		{"type":"text","text":"수진누나 졸업논문 코옵","id":"74f796e58ca565b1","x":-576,"y":-314,"width":287,"height":63}
+	],
+	"edges":[
+		{"id":"a2822a6af3c1a620","fromNode":"f52b7d793f033472","fromSide":"bottom","toNode":"8a1d75482440d061","toSide":"top","label":"재실험"},
+		{"id":"704803fe5f0812e6","fromNode":"3008b1fd62993d11","fromSide":"right","toNode":"f20280320fc62155","toSide":"left","label":"재실험"},
+		{"id":"1a10ddb289a17ea6","fromNode":"74f796e58ca565b1","fromSide":"right","toNode":"54767c10f300476f","toSide":"left"},
+		{"id":"e6b77519743f4dac","fromNode":"54767c10f300476f","fromSide":"right","toNode":"3008b1fd62993d11","toSide":"left"},
+		{"id":"a5d0d354ab24916c","fromNode":"54767c10f300476f","fromSide":"right","toNode":"f52b7d793f033472","toSide":"left"},
+		{"id":"2b5a51cce8ddbee7","fromNode":"74f796e58ca565b1","fromSide":"right","toNode":"c4b2a76b95409ae9","toSide":"left"},
+		{"id":"f07b13dd6336f7eb","fromNode":"c4b2a76b95409ae9","fromSide":"right","toNode":"0546d41777a9edb5","toSide":"left"},
+		{"id":"df43d859f5d9b965","fromNode":"0546d41777a9edb5","fromSide":"right","toNode":"bd4c36b6e10c85fa","toSide":"left"},
+		{"id":"a48d249007b26948","fromNode":"c4b2a76b95409ae9","fromSide":"right","toNode":"8483de33275ebf77","toSide":"left"},
+		{"id":"d197f1cdce70645a","fromNode":"8483de33275ebf77","fromSide":"right","toNode":"5f96ca6cb3ceb35e","toSide":"left"}
+	]
+}

@@ -1,0 +1,32 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Room_0_metadata/Shelf_1_template for templater",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Room_2_daily notes",
+      "template": "Room_0_metadata/Shelf_1_template for templater/Daily note template.md"
+    },
+    {
+      "folder": "Room_3_Lab/Shelf_3_knowledge particle",
+      "template": "Room_0_metadata/Shelf_1_template for templater/_KnowledgeParticle template.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [
+    "Room_0_metadata/Shelf_1_template for templater/Basic template.md"
+  ],
+  "enable_ribbon_icon": true
+}

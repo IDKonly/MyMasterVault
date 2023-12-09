@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"bc5b7e8c25d780c0","type":"group","x":-100,"y":-2640,"width":2040,"height":940,"label":"근-본"},
+		{"id":"2adfdfc57eb88a73","type":"group","x":-180,"y":-1300,"width":1900,"height":920,"label":"Set1 N-term - Swd2 - Pol2 CTD inateraction"},
+		{"id":"70974859e812f5f3","x":120,"y":-60,"width":440,"height":960,"type":"group","label":"CPF and APT binding to Pol2 CTD"},
+		{"id":"377ab6a1abd13f1e","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Histone Crosstalk_ H2Bub and H3K4 Methylation.md","x":980,"y":-2620,"width":400,"height":400},
+		{"id":"f9f7084419f16cd8","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The effect of Swd2's binding to Set1 on the dual functions of Swd2 in Saccharomyces cerevisiae.md","x":340,"y":-1280,"width":400,"height":400},
+		{"id":"859e1adb723f0c97","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Set1 N-terminal domain and Swd2 interact with RNA polymerase II CTD to recruit COMPASS.md","x":-120,"y":-1280,"width":400,"height":400},
+		{"id":"15cf48c8a3bccf00","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/Determinants of histone H3K4 methylation patterns.md","x":820,"y":-820,"width":400,"height":400},
+		{"id":"0cb870a06d1eaa42","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Crosstalk among Set1 complex subunits involved in H2B ubiquitylation-dependent H3K4 methylation.md","x":1280,"y":-1280,"width":400,"height":400},
+		{"id":"bfb766bbf246fbae","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Determinants of Histone H3K4 Methylation Patterns.md","x":820,"y":-1280,"width":400,"height":400},
+		{"id":"4aab66d78f31a8f8","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md","x":140,"y":-40,"width":400,"height":400},
+		{"id":"ff25fefd61b0017a","x":140,"y":480,"width":400,"height":400,"type":"file","file":"Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/2 direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md"},
+		{"id":"3cc7b362c07d4dae","x":640,"y":360,"width":351,"height":137,"type":"text","text":"애매함.\n일단 이 논문에서 언급하고 있는건 Red2 매개에 의한 결합이고, 결합 위치도 명확하지 않아서 CyroEM으로 찍히지도 않음"},
+		{"id":"0aa049fe2aee6504","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The n-SET domain of Set1 regulates H2B ubiquitylation-dependent H3K4 methylation.md","x":980,"y":-2120,"width":400,"height":400},
+		{"id":"09b4189c1d155db4","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Ubiquitylation of the COMPASS component Swd2 links H2B ubiquitylation to H3K4 trimethylation.md","x":440,"y":-2120,"width":400,"height":400},
+		{"id":"322fba1e45d5af85","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Histone crosstalk between H2B monoubiquitination and H3 methylation mediated by COMPASS.md","x":-80,"y":-2120,"width":400,"height":400},
+		{"id":"bab6adbc9c84996b","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor.md","x":1520,"y":-2120,"width":400,"height":400},
+		{"id":"7c21a2894cb7150a","x":1947,"y":-851,"width":333,"height":171,"type":"text","text":"중간지역과의 간섭이야 어쨌든 Swd2가 N-term에 결합한 상태로 있는것이 Pol2의 CTD와의 interaction이 중요"}
+	],
+	"edges":[
+		{"id":"963b20ab5ec97dd0","fromNode":"bfb766bbf246fbae","fromSide":"bottom","toNode":"15cf48c8a3bccf00","toSide":"top"},
+		{"id":"d62cb009506b3ec6","fromNode":"0aa049fe2aee6504","fromSide":"top","toNode":"377ab6a1abd13f1e","toSide":"bottom"},
+		{"id":"40d54f83d5f8e6d3","fromNode":"4aab66d78f31a8f8","fromSide":"bottom","toNode":"ff25fefd61b0017a","toSide":"top"},
+		{"id":"976b9cac4155d18e","fromNode":"70974859e812f5f3","fromSide":"right","toNode":"3cc7b362c07d4dae","toSide":"left"},
+		{"id":"345cf925d3341310","fromNode":"2adfdfc57eb88a73","fromSide":"right","toNode":"7c21a2894cb7150a","toSide":"left"}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"type":"group","id":"959434498cb89dab","x":1484,"y":201,"width":847,"height":1556,"label":"Western 결과"},
+		{"type":"group","id":"119422b52f6ea5d7","x":-556,"y":-549,"width":885,"height":703,"label":"in TRP-"},
+		{"type":"group","id":"92512387e74afcde","x":458,"y":-391,"width":889,"height":387,"label":"in YPD"},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/230328 Swd2-TAP anti-H3 30s expose 1.png","id":"f34c9f187c5ee5b2","x":-91,"y":-160,"width":399,"height":286},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/230404 swd2-TAP anti-TAP 3min expose.png","id":"b70349f94117f575","x":927,"y":-371,"width":399,"height":149},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/230331 Swd2-TAP anti-H3 30s expose.png","id":"3c105523f0e1c4b0","x":927,"y":-183,"width":399,"height":159},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/230324 swd2-TAP anti-TAP.png","id":"0f72e907db169874","x":-536,"y":-529,"width":400,"height":288},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/230328 Swd2-TAP anti-H3 1min expose 1.png","id":"4d1e75b5238d61d4","x":-536,"y":-160,"width":400,"height":294},
+		{"type":"text","text":"같은 membrane에서 blotting함.","id":"7ee59a395c67a0fb","x":-91,"y":-512,"width":318,"height":58},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/230404 swd2-TAP anti-TAP 1min expose.png","id":"495434dd0711aecb","x":478,"y":-371,"width":400,"height":188},
+		{"type":"text","text":"같은 membane을 cutting해서 blotting 함","id":"3541464eea60782f","x":495,"y":-132,"width":366,"height":60},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/KakaoTalk_20230410_164440144.png","id":"2b6ac66cda272aee","x":4268,"y":405,"width":561,"height":293},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/230405 western.png","id":"122a341126539d3d","x":1504,"y":971,"width":806,"height":363},
+		{"type":"file","file":"Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 4월/23.04.04 Western blot.md","id":"709b23129e2a3ee3","x":714,"y":76,"width":377,"height":481},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/230408 western.png","id":"2482b69e480392c2","x":1504,"y":1400,"width":806,"height":337},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/230404 western.png","id":"df2274cbef59b314","x":1504,"y":627,"width":807,"height":299},
+		{"type":"file","file":"Room_0_metadata/Shelf_0_Resource/230328 western.png","id":"5243dfc435c7fb42","x":1504,"y":221,"width":807,"height":372},
+		{"type":"text","text":"일단 관찰한 결과 나열\n\n1. TRP- 배지에서 set1 균주가 너무 명백하게 WT에 비해서 growth defect를 보였음.\n\t1. 하지만, YPD에서 이러한 growth defect는 관찰되지 않음.\n2. TRP- 배지에서 set1 균주는 극심한 Swd2-TAP의 발현감소가 보임.이는 isolation 된 모든 균주에서 일관적으로 보였음.\n\t1. 이 발현감소는 YPD 배지 위에서 대체적으로 회복하는 모습을 보이나, WT 수준까지는 회복되지 않고 약 1.5배정도 적은 모습을 보임. (imageJ 이용) \n\t2. *ps. imageJ 이용할때는 항상 포토샵으로 흑백처리후 레벨을 조정해서 측정했으므로, 원본으로 측정하면 어찌될지 모름. 다만, 모든 비교는 동일한 편집처리를 거치고 비교했음*\n3. Set1의 결실상황이 Swd2의 발현에 문제를 일으킨다는 가설은 HA-tag가 결합했을때에 Swd2가 발현변화가 없었다는 보고(준수형)이 있으므로, 부차적으로 생각할 수 있는 원인은 TAP-tag가 있음.\n\n결정해야 하는 부분.\n\n1. set1 상황에서 Swd2-TAP의 발현변화가 있음을 인정하고 TAP pufrification을 진행한다.\n\t1. 발현변화 자체를 인정하더라도 균주의 무결성 자체는 증명해야 하는 문제라고 생각함. 시퀀싱이 필요할까?\n2. 이 단계에서 왜 Swd2-TAP의 발현변화가 일어난 것인지 알아보고 다음 스텝으로 넘어간다.\n\t1. 이 경우 다른 균주 백그라운드에서 TAP-tag를 달아 발현변화를 지켜보는등 부차적인 실험이 너무 많이 필요해서 비용이 너무 많이 들 것으로 예상됨.\n\t2. 하지만 이 균주의 제작이 이후 프로젝트에 어떠한 영향을 미칠지를 예상해 본다면, 필요성 자체는 인정해야 한다고 봄.","id":"90440f9ca1899110","x":2690,"y":331,"width":513,"height":939},
+		{"type":"text","text":"From professor \n\n1. dset1 RNA-Seq 데이터를 보라\n2. 6HA-tag 준수형 데이터를 보라\n\t1. 단, 내가 핸들링하는 조건에서 이걸 다시 볼 필요는 있다.\n3. 각 균주 WT-TAP, dset1-TAP, WT-6HA, dset1-6HA를 각각 TAP purify OD 조건에서 Swd2 level을 비교해보자.\n","id":"3f674c66751c9387","x":3546,"y":443,"width":533,"height":216}
+	],
+	"edges":[
+		{"id":"af76c0ee2d63bacc","fromNode":"0f72e907db169874","fromSide":"bottom","toNode":"4d1e75b5238d61d4","toSide":"top"},
+		{"id":"4bf86b2719108cb1","fromNode":"0f72e907db169874","fromSide":"bottom","toNode":"f34c9f187c5ee5b2","toSide":"top"},
+		{"id":"6a8716b60459057b","fromNode":"119422b52f6ea5d7","fromSide":"right","toNode":"92512387e74afcde","toSide":"left"},
+		{"id":"1ab2cc9515c034b8","fromNode":"92512387e74afcde","fromSide":"bottom","toNode":"709b23129e2a3ee3","toSide":"top"},
+		{"id":"a095808bce0af18f","fromNode":"119422b52f6ea5d7","fromSide":"bottom","toNode":"5243dfc435c7fb42","toSide":"left"},
+		{"id":"0ab78cfe4222f7ce","fromNode":"709b23129e2a3ee3","fromSide":"right","toNode":"122a341126539d3d","toSide":"left"},
+		{"id":"639d824d89afad6c","fromNode":"709b23129e2a3ee3","fromSide":"right","toNode":"2482b69e480392c2","toSide":"left"},
+		{"id":"47c011758d3c2eae","fromNode":"92512387e74afcde","fromSide":"right","toNode":"df2274cbef59b314","toSide":"left"},
+		{"id":"a3313c9a27cdb06b","fromNode":"959434498cb89dab","fromSide":"right","toNode":"90440f9ca1899110","toSide":"left"},
+		{"id":"edc8ad4903721542","fromNode":"90440f9ca1899110","fromSide":"right","toNode":"3f674c66751c9387","toSide":"left"},
+		{"id":"de9ebcf3ddb0ee59","fromNode":"3f674c66751c9387","fromSide":"right","toNode":"2b6ac66cda272aee","toSide":"left"}
+	]
+}

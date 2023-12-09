@@ -1,0 +1,129 @@
+{
+  "main": {
+    "id": "85ef41272599b0e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "aaa3730d028eac75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "039504028bbda606",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "그 화실의 그.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e4412e06e3aca7ea",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2d328a7b0556fda7",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "09181dcd6ba3148f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "102a24c0578bd5aa",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "df010d9528bebada",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "213c66d2e7d75c30",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "770eea9b7629eb29",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "그 화실의 그.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "b8ff031af9caf6ed",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "그 화실의 그.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "0e7cdfffdae523c0",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "그 화실의 그.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "039504028bbda606",
+  "lastOpenFiles": [
+    "이야기조각.md",
+    "그 화실의 그.md"
+  ]
+}

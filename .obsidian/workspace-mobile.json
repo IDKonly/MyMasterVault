@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "1a25c9919876761b",
+    "type": "split",
+    "children": [
+      {
+        "id": "99d9697f35e4cbca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10695479100fd79a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Western blot.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c2be740056dc9ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/cDNA synthesis.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "538b9f595cd36d88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/DNA gel extraction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75dba092562a53f4",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "07bd6ec739d9bb5f",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4f78daef1a15fffb",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "bee109235188211c",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "d82c7c8c678631f3",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "61812914eb1cdba7",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "74afada90b256705",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Western blot.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "60735a0913ecedad",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Western blot.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "a3265987038b0773",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Western blot.md"
+          }
+        }
+      },
+      {
+        "id": "4aa19d08ea647732",
+        "type": "leaf",
+        "state": {
+          "type": "reminder-list",
+          "state": {}
+        }
+      },
+      {
+        "id": "1a560e8667971208",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "10695479100fd79a",
+  "lastOpenFiles": [
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/_0_resources.md",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 2월/_23년 2월.md",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 1월/_23년 1월.md",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/22년/_22년.md",
+    "Room_4_personal work/Shelf_1_MyNetwork setting/서비스/_서비스.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/_Webclips.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/_Box_3_web clips.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/ReadItLater.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/REF2  SGD.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/천연물신약개발론.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/천연물신약 2강.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/천연물신약 1강.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/대학원세미나.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/_School.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/_Box_2_School.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/H3K27me and PRC2 transmit a memory of repression across generations and during development.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/H3K27me and PRC2 transmit a memory of repression across generations and during development.canvas",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_1_Molecular cloning/_Box_1_Molecular cloning.md",
+    "Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/_Box_3_Memo for manuscripts.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/_Box_2_methods.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/you2022.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
+    "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/_Box_4_LabWorks.md",
+    "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/_랩미팅.md",
+    "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/_Box_3_랩미팅.md",
+    "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/2_A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
+    "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/1_ Epigenetic gene silencing alters the mechanisms and rate evloutionary adaptation.md",
+    "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/230322 실험계획.canvas",
+    "Room_2_daily notes/23년 2월",
+    "Room_0_metadata/Shelf_0_Resource/alliance_logo_sgd.png",
+    "Room_0_metadata/Shelf_0_Resource/Recording 20230321151250.webm",
+    "Room_0_metadata/Shelf_0_Resource/Recording 20230321151038.webm",
+    "Room_0_metadata/Shelf_0_Resource/Recording 20230321150110.webm",
+    "Room_0_metadata/Shelf_0_Resource/Recording 20230321145438.webm",
+    "Room_0_metadata/Shelf_0_Resource/Recording 20230321143921.webm",
+    "Room_0_metadata/Shelf_0_Resource/Recording 20230321142950.webm",
+    "Room_0_metadata/Shelf_0_Resource/Pasted image 20230321174606.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted image 20230321134432.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted image 20230321134410.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted image 20230320232249.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted image 20230320231814.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted image 20230320231540.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted image 20230320231324.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted image 20230320231213.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted image 20230320230448.png",
+    "Room_4_personal work/무제 파일.canvas"
+  ]
+}

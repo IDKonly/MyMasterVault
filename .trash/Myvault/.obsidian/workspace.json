@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "66881c768f0f39f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "da80244e57cb6c2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a07d951dccf19b43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Device/NAS(OMV).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59fafcd12a78a509",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Device/NAS(OMV).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3db4ad66eca62d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Device/iPad.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "273dcf4e00e953d5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "abba8dde537b4d92",
+    "type": "split",
+    "children": [
+      {
+        "id": "c24aff821619c1c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90b7fad0a9246957",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "94e1d033d17a17c0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f12f5bbd841e66b4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "73c6afe2322e8e15",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9b5dbc57261531a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d991a5a33aee6d01",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "62de6f4ec844e23a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "71b867dcd65c566b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b14e4c55c25ee2d3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 447.5
+  },
+  "active": "273dcf4e00e953d5",
+  "lastOpenFiles": [
+    "서비스/IFTTT.md",
+    "서비스/Zotero.md",
+    "Device/iPad.md",
+    "서비스/Obsidian.md",
+    "Device/NAS(OMV).md",
+    "iPad.md",
+    "서비스/39.118.24.224(web IP).md",
+    "Device/공유기.md",
+    "Device/Odriod M1(myVault).md",
+    "네트워크 세팅 상황/무제파일.md"
+  ]
+}

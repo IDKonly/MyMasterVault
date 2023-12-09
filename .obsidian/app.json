@@ -1,0 +1,21 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "Room_0_metadata/Shelf_0_Resource",
+  "userIgnoreFilters": [
+    "Room_0_metadata/"
+  ],
+  "newFileLocation": "current",
+  "showFrontmatter": true,
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "spellcheckLanguages": null,
+  "tabSize": 3,
+  "trashOption": "local",
+  "readableLineLength": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 75
+  }
+}

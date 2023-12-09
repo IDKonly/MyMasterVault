@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "csl-json",
+  "literatureNoteTitleTemplate": "{{title}}",
+  "literatureNoteFolder": "Room_3_Lab\\Shelf_2_library\\Box_1_manuscripts",
+  "literatureNoteContentTemplate": "---\ntitle : {{title}}\ncitekey : {{citekey}}\nauthors : {{authorString}}\nDOI : {{DOI}}\nyear:  {{year}}\npublisher : {{publisher}}\nnote_type : zotero\ntags : \n---\nparent file : [[_Manuscripts]]\n[to Zotero]({{zoteroSelectURI}}) [DOI](https://doi.org/{{DOI}})\n\nAbstract\n---\n{{abstract}}\n",
+  "markdownCitationTemplate": "[{{#each entry.author}}{{#if @first}}{{#if this.family}}{{this.family}}{{#unless @last}} *et al.*{{/unless}}{{else}}{{../authorString}}{{/if}}{{/if}}{{/each}}, {{#if year}}{{year}}{{else}}no date{{/if}}]({{zoteroSelectURI}})",
+  "alternativeMarkdownCitationTemplate": "[{{#each entry.author}}{{#if @first}}{{#if this.family}}{{this.family}}{{#unless @last}} *et al.*{{/unless}}{{else}}{{../authorString}}{{/if}}{{/if}}{{/each}}, {{#if year}}{{year}}{{else}}no date{{/if}} {{#if title}}{{title}}{{else}}no title{{/if}}]({{zoteroSelectURI}})",
+  "citationExportPath": "D:\\Obsidian\\Master_vault\\Room_3_Lab\\Shelf_2_library\\Box_1_manuscripts\\0_resources from zotero\\zotero.json"
+}

@@ -1,0 +1,134 @@
+{
+  "main": {
+    "id": "669855b7fdfb3773",
+    "type": "split",
+    "children": [
+      {
+        "id": "d57a3055093ca35a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b77a5ee5f406944e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "생물정보학(12월 19일).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2663df39cc03b610",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e9f67d32990d247a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "6496a4f86aed112f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "6938a7b7b640214d",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "14071ef70d874369",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "6382655d0257ae27",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b94d77f1c3f0c060",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "생물정보학(12월 19일).md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "08b39f7f5877db03",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "생물정보학(12월 19일).md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "258452e28075dbe4",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "생물정보학(12월 19일).md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "b77a5ee5f406944e",
+  "lastOpenFiles": [
+    "분생공 기말기출 + answer.md",
+    "생물정보학(12월 19일).md",
+    "생물정보학/생물정보학.md",
+    "과목.md",
+    "기말시험.md",
+    "chap 7-1 Heterologous protein production in Eukaryotic microbial cells.md",
+    "Chap 7-2 Heterologous protein prodution in eukaryotic incect and animal cells.md"
+  ]
+}

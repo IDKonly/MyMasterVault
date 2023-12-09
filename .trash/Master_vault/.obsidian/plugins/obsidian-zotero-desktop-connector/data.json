@@ -1,0 +1,14 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [],
+  "exeVersion": "1.0.13",
+  "shouldShowCiteSuggest": true,
+  "shouldConcat": true,
+  "pdfExportImageOCR": true,
+  "pdfExportImageOCRLang": "eng+kor"
+}

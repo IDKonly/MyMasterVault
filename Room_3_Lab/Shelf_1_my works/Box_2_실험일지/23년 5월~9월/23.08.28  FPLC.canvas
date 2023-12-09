@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"5ebf6a9e37c69106","type":"text","text":"cell growth and -80℃ store\n- WT, dset1\n\t- Swd2-TAP\n\t\t- for [[The Tandem Affinity Purificaion(TAP) Method|TAP purification]] (2L)\n\t\t- for crude (15ml)\n\t- Swd2-6HA (15ml)\n\t- SWd2-9myc(15ml)","x":-38,"y":-462,"width":548,"height":269},
+		{"id":"3b1bd338fc271d5b","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md","x":-496,"y":50,"width":581,"height":651},
+		{"id":"4ca3be1bc5aa89e7","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md","x":315,"y":22,"width":624,"height":679},
+		{"id":"f575579f555f3f77","type":"file","file":"Room_2_daily notes/23년 9월/23.09.04.md","x":-896,"y":-1182,"width":625,"height":955},
+		{"id":"7a172d5e38e9d12f","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_2_methods/Western blot.md","x":-70,"y":1847,"width":581,"height":563},
+		{"id":"093d6557452e3dee","type":"file","file":"Room_0_metadata/Shelf_0_Resource/230912 bradford.png","x":1179,"y":-248,"width":575,"height":388},
+		{"id":"00eb6816b72e60d3","type":"text","text":"Swd2-TAP 찍기","x":-586,"y":2621,"width":250,"height":60},
+		{"id":"6ef88cddf250a495","type":"text","text":"Set1 찍기","x":519,"y":2634,"width":250,"height":60},
+		{"id":"366ceb4d250c5044","type":"file","file":"Room_3_Lab/Shelf_2_library/Box_2_methods/Fast Protein Liquid Chromatography (FPLC) machine protocol.md","x":-70,"y":886,"width":581,"height":742},
+		{"id":"1c07644861638425","type":"file","file":"Room_0_metadata/Shelf_0_Resource/Pasted image 20230920181052.png","x":739,"y":1305,"width":604,"height":323},
+		{"id":"087a34f3de716a7a","type":"file","file":"Room_0_metadata/Shelf_0_Resource/Pasted image 20230920181040.png","x":739,"y":886,"width":603,"height":333},
+		{"id":"dd4a83f1cae05e0c","type":"file","file":"Room_0_metadata/Shelf_0_Resource/Pasted image 20230920181150.png","x":1529,"y":843,"width":681,"height":376},
+		{"id":"1842e79b8252e7ad","type":"file","file":"Room_0_metadata/Shelf_0_Resource/Pasted image 20230920181137.png","x":1529,"y":419,"width":682,"height":378}
+	],
+	"edges":[
+		{"id":"ba540150a836d13c","fromNode":"5ebf6a9e37c69106","fromSide":"bottom","toNode":"3b1bd338fc271d5b","toSide":"top"},
+		{"id":"b1eaf46205f5791b","fromNode":"5ebf6a9e37c69106","fromSide":"bottom","toNode":"4ca3be1bc5aa89e7","toSide":"top"},
+		{"id":"bc572814513926ab","fromNode":"3b1bd338fc271d5b","fromSide":"bottom","toNode":"366ceb4d250c5044","toSide":"top"},
+		{"id":"a5e3f91291f7dbfa","fromNode":"366ceb4d250c5044","fromSide":"bottom","toNode":"7a172d5e38e9d12f","toSide":"top"},
+		{"id":"dfcf754e62819450","fromNode":"4ca3be1bc5aa89e7","fromSide":"bottom","toNode":"366ceb4d250c5044","toSide":"top"},
+		{"id":"5a6752149e66c8bc","fromNode":"7a172d5e38e9d12f","fromSide":"bottom","toNode":"00eb6816b72e60d3","toSide":"top"},
+		{"id":"fa2970c1b3e0e3da","fromNode":"7a172d5e38e9d12f","fromSide":"bottom","toNode":"6ef88cddf250a495","toSide":"top"},
+		{"id":"6725cb8c04579f7f","fromNode":"087a34f3de716a7a","fromSide":"right","toNode":"1842e79b8252e7ad","toSide":"left"},
+		{"id":"ec9fab15cf2f8f46","fromNode":"087a34f3de716a7a","fromSide":"right","toNode":"dd4a83f1cae05e0c","toSide":"left"},
+		{"id":"1d1c94da51ec7f41","fromNode":"366ceb4d250c5044","fromSide":"right","toNode":"087a34f3de716a7a","toSide":"left"},
+		{"id":"92c50c984ca728e5","fromNode":"366ceb4d250c5044","fromSide":"right","toNode":"1c07644861638425","toSide":"left"}
+	]
+}

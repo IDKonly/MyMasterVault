@@ -1,0 +1,166 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Room_0_metadata/Shelf_1_template for templater/Basic template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 582
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b478dbda-51b2-4a90-90fa-81e9e56b21fc",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "b3b18838-e17a-443e-bf65-f2239000eb62",
+      "name": "Projects"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Room_0_metadata/Shelf_1_template for templater/Basic template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "0867886e-9265-41d8-8477-4c92e95a472a",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "fe5a426f-b71d-4f8f-8134-20501127ccd4",
+      "name": "KSBMB poster"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Room_0_metadata/Shelf_1_template for templater/Basic template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "Status",
+              "PARA",
+              "tag",
+              "aliases",
+              "category",
+              "creation_date",
+              "memo_level",
+              "note_type",
+              "tags"
+            ],
+            "fieldConfig": {
+              "name": {
+                "width": 353
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "f4ee8c5e-5f95-4b1a-8f01-e64e1a8740cb",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3da4a176-48fa-4c4b-a89f-1fe66ceac5d3",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "id": "2dfb19ba-f58d-4d36-a504-5d8b7610641e",
+      "name": "Swd2 review paper"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "QUOTE_DOUBLE"
+    },
+    "commands": [
+      {
+        "project": "2dfb19ba-f58d-4d36-a504-5d8b7610641e"
+      }
+    ],
+    "linkBehavior": "open-editor"
+  }
+}
