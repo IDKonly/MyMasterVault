@@ -44,54 +44,22 @@
             }
           },
           {
-            "id": "73dc6d8d2bf66901",
+            "id": "e9b9cfbe4b63a967",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Archive.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md"
               }
             }
           },
           {
-            "id": "3a25f095a7219c63",
+            "id": "9683ef544f0f73f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Resource.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8924f45699822ada",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6191187747b5328",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md"
               }
             }
           },
@@ -106,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -223,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/PARA란 무엇인가.excalidraw.md"
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md"
               }
             }
           },
@@ -266,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/PARA란 무엇인가.excalidraw.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/PARA란 무엇인가.excalidraw.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -334,57 +302,57 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7363c2945c278fab",
+  "active": "e9b9cfbe4b63a967",
   "lastOpenFiles": [
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md",
-    "Room_4_personal work/Personal work main Page.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Resource.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Archive.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210143201_343.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210142949_321.png",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/PARA란 무엇인가.excalidraw.md",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141748_212.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141432_200.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141401_195.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210140215_062.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210140145_058.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210140008_041.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210135953_040.png",
     "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Archive.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW.excalidaw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Resource.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md",
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md",
+    "Excalidraw/Scripts/Downloaded/Lighten background color.svg",
+    "Excalidraw/Scripts/Downloaded/Lighten background color.md",
+    "Excalidraw/Scripts/Downloaded/Uniform size.md",
+    "Excalidraw/Scripts/Downloaded/Text Aura.md",
+    "Excalidraw/Scripts/Downloaded/Split Ellipse.md",
+    "Excalidraw/Scripts/Downloaded/Set Dimensions.md",
+    "Excalidraw/Scripts/_Scripts.md",
+    "Excalidraw/Scripts/Downloaded/_Downloaded.md",
+    "Excalidraw/Scripts/Downloaded/Fixed spacing.md",
+    "Excalidraw/Scripts/Downloaded/Fixed horizontal distance between centers.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Room_4_personal work/Personal work main Page.md",
     "Room_0_metadata/font/THEFACESHOP+INKLIPQUID.ttf",
     "Room_0_metadata/font",
     "Room_0_metadata/새 폴더",
     "Room_4_personal work/Shelf_1_How to zettelkasten/_Shelf_1_How to zettelkasten.md",
     "Room_2_daily notes/23.12.10.md",
-    "Room_0_metadata/Shelf_0_Resource/Pasted image 20231210032620.png",
     "Room_4_personal work/Shelf_1_How to zettelkasten",
     "Room_2_daily notes/23.12.09.md",
     "Room_2_daily notes/23.12.08.md",
     "_MyMasterVault.md",
-    "Room_2_daily notes/23.12.07.md",
     "Room_3_Lab/Shelf_1_my works/Work flow.canvas",
-    "Room_3_Lab/Shelf_1_my works/KSBMB에서 들은 내용 메모.md",
-    "Room_3_Lab/Shelf_1_my works/1_ 대학원 원서 연구계획서.md",
-    "Room_3_Lab/Shelf_1_my works/(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획.md",
-    "Room_2_daily notes/231207 개인미팅 요약.md",
-    "Room_4_personal work/_Room_4_personal work.md",
-    "Room_4_personal work/_PersonalWork.md",
-    "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/_Shelf_1_MyNetwork setting.md",
-    "Room_4_personal work/InBox/Room_4_personal work.md",
-    "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/_MyNetworkSetting.md",
-    "Room_4_personal work/InBox/_InBox.md",
-    "Room_4_personal work/InBox/_Room_4_personal work.md",
     "Room_4_personal work/InBox",
-    "Excalidraw/231208.excalidraw.md",
-    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208155154_420.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208155726_899.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208155209_433.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208151846_914.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208151801_894.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted image 20231207173514.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231207171552_889.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted image 20231207144731.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted image 20231207144536.png",
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",
     "Excalidraw",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/zotero.json",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",

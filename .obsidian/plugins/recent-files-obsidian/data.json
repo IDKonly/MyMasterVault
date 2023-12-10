@@ -1,32 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Work flow.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md"
+    },
+    {
+      "basename": "DIKW modelexcalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md"
+    },
+    {
       "basename": "PARA란 무엇인가.excalidraw",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/PARA란 무엇인가.excalidraw.md"
     },
     {
-      "basename": "Area of responsibility",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md"
-    },
-    {
-      "basename": "Personal work main Page",
-      "path": "Room_4_personal work/Personal work main Page.md"
-    },
-    {
-      "basename": "Resource",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Resource.md"
+      "basename": "채워넣을 노트 목록",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md"
     },
     {
       "basename": "Archive",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Archive.md"
     },
     {
+      "basename": "Resource",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Resource.md"
+    },
+    {
+      "basename": "Area of responsibility",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md"
+    },
+    {
       "basename": "Project",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md"
     },
     {
-      "basename": "채워넣을 노트 목록",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md"
+      "basename": "Personal work main Page",
+      "path": "Room_4_personal work/Personal work main Page.md"
     },
     {
       "basename": "_Shelf_1_How to zettelkasten",
@@ -191,14 +199,6 @@
     {
       "basename": "23.11.28",
       "path": "Room_2_daily notes/23.11.28.md"
-    },
-    {
-      "basename": "Myc or HA purification",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Myc or HA purification.md"
-    },
-    {
-      "basename": "수정요함",
-      "path": "수정요함.md"
     }
   ],
   "omittedPaths": [],
