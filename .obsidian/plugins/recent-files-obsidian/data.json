@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "23.12.10",
-      "path": "Room_2_daily notes/23.12.10.md"
+      "basename": "PARA란 무엇인가.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/PARA란 무엇인가.excalidraw.md"
+    },
+    {
+      "basename": "Area of responsibility",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md"
     },
     {
       "basename": "Personal work main Page",
       "path": "Room_4_personal work/Personal work main Page.md"
     },
     {
-      "basename": "_Shelf_1_How to zettelkasten",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/_Shelf_1_How to zettelkasten.md"
+      "basename": "Resource",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Resource.md"
+    },
+    {
+      "basename": "Archive",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Archive.md"
+    },
+    {
+      "basename": "Project",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md"
     },
     {
       "basename": "채워넣을 노트 목록",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md"
+    },
+    {
+      "basename": "_Shelf_1_How to zettelkasten",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/_Shelf_1_How to zettelkasten.md"
+    },
+    {
+      "basename": "23.12.10",
+      "path": "Room_2_daily notes/23.12.10.md"
     },
     {
       "basename": "23.12.09",
@@ -179,26 +199,6 @@
     {
       "basename": "수정요함",
       "path": "수정요함.md"
-    },
-    {
-      "basename": "A CpG island-encoded mechanism protects genes from premature transcription termination",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A CpG island-encoded mechanism protects genes from premature transcription termination.md"
-    },
-    {
-      "basename": "학위논문 차이점  박사논문 vs 석사논문",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/학위논문 차이점  박사논문 vs 석사논문.md"
-    },
-    {
-      "basename": "ZC3H4 restricts non-coding transcription in human cells",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/ZC3H4 restricts non-coding transcription in human cells.md"
-    },
-    {
-      "basename": "A first exon termination checkpoint preferentially suppresses extragenic transcription",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription.md"
-    },
-    {
-      "basename": "Transcription of Mammalian cis-Regulatory Elements Is Restrained by Actively Enforced Early Termination",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Transcription of Mammalian cis-Regulatory Elements Is Restrained by Actively Enforced Early Termination.md"
     }
   ],
   "omittedPaths": [],

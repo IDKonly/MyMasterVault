@@ -29,9 +29,14 @@
     {
       "folder": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지",
       "template": "Room_0_metadata/Shelf_1_template for templater/실험일지 template.md"
+    },
+    {
+      "folder": "Room_4_personal work",
+      "template": "Room_0_metadata/Shelf_1_template for templater/Basic template.md"
     }
   ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [],
   "startup_templates": [
     "Room_0_metadata/Shelf_1_template for templater/Basic template.md"
