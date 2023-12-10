@@ -143,6 +143,11 @@ Tag ^IHXmGh09
 
 List ^LnoEmVe8
 
+해당 문서의 별명을 정해줄 수 있음.
+여러개 설정해 줄 수 있다 ^TQnBiBav
+
+(사실 분류와는 관계 없다) ^4lirKrBA
+
 
 # Embedded files
 6646219cc94cb176c4986ead8d44df51994b2f1f: [[Pasted Image 20231210141748_212.png]]
@@ -6270,11 +6275,16 @@ b55db4ad6a61b8fd32285c5ae7cd9422e3c1a855: [[Knowledge based workflow]]
 			"frameId": null,
 			"roundness": null,
 			"seed": 771433773,
-			"version": 43,
-			"versionNonce": 816312547,
+			"version": 44,
+			"versionNonce": 1651659011,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1702211100876,
+			"boundElements": [
+				{
+					"id": "eFCeOzVOiOpmcQ2C_mcAh",
+					"type": "arrow"
+				}
+			],
+			"updated": 1702211115480,
 			"link": null,
 			"locked": false,
 			"text": "aliases",
@@ -6290,8 +6300,8 @@ b55db4ad6a61b8fd32285c5ae7cd9422e3c1a855: [[Knowledge based workflow]]
 		},
 		{
 			"type": "text",
-			"version": 44,
-			"versionNonce": 1558043779,
+			"version": 64,
+			"versionNonce": 1603208835,
 			"isDeleted": false,
 			"id": "IHXmGh09",
 			"fillStyle": "solid",
@@ -6301,7 +6311,7 @@ b55db4ad6a61b8fd32285c5ae7cd9422e3c1a855: [[Knowledge based workflow]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 3728.925167522447,
-			"y": 1170.9683435364311,
+			"y": 1190.075991419386,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 55.21598815917969,
@@ -6311,7 +6321,7 @@ b55db4ad6a61b8fd32285c5ae7cd9422e3c1a855: [[Knowledge based workflow]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702211100876,
+			"updated": 1702211387088,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -6327,8 +6337,8 @@ b55db4ad6a61b8fd32285c5ae7cd9422e3c1a855: [[Knowledge based workflow]]
 		},
 		{
 			"type": "text",
-			"version": 61,
-			"versionNonce": 1318409251,
+			"version": 89,
+			"versionNonce": 915373101,
 			"isDeleted": false,
 			"id": "LnoEmVe8",
 			"fillStyle": "solid",
@@ -6338,7 +6348,7 @@ b55db4ad6a61b8fd32285c5ae7cd9422e3c1a855: [[Knowledge based workflow]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 3728.925167522447,
-			"y": 1257.8274861112443,
+			"y": 1296.042781877154,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 53.92796325683594,
@@ -6348,7 +6358,7 @@ b55db4ad6a61b8fd32285c5ae7cd9422e3c1a855: [[Knowledge based workflow]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702211100876,
+			"updated": 1702211303342,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -6365,9 +6375,9 @@ b55db4ad6a61b8fd32285c5ae7cd9422e3c1a855: [[Knowledge based workflow]]
 		{
 			"id": "eFCeOzVOiOpmcQ2C_mcAh",
 			"type": "arrow",
-			"x": 3754.120843178159,
-			"y": 1138.6426641748512,
-			"width": 94.1123168875929,
+			"x": 3779.2174610148495,
+			"y": 1130.9814917156896,
+			"width": 86.69742440667505,
 			"height": 0,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
@@ -6383,11 +6393,11 @@ b55db4ad6a61b8fd32285c5ae7cd9422e3c1a855: [[Knowledge based workflow]]
 				"type": 2
 			},
 			"seed": 1984598285,
-			"version": 36,
-			"versionNonce": 1445761603,
+			"version": 201,
+			"versionNonce": 399881453,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1702211111369,
+			"updated": 1702211160443,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -6396,34 +6406,200 @@ b55db4ad6a61b8fd32285c5ae7cd9422e3c1a855: [[Knowledge based workflow]]
 					0
 				],
 				[
-					94.1123168875929,
+					86.69742440667505,
 					0
 				]
 			],
 			"lastCommittedPoint": null,
-			"startBinding": null,
+			"startBinding": {
+				"elementId": "Hv5sq1qq",
+				"focus": 1.678416614518379,
+				"gap": 11.872290754071628
+			},
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "triangle"
+		},
+		{
+			"id": "TQnBiBav",
+			"type": "text",
+			"x": 3882.741414784398,
+			"y": 1112.9748669408948,
+			"width": 288.20379638671875,
+			"height": 67.2,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 576449901,
+			"version": 171,
+			"versionNonce": 1352780365,
+			"isDeleted": false,
+			"boundElements": [],
+			"updated": 1702211257456,
+			"link": null,
+			"locked": false,
+			"text": "해당 문서의 별명을 정해줄 수 있음.\n여러개 설정해 줄 수 있다",
+			"rawText": "해당 문서의 별명을 정해줄 수 있음.\n여러개 설정해 줄 수 있다",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 62,
+			"containerId": null,
+			"originalText": "해당 문서의 별명을 정해줄 수 있음.\n여러개 설정해 줄 수 있다",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "4lirKrBA",
+			"type": "text",
+			"x": 3791.0403787724385,
+			"y": 1069.6074065693122,
+			"width": 157.05990600585938,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1893626221,
+			"version": 96,
+			"versionNonce": 1120870701,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1702211291029,
+			"link": null,
+			"locked": false,
+			"text": "(사실 분류와는 관계 없다)",
+			"rawText": "(사실 분류와는 관계 없다)",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 20,
+			"containerId": null,
+			"originalText": "(사실 분류와는 관계 없다)",
+			"lineHeight": 1.2
+		},
+		{
+			"type": "arrow",
+			"version": 249,
+			"versionNonce": 1992808301,
+			"isDeleted": false,
+			"id": "ydHxyNWleNr_13x_LpUH2",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 3777.2111475458128,
+			"y": 1239.7994623727054,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 86.69742440667505,
+			"height": 0,
+			"seed": 932874285,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1702211388336,
+			"link": null,
+			"locked": false,
+			"startBinding": null,
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "triangle",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					86.69742440667505,
+					0
+				]
+			]
+		},
+		{
+			"type": "arrow",
+			"version": 253,
+			"versionNonce": 559969581,
+			"isDeleted": false,
+			"id": "b6dyNBOFFXNVqA-YqoWBs",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 3778.6179965933165,
+			"y": 1338.454471384327,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 86.69742440667505,
+			"height": 0,
+			"seed": 1876591907,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1702211393952,
+			"link": null,
+			"locked": false,
+			"startBinding": null,
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "triangle",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					86.69742440667505,
+					0
+				]
+			]
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#2f9e44",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 2,
 		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 1,
 		"currentItemOpacity": 100,
-		"currentItemFontFamily": 1,
-		"currentItemFontSize": 28,
+		"currentItemFontFamily": 4,
+		"currentItemFontSize": 20,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "triangle",
-		"scrollX": -3501.6574282815336,
-		"scrollY": -727.7479498306036,
+		"scrollX": -3434.923252943909,
+		"scrollY": -821.5157094920717,
 		"zoom": {
 			"value": 1.280373987033672
 		},

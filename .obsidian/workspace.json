@@ -49,16 +49,6 @@
             }
           },
           {
-            "id": "66acd6070d6ba692",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/231207 western blot loading design.excalidraw.md"
-              }
-            }
-          },
-          {
             "id": "9287182dc52555e7",
             "type": "leaf",
             "state": {
@@ -69,7 +59,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -300,6 +290,7 @@
   },
   "active": "9287182dc52555e7",
   "lastOpenFiles": [
+    "Room_2_daily notes/231207 개인미팅 요약.md",
     "Room_2_daily notes/23.12.10.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md",
     "Excalidraw/231207 western blot loading design.excalidraw.md",
