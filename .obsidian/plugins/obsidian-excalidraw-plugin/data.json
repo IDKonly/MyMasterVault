@@ -442,6 +442,22 @@
         "value": 8,
         "description": "The value of the gap between the connection line and the element, which must be greater than 0. If you want the connector to be next to the element, set it to 1."
       }
+    },
+    "Downloaded/Fixed horizontal distance between centers": {
+      "Prompt for distance?": true,
+      "Default distance": {
+        "value": 10,
+        "description": "Fixed horizontal distance between centers"
+      },
+      "Remember last distance?": false
+    },
+    "Downloaded/Fixed spacing": {
+      "Prompt for spacing?": true,
+      "Default spacing": {
+        "value": 10,
+        "description": "Fixed horizontal spacing between elements"
+      },
+      "Remember last spacing?": false
     }
   },
   "defaultTrayMode": false,

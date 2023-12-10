@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md"
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md"
               }
             }
           },
@@ -234,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -302,13 +302,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e9b9cfbe4b63a967",
+  "active": "9683ef544f0f73f3",
   "lastOpenFiles": [
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/PARA란 무엇인가.excalidraw.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210143201_343.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210142949_321.png",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/PARA란 무엇인가.excalidraw.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141748_212.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141432_200.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141401_195.png",
@@ -324,7 +324,6 @@
     "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md",
     "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
     "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md",
-    "Excalidraw/Scripts/Downloaded/Lighten background color.svg",
     "Excalidraw/Scripts/Downloaded/Lighten background color.md",
     "Excalidraw/Scripts/Downloaded/Uniform size.md",
     "Excalidraw/Scripts/Downloaded/Text Aura.md",
