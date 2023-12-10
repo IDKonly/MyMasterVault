@@ -34,49 +34,24 @@
             "id": "fb14a64d84848a3b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "excalidraw",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Work flow.canvas",
-                "viewState": {
-                  "x": 1318,
-                  "y": -156.5,
-                  "zoom": -1.32089243377901
-                }
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md"
               }
             }
           },
           {
-            "id": "6e104a67b0eb136a",
+            "id": "8f02c231f9aa4b03",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Room_2_daily notes/231207 개인미팅 요약.md"
-              }
-            }
-          },
-          {
-            "id": "66acd6070d6ba692",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/231207 western blot loading design.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "9287182dc52555e7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Work flow.canvas"
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md"
               }
             }
           },
@@ -236,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Work flow.canvas",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Work flow.canvas",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -278,15 +253,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389,
-    "collapsed": true
+    "width": 389
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:새 캔버스 만들기": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
@@ -294,74 +267,74 @@
       "random-note:랜덤 노트 열기": false,
       "audio-recorder:녹음 시작/중지": false,
       "workspaces:작업 공간 레이아웃 관리": false,
-      "graph:그래프 뷰 열기": false,
-      "chronology:Open Chronology": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-projects:Open projects": false,
+      "chronology:Open Chronology": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fb14a64d84848a3b",
+  "active": "8f02c231f9aa4b03",
   "lastOpenFiles": [
-    "Room_3_Lab/Shelf_1_my works/KSBMB에서 들은 내용 메모.md",
-    "Room_3_Lab/Shelf_1_my works/1_ 대학원 원서 연구계획서.md",
-    "Room_3_Lab/Shelf_1_my works/(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획.md",
-    "Room_2_daily notes/23.12.07.md",
-    "Room_2_daily notes/231207 개인미팅 요약.md",
-    "Room_4_personal work/_Room_4_personal work.md",
-    "Room_4_personal work/_PersonalWork.md",
-    "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/_Shelf_1_MyNetwork setting.md",
-    "Room_4_personal work/InBox/Room_4_personal work.md",
-    "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/_MyNetworkSetting.md",
-    "Room_4_personal work/InBox/_InBox.md",
-    "Room_4_personal work/InBox/_Room_4_personal work.md",
-    "Room_2_daily notes/23.12.09.md",
-    "Room_4_personal work/InBox",
-    "Excalidraw/231208.excalidraw.md",
-    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
-    "Excalidraw/231207 western blot loading design.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
-    "_Myvault.md",
-    "Excalidraw/_Excalidraw.md",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208155154_420.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208155726_899.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208155209_433.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208151846_914.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208151801_894.png",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231117 실험계획.md",
-    "Room_1_rules/_Room_1_rules.md",
-    "Room_0_metadata/Shelf_0_Resource/Pasted image 20231207173514.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231207171552_889.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted image 20231207144731.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted image 20231207144536.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted image 20231207144459.png",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
+    "Room_0_metadata/Shelf_0_Resource/Knowledge based workflow.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/PARA method.excalidraw.md",
+    "Room_0_metadata/Shelf_0_Resource/Another type of DIKW model.md",
+    "Room_0_metadata/Shelf_0_Resource/DIKW model.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Introduction of PARA method.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.md",
+    "Detail of PARA method.md",
+    "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
+    "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.md",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210143201_343.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210142949_321.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141748_212.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141432_200.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141401_195.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210140215_062.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210140145_058.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210140008_041.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210135953_040.png",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Archive.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW.excalidaw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Resource.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md",
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md",
+    "Excalidraw/Scripts/Downloaded/Lighten background color.md",
+    "Excalidraw/Scripts/Downloaded/Uniform size.md",
+    "Excalidraw/Scripts/Downloaded/Text Aura.md",
+    "Excalidraw/Scripts/Downloaded/Split Ellipse.md",
+    "Excalidraw/Scripts/Downloaded/Set Dimensions.md",
+    "Excalidraw/Scripts/_Scripts.md",
+    "Excalidraw/Scripts/Downloaded/_Downloaded.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Room_0_metadata/font/THEFACESHOP+INKLIPQUID.ttf",
+    "Room_0_metadata/font",
+    "Room_0_metadata/새 폴더",
+    "Room_4_personal work/Shelf_1_How to zettelkasten",
+    "Room_3_Lab/Shelf_1_my works/Work flow.canvas",
+    "Room_4_personal work/InBox",
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",
     "Excalidraw",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/hughes2023.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Manuscripts.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/_Resource.md",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/zotero.json",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/_0_resources.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Transcription of Mammalian cis-Regulatory Elements Is Restrained by Actively Enforced Early Termination.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 4월/무제 폴더",
-    "Room_3_Lab/Shelf_3_knowledge particle/BOX_4_아무노트",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Q - Pol2 associated mechanism.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Swd2 review paper.canvas",
     "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/석사 1학기/H3K27me and PRC2 transmit a memory of repression across generations and during development.canvas",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Exp log keeper/23.04.10 Swd2-TAP confirm with TAP-purificaiton.canvas",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Exp log keeper/3. Swd2-TAP confirm.canvas"
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Exp log keeper/23.04.10 Swd2-TAP confirm with TAP-purificaiton.canvas"
   ]
 }
