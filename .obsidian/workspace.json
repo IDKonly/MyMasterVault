@@ -34,19 +34,6 @@
             "id": "fb14a64d84848a3b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9b9cfbe4b63a967",
-            "type": "leaf",
-            "state": {
               "type": "excalidraw",
               "state": {
                 "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md"
@@ -54,27 +41,17 @@
             }
           },
           {
-            "id": "9683ef544f0f73f3",
+            "id": "8f02c231f9aa4b03",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "7363c2945c278fab",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/PARA란 무엇인가.excalidraw.md"
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -191,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md"
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md"
               }
             }
           },
@@ -234,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -302,11 +279,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9683ef544f0f73f3",
+  "active": "8f02c231f9aa4b03",
   "lastOpenFiles": [
     "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/PARA란 무엇인가.excalidraw.md",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
+    "Room_0_metadata/Shelf_0_Resource/Knowledge based workflow.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/PARA method.excalidraw.md",
+    "Room_0_metadata/Shelf_0_Resource/Another type of DIKW model.md",
+    "Room_0_metadata/Shelf_0_Resource/DIKW model.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Introduction of PARA method.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.md",
+    "Detail of PARA method.md",
+    "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
+    "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210143201_343.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210142949_321.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141748_212.png",
@@ -316,13 +304,11 @@
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210140145_058.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210140008_041.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210135953_040.png",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Archive.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW.excalidaw.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Resource.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md",
-    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
     "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md",
     "Excalidraw/Scripts/Downloaded/Lighten background color.md",
     "Excalidraw/Scripts/Downloaded/Uniform size.md",
@@ -331,23 +317,14 @@
     "Excalidraw/Scripts/Downloaded/Set Dimensions.md",
     "Excalidraw/Scripts/_Scripts.md",
     "Excalidraw/Scripts/Downloaded/_Downloaded.md",
-    "Excalidraw/Scripts/Downloaded/Fixed spacing.md",
-    "Excalidraw/Scripts/Downloaded/Fixed horizontal distance between centers.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
-    "Room_4_personal work/Personal work main Page.md",
     "Room_0_metadata/font/THEFACESHOP+INKLIPQUID.ttf",
     "Room_0_metadata/font",
     "Room_0_metadata/새 폴더",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/_Shelf_1_How to zettelkasten.md",
-    "Room_2_daily notes/23.12.10.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten",
-    "Room_2_daily notes/23.12.09.md",
-    "Room_2_daily notes/23.12.08.md",
-    "_MyMasterVault.md",
     "Room_3_Lab/Shelf_1_my works/Work flow.canvas",
     "Room_4_personal work/InBox",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",
     "Excalidraw",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",

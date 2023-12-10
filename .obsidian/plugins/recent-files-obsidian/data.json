@@ -1,20 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "DIKW modelexcalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW modelexcalidraw.md"
+      "basename": "How to use Obsidian.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md"
     },
     {
       "basename": "Work flow.excalidraw",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md"
     },
     {
-      "basename": "PARA란 무엇인가.excalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/PARA란 무엇인가.excalidraw.md"
+      "basename": "231207 Two-step TAP purificaiton work",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas"
     },
     {
       "basename": "채워넣을 노트 목록",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md"
+    },
+    {
+      "basename": "Knowledge based workflow",
+      "path": "Room_0_metadata/Shelf_0_Resource/Knowledge based workflow.md"
+    },
+    {
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md"
+    },
+    {
+      "basename": "PARA method.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/PARA method.excalidraw.md"
+    },
+    {
+      "basename": "Another type of DIKW model",
+      "path": "Room_0_metadata/Shelf_0_Resource/Another type of DIKW model.md"
+    },
+    {
+      "basename": "DIKW model",
+      "path": "Room_0_metadata/Shelf_0_Resource/DIKW model.md"
+    },
+    {
+      "basename": "Introduction of PARA method",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Introduction of PARA method.md"
+    },
+    {
+      "basename": "Detail of PARA",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.md"
     },
     {
       "basename": "Archive",
@@ -105,10 +133,6 @@
       "path": "Excalidraw/231207 western blot loading design.excalidraw.md"
     },
     {
-      "basename": "231207 Two-step TAP purificaiton work",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas"
-    },
-    {
       "basename": "_Myvault",
       "path": "_Myvault.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "23.11.30",
       "path": "Room_2_daily notes/23.11.30.md"
-    },
-    {
-      "basename": "Yeast Crude extraction for FPLC (Custom)",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md"
-    },
-    {
-      "basename": "Bradford assay",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md"
-    },
-    {
-      "basename": "Fast Protein Liquid Chromatography (FPLC) machine protocol",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Fast Protein Liquid Chromatography (FPLC) machine protocol.md"
-    },
-    {
-      "basename": "23.11.29",
-      "path": "Room_2_daily notes/23.11.29.md"
-    },
-    {
-      "basename": "점심메뉴",
-      "path": "점심메뉴.md"
-    },
-    {
-      "basename": "23.11.28",
-      "path": "Room_2_daily notes/23.11.28.md"
     }
   ],
   "omittedPaths": [],
