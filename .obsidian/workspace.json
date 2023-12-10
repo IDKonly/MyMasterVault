@@ -39,6 +39,19 @@
             }
           },
           {
+            "id": "7d8ac18f8f844f83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Rapid small scale isolation of yeast total DNA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6e104a67b0eb136a",
             "type": "leaf",
             "state": {
@@ -59,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -176,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md"
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Rapid small scale isolation of yeast total DNA.md"
               }
             }
           },
@@ -219,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Rapid small scale isolation of yeast total DNA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Rapid small scale isolation of yeast total DNA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -288,10 +301,11 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "9287182dc52555e7",
+  "active": "7d8ac18f8f844f83",
   "lastOpenFiles": [
-    "Room_2_daily notes/231207 개인미팅 요약.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/준수형의 Westernblot recipe.md",
     "Room_2_daily notes/23.12.10.md",
+    "Room_2_daily notes/231207 개인미팅 요약.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md",
     "Excalidraw/231207 western blot loading design.excalidraw.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md",
@@ -327,7 +341,6 @@
     "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Resource.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/PARA method.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten",
     "Room_0_metadata/font/THEFACESHOP+INKLIPQUID.ttf",
     "Room_0_metadata/font",
