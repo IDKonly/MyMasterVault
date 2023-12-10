@@ -1,64 +1,152 @@
 {
   "recentFiles": [
     {
-      "basename": "Rapid small scale isolation of yeast total DNA",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Rapid small scale isolation of yeast total DNA.md"
+      "basename": "23.12.11",
+      "path": "Room_2_daily notes/23.12.11.md"
     },
     {
-      "basename": "준수형의 Westernblot recipe",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/준수형의 Westernblot recipe.md"
+      "basename": "2023-02-16 안되면 PCR",
+      "path": "Room_0_metadata/Shelf_2_work_schedule/2023-02-16 안되면 PCR.md"
     },
     {
-      "basename": "23.12.10",
-      "path": "Room_2_daily notes/23.12.10.md"
+      "basename": "2023-01-25 E.coli transformation",
+      "path": "Room_0_metadata/Shelf_2_work_schedule/2023-01-25 E.coli transformation.md"
     },
     {
-      "basename": "231207 개인미팅 요약",
-      "path": "Room_2_daily notes/231207 개인미팅 요약.md"
+      "basename": "2023-01-27 PCR condition check",
+      "path": "Room_0_metadata/Shelf_2_work_schedule/2023-01-27 PCR condition check.md"
     },
     {
-      "basename": "How to use Obsidian.excalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md"
+      "basename": "2023-01-30 200ul PCR",
+      "path": "Room_0_metadata/Shelf_2_work_schedule/2023-01-30 200ul PCR.md"
     },
     {
-      "basename": "231207 western blot loading design.excalidraw",
-      "path": "Excalidraw/231207 western blot loading design.excalidraw.md"
+      "basename": "2023-01-27 plasmid miniprep",
+      "path": "Room_0_metadata/Shelf_2_work_schedule/2023-01-27 plasmid miniprep.md"
     },
     {
-      "basename": "DIKW model.excalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md"
+      "basename": "2023-01-31 Gel purification",
+      "path": "Room_0_metadata/Shelf_2_work_schedule/2023-01-31 Gel purification.md"
     },
     {
-      "basename": "Introduction of PARA method",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Introduction of PARA method.md"
+      "basename": "2023-06-03 H3T80 develop",
+      "path": "Room_0_metadata/Shelf_2_work_schedule/2023-06-03 H3T80 develop.md"
     },
     {
-      "basename": "231207 Two-step TAP purificaiton work",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas"
+      "basename": "2023-06-28 Develop",
+      "path": "Room_0_metadata/Shelf_2_work_schedule/2023-06-28 Develop.md"
     },
     {
-      "basename": "Detail of PARA",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.md"
+      "basename": "_Shelf_2_work_schedule",
+      "path": "Room_0_metadata/Shelf_2_work_schedule/_Shelf_2_work_schedule.md"
     },
     {
-      "basename": "Transcription regulator Swd2 model.excalidraw",
-      "path": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
+      "basename": "F-YRF1-6",
+      "path": "Room_3_Lab/Shelf_4_Stocks/F-YRF1-6.md"
+    },
+    {
+      "basename": "R-YIL177C",
+      "path": "Room_3_Lab/Shelf_4_Stocks/R-YIL177C.md"
+    },
+    {
+      "basename": "점심메뉴",
+      "path": "점심메뉴.md"
+    },
+    {
+      "basename": "실험일지 template",
+      "path": "Room_0_metadata/Shelf_1_template for templater/실험일지 template.md"
+    },
+    {
+      "basename": "RNA pol2 S5P",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/RNA pol2 S5P.md"
+    },
+    {
+      "basename": "_Shelf_3_knowledge particle",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/_Shelf_3_knowledge particle.md"
+    },
+    {
+      "basename": "_Methods",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/_Methods.md"
+    },
+    {
+      "basename": "SIR complex",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/SIR complex.md"
+    },
+    {
+      "basename": "PARA method.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/PARA method.excalidraw.md"
     },
     {
       "basename": "Work flow.excalidraw",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md"
     },
     {
+      "basename": "Obsidian introduction.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Obsidian introduction.excalidraw.md"
+    },
+    {
+      "basename": "옵시디언에서의 파일관리.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/옵시디언에서의 파일관리.excalidraw.md"
+    },
+    {
+      "basename": "Detail of PARA",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.md"
+    },
+    {
+      "basename": "1_제텔카스텐",
+      "path": "Room_4_personal work/InBox/1_제텔카스텐.md"
+    },
+    {
+      "basename": "ChatGPT에 관한 정적인 생각",
+      "path": "Room_4_personal work/InBox/ChatGPT에 관한 정적인 생각.md"
+    },
+    {
+      "basename": "_Room_0_metadata",
+      "path": "Room_0_metadata/_Room_0_metadata.md"
+    },
+    {
+      "basename": "Daily note template",
+      "path": "Room_0_metadata/Shelf_1_template for templater/Daily note template.md"
+    },
+    {
+      "basename": "수정요함",
+      "path": "수정요함.md"
+    },
+    {
+      "basename": "_Myvault",
+      "path": "_Myvault.md"
+    },
+    {
+      "basename": "Room_0_metadata",
+      "path": "Room_0_metadata/Room_0_metadata.md"
+    },
+    {
       "basename": "채워넣을 노트 목록",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md"
+    },
+    {
+      "basename": "_Shelf_1_How to zettelkasten",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/_Shelf_1_How to zettelkasten.md"
+    },
+    {
+      "basename": "Personal work main Page",
+      "path": "Room_4_personal work/Personal work main Page.md"
+    },
+    {
+      "basename": "23.12.10",
+      "path": "Room_2_daily notes/23.12.10.md"
+    },
+    {
+      "basename": "231207 Two-step TAP purificaiton work",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas"
     },
     {
       "basename": "Knowledge based workflow",
       "path": "Room_0_metadata/Shelf_0_Resource/Knowledge based workflow.md"
     },
     {
-      "basename": "PARA method.excalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/PARA method.excalidraw.md"
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md"
     },
     {
       "basename": "Another type of DIKW model",
@@ -67,6 +155,10 @@
     {
       "basename": "DIKW model",
       "path": "Room_0_metadata/Shelf_0_Resource/DIKW model.md"
+    },
+    {
+      "basename": "Introduction of PARA method",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Introduction of PARA method.md"
     },
     {
       "basename": "Archive",
@@ -83,14 +175,6 @@
     {
       "basename": "Project",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md"
-    },
-    {
-      "basename": "Personal work main Page",
-      "path": "Room_4_personal work/Personal work main Page.md"
-    },
-    {
-      "basename": "_Shelf_1_How to zettelkasten",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/_Shelf_1_How to zettelkasten.md"
     },
     {
       "basename": "23.12.09",
@@ -115,90 +199,6 @@
     {
       "basename": "(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획",
       "path": "Room_3_Lab/Shelf_1_my works/(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획.md"
-    },
-    {
-      "basename": "_Room_4_personal work",
-      "path": "Room_4_personal work/_Room_4_personal work.md"
-    },
-    {
-      "basename": "_PersonalWork",
-      "path": "Room_4_personal work/_PersonalWork.md"
-    },
-    {
-      "basename": "_Shelf_1_MyNetwork setting",
-      "path": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/_Shelf_1_MyNetwork setting.md"
-    },
-    {
-      "basename": "_MyNetworkSetting",
-      "path": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/_MyNetworkSetting.md"
-    },
-    {
-      "basename": "_InBox",
-      "path": "Room_4_personal work/InBox/_InBox.md"
-    },
-    {
-      "basename": "231208.excalidraw",
-      "path": "Excalidraw/231208.excalidraw.md"
-    },
-    {
-      "basename": "_Myvault",
-      "path": "_Myvault.md"
-    },
-    {
-      "basename": "_Excalidraw",
-      "path": "Excalidraw/_Excalidraw.md"
-    },
-    {
-      "basename": "Pasted Image 20231208155154_420",
-      "path": "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208155154_420.png"
-    },
-    {
-      "basename": "Pasted Image 20231208155209_433",
-      "path": "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231208155209_433.png"
-    },
-    {
-      "basename": "231117 실험계획",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231117 실험계획.md"
-    },
-    {
-      "basename": "_Room_1_rules",
-      "path": "Room_1_rules/_Room_1_rules.md"
-    },
-    {
-      "basename": "my model for work (may not colect)",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas"
-    },
-    {
-      "basename": "hughes2023",
-      "path": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/hughes2023.md"
-    },
-    {
-      "basename": "_Manuscripts",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Manuscripts.md"
-    },
-    {
-      "basename": "Glc7 function",
-      "path": "Room_0_metadata/Shelf_0_Resource/Glc7 function.png"
-    },
-    {
-      "basename": "Glc7",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Glc7.md"
-    },
-    {
-      "basename": "_KnowledgeParticle",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/_KnowledgeParticle.md"
-    },
-    {
-      "basename": "23.12.05",
-      "path": "Room_2_daily notes/23.12.05.md"
-    },
-    {
-      "basename": "23.12.06",
-      "path": "Room_2_daily notes/23.12.06.md"
-    },
-    {
-      "basename": "23.12.04",
-      "path": "Room_2_daily notes/23.12.04.md"
     }
   ],
   "omittedPaths": [],
