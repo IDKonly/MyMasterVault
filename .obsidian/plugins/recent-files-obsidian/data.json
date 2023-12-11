@@ -5,8 +5,36 @@
       "path": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
     },
     {
+      "basename": "WDR associated Promoter-proximal control",
+      "path": "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md"
+    },
+    {
       "basename": "231208.excalidraw",
       "path": "Excalidraw/231208.excalidraw.md"
+    },
+    {
+      "basename": "Obsidian - Todoist - google calinder.excalidraw",
+      "path": "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md"
+    },
+    {
+      "basename": "Short introduction",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md"
+    },
+    {
+      "basename": "23.12.11",
+      "path": "Room_2_daily notes/23.12.11.md"
+    },
+    {
+      "basename": "Premature transcrption termination",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md"
+    },
+    {
+      "basename": "23.12.08",
+      "path": "Room_2_daily notes/23.12.08.md"
+    },
+    {
+      "basename": "Determinants of histone H3K4 methylation patterns",
+      "path": "Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/Determinants of histone H3K4 methylation patterns.md"
     },
     {
       "basename": "231207 western blot loading design.excalidraw",
@@ -15,22 +43,6 @@
     {
       "basename": "_Swd2 review paper",
       "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md"
-    },
-    {
-      "basename": "23.12.11",
-      "path": "Room_2_daily notes/23.12.11.md"
-    },
-    {
-      "basename": "23.12.08",
-      "path": "Room_2_daily notes/23.12.08.md"
-    },
-    {
-      "basename": "Short introduction",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md"
-    },
-    {
-      "basename": "Obsidian - Todoist - google calinder.excalidraw",
-      "path": "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md"
     },
     {
       "basename": "Personal work main Page",
@@ -187,10 +199,6 @@
     {
       "basename": "_InBox",
       "path": "Room_4_personal work/InBox/_InBox.md"
-    },
-    {
-      "basename": "_Myvault",
-      "path": "_Myvault.md"
     }
   ],
   "omittedPaths": [],
