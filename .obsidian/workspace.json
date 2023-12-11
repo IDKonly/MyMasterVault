@@ -50,22 +50,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "df6e4f035331d25f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,8 +116,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "e7419118ec9faabd",
@@ -193,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md"
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md"
               }
             }
           },
@@ -236,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -282,8 +268,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:새 캔버스 만들기": false,
       "obsidian-full-calendar:Open Full Calendar": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-custom-frames:Open Research rabbit": false,
+      "canvas:새 캔버스 만들기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:퀵 스위처 열기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
@@ -291,21 +279,23 @@
       "command-palette:명령어 팔레트 열기": false,
       "zk-prefixer:새로운 유니크 노트 생성": false,
       "random-note:랜덤 노트 열기": false,
-      "audio-recorder:녹음 시작/중지": false,
       "workspaces:작업 공간 레이아웃 관리": false,
-      "graph:그래프 뷰 열기": false,
       "chronology:Open Chronology": false,
-      "omnisearch:Omnisearch": false,
       "obsidian-read-it-later:ReadItLater: Save clipboard": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-projects:Open projects": false
+      "graph:그래프 뷰 열기": false,
+      "obsidian-projects:Open projects": false,
+      "audio-recorder:녹음 시작/중지": false
     }
   },
-  "active": "a1ed11d596305dc2",
+  "active": "96cbb09fb755fe56",
   "lastOpenFiles": [
+    "Room_2_daily notes/23.12.11.md",
+    "무제 파일.canvas",
+    "Room_2_daily notes/23.12.08.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/무제 파일 1.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/무제 파일.md",
@@ -321,9 +311,7 @@
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Glc7 is dissociation after Swd2 depletion (Nedea et al., 2008) draft.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Discussion.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas",
-    "Room_2_daily notes/23.12.11.md",
     "Room_2_daily notes/23.12.07.md",
-    "Room_2_daily notes/23.12.08.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/옵시디언에서의 파일관리.excalidraw.md",
     "Spaces/Home",
     "Spaces",
@@ -336,7 +324,6 @@
     "conflict-files-obsidian-git.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Obsidian introduction.excalidraw.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210225502_860.png",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/How to use Obsidian.excalidraw.md",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
     "Excalidraw/Scripts/Downloaded/Text Aura.svg",
@@ -360,7 +347,6 @@
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2 review paper.canvas",
     "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/석사 1학기/H3K27me and PRC2 transmit a memory of repression across generations and during development.canvas",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Exp log keeper/23.04.10 Swd2-TAP confirm with TAP-purificaiton.canvas",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Exp log keeper/3. Swd2-TAP confirm.canvas"
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Exp log keeper/23.04.10 Swd2-TAP confirm with TAP-purificaiton.canvas"
   ]
 }
