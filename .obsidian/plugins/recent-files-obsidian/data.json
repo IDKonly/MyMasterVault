@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
+      "basename": "23.12.11",
+      "path": "Room_2_daily notes/23.12.11.md"
+    },
+    {
+      "basename": "옵시디언에서의 파일관리.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/옵시디언에서의 파일관리.excalidraw.md"
+    },
+    {
+      "basename": "채워넣을 노트 목록",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md"
+    },
+    {
+      "basename": "Project",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md"
+    },
+    {
+      "basename": "Introduction of PARA method",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Introduction of PARA method.md"
     },
     {
       "basename": "DIKW model.excalidraw",
@@ -13,6 +29,10 @@
       "path": "Room_2_daily notes/23.12.10.md"
     },
     {
+      "basename": "231207 개인미팅 요약",
+      "path": "Room_2_daily notes/231207 개인미팅 요약.md"
+    },
+    {
       "basename": "Rapid small scale isolation of yeast total DNA",
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Rapid small scale isolation of yeast total DNA.md"
     },
@@ -21,16 +41,8 @@
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/준수형의 Westernblot recipe.md"
     },
     {
-      "basename": "231207 개인미팅 요약",
-      "path": "Room_2_daily notes/231207 개인미팅 요약.md"
-    },
-    {
       "basename": "231207 western blot loading design.excalidraw",
       "path": "Excalidraw/231207 western blot loading design.excalidraw.md"
-    },
-    {
-      "basename": "Introduction of PARA method",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Introduction of PARA method.md"
     },
     {
       "basename": "231207 Two-step TAP purificaiton work",
@@ -47,10 +59,6 @@
     {
       "basename": "Work flow.excalidraw",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md"
-    },
-    {
-      "basename": "채워넣을 노트 목록",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md"
     },
     {
       "basename": "Knowledge based workflow",
@@ -79,10 +87,6 @@
     {
       "basename": "Area of responsibility",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md"
-    },
-    {
-      "basename": "Project",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md"
     },
     {
       "basename": "Personal work main Page",
@@ -195,10 +199,6 @@
     {
       "basename": "23.12.06",
       "path": "Room_2_daily notes/23.12.06.md"
-    },
-    {
-      "basename": "23.12.04",
-      "path": "Room_2_daily notes/23.12.04.md"
     }
   ],
   "omittedPaths": [],
