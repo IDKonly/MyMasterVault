@@ -26,7 +26,7 @@ PARA:
 > [Nagy *et al.*, 2002](zotero://select/items/@nagy2002) - SAF37
 > reference 출처 - SGD
 
-# [[Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Introduction|Introduction]] (동현)
+# [[Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Introduction|Introduction]] (동현)
 
 ## Basic description of Transcription (initiation and termination)
 ### termination 

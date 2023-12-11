@@ -8,50 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fb14a64d84848a3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_4_personal work/InBox/1_제텔카스텐.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f02c231f9aa4b03",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "8b1da5114d0f3fbf",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/PARA method.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "54438db0a6f6e814",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.md"
-              }
-            }
-          },
-          {
-            "id": "8eaa790f170533d0",
+            "id": "df11dbc6223a18ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,15 +21,71 @@
             }
           },
           {
-            "id": "fbee9cb75bfdf74e",
+            "id": "77003dfbaf269791",
             "type": "leaf",
             "state": {
               "type": "full-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "4559defa9f7f144e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97c0db64d76db9a2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "96cbb09fb755fe56",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "ee45a9a081fffef4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md"
+              }
+            }
+          },
+          {
+            "id": "9bb1f8c151eac272",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -101,21 +114,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#gene",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "4559defa9f7f144e",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           },
           {
@@ -127,15 +132,24 @@
             }
           },
           {
-            "id": "402007f4d696e260",
+            "id": "883c334e780f1816",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
               "state": {}
             }
+          },
+          {
+            "id": "d40e1e38d692b966",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "e7419118ec9faabd",
@@ -171,7 +185,7 @@
       {
         "id": "daefff7f14edf752",
         "type": "tabs",
-        "dimension": 35.91954022988506,
+        "dimension": 50,
         "children": [
           {
             "id": "9304162af39fcac6",
@@ -198,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_4_personal work/InBox/1_제텔카스텐.md"
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
               }
             }
           },
@@ -227,23 +241,13 @@
                 "sortOrder": "frequency"
               }
             }
-          },
-          {
-            "id": "67a4ba4eb032d267",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Room_4_personal work/InBox/1_제텔카스텐.md"
-              }
-            }
           }
         ]
       },
       {
         "id": "5f3c3202b3b66b36",
         "type": "tabs",
-        "dimension": 64.08045977011494,
+        "dimension": 25,
         "children": [
           {
             "id": "b41b08e27bc20578",
@@ -251,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_4_personal work/InBox/1_제텔카스텐.md",
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,10 +272,25 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_4_personal work/InBox/1_제텔카스텐.md",
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5a296f83230101c",
+        "type": "tabs",
+        "dimension": 25,
+        "children": [
+          {
+            "id": "8eaa790f170533d0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -282,84 +301,85 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-custom-frames:Open Research rabbit": false,
       "canvas:새 캔버스 만들기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:퀵 스위처 열기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "zk-prefixer:새로운 유니크 노트 생성": false,
       "random-note:랜덤 노트 열기": false,
-      "audio-recorder:녹음 시작/중지": false,
       "workspaces:작업 공간 레이아웃 관리": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "chronology:Open Chronology": false,
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
       "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
+      "graph:그래프 뷰 열기": false,
       "obsidian-projects:Open projects": false,
-      "chronology:Open Chronology": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "audio-recorder:녹음 시작/중지": false
     }
   },
-  "active": "fbee9cb75bfdf74e",
+  "active": "96cbb09fb755fe56",
   "lastOpenFiles": [
-    "Room_0_metadata/Shelf_2_work_schedule/2023-02-16 안되면 PCR.md",
+    "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md",
+    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+    "Excalidraw/231208.excalidraw.md",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
+    "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
     "Room_2_daily notes/23.12.11.md",
-    "Room_0_metadata/Shelf_2_work_schedule/2023-01-25 E.coli transformation.md",
-    "Room_0_metadata/Shelf_2_work_schedule/2023-01-27 PCR condition check.md",
-    "Room_0_metadata/Shelf_2_work_schedule/2023-01-30 200ul PCR.md",
-    "Room_0_metadata/Shelf_2_work_schedule/2023-01-27 plasmid miniprep.md",
-    "Room_0_metadata/Shelf_2_work_schedule/2023-01-31 Gel purification.md",
-    "Room_0_metadata/Shelf_2_work_schedule/2023-06-03 H3T80 develop.md",
-    "Room_0_metadata/Shelf_2_work_schedule/2023-06-28 Develop.md",
-    "Room_0_metadata/Shelf_2_work_schedule/_Shelf_2_work_schedule.md",
-    "Room_3_Lab/Shelf_4_Stocks/F-YRF1-6.md",
-    "Room_3_Lab/Shelf_4_Stocks/R-YIL177C.md",
-    "점심메뉴.md",
-    "Room_0_metadata/Shelf_1_template for templater/실험일지 template.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/RNA pol2 S5P.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/_Shelf_3_knowledge particle.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/_Methods.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/SIR complex.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/PARA method.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Work flow.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Obsidian introduction.excalidraw.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md",
+    "Room_2_daily notes/23.12.08.md",
+    "Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/Determinants of histone H3K4 methylation patterns.md",
+    "Excalidraw/231207 western blot loading design.excalidraw.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md",
+    "무제 파일.canvas",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/무제 파일 1.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/무제 파일.md",
+    "Room_4_personal work/Personal work main Page.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/_Inbox.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2 Review outline.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2를 subunit으로 가지고 있는 complex.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2의 기본적인 소개.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Glc7 is dissociation after Swd2 depletion (Nedea et al., 2008) draft.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Discussion.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas",
+    "Room_2_daily notes/23.12.07.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/옵시디언에서의 파일관리.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.md",
-    "Room_4_personal work/InBox/1_제텔카스텐.md",
-    "Room_4_personal work/InBox/ChatGPT에 관한 정적인 생각.md",
-    "Room_0_metadata/_Room_0_metadata.md",
     "Spaces/Home",
     "Spaces",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Introduction of PARA method.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210225502_860.png",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
-    "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210143201_343.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210142949_321.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141748_212.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141432_200.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210141401_195.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210140215_062.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210140145_058.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210140008_041.png",
+    "Excalidraw/Scripts/Downloaded/Uniform size.svg",
+    "Excalidraw/Scripts/Downloaded/Text Aura.svg",
+    "Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
+    "Excalidraw/Scripts/Downloaded/Set Dimensions.svg",
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
+    "Excalidraw/Scripts/Downloaded/Lighten background color.svg",
+    "Excalidraw/Scripts/Downloaded/Fixed spacing.svg",
+    "Excalidraw/Scripts/Downloaded/Fixed horizontal distance between centers.svg",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
+    "Room_4_personal work/Shelf_1_How to zettelkasten",
     "Room_0_metadata/font/THEFACESHOP+INKLIPQUID.ttf",
     "Room_0_metadata/font",
-    "Room_0_metadata/새 폴더",
-    "Room_4_personal work/Shelf_1_How to zettelkasten",
-    "Room_3_Lab/Shelf_1_my works/Work flow.canvas",
     "Room_4_personal work/InBox",
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",
     "Excalidraw",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Q - Pol2 associated mechanism.canvas",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Swd2 review paper.canvas",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2 review paper.canvas",
     "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/석사 1학기/H3K27me and PRC2 transmit a memory of repression across generations and during development.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Exp log keeper/23.04.10 Swd2-TAP confirm with TAP-purificaiton.canvas"
   ]
