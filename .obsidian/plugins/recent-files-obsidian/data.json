@@ -9,8 +9,8 @@
       "path": "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md"
     },
     {
-      "basename": "231208.excalidraw",
-      "path": "Excalidraw/231208.excalidraw.md"
+      "basename": "Premature transcrption termination",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md"
     },
     {
       "basename": "Obsidian - Todoist - google calinder.excalidraw",
@@ -21,12 +21,16 @@
       "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md"
     },
     {
-      "basename": "23.12.11",
-      "path": "Room_2_daily notes/23.12.11.md"
+      "basename": "23.12.12",
+      "path": "Room_2_daily notes/23.12.12.md"
     },
     {
-      "basename": "Premature transcrption termination",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md"
+      "basename": "231208.excalidraw",
+      "path": "Excalidraw/231208.excalidraw.md"
+    },
+    {
+      "basename": "23.12.11",
+      "path": "Room_2_daily notes/23.12.11.md"
     },
     {
       "basename": "23.12.08",
@@ -195,10 +199,6 @@
     {
       "basename": "_MyNetworkSetting",
       "path": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/_MyNetworkSetting.md"
-    },
-    {
-      "basename": "_InBox",
-      "path": "Room_4_personal work/InBox/_InBox.md"
     }
   ],
   "omittedPaths": [],
