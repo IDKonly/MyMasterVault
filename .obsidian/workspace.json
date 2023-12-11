@@ -42,12 +42,9 @@
             "id": "96cbb09fb755fe56",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
               }
             }
           }
@@ -179,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md"
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
               }
             }
           },
@@ -222,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md",
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md",
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -293,6 +290,10 @@
   },
   "active": "96cbb09fb755fe56",
   "lastOpenFiles": [
+    "Excalidraw/231208.excalidraw.md",
+    "Excalidraw/231207 western blot loading design.excalidraw.md",
+    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md",
     "Room_2_daily notes/23.12.11.md",
     "무제 파일.canvas",
     "Room_2_daily notes/23.12.08.md",
@@ -301,7 +302,6 @@
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/무제 파일.md",
     "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md",
     "Room_4_personal work/Personal work main Page.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/_Inbox.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2 Review outline.md",
@@ -321,8 +321,6 @@
     "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md",
     "Room_2_daily notes/23.12.10.md",
     "Room_2_daily notes/231207 개인미팅 요약.md",
-    "conflict-files-obsidian-git.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Obsidian introduction.excalidraw.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210225502_860.png",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
