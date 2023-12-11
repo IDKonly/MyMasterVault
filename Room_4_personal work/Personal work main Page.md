@@ -22,7 +22,7 @@ PARA:
 	3. 옵시디언에서의 제텔카스텐과 나의 워크플로 정리하기
 2. Vault rework
 	1. Full canlinder 대체작업
-		1. Obsidian - Todoist - google calinder
+		1. [[Obsidian - Todoist - google calinder.excalidraw]]
 ## Area of Responsibility
 > 특정한 데드라인은 없지만 지속적으로 관심을 가져야 하는 일
 

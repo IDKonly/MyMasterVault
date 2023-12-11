@@ -29,9 +29,9 @@ PARA:
 > >1. Transcription 
 > >2. inittation - [[COMPASS]]
 > >	1. methyltransferase 
-> >	2. H3K4me3 is found close to transcription start sites([Lm *et al.*, 2017](zotero://select/items/@lm2017)) ([[Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Introduction|introduction]]에 있는 내용이니 레퍼런스 확인 필요
+> >	2. H3K4me3 is found close to transcription start sites([Lm *et al.*, 2017](zotero://select/items/@lm2017)) ([[Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Introduction|introduction]]에 있는 내용이니 레퍼런스 확인 필요
 > >	3. defferent H3K4me states have distinct function
-> > 		1. 이 부분은 [Lm *et al.*, 2017](zotero://select/items/@lm2017)의 [[Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Introduction|introduction]] 부분을 많이 참고하면 될 거 같다.
+> > 		1. 이 부분은 [Lm *et al.*, 2017](zotero://select/items/@lm2017)의 [[Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Introduction|introduction]] 부분을 많이 참고하면 될 거 같다.
 > >3. terminaiton -APT subcomplex of [[Cleavage and Polyadenylation Factor]]
 > >4. [[Swd2]] 
 > >5. simple conclusion
