@@ -70,7 +70,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
+                "file": "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md"
               }
             }
           },
@@ -86,9 +86,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3fc689acb25dce6d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/231207 western blot loading design.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -216,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
+                "file": "Room_2_daily notes/23.12.12.md"
               }
             }
           },
@@ -259,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+                "file": "Room_2_daily notes/23.12.12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -276,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+                "file": "Room_2_daily notes/23.12.12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -328,20 +338,21 @@
       "audio-recorder:녹음 시작/중지": false
     }
   },
-  "active": "ee45a9a081fffef4",
+  "active": "96cbb09fb755fe56",
   "lastOpenFiles": [
-    "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md",
     "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
-    "Room_2_daily notes/23.12.12.md",
-    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
-    "Excalidraw/231208.excalidraw.md",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
     "Room_2_daily notes/23.12.11.md",
+    "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md",
+    "Excalidraw/231207 western blot loading design.excalidraw.md",
+    "Room_2_daily notes/23.12.12.md",
+    "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.md",
+    "Excalidraw/231208.excalidraw.md",
+    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md",
     "Room_2_daily notes/23.12.08.md",
     "Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/Determinants of histone H3K4 methylation patterns.md",
-    "Excalidraw/231207 western blot loading design.excalidraw.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md",
     "무제 파일.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/무제 파일 1.md",
@@ -361,7 +372,6 @@
     "Spaces/Home",
     "Spaces",
     "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210225502_860.png",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
