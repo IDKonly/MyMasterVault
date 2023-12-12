@@ -1,14 +1,15 @@
 ---
-creation_date: 23.12.11
+creation_date: 23.12.12
 last_modified: 
 note_type: basic
 category: 
 memo_level: 
 aliases:
-  - Premature transcription termination
+  - PNUTS/TOX4/WDR82-PP1
+  - PTW-PP1
 tags: 
 Status:
   - Working
 PARA:
-  - Resouce
 ---
+ PNUTS/TOX4/WDR82-PP1 complex
