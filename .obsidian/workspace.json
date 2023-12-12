@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_2_daily notes/23.12.11.md",
+                "file": "Room_2_daily notes/23.12.12.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -29,38 +29,12 @@
             }
           },
           {
-            "id": "4559defa9f7f144e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "97c0db64d76db9a2",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
                 "file": "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "96cbb09fb755fe56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_2_daily notes/23.12.12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
               }
             }
           },
@@ -75,20 +49,60 @@
             }
           },
           {
+            "id": "c4828b26379ce651",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md"
+              }
+            }
+          },
+          {
             "id": "9bb1f8c151eac272",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "3268171d7786e31d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "3d945b28e3eb9190",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md"
+              }
+            }
+          },
+          {
+            "id": "99433f9a022111e6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/NNS complexexcalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -189,7 +203,7 @@
       {
         "id": "daefff7f14edf752",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 23.490813648293962,
         "children": [
           {
             "id": "9304162af39fcac6",
@@ -216,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
+                "file": "Excalidraw/NNS complexexcalidraw.md"
               }
             }
           },
@@ -251,7 +265,7 @@
       {
         "id": "5f3c3202b3b66b36",
         "type": "tabs",
-        "dimension": 25,
+        "dimension": 51.509186351706035,
         "children": [
           {
             "id": "b41b08e27bc20578",
@@ -259,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+                "file": "Excalidraw/NNS complexexcalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -276,13 +290,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+                "file": "Excalidraw/NNS complexexcalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f5a296f83230101c",
@@ -296,8 +311,44 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "231aec064347ed89",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Excalidraw/NNS complexexcalidraw.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3628873693012117,
+                  "close": true
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -328,20 +379,26 @@
       "audio-recorder:녹음 시작/중지": false
     }
   },
-  "active": "ee45a9a081fffef4",
+  "active": "99433f9a022111e6",
   "lastOpenFiles": [
     "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md",
+    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+    "Excalidraw/NNS complexexcalidraw.md",
     "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
     "Room_2_daily notes/23.12.12.md",
-    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+    "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
+    "Room_2_daily notes/23.12.11.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/promoter upstream transcripts.md",
+    "Excalidraw/231207 western blot loading design.excalidraw.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md",
+    "Room_0_metadata/Room_0_metadata.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/PTW-PP1.md",
+    "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.md",
     "Excalidraw/231208.excalidraw.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
-    "Room_2_daily notes/23.12.11.md",
     "Room_2_daily notes/23.12.08.md",
     "Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/Determinants of histone H3K4 methylation patterns.md",
-    "Excalidraw/231207 western blot loading design.excalidraw.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md",
     "무제 파일.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/무제 파일 1.md",
@@ -354,14 +411,9 @@
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2를 subunit으로 가지고 있는 complex.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2의 기본적인 소개.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Glc7 is dissociation after Swd2 depletion (Nedea et al., 2008) draft.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Discussion.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas",
-    "Room_2_daily notes/23.12.07.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/옵시디언에서의 파일관리.excalidraw.md",
     "Spaces/Home",
     "Spaces",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210225502_860.png",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
@@ -371,7 +423,6 @@
     "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
     "Excalidraw/Scripts/Downloaded/Lighten background color.svg",
     "Excalidraw/Scripts/Downloaded/Fixed spacing.svg",
-    "Excalidraw/Scripts/Downloaded/Fixed horizontal distance between centers.svg",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Room_4_personal work/Shelf_1_How to zettelkasten",
