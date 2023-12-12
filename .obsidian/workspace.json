@@ -75,17 +75,14 @@
             "id": "3268171d7786e31d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -213,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md"
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
               }
             }
           },
@@ -256,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +270,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -301,7 +298,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
+                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -362,10 +359,10 @@
       "audio-recorder:녹음 시작/중지": false
     }
   },
-  "active": "9bb1f8c151eac272",
+  "active": "3268171d7786e31d",
   "lastOpenFiles": [
-    "Room_3_Lab/Shelf_3_knowledge particle/promoter upstream transcripts.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/promoter upstream transcripts.md",
     "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md",
     "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
     "Excalidraw/231207 western blot loading design.excalidraw.md",
