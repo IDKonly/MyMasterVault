@@ -11,7 +11,7 @@ tags: [excalidraw]
 
 # Embedded files
 be2f0e240f4ad215b8fe5e9c2d6c9266646a713e: [[Introduction of PARA method|100%]]
-7b40cbfdd3f783aa586e9e61bfe4a4b77d69651c: [[Detail of PARA|100%]]
+7b40cbfdd3f783aa586e9e61bfe4a4b77d69651c: [[Detail of PARA.excalidraw|100%]]
 
 %%
 # Drawing

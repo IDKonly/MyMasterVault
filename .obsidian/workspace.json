@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "df11dbc6223a18ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_2_daily notes/23.12.12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "77003dfbaf269791",
             "type": "leaf",
             "state": {
@@ -29,90 +16,27 @@
             }
           },
           {
-            "id": "97c0db64d76db9a2",
+            "id": "80b10af96bb920f1",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md"
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md"
               }
             }
           },
           {
-            "id": "ee45a9a081fffef4",
+            "id": "a7c2bdd7a52c3ee2",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "c4828b26379ce651",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md"
-              }
-            }
-          },
-          {
-            "id": "9bb1f8c151eac272",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3268171d7786e31d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "3d945b28e3eb9190",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md"
-              }
-            }
-          },
-          {
-            "id": "99433f9a022111e6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/NNS complexexcalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "514d06d1510929ac",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md"
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/NNS complexexcalidraw.md"
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md"
               }
             }
           },
@@ -283,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/NNS complexexcalidraw.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -300,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/NNS complexexcalidraw.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -328,7 +252,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/NNS complexexcalidraw.md",
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -389,14 +313,26 @@
       "audio-recorder:녹음 시작/중지": false
     }
   },
-  "active": "99433f9a022111e6",
+  "active": "883c334e780f1816",
   "lastOpenFiles": [
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Obsidian introduction.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Shelf_1_How to zettelkasten.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Introduction of PARA method.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/_Excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw",
+    "Room_4_personal work/InBox/2_a log2Change mapping.md",
+    "Room_4_personal work/InBox/1_제텔카스텐.md",
+    "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md",
+    "Room_4_personal work/_PersonalWork.md",
+    "Room_4_personal work/Personal work main Page.md",
+    "Excalidraw/NNS complexexcalidraw.md",
     "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
     "Room_2_daily notes/23.12.12.md",
     "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md",
     "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md",
-    "Excalidraw/NNS complexexcalidraw.md",
-    "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
     "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
     "Room_2_daily notes/23.12.11.md",
@@ -408,19 +344,8 @@
     "Excalidraw/231208.excalidraw.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
     "Room_2_daily notes/23.12.08.md",
-    "Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/Determinants of histone H3K4 methylation patterns.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md",
     "무제 파일.canvas",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/무제 파일 1.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/무제 파일.md",
-    "Room_4_personal work/Personal work main Page.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/_Inbox.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2 Review outline.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2를 subunit으로 가지고 있는 complex.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2의 기본적인 소개.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Glc7 is dissociation after Swd2 depletion (Nedea et al., 2008) draft.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas",
     "Spaces/Home",
     "Spaces",
@@ -440,7 +365,6 @@
     "Room_0_metadata/font",
     "Room_4_personal work/InBox",
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",
-    "Excalidraw",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
