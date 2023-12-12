@@ -80,8 +80,29 @@
                 "file": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "3d945b28e3eb9190",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md"
+              }
+            }
+          },
+          {
+            "id": "99433f9a022111e6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/NNS complexexcalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -209,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_2_daily notes/23.12.12.md"
+                "file": "Excalidraw/NNS complexexcalidraw.md"
               }
             }
           },
@@ -252,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/23.12.12.md",
+                "file": "Excalidraw/NNS complexexcalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/23.12.12.md",
+                "file": "Excalidraw/NNS complexexcalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -297,7 +318,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_2_daily notes/23.12.12.md",
+                "file": "Excalidraw/NNS complexexcalidraw.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -358,18 +379,19 @@
       "audio-recorder:녹음 시작/중지": false
     }
   },
-  "active": "df11dbc6223a18ed",
+  "active": "99433f9a022111e6",
   "lastOpenFiles": [
-    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
-    "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
-    "Room_2_daily notes/23.12.12.md",
-    "Room_2_daily notes/23.12.11.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/promoter upstream transcripts.md",
     "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md",
+    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+    "Excalidraw/NNS complexexcalidraw.md",
+    "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
+    "Room_2_daily notes/23.12.12.md",
+    "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
+    "Room_2_daily notes/23.12.11.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/promoter upstream transcripts.md",
     "Excalidraw/231207 western blot loading design.excalidraw.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md",
-    "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md",
     "Room_0_metadata/Room_0_metadata.md",
     "Room_3_Lab/Shelf_3_knowledge particle/PTW-PP1.md",
     "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.md",
