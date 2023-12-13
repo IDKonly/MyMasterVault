@@ -1,6 +1,7 @@
 {
   "recentFiles": [
     {
+<<<<<<< HEAD
       "basename": "PARA method.excalidraw",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/PARA method.excalidraw.md"
     },
@@ -15,6 +16,14 @@
     {
       "basename": "Area of responsibility",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md"
+=======
+      "basename": "23.12.12",
+      "path": "Room_2_daily notes/23.12.12.md"
+    },
+    {
+      "basename": "Transcription regulator Swd2 model.excalidraw",
+      "path": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
+>>>>>>> parent of 2587593 (vault auto backup by obsidian git plugin: 2023-12-12 22:25:46)
     },
     {
       "basename": "Obsidian introduction.excalidraw",
@@ -199,6 +208,45 @@
     {
       "basename": "_Shelf_1_How to zettelkasten",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/_Shelf_1_How to zettelkasten.md"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "basename": "23.12.09",
+      "path": "Room_2_daily notes/23.12.09.md"
+    },
+    {
+      "basename": "Work flow",
+      "path": "Room_3_Lab/Shelf_1_my works/Work flow.canvas"
+    },
+    {
+      "basename": "KSBMB에서 들은 내용 메모",
+      "path": "Room_3_Lab/Shelf_1_my works/KSBMB에서 들은 내용 메모.md"
+    },
+    {
+      "basename": "1_ 대학원 원서 연구계획서",
+      "path": "Room_3_Lab/Shelf_1_my works/1_ 대학원 원서 연구계획서.md"
+    },
+    {
+      "basename": "(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획",
+      "path": "Room_3_Lab/Shelf_1_my works/(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획.md"
+    },
+    {
+      "basename": "_Room_4_personal work",
+      "path": "Room_4_personal work/_Room_4_personal work.md"
+    },
+    {
+      "basename": "_PersonalWork",
+      "path": "Room_4_personal work/_PersonalWork.md"
+    },
+    {
+      "basename": "_Shelf_1_MyNetwork setting",
+      "path": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/_Shelf_1_MyNetwork setting.md"
+    },
+    {
+      "basename": "_MyNetworkSetting",
+      "path": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/_MyNetworkSetting.md"
+>>>>>>> parent of 2587593 (vault auto backup by obsidian git plugin: 2023-12-12 22:25:46)
     }
   ],
   "omittedPaths": [],
