@@ -59,7 +59,7 @@ Zotero with ZotLit ^ghdq25pR
 
 [[PARA method.excalidraw|PARA method]] ^fg63VHYz
 
-[[DIKW model.excalidraw|DIKW model]] ^eSppZSte
+[[Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw|DIKW model]] ^eSppZSte
 
 Obsidian ^mxEd7yhT
 
