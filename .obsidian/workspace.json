@@ -1,19 +1,27 @@
 {
   "main": {
-    "id": "2ed4a05eb29acbe6",
+    "id": "37db972fc38f1a1d",
     "type": "split",
     "children": [
       {
-        "id": "9f30d78e7ec6ad1a",
+        "id": "6e28053ed9cf2d07",
         "type": "tabs",
         "children": [
           {
-            "id": "a0c93ae87f7e84f3",
+            "id": "77003dfbaf269791",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "d732851c3412f2a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_2_daily notes/23.12.13.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,52 +29,31 @@
             }
           },
           {
-            "id": "d314d228b7b1ca77",
+            "id": "ec477a9d0f712fec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72f97a1422037737",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md"
+                "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ee015405c463241f",
+    "id": "91dddd86659c734b",
     "type": "split",
     "children": [
       {
-        "id": "dd60c1891c40529f",
+        "id": "a2bf4cc14bcaf7bb",
         "type": "tabs",
         "children": [
           {
-            "id": "7f2810508141a5b1",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          },
-          {
-            "id": "606441d6492cc2ac",
+            "id": "a1ed11d596305dc2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -76,12 +63,12 @@
             }
           },
           {
-            "id": "8acf9be94e592457",
+            "id": "73eac5888198fafc",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#gene",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +78,48 @@
             }
           },
           {
-            "id": "9de9b980e03260fa",
+            "id": "dd4647d65db293c4",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "d40e1e38d692b966",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cf2b006acf82192a",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "edf369e662e42989",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "e7419118ec9faabd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ea82ab294a090a0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -99,44 +127,31 @@
             }
           },
           {
-            "id": "1e5841eb79957488",
-            "type": "leaf",
-            "state": {
-              "type": "mk-file-view",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "58812a16ae94aad1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "62c66c20e0d38693",
+            "id": "629f6df10f2ed8ee",
             "type": "leaf",
             "state": {
               "type": "chronology-calendar-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "7e183c228325d187",
+    "id": "0ea7d8fda78ec24d",
     "type": "split",
     "children": [
       {
-        "id": "e44905deecc2a74b",
+        "id": "daefff7f14edf752",
         "type": "tabs",
+        "dimension": 23.490813648293965,
         "children": [
           {
-            "id": "d8e7775b5d33979f",
+            "id": "9304162af39fcac6",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -144,7 +159,7 @@
             }
           },
           {
-            "id": "bbb7e979d331ecf7",
+            "id": "dd8a3dbbff77a12b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -155,45 +170,120 @@
             }
           },
           {
-            "id": "38996b74ec0f6aff",
+            "id": "c72a407a1550f83c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "93c6eb9344931a55",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9a4ceeeb1a86a830",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
               "state": {}
             }
+          },
+          {
+            "id": "f5c2224ea649f3ac",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       },
       {
-        "id": "b01b70ceac6fde9b",
+        "id": "5f3c3202b3b66b36",
         "type": "tabs",
+        "dimension": 51.50918635170603,
         "children": [
           {
-            "id": "2b72ab0950d56b8d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "578e1ad3c72c1e76",
+            "id": "b41b08e27bc20578",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c1926486903e5fe2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "f5a296f83230101c",
+        "type": "tabs",
+        "dimension": 25.000000000000004,
+        "children": [
+          {
+            "id": "8eaa790f170533d0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "231aec064347ed89",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3628873693012117,
+                  "close": true
+                }
               }
             }
           }
@@ -202,43 +292,90 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 389
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-projects:Open projects": false,
-      "chronology:Open Chronology": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-custom-frames:Open Research rabbit": false,
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:퀵 스위처 열기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "zk-prefixer:새로운 유니크 노트 생성": false,
       "random-note:랜덤 노트 열기": false,
+      "workspaces:작업 공간 레이아웃 관리": false,
+      "chronology:Open Chronology": false,
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
+      "templater-obsidian:Templater": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "graph:그래프 뷰 열기": false,
+      "obsidian-projects:Open projects": false,
       "audio-recorder:녹음 시작/중지": false,
-      "workspaces:작업 공간 레이아웃 관리": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "d314d228b7b1ca77",
+  "active": "629f6df10f2ed8ee",
   "lastOpenFiles": [
-    "Room_2_daily notes/23.12.13.md",
+    "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/you2022.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A CpG island-encoded mechanism protects genes from premature transcription termination.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/_0_resources.md",
+    "Room_3_Lab/Shelf_2_library/_Shelf_2_library.md",
+    "Room_3_Lab/Shelf_2_library/_Library.md",
+    "Room_3_Lab/_Room_3_Lab.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md",
+    "Room_0_metadata/Shelf_0_Resource/DIKW model.md",
     "conflict-files-obsidian-git.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/PARA method.excalidraw.md",
+    "Room_2_daily notes/23.12.13.md",
+    "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.md",
+    "Room_2_daily notes/23.12.17.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Obsidian introduction.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/옵시디언에서의 파일관리.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Shelf_1_How to zettelkasten.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Introduction of PARA method.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.excalidraw.md"
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/_Excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw",
+    "Room_4_personal work/InBox/2_a log2Change mapping.md",
+    "Room_4_personal work/InBox/1_제텔카스텐.md",
+    "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md",
+    "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
+    "무제 파일.canvas",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas",
+    "Spaces/Home",
+    "Spaces",
+    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210225502_860.png",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
+    "Excalidraw/Scripts/Downloaded/Uniform size.svg",
+    "Excalidraw/Scripts/Downloaded/Text Aura.svg",
+    "Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
+    "Excalidraw/Scripts/Downloaded/Set Dimensions.svg",
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
+    "Excalidraw/Scripts/Downloaded/Lighten background color.svg",
+    "Excalidraw/Scripts/Downloaded/Fixed spacing.svg",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Room_4_personal work/Shelf_1_How to zettelkasten",
+    "Room_0_metadata/font/THEFACESHOP+INKLIPQUID.ttf",
+    "Room_0_metadata/font",
+    "Room_4_personal work/InBox",
+    "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2 review paper.canvas",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/석사 1학기/H3K27me and PRC2 transmit a memory of repression across generations and during development.canvas",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Exp log keeper/23.04.10 Swd2-TAP confirm with TAP-purificaiton.canvas"
   ]
 }

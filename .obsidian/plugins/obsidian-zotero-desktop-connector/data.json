@@ -4,8 +4,27 @@
   "pdfExportImageDPI": 120,
   "pdfExportImageFormat": "jpg",
   "pdfExportImageQuality": 90,
-  "citeFormats": [],
-  "exportFormats": [],
+  "citeFormats": [
+    {
+      "name": "APA style Bibliography",
+      "format": "formatted-bibliography"
+    },
+    {
+      "name": "APA style citation",
+      "format": "formatted-citation",
+      "cslStyle": "apa"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Create Literature Notes",
+      "outputPathTemplate": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@{{citekey}}.md",
+      "imageOutputPathTemplate": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
+      "cslStyle": "apa"
+    }
+  ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
   "openNoteAfterImport": true,
   "whichNotesToOpenAfterImport": "first-imported-note",
