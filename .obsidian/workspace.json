@@ -32,12 +32,9 @@
             "id": "38a9b9303d9be5e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Excalidraw/231207 western blot loading design.excalidraw.md"
               }
             }
           }
@@ -178,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md"
+                "file": "Excalidraw/231207 western blot loading design.excalidraw.md"
               }
             }
           },
@@ -221,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
+                "file": "Excalidraw/231207 western blot loading design.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
+                "file": "Excalidraw/231207 western blot loading design.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -266,7 +263,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
+                "file": "Excalidraw/231207 western blot loading design.excalidraw.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -329,8 +326,18 @@
   },
   "active": "38a9b9303d9be5e4",
   "lastOpenFiles": [
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
+    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/UniAKR-UTF8-H",
+    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-9",
+    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-UCS2",
+    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/UniAKR-UTF32-H",
+    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/UniAKR-UTF16-H",
+    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-8",
+    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-7",
+    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-4",
+    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-5",
+    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-6",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@soares2012/image-3-x39-y530.png",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@soares2012",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Functions for S. cerevisiae Swd2p in 3′ end formation of specific mRNAs and snoRNAs and global histone 3 lysine 4 methylation.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Nucleoskeleton.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/bae2020.md",
@@ -356,14 +363,10 @@
     "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/PARA method.excalidraw.md",
     "Room_2_daily notes/23.12.13.md",
     "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw",
     "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
     "무제 파일.canvas",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas",
-    "Spaces/Home",
-    "Spaces",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210225502_860.png",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
@@ -372,12 +375,6 @@
     "Excalidraw/Scripts/Downloaded/Set Dimensions.svg",
     "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
     "Excalidraw/Scripts/Downloaded/Lighten background color.svg",
-    "Excalidraw/Scripts/Downloaded/Fixed spacing.svg",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Room_4_personal work/Shelf_1_How to zettelkasten",
-    "Room_0_metadata/font/THEFACESHOP+INKLIPQUID.ttf",
-    "Room_0_metadata/font",
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",

@@ -21,7 +21,7 @@ b54a933ca6f15d8ff969065565c9066fa22bc8bd: [[Pasted Image 20231208155726_899.png]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.8",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.10",
 	"elements": [
 		{
 			"type": "image",
@@ -123,38 +123,40 @@ b54a933ca6f15d8ff969065565c9066fa22bc8bd: [[Pasted Image 20231208155726_899.png]
 			"baseline": 21
 		},
 		{
-			"id": "nRk5z338",
 			"type": "image",
-			"x": -248.07546997070312,
-			"y": -394.4505081176758,
-			"width": 1225,
-			"height": 798,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 2,
+			"versionNonce": 59397571,
+			"isDeleted": false,
+			"id": "nRk5z338",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"roundness": null,
+			"angle": 0,
+			"x": -247.11120556839592,
+			"y": -394.4505081176758,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 1225,
+			"height": 798,
 			"seed": 25067,
-			"version": 1,
-			"versionNonce": 485581255,
-			"updated": 1702344237439,
-			"isDeleted": false,
 			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
 			"boundElements": [],
+			"updated": 1702953162056,
 			"link": null,
 			"locked": false,
+			"customData": {
+				"isAnchored": true
+			},
+			"status": "pending",
 			"fileId": "167f227bfcb62c78b4aa1ef8976b90d5708c6375",
 			"scale": [
 				1,
 				1
-			],
-			"customData": {
-				"isAnchored": true
-			}
+			]
 		}
 	],
 	"appState": {
@@ -172,10 +174,10 @@ b54a933ca6f15d8ff969065565c9066fa22bc8bd: [[Pasted Image 20231208155726_899.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 291.6473388671875,
-		"scrollY": 779.4844843928975,
+		"scrollX": 562.148997210365,
+		"scrollY": 573.4435262243944,
 		"zoom": {
-			"value": 0.8
+			"value": 1.1360566476931633
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
