@@ -1,8 +1,76 @@
 {
   "recentFiles": [
     {
+      "basename": "23.12.19",
+      "path": "Room_2_daily notes/23.12.19.md"
+    },
+    {
+      "basename": "PARA method.excalidraw",
+      "path": "Room_1_rules/PARA method.excalidraw.md"
+    },
+    {
+      "basename": "23.10.26",
+      "path": "Room_2_daily notes/23년 10월/23.10.26.md"
+    },
+    {
+      "basename": "Introduction of PARA method.excalidraw",
+      "path": "Room_1_rules/Introduction of PARA method.excalidraw.md"
+    },
+    {
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_1_rules/DIKW model.excalidraw.md"
+    },
+    {
+      "basename": "Detail of PARA.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Detail of PARA.excalidraw.md"
+    },
+    {
+      "basename": "옵시디언에서의 파일관리.excalidraw",
+      "path": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md"
+    },
+    {
+      "basename": "Transcription regulator Swd2 model.excalidraw",
+      "path": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
+    },
+    {
+      "basename": "23.11.16",
+      "path": "Room_2_daily notes/23년 11월/23.11.16.md"
+    },
+    {
+      "basename": "23.11.28",
+      "path": "Room_2_daily notes/23년 11월/23.11.28.md"
+    },
+    {
+      "basename": "23.11.01",
+      "path": "Room_2_daily notes/23년 11월/23.11.01.md"
+    },
+    {
+      "basename": "Room_0_metadata",
+      "path": "Room_0_metadata/Room_0_metadata.md"
+    },
+    {
+      "basename": "Work flow.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md"
+    },
+    {
+      "basename": "_Excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/_Excalidraw.md"
+    },
+    {
+      "basename": "Obsidian introduction.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Obsidian introduction.excalidraw.md"
+    },
+    {
+      "basename": "Swd2-TAP COMPASS activity check Western blot",
+      "path": "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.md"
+    },
+    {
       "basename": "231207 western blot loading design.excalidraw",
       "path": "Excalidraw/231207 western blot loading design.excalidraw.md"
+    },
+    {
+      "basename": "Area of responsibility",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md"
     },
     {
       "basename": "hughes2023",
@@ -21,16 +89,8 @@
       "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
     },
     {
-      "basename": "23.12.19",
-      "path": "Room_2_daily notes/23.12.19.md"
-    },
-    {
       "basename": "_Box_1_manuscripts",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md"
-    },
-    {
-      "basename": "Introduction of PARA method.excalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Introduction of PARA method.excalidraw.md"
     },
     {
       "basename": "Shelf_1_How to zettelkasten",
@@ -39,10 +99,6 @@
     {
       "basename": "1. 기본적인 계층적 파일구성에 대하여",
       "path": "Room_1_rules/1. 기본적인 계층적 파일구성에 대하여.md"
-    },
-    {
-      "basename": "Room_0_metadata",
-      "path": "Room_0_metadata/Room_0_metadata.md"
     },
     {
       "basename": "2. 각 파일들의 작명규칙",
@@ -73,20 +129,8 @@
       "path": "Room_3_Lab/_Room_3_Lab.md"
     },
     {
-      "basename": "DIKW model.excalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md"
-    },
-    {
       "basename": "DIKW model",
       "path": "Room_0_metadata/Shelf_0_Resource/DIKW model.md"
-    },
-    {
-      "basename": "Obsidian introduction.excalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Obsidian introduction.excalidraw.md"
-    },
-    {
-      "basename": "Detail of PARA.excalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.excalidraw.md"
     },
     {
       "basename": "2_a log2Change mapping",
@@ -111,10 +155,6 @@
     {
       "basename": "NNS complexexcalidraw",
       "path": "Excalidraw/NNS complexexcalidraw.md"
-    },
-    {
-      "basename": "Transcription regulator Swd2 model.excalidraw",
-      "path": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
     },
     {
       "basename": "23.12.12",
@@ -159,46 +199,6 @@
     {
       "basename": "Swd2 Review outline",
       "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2 Review outline.md"
-    },
-    {
-      "basename": "Swd2를 subunit으로 가지고 있는 complex",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2를 subunit으로 가지고 있는 complex.md"
-    },
-    {
-      "basename": "Swd2의 기본적인 소개",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2의 기본적인 소개.md"
-    },
-    {
-      "basename": "Glc7 is dissociation after Swd2 depletion (Nedea et al., 2008) draft",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Glc7 is dissociation after Swd2 depletion (Nedea et al., 2008) draft.md"
-    },
-    {
-      "basename": "Discussion",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Discussion.md"
-    },
-    {
-      "basename": "Q - Pol2 associated mechanism",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas"
-    },
-    {
-      "basename": "23.12.07",
-      "path": "Room_2_daily notes/23.12.07.md"
-    },
-    {
-      "basename": "옵시디언에서의 파일관리.excalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/옵시디언에서의 파일관리.excalidraw.md"
-    },
-    {
-      "basename": "채워넣을 노트 목록",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md"
-    },
-    {
-      "basename": "Project",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md"
-    },
-    {
-      "basename": "23.12.10",
-      "path": "Room_2_daily notes/23.12.10.md"
     }
   ],
   "omittedPaths": [],

@@ -27,19 +27,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "38a9b9303d9be5e4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/231207 western blot loading design.excalidraw.md"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,8 +101,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "e7419118ec9faabd",
@@ -175,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/231207 western blot loading design.excalidraw.md"
+                "file": "Room_2_daily notes/23.12.19.md"
               }
             }
           },
@@ -218,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/231207 western blot loading design.excalidraw.md",
+                "file": "Room_2_daily notes/23.12.19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/231207 western blot loading design.excalidraw.md",
+                "file": "Room_2_daily notes/23.12.19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -263,9 +252,9 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/231207 western blot loading design.excalidraw.md",
+                "file": "Room_2_daily notes/23.12.19.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
@@ -276,7 +265,7 @@
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": false,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
@@ -287,7 +276,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 0.3628873693012117,
-                  "close": true
+                  "close": false
                 }
               }
             }
@@ -324,8 +313,28 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "38a9b9303d9be5e4",
+  "active": "d732851c3412f2a9",
   "lastOpenFiles": [
+    "Room_1_rules/PARA method.excalidraw.md",
+    "Room_2_daily notes/23.12.19.md",
+    "Room_2_daily notes/23년 10월/23.10.26.md",
+    "Room_1_rules/Introduction of PARA method.excalidraw.md",
+    "Room_1_rules/DIKW model.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Detail of PARA.excalidraw.md",
+    "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md",
+    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+    "Room_2_daily notes/23년 11월/23.11.16.md",
+    "Room_2_daily notes/23년 11월/23.11.28.md",
+    "Room_2_daily notes/23년 11월/23.11.01.md",
+    "Room_2_daily notes/23년 11월/_23년 11월.md",
+    "Room_2_daily notes/23년 11월",
+    "Room_0_metadata/Room_0_metadata.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/_Excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Obsidian introduction.excalidraw.md",
+    "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.md",
+    "Excalidraw/231207 western blot loading design.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
     "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/UniAKR-UTF8-H",
     "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-9",
@@ -336,33 +345,13 @@
     "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-7",
     "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-4",
     "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-5",
-    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-6",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@soares2012/image-3-x39-y530.png",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Functions for S. cerevisiae Swd2p in 3′ end formation of specific mRNAs and snoRNAs and global histone 3 lysine 4 methylation.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Nucleoskeleton.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/bae2020.md",
     "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
-    "Room_2_daily notes/23.12.19.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Introduction of PARA method.excalidraw.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Shelf_1_How to zettelkasten.md",
-    "Room_1_rules/1. 기본적인 계층적 파일구성에 대하여.md",
-    "Room_0_metadata/Room_0_metadata.md",
-    "Room_1_rules/2. 각 파일들의 작명규칙.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/you2022.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A CpG island-encoded mechanism protects genes from premature transcription termination.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/_0_resources.md",
-    "Room_3_Lab/Shelf_2_library/_Shelf_2_library.md",
-    "Room_3_Lab/Shelf_2_library/_Library.md",
-    "Room_3_Lab/_Room_3_Lab.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md",
-    "Room_0_metadata/Shelf_0_Resource/DIKW model.md",
-    "conflict-files-obsidian-git.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/PARA method.excalidraw.md",
-    "Room_2_daily notes/23.12.13.md",
-    "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.md",
     "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
     "무제 파일.canvas",
