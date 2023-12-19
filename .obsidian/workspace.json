@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Transcription of Mammalian cis-Regulatory Elements Is Restrained by Actively Enforced Early Termination.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md"
+                "file": "Excalidraw/231207 western blot loading design.excalidraw.md"
               }
             }
           },
@@ -232,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
+                "file": "Excalidraw/231207 western blot loading design.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -249,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
+                "file": "Excalidraw/231207 western blot loading design.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -261,9 +261,9 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
-                "itemId": 1722,
-                "attachmentId": 1724,
+                "file": "Excalidraw/231207 western blot loading design.excalidraw.md",
+                "itemId": -1,
+                "attachmentId": -1,
                 "follow": "ob-note"
               }
             }
@@ -290,7 +290,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
+                "file": "Excalidraw/231207 western blot loading design.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -350,34 +350,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7fb019d2e1c320df",
+  "active": "23c52ed953c6458f",
   "lastOpenFiles": [
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Transcription of Mammalian cis-Regulatory Elements Is Restrained by Actively Enforced Early Termination.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Transformation of yeast by lithium acetate_single-stranded carrier DNA_polyethylene glycol method.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Ubiquitylation of the COMPASS component Swd2 links H2B ubiquitylation to H3K4 trimethylation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/ZC3H4 restricts non-coding transcription in human cells.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The COMPASS family of histone H3K4 methylases_ mechanisms of regulation in development and disease pathogenesis.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Glc7 phosphatase subunit of the cleavage and polyadenylation factor is essential for transcription termination on snoRNA genes.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Molecular regulation of H3K4 trimethylation by Wdr82, a component of human Set1_COMPASS.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Histone crosstalk between H2B monoubiquitination and H3 methylation mediated by COMPASS.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Epigenetic gene silencing alters the mechanisms and rate of evolutionary adaptation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Dot1 and Histone H3K79 Methylation in Natural Telomeric and HM Silencing.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Crosstalk among Set1 complex subunits involved in H2B ubiquitylation-dependent H3K4 methylation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Dare to challenge the silence_ Telomeric gene silencing revisited.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/COMPASS_ A complex of proteins associated with a trithorax-related SET domain protein.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Bypassing the Catalytic Activity of SIR2 for SIR Protein Spreading in _i_Saccharomyces cerevisiae__i_.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Assays for gene silencing in yeast.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Architecture and subunit arrangement of the complete Saccharomyces cerevisiae COMPASS complex.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A trithorax-group complex purified from Saccharomyces cerevisiae is required for methylation of histone H3.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1 1.md",
+    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
+    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
     "Room_2_daily notes/23.12.19.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/ZC3H4 restricts non-coding transcription in human cells 1.md",
-    "A CpG island-encoded mechanism protects genes from premature transcription termination.md",
-    "Excalidraw/231207 western blot loading design.excalidraw.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
-    "Excalidraw/NNS complexexcalidraw.md",
-    "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Nrd1-Nab3-Sen1 transcription termination complex from a structural perspective.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Nrd1-Nab3-Sen1 transcription termination complex from a structural perspective.md",
-    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-field.eta.md",
-    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-note.eta.md",
-    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-annots.eta.md",
-    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-colored.eta.md",
-    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-cite.eta.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/@chaves-arquero2023.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@chaves-arquero2023.md",
-    "Room_0_metadata/Shelf_1_template for templater/ZotLit/_ZotLit.md",
-    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-cite2.eta.md",
     "Room_0_metadata/Shelf_1_template for templater/ZotLit",
     "Room_0_metadata/Shelf_1_template for templater/Zotlit",
     "Room_0_metadata/Shelf_1_template for templater/무제 폴더",
