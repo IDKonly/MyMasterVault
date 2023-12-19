@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "_MyMasterVault",
+      "path": "_MyMasterVault.md"
+    },
+    {
+      "basename": "_Myvault",
+      "path": "_Myvault.md"
+    },
+    {
       "basename": "23.12.19",
       "path": "Room_2_daily notes/23.12.19.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "_Swd2 review paper",
       "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md"
-    },
-    {
-      "basename": "Abstract",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md"
-    },
-    {
-      "basename": "Swd2 Review outline",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2 Review outline.md"
     }
   ],
   "omittedPaths": [],

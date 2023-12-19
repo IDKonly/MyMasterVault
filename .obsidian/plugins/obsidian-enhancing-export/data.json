@@ -19,7 +19,8 @@
       "name": "PDF"
     },
     {
-      "name": "Word (.docx)"
+      "name": "Word (.docx)",
+      "openExportedFileLocation": true
     },
     {
       "name": "OpenOffice"
@@ -49,9 +50,16 @@
       "name": "Bibliography"
     }
   ],
+  "pandocPath": {
+    "win32": "C:\\Program Files\\Pandoc\\pandoc.exe"
+  },
   "defaultExportDirectoryMode": "Auto",
   "openExportedFile": true,
   "env": {},
   "showExportProgressBar": true,
-  "lastEditName": "Word (.docx)"
+  "lastEditName": "Word (.docx)",
+  "lastExportDirectory": {
+    "win32": "C:\\Users\\kill9\\Documents"
+  },
+  "lastExportType": "Word (.docx)"
 }
