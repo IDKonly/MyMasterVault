@@ -13,7 +13,7 @@ comment ^E2YU0QIh
 
 # Embedded files
 b54a933ca6f15d8ff969065565c9066fa22bc8bd: [[Pasted Image 20231208155726_899.png]]
-167f227bfcb62c78b4aa1ef8976b90d5708c6375: [[Swd2-TAP COMPASS activity check Western blot|100%]]
+167f227bfcb62c78b4aa1ef8976b90d5708c6375: [[Swd2-TAP COMPASS activity check Western blot.excalidraw|100%]]
 
 %%
 # Drawing
