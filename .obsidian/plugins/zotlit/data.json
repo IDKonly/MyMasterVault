@@ -7,12 +7,12 @@
   "serverPort": 9091,
   "serverHostname": "127.0.0.1",
   "template": {
-    "folder": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
+    "folder": "Room_0_metadata/Shelf_1_template for templater/ZotLit",
     "templates": {
-      "filename": "@{{citekey}}"
+      "filename": "<%= it.title %>.md"
     }
   },
-  "updateAnnotBlock": false,
+  "updateAnnotBlock": true,
   "updateOverwrite": false,
   "autoPairEta": true,
   "autoTrim": [

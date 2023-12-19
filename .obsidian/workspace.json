@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md",
+                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Nrd1-Nab3-Sen1 transcription termination complex from a structural perspective.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -137,7 +137,7 @@
       {
         "id": "daefff7f14edf752",
         "type": "tabs",
-        "dimension": 23.490813648293965,
+        "dimension": 48.62204724409449,
         "children": [
           {
             "id": "9304162af39fcac6",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md"
+                "file": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-colored.eta.md"
               }
             }
           },
@@ -194,12 +194,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "5f3c3202b3b66b36",
         "type": "tabs",
-        "dimension": 51.50918635170603,
+        "dimension": 26.37795275590551,
         "children": [
           {
             "id": "b41b08e27bc20578",
@@ -207,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md",
+                "file": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-colored.eta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,19 +225,32 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md",
+                "file": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-colored.eta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
+          },
+          {
+            "id": "2248c8cfe133929f",
+            "type": "leaf",
+            "state": {
+              "type": "zotero-annotation-view",
+              "state": {
+                "file": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-colored.eta.md",
+                "itemId": -1,
+                "attachmentId": -1,
+                "follow": "ob-note"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "f5a296f83230101c",
         "type": "tabs",
-        "dimension": 25.000000000000004,
+        "dimension": 25,
         "children": [
           {
             "id": "8eaa790f170533d0",
@@ -252,7 +266,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md",
+                "file": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-colored.eta.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -313,8 +327,108 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d732851c3412f2a9",
+  "floating": {
+    "id": "10266b5b4bec5230",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6fc7b68b446c6406",
+        "type": "window",
+        "children": [
+          {
+            "id": "780e0095fa689cf1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "74bf66bb83614a50",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-colored.eta.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                },
+                "group": "1729645ff14dc3f2"
+              }
+            ]
+          },
+          {
+            "id": "54bacbc786caf8ff",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "92c18ca60eeb0b68",
+                "type": "leaf",
+                "state": {
+                  "type": "zotero-template-preview",
+                  "state": {
+                    "file": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-colored.eta.md",
+                    "preview": null
+                  }
+                },
+                "group": "1729645ff14dc3f2"
+              }
+            ]
+          },
+          {
+            "id": "2fce8012704dfb80",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5b2c414848d824e7",
+                "type": "leaf",
+                "state": {
+                  "type": "zotero-item-details",
+                  "state": {
+                    "file": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-colored.eta.md",
+                    "preview": null
+                  }
+                },
+                "group": "1729645ff14dc3f2"
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 768,
+        "y": 296,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "74bf66bb83614a50",
   "lastOpenFiles": [
+    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Nrd1-Nab3-Sen1 transcription termination complex from a structural perspective.md",
+    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-cite.eta.md",
+    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Nrd1-Nab3-Sen1 transcription termination complex from a structural perspective.md",
+    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/@chaves-arquero2023.md",
+    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-field.eta.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@chaves-arquero2023.md",
+    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-note.eta.md",
+    "Room_0_metadata/Shelf_1_template for templater/ZotLit/_ZotLit.md",
+    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-colored.eta.md",
+    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-cite2.eta.md",
+    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-annots.eta.md",
+    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-annot.eta.md",
+    "Room_0_metadata/Shelf_1_template for templater/ZotLit",
+    "Room_0_metadata/Shelf_1_template for templater/Zotlit",
+    "Room_0_metadata/Shelf_1_template for templater/무제 폴더",
+    "Room_0_metadata/Shelf_1_template for templater/zt-note.eta.md",
+    "Room_0_metadata/Shelf_1_template for templater/zt-colored.eta.md",
+    "Room_0_metadata/Shelf_1_template for templater/zt-cite2.eta.md",
+    "Room_0_metadata/Shelf_1_template for templater/zt-cite.eta.md",
+    "Room_0_metadata/Shelf_1_template for templater/zt-annot.eta.md",
+    "Room_0_metadata/Shelf_1_template for templater/zt-annots.eta.md",
+    "Room_0_metadata/Shelf_1_template for templater/zt-field.eta.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/N3I5U2UK.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@{{citekey}}.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Transcription of Mammalian cis-Regulatory Elements Is Restrained by Actively Enforced Early Termination.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/@soares2012/image-3-x39-y530.png",
@@ -325,34 +439,10 @@
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/_0_resources.md",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/@soares2012",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/_Manuscripts.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The WD repeat_ a common architecture for diverse functions.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/ZC3H4 restricts non-coding transcription in human cells.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Transformation of yeast by lithium acetate_single-stranded carrier DNA_polyethylene glycol method.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Ubiquitylation of the COMPASS component Swd2 links H2B ubiquitylation to H3K4 trimethylation.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Transcription of Mammalian cis-Regulatory Elements Is Restrained by Actively Enforced Early Termination.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Tandem Affinity Purification (TAP) Method_ A General Procedure of Protein Complex Purification.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Set1 N-terminal domain and Swd2 interact with RNA polymerase II CTD to recruit COMPASS.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The essential WD repeat protein Swd2 has dual functions in RNA polymerase II transcription termination and lysine 4 methylation of histone H3.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Saccharomyces cerevisiae Set1 complex includes an Ash2 homologue and methylates histone 3 lysine 4.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The n-SET domain of Set1 regulates H2B ubiquitylation-dependent H3K4 methylation.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Nucleoskeleton.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The effect of Swd2's binding to Set1 on the dual functions of Swd2 in Saccharomyces cerevisiae.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The APT complex is involved in non-coding RNA transcription and is distinct from CPF.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Glc7 phosphatase subunit of the cleavage and polyadenylation factor is essential for transcription termination on snoRNA genes.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The COMPASS family of histone H3K4 methylases_ mechanisms of regulation in development and disease pathogenesis.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Switching and Signaling at the Telomere.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Position effect at S. cerevisiae telomeres_ Reversible repression of Pol II transcription.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Subtelomeric Transcription and its Regulation.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Structure and function of telomeres.md",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts",
     "Room_2_daily notes/23년 11월",
-    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/UniAKR-UTF8-H",
-    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-9",
-    "Room_0_metadata/pdftoppm-poppler-23.11.0/share/poppler/cMap/Adobe-KR/Adobe-KR-UCS2",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@soares2012/image-3-x39-y530.png",
     "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
@@ -363,7 +453,6 @@
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
     "Excalidraw/Scripts/Downloaded/Text Aura.svg",
     "Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
-    "Excalidraw/Scripts/Downloaded/Set Dimensions.svg",
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",

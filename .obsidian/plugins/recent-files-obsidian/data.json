@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "zt-colored.eta",
+      "path": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-colored.eta.md"
+    },
+    {
+      "basename": "The Nrd1-Nab3-Sen1 transcription termination complex from a structural perspective",
+      "path": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Nrd1-Nab3-Sen1 transcription termination complex from a structural perspective.md"
+    },
+    {
+      "basename": "zt-cite.eta",
+      "path": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-cite.eta.md"
+    },
+    {
       "basename": "kamieniarz-gdula2019b",
       "path": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md"
+    },
+    {
+      "basename": "zt-field.eta",
+      "path": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-field.eta.md"
+    },
+    {
+      "basename": "zt-note.eta",
+      "path": "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-note.eta.md"
     },
     {
       "basename": "Transcription of Mammalian cis-Regulatory Elements Is Restrained by Actively Enforced Early Termination",
@@ -179,26 +199,6 @@
     {
       "basename": "Personal work main Page",
       "path": "Room_4_personal work/Personal work main Page.md"
-    },
-    {
-      "basename": "23.12.12",
-      "path": "Room_2_daily notes/23.12.12.md"
-    },
-    {
-      "basename": "WDR associated Promoter-proximal control",
-      "path": "Room_0_metadata/Shelf_0_Resource/WDR associated Promoter-proximal control.md"
-    },
-    {
-      "basename": "Premature transcrption termination",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Premature transcrption termination.md"
-    },
-    {
-      "basename": "Short introduction",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md"
-    },
-    {
-      "basename": "231208.excalidraw",
-      "path": "Excalidraw/231208.excalidraw.md"
     }
   ],
   "omittedPaths": [],
