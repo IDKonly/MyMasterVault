@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
+                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md"
+                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md"
               }
             }
           },
@@ -232,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
+                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -249,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
+                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -261,15 +261,15 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
-                "itemId": 1729,
-                "attachmentId": 1730,
+                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
+                "itemId": 1722,
+                "attachmentId": 1724,
                 "follow": "ob-note"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "f5a296f83230101c",
@@ -290,7 +290,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
+                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -352,9 +352,13 @@
   },
   "active": "7fb019d2e1c320df",
   "lastOpenFiles": [
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
+    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription.md",
+    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/ZC3H4 restricts non-coding transcription in human cells.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
     "Room_2_daily notes/23.12.19.md",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/ZC3H4 restricts non-coding transcription in human cells 1.md",
     "A CpG island-encoded mechanism protects genes from premature transcription termination.md",
@@ -374,13 +378,9 @@
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@chaves-arquero2023.md",
     "Room_0_metadata/Shelf_1_template for templater/ZotLit/_ZotLit.md",
     "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-cite2.eta.md",
-    "Room_0_metadata/Shelf_1_template for templater/ZotLit/zt-annot.eta.md",
     "Room_0_metadata/Shelf_1_template for templater/ZotLit",
     "Room_0_metadata/Shelf_1_template for templater/Zotlit",
     "Room_0_metadata/Shelf_1_template for templater/무제 폴더",
-    "Room_0_metadata/Shelf_1_template for templater/zt-note.eta.md",
-    "Room_0_metadata/Shelf_1_template for templater/zt-colored.eta.md",
-    "Room_0_metadata/Shelf_1_template for templater/zt-cite2.eta.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/N3I5U2UK.png",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/@soares2012/image-3-x39-y530.png",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",

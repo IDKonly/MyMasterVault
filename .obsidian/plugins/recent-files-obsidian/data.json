@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "A first exon termination checkpoint preferentially suppresses extragenic transcription 1",
+      "path": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md"
+    },
+    {
+      "basename": "A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md"
+    },
+    {
       "basename": "COMPASS and SWI_SNF complexes in development and disease",
       "path": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md"
     },
@@ -165,10 +173,6 @@
       "path": "Room_1_rules/2. 각 파일들의 작명규칙.md"
     },
     {
-      "basename": "A first exon termination checkpoint preferentially suppresses extragenic transcription",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription.md"
-    },
-    {
       "basename": "_0_resources",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/_0_resources.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1_제텔카스텐",
       "path": "Room_4_personal work/InBox/1_제텔카스텐.md"
-    },
-    {
-      "basename": "Obsidian - Todoist - google calinder.excalidraw",
-      "path": "Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw.md"
     }
   ],
   "omittedPaths": [],
