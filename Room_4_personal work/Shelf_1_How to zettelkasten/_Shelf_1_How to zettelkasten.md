@@ -15,7 +15,6 @@ tags:
 📄 [[Room_4_personal work/Shelf_1_How to zettelkasten/Archive|Archive]]
 📄 [[Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility|Area of responsibility]]
 📄 [[Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.excalidraw|Detail of PARA.excalidraw]]
-📄 [[Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw|DIKW model.excalidraw]]
 📄 [[Room_4_personal work/Shelf_1_How to zettelkasten/Project|Project]]
 📄 [[Room_4_personal work/Shelf_1_How to zettelkasten/Resource|Resource]]
 📄 [[Room_4_personal work/Shelf_1_How to zettelkasten/Shelf_1_How to zettelkasten|Shelf_1_How to zettelkasten]]

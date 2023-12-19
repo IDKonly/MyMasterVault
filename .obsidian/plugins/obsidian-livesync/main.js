@@ -4121,35 +4121,36 @@ var enableEncryption = (s, r, o, u) => {
       return u;
     },
     outgoing: async s => {
-      const _ = {
+      var _, m;
+      const b = {
         ...s
-      }, m = isEncryptedChunkEntry(_) || isSyncInfoEntry(_), b = isObfuscatedEntry(_);
-      if (m || b) {
-        if (u && g.has(_._id)) return _;
+      }, w = isEncryptedChunkEntry(b) || isSyncInfoEntry(b), E = isObfuscatedEntry(b);
+      if (w || E) {
+        if (u && g.has(b._id)) return b;
         try {
-          if (m) _.data = await decrypt(_.data, r, o);
-          if (b) _.path = await decrypt(getPath(_), r, o);
-          if (u) g.set(_._id, true);
+          if (w) b.data = await decrypt(b.data, r, o);
+          if (E) b.path = await decrypt(getPath(b), r, o);
+          if (u) g.set(b._id, true);
         } catch (s) {
           if (o) try {
-            if (m) _.data = await decrypt(_.data, r, false);
-            if (b) _.path = await decrypt(getPath(_), r, o);
-            if (u) g.set(_._id, true);
+            if (w) b.data = await decrypt(b.data, r, false);
+            if (E) b.path = await decrypt(getPath(b), r, o);
+            if (u) g.set(b._id, true);
           } catch (s) {
-            if (u && "SyntaxError" == s.name) return _;
+            if (u && "SyntaxError" == s.name) return b;
             Logger("Decryption failed.", LOG_LEVEL_NOTICE);
             Logger(s, LOG_LEVEL_VERBOSE);
-            Logger(`id:${_._id}-${_._rev}`, LOG_LEVEL_VERBOSE);
+            Logger(`id:${b._id}-${null == (_ = b._rev) ? void 0 : _.substring(0, 10)}`, LOG_LEVEL_VERBOSE);
             throw s;
           } else {
             Logger("Decryption failed.", LOG_LEVEL_NOTICE);
             Logger(s, LOG_LEVEL_VERBOSE);
-            Logger(`id:${_._id}-${_._rev}`, LOG_LEVEL_VERBOSE);
+            Logger(`id:${b._id}-${null == (m = b._rev) ? void 0 : m.substring(0, 10)}`, LOG_LEVEL_VERBOSE);
             throw s;
           }
         }
       }
-      return _;
+      return b;
     }
   });
 };
@@ -4447,17 +4448,17 @@ function createBinaryBlob(s) {
   });
 }
 
-function isDocContentSame(s, r) {
+async function isDocContentSame(s, r) {
   const o = s instanceof Blob ? s : createTextBlob(s), u = r instanceof Blob ? r : createTextBlob(r);
   if (o.size != u.size) return false;
-  const g = o.stream().getReader(), _ = u.stream().getReader();
-  let m = g.read(), b = _.read();
-  for (;null !== m && null !== b; ) {
-    if (m !== b) return false;
-    m = g.read();
-    b = _.read();
+  const g = 1e4, _ = o.size;
+  let m = 0;
+  for (;m < _; ) {
+    const s = await o.slice(m, m + g).arrayBuffer(), r = await u.slice(m, m + g).arrayBuffer();
+    m += g;
+    if (await arrayBufferToBase64Single(s) != await arrayBufferToBase64Single(r)) return false;
   }
-  return null === m && null === b;
+  return true;
 }
 
 function isObfuscatedEntry(s) {
@@ -17103,7 +17104,7 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
       text: "Updates"
     }), E = b.createEl("div", {
       text: ""
-    }), S = "0.21.3", L = ~~(versionNumberString2Number(S) / 1e3), O = createSpan();
+    }), S = "0.21.5", L = ~~(versionNumberString2Number(S) / 1e3), O = createSpan();
     O.addClass("sls-header-button");
     O.innerHTML = "<button> OK, I read all. </button>";
     if (L > this.plugin.settings.lastReadUpdates) {
@@ -17114,7 +17115,7 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
         s.remove();
       }));
     }
-    import_obsidian.MarkdownRenderer.render(this.plugin.app, "### 0.21.0\nThe E2EE encryption V2 format has been reverted. That was probably the cause of the glitch.\nInstead, to maintain efficiency, files are treated with Blob until just before saving. Along with this, the old-fashioned encryption format has also been discontinued.\nThere are both forward and backwards compatibilities, with recent versions. However, unfortunately, we lost compatibility with filesystem-livesync or some.\nIt will be addressed soon. Please be patient if you are using filesystem-livesync with E2EE.\n\n\n#### Version history\n- 0.21.3\n  - Implemented:\n    - Now we can use SHA1 for hash function as fallback.\n- 0.21.2\n  - IMPORTANT NOTICE: **0.21.1 CONTAINS A BUG WHILE REBUILDING THE DATABASE. IF YOU HAVE BEEN REBUILT, PLEASE MAKE SURE THAT ALL FILES ARE SANE.**\n    - This has been fixed in this version.\n  - Fixed:\n    - No longer files are broken while rebuilding.\n    - Now, Large binary files can be written correctly on a mobile platform.\n    - Any decoding errors now make zero-byte files.\n  - Modified:\n    - All files are processed sequentially for each.\n- 0.21.1\n  - Fixed:\n    - No more infinity loops on larger files.\n    - Show message on decode error.\n  - Refactored:\n    - Fixed to avoid obsolete global variables.\n- 0.21.0\n  - Changes and performance improvements:\n    - Now the saving files are processed by Blob.\n    - The V2-Format has been reverted.\n    - New encoding format has been enabled in default.\n    - WARNING: Since this version, the compatibilities with older Filesystem LiveSync have been lost.\n\n... To continue on to `updates_old.md`.", E, "/", this.plugin);
+    import_obsidian.MarkdownRenderer.render(this.plugin.app, "### 0.21.0\nThe E2EE encryption V2 format has been reverted. That was probably the cause of the glitch.\nInstead, to maintain efficiency, files are treated with Blob until just before saving. Along with this, the old-fashioned encryption format has also been discontinued.\nThere are both forward and backwards compatibilities, with recent versions. However, unfortunately, we lost compatibility with filesystem-livesync or some.\nIt will be addressed soon. Please be patient if you are using filesystem-livesync with E2EE.\n\n\n#### Version history\n- 0.21.5\n  - Improved:\n    - Now all revisions will be shown only its first a few letters.\n    - Now ID of the documents is shown in the log with the first 8 letters.\n  - Fixed:\n    - Check before modifying files has been implemented.\n    - Content change detection has been improved.\n- 0.21.4\n  - This release had been skipped.\n- 0.21.3\n  - Implemented:\n    - Now we can use SHA1 for hash function as fallback.\n- 0.21.2\n  - IMPORTANT NOTICE: **0.21.1 CONTAINS A BUG WHILE REBUILDING THE DATABASE. IF YOU HAVE BEEN REBUILT, PLEASE MAKE SURE THAT ALL FILES ARE SANE.**\n    - This has been fixed in this version.\n  - Fixed:\n    - No longer files are broken while rebuilding.\n    - Now, Large binary files can be written correctly on a mobile platform.\n    - Any decoding errors now make zero-byte files.\n  - Modified:\n    - All files are processed sequentially for each.\n- 0.21.1\n  - Fixed:\n    - No more infinity loops on larger files.\n    - Show message on decode error.\n  - Refactored:\n    - Fixed to avoid obsolete global variables.\n- 0.21.0\n  - Changes and performance improvements:\n    - Now the saving files are processed by Blob.\n    - The V2-Format has been reverted.\n    - New encoding format has been enabled in default.\n    - WARNING: Since this version, the compatibilities with older Filesystem LiveSync have been lost.\n\n... To continue on to `updates_old.md`.", E, "/", this.plugin);
     addScreenElement("100", b);
     const isAnySyncEnabled = () => {
       if (this.plugin.settings.liveSync) return true;
@@ -18854,12 +18855,12 @@ async function getDBEntryFromMeta(s, r, o, u = false, g = true, _ = false) {
         const u = await s.collectChunks(r.children, false, g);
         if (u) for (const g of u) if (g && "leaf" == g.type) _.push(g.data); else {
           if (!o) {
-            Logger(`Chunks of ${b} (${r._id}) are not valid.`, LOG_LEVEL_NOTICE);
+            Logger(`Chunks of ${b} (${r._id.substring(0, 8)}) are not valid.`, LOG_LEVEL_NOTICE);
             s.corruptedEntries[r._id] = r;
           }
           return false;
         } else {
-          if (o) Logger(`Could not retrieve chunks of ${b} (${r._id}). we have to `, LOG_LEVEL_NOTICE);
+          if (o) Logger(`Could not retrieve chunks of ${b} (${r._id.substring(0, 8)}). we have to `, LOG_LEVEL_NOTICE);
           return false;
         }
       } else try {
@@ -18876,18 +18877,18 @@ async function getDBEntryFromMeta(s, r, o, u = false, g = true, _ = false) {
           });
           if (o.rows.some((s => "error" in s))) {
             const s = o.rows.filter((s => "error" in s)).map((s => s.key)).join(", ");
-            Logger(`Could not retrieve chunks of ${b}(${r._id}). Chunks are missing:${s}`, LOG_LEVEL_NOTICE);
+            Logger(`Could not retrieve chunks of ${b}(${r._id.substring(0, 8)}). Chunks are missing:${s}`, LOG_LEVEL_NOTICE);
             return false;
           }
           if (o.rows.some((s => s.doc && "leaf" != s.doc.type))) {
             const s = o.rows.filter((s => s.doc && "leaf" != s.doc.type)).map((s => s.id)).join(", ");
-            Logger(`Could not retrieve chunks of ${b}(${r._id}). corrupted chunks::${s}`, LOG_LEVEL_NOTICE);
+            Logger(`Could not retrieve chunks of ${b}(${r._id.substring(0, 8)}). corrupted chunks::${s}`, LOG_LEVEL_NOTICE);
             return false;
           }
           _ = o.rows.map((s => s.doc.data));
         }
       } catch (o) {
-        Logger(`Something went wrong on reading chunks of ${b}(${r._id}) from database, see verbose info for detail.`, LOG_LEVEL_NOTICE);
+        Logger(`Something went wrong on reading chunks of ${b}(${r._id.substring(0, 8)}) from database, see verbose info for detail.`, LOG_LEVEL_NOTICE);
         Logger(o, LOG_LEVEL_VERBOSE);
         s.corruptedEntries[r._id] = r;
         return false;
@@ -18917,10 +18918,10 @@ async function getDBEntryFromMeta(s, r, o, u = false, g = true, _ = false) {
     return S;
   } catch (s) {
     if (isErrorOfMissingDoc(s)) {
-      Logger(`Missing document content!, could not read ${b}(${r._id}) from database.`, LOG_LEVEL_NOTICE);
+      Logger(`Missing document content!, could not read ${b}(${r._id.substring(0, 8)}) from database.`, LOG_LEVEL_NOTICE);
       return false;
     }
-    Logger(`Something went wrong on reading ${b}(${r._id}) from database:`, LOG_LEVEL_NOTICE);
+    Logger(`Something went wrong on reading ${b}(${r._id.substring(0, 8)}) from database:`, LOG_LEVEL_NOTICE);
     Logger(s);
   }
   return false;
@@ -18946,7 +18947,7 @@ async function deleteDBEntry(s, r, o) {
         const o = await s.localDatabase.put(u, {
           force: !_
         });
-        Logger(`Entry removed:${r} (${u._id}-${o.rev})`);
+        Logger(`Entry removed:${r} (${u._id.substring(0, 8)}-${o.rev})`);
         if ("undefined" != typeof s.corruptedEntries[u._id]) delete s.corruptedEntries[u._id];
         return true;
       }
@@ -18959,7 +18960,7 @@ async function deleteDBEntry(s, r, o) {
         const o = await s.localDatabase.put(u, {
           force: !_
         });
-        Logger(`Entry removed:${r} (${u._id}-${o.rev})`);
+        Logger(`Entry removed:${r} (${u._id.substring(0, 8)}-${o.rev})`);
         if ("undefined" != typeof s.corruptedEntries[u._id]) delete s.corruptedEntries[u._id];
         return true;
       } else return false;
@@ -19213,13 +19214,13 @@ var LiveSyncLocalDB = class {
   async sanCheck(s) {
     if ("plain" == s.type || "newnote" == s.type) {
       const r = s.children;
-      Logger(`sancheck:checking:${s._id} : ${r.length}`, LOG_LEVEL_VERBOSE);
+      Logger(`sancheck:checking:${s._id.substring(0, 8)} : ${r.length}`, LOG_LEVEL_VERBOSE);
       try {
         if ((await this.localDatabase.allDocs({
           keys: [ ...r ]
         })).rows.some((s => "error" in s))) {
           this.corruptedEntries[s._id] = s;
-          Logger(`sancheck:corrupted:${s._id} : ${r.length}`, LOG_LEVEL_VERBOSE);
+          Logger(`sancheck:corrupted:${s._id.substring(0, 8)} : ${r.length}`, LOG_LEVEL_VERBOSE);
           return false;
         }
         return true;
@@ -20454,7 +20455,7 @@ var databaseCache = {}, OpenKeyValueDatabase = async s => {
           deleted: false,
           type: "newnote"
         }; else {
-          if (isDocContentSame(g.data, _) && !r) return;
+          if (await isDocContentSame(g.data, _) && !r) return;
           b = {
             ...g,
             data: _,
@@ -20555,8 +20556,8 @@ var databaseCache = {}, OpenKeyValueDatabase = async s => {
           Logger(`STORAGE <-- DB:${s}: written (hidden,new${r ? ", force" : ""})`);
           return true;
         } else {
-          const o = await this.plugin.vaultAccess.adapterReadBinary(s);
-          if (isDocContentSame(await encodeBinary(o), _.data) && !r) return true;
+          const o = await this.plugin.vaultAccess.adapterReadBinary(s), u = await encodeBinary(o);
+          if (await isDocContentSame(u, _.data) && !r) return true;
           await this.plugin.vaultAccess.adapterWrite(s, decodeBinary(_.data), {
             mtime: _.mtime,
             ctime: _.ctime
@@ -21590,7 +21591,13 @@ function instance4(s, r, o) {
               const s = u.vaultAccess.getAbstractFileByPath(stripAllPrefixes(u.getPath(S)));
               if (s instanceof import_obsidian.TFile) {
                 let r = false;
-                if (isPlainText(S.path)) r = isDocContentSame(await u.vaultAccess.adapterRead(s), k.data); else r = isDocContentSame(createBinaryBlob(await u.vaultAccess.adapterReadBinary(s)), k.data);
+                if (isPlainText(S.path)) {
+                  const o = await u.vaultAccess.adapterRead(s);
+                  r = await isDocContentSame(o, k.data);
+                } else {
+                  const o = createBinaryBlob(await u.vaultAccess.adapterReadBinary(s));
+                  r = await isDocContentSame(o, k.data);
+                }
                 if (r) P += " ⚖️"; else P += " ⚠️";
               }
             }
@@ -21953,7 +21960,16 @@ var SerializedFileAccess = class {
     return await serialized(getFileLockKey(s), (() => this.app.vault.readBinary(s)));
   }
   async vaultModify(s, r, o) {
-    if ("string" == typeof r) return await serialized(getFileLockKey(s), (() => this.app.vault.modify(s, r, o))); else return await serialized(getFileLockKey(s), (() => this.app.vault.modifyBinary(s, toArrayBuffer(r), o)));
+    if ("string" == typeof r) return await serialized(getFileLockKey(s), (async () => {
+      const u = await this.app.vault.read(s);
+      if (r === u) return false;
+      await this.app.vault.modify(s, r, o);
+      return true;
+    })); else return await serialized(getFileLockKey(s), (async () => {
+      if (isDocContentSame(createBinaryBlob(await this.app.vault.readBinary(s)), createBinaryBlob(r))) return false;
+      await this.app.vault.modifyBinary(s, toArrayBuffer(r), o);
+      return true;
+    }));
   }
   async vaultCreate(s, r, o) {
     if ("string" == typeof r) return await serialized(getFileLockKey(s), (() => this.app.vault.create(s, r, o))); else return await serialized(getFileLockKey(s), (() => this.app.vault.createBinary(s, toArrayBuffer(r), o)));
@@ -22508,7 +22524,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     Logger("loading plugin");
     this.addSettingTab(new ObsidianLiveSyncSettingTab(this.app, this));
     this.addUIs();
-    const s = "0.21.3", r = "0.21.3";
+    const s = "0.21.5", r = "0.21.5";
     this.manifestVersion = s;
     this.packageVersion = r;
     Logger(`Self-hosted LiveSync v${s} ${r} `);
@@ -22941,7 +22957,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     const S = "newnote" == w.datatype ? decodeBinary(w.data) : getDocData(w.data);
     await this.ensureDirectoryEx(_);
     try {
-      let s;
+      let s, o = true;
       if ("create" == g) {
         const r = normalizePath(_);
         await this.vaultAccess.vaultCreate(r, S, {
@@ -22950,15 +22966,17 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
         });
         s = this.vaultAccess.getAbstractFileByPath(r);
       } else {
-        await this.vaultAccess.vaultModify(r, S, {
+        o = await this.vaultAccess.vaultModify(r, S, {
           ctime: w.ctime,
           mtime: w.mtime
         });
         s = this.vaultAccess.getAbstractFileByPath(getPathFromTFile(r));
       }
-      Logger(E + _);
-      this.vaultAccess.touch(s);
-      this.app.vault.trigger(g, s);
+      if (o) {
+        Logger(E + _);
+        this.vaultAccess.touch(s);
+        this.app.vault.trigger(g, s);
+      } else Logger(E + "Skipped, the file is the same: " + _, LOG_LEVEL_VERBOSE);
     } catch (s) {
       Logger(E + "ERROR, Could not write: " + _, LOG_LEVEL_NOTICE);
       Logger(s, LOG_LEVEL_VERBOSE);
@@ -22985,25 +23003,27 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     this.execDBchanged();
   }
   async execDBchanged() {
+    var s;
     if (this.dbChangeProcRunning) return false;
     this.dbChangeProcRunning = true;
-    const s = Semaphore(4);
+    const r = Semaphore(4);
     try {
       do {
-        const r = this.queuedEntries.shift();
-        if (this.queuedEntries.some((s => s._id == r._id))) continue;
-        const o = getPath2(r);
+        const o = this.queuedEntries.shift();
+        if (this.queuedEntries.some((s => s._id == o._id))) continue;
+        const u = getPath2(o);
         try {
-          const u = await s.acquire(1);
-          serialized(`dbchanged-${o}`, (async () => {
-            Logger(`Applying ${o} (${r._id}: ${r._rev}) change...`, LOG_LEVEL_VERBOSE);
-            await this.handleDBChangedAsync(r);
-            Logger(`Applied ${o} (${r._id}:${r._rev}) change...`);
+          const s = await r.acquire(1);
+          serialized(`dbchanged-${u}`, (async () => {
+            var s, r;
+            Logger(`Applying ${u} (${o._id.substring(0, 8)}: ${null == (s = o._rev) ? void 0 : s.substring(0, 5)}) change...`, LOG_LEVEL_VERBOSE);
+            await this.handleDBChangedAsync(o);
+            Logger(`Applied ${u} (${o._id.substring(0, 8)}:${null == (r = o._rev) ? void 0 : r.substring(0, 5)}) change...`);
           })).finally((() => {
-            u();
+            s();
           }));
-        } catch (s) {
-          Logger(`Failed to apply the change of ${o} (${r._id}:${r._rev})`);
+        } catch (r) {
+          Logger(`Failed to apply the change of ${u} (${o._id.substring(0, 8)}:${null == (s = o._rev) ? void 0 : s.substring(0, 5)})`);
         }
       } while (this.queuedEntries.length > 0);
     } finally {
@@ -23065,9 +23085,9 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
         if (isInternalMetadata(s.entry._id) && this.settings.syncInternalFiles) {
           const r = this.getPathWithoutPrefix(s.entry);
           this.isTargetFile(r).then((s => s ? this.addOnHiddenFileSync.procInternalFile(r) : Logger(`Skipped (Not target:${r})`, LOG_LEVEL_VERBOSE)));
-        } else if (isValidPath(this.getPath(s.entry))) this.handleDBChanged(s.entry); else Logger(`Skipped: ${s.entry._id}`, LOG_LEVEL_VERBOSE);
+        } else if (isValidPath(this.getPath(s.entry))) this.handleDBChanged(s.entry); else Logger(`Skipped: ${s.entry._id.substring(0, 8)}`, LOG_LEVEL_VERBOSE);
       } else if (r > s.timeout) {
-        if (!s.warned) Logger(`Timed out: ${s.entry._id} could not collect ${s.missingChildren.length} chunks. plugin keeps watching, but you have to check the file after the replication.`, LOG_LEVEL_NOTICE);
+        if (!s.warned) Logger(`Timed out: ${s.entry._id.substring(0, 8)} could not collect ${s.missingChildren.length} chunks. plugin keeps watching, but you have to check the file after the replication.`, LOG_LEVEL_NOTICE);
         s.warned = true;
         continue;
       }
@@ -23095,37 +23115,38 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     if (o) this.procQueuedFiles();
   }
   async parseIncomingDoc(s) {
-    const r = this.getPath(s);
-    if (!await this.isTargetFile(r)) return;
-    const o = this.settings.skipOlderFilesOnSync && false;
+    var r, o, u, g;
+    const _ = this.getPath(s);
+    if (!await this.isTargetFile(_)) return;
+    const m = this.settings.skipOlderFilesOnSync && false;
     if (isInternalMetadata(s._id) && !this.settings.syncInternalFiles) {
-      Logger(`Skipped: ${r} (${s._id}, ${s._rev}) Hidden file sync is disabled.`, LOG_LEVEL_VERBOSE);
+      Logger(`Skipped: ${_} (${s._id.substring(0, 8)}, ${null == (r = s._rev) ? void 0 : r.substring(0, 10)}) Hidden file sync is disabled.`, LOG_LEVEL_VERBOSE);
       return;
     }
     if (isCustomisationSyncMetadata(s._id) && !this.settings.usePluginSync) {
-      Logger(`Skipped: ${r} (${s._id}, ${s._rev}) Customization sync is disabled.`, LOG_LEVEL_VERBOSE);
+      Logger(`Skipped: ${_} (${s._id.substring(0, 8)}, ${null == (o = s._rev) ? void 0 : o.substring(0, 10)}) Customization sync is disabled.`, LOG_LEVEL_VERBOSE);
       return;
     }
-    const u = [ "_design/replicate", "_design/chunks", FLAGMD_REDFLAG, FLAGMD_REDFLAG2, FLAGMD_REDFLAG3 ];
-    if (!isInternalMetadata(s._id) && u.contains(r)) return;
-    if (!isInternalMetadata(s._id) && o) {
-      const o = this.vaultAccess.getAbstractFileByPath(stripAllPrefixes(r));
-      if (o && o instanceof import_obsidian.TFile) if (~~(o.stat.mtime / 1e3) >= ~~(s.mtime / 1e3)) {
-        Logger(`${r} (${s._id}, ${s._rev}) Skipped, older than storage.`, LOG_LEVEL_VERBOSE);
+    const b = [ "_design/replicate", "_design/chunks", FLAGMD_REDFLAG, FLAGMD_REDFLAG2, FLAGMD_REDFLAG3 ];
+    if (!isInternalMetadata(s._id) && b.contains(_)) return;
+    if (!isInternalMetadata(s._id) && m) {
+      const r = this.vaultAccess.getAbstractFileByPath(stripAllPrefixes(_));
+      if (r && r instanceof import_obsidian.TFile) if (~~(r.stat.mtime / 1e3) >= ~~(s.mtime / 1e3)) {
+        Logger(`${_} (${s._id.substring(0, 8)}, ${null == (u = s._rev) ? void 0 : u.substring(0, 10)}) Skipped, older than storage.`, LOG_LEVEL_VERBOSE);
         return;
       }
     }
-    const g = {
+    const w = {
       entry: s,
       missingChildren: [],
       timeout: (new Date).getTime() + this.chunkWaitTimeout
     };
     if (!this.settings.readChunksOnline && "children" in s) {
-      const o = (await this.localDatabase.collectChunksWithCache(s.children)).filter((s => false === s.chunk)).map((s => s.id));
-      if (o.length > 0) Logger(`${r} (${s._id}, ${s._rev}) Queued (waiting ${o.length} items)`, LOG_LEVEL_VERBOSE);
-      g.missingChildren = o;
-      this.queuedFiles.push(g);
-    } else this.queuedFiles.push(g);
+      const r = (await this.localDatabase.collectChunksWithCache(s.children)).filter((s => false === s.chunk)).map((s => s.id));
+      if (r.length > 0) Logger(`${_} (${s._id.substring(0, 8)}, ${null == (g = s._rev) ? void 0 : g.substring(0, 10)}) Queued (waiting ${r.length} items)`, LOG_LEVEL_VERBOSE);
+      w.missingChildren = r;
+      this.queuedFiles.push(w);
+    } else this.queuedFiles.push(w);
     this.saveQueuedFiles();
     this.procQueuedFiles();
   }
@@ -23603,8 +23624,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
           });
           const r = this.vaultAccess.getAbstractFileByPath(stripAllPrefixes(s));
           if (r) {
-            await this.vaultAccess.vaultModify(r, w);
-            await this.updateIntoDB(r);
+            if (await this.vaultAccess.vaultModify(r, w)) await this.updateIntoDB(r);
           } else {
             const r = await this.vaultAccess.vaultCreate(s, w);
             await this.updateIntoDB(r);
@@ -23846,7 +23866,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
             deleted: b._deleted || b.deleted
           };
           if (r.deleted != o.deleted) return false;
-          if (!isDocContentSame(s.data, o.data)) return false;
+          if (!await isDocContentSame(s.data, o.data)) return false;
           Logger(w + "Skipped (not changed) " + m + (b._deleted || b.deleted ? " (deleted)" : ""), LOG_LEVEL_VERBOSE);
           return true;
         }

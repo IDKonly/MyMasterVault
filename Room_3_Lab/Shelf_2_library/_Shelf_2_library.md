@@ -6,14 +6,6 @@ note_type : metadata
 category : core_file
 memo_level : 0
 aliases : 
-tags: [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [core file, MOC]
-tags: [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC]
-tags: [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file]
-tags: [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file]
-tags: [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file]
-tags: [MOC, core file] [MOC, core file] [MOC, core file] [MOC, core file]
-tags: [MOC, core file] [MOC, core file] [MOC, core file]
-tags: [MOC, core file] [MOC, core file]
 tags: [MOC, core file]
 ---
 

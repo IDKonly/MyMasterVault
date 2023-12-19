@@ -82,7 +82,7 @@ B ^nkz4TEEY
 
 C ^LfLoqgY4
 
-결론 : A = C ^sq7t3D01
+결론 : A => C ^sq7t3D01
 
 D ^z4nsOBD3
 
@@ -90,7 +90,7 @@ B ^KlacduMh
 
 C ^UZSTzVyg
 
-결론 : D = C ^nxMLMq3c
+결론 : D => C ^nxMLMq3c
 
 이 자체가 Wisdom 또는 Knowledge의 산물이라고 볼 수 있음! ^2lnGVmhX
 
@@ -2443,8 +2443,8 @@ C ^UZSTzVyg
 		},
 		{
 			"type": "arrow",
-			"version": 436,
-			"versionNonce": 2031872719,
+			"version": 440,
+			"versionNonce": 644430990,
 			"isDeleted": false,
 			"id": "D2VE3yUPrGHpy43WW2hgL",
 			"fillStyle": "solid",
@@ -2466,7 +2466,7 @@ C ^UZSTzVyg
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1702200947697,
+			"updated": 1702822461241,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2495,8 +2495,8 @@ C ^UZSTzVyg
 		},
 		{
 			"type": "arrow",
-			"version": 449,
-			"versionNonce": 546605903,
+			"version": 453,
+			"versionNonce": 1219986830,
 			"isDeleted": false,
 			"id": "p_HEWNAX9VTXvCPCrKWfm",
 			"fillStyle": "solid",
@@ -2518,7 +2518,7 @@ C ^UZSTzVyg
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1702200947697,
+			"updated": 1702822461241,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2547,8 +2547,8 @@ C ^UZSTzVyg
 		},
 		{
 			"type": "arrow",
-			"version": 956,
-			"versionNonce": 799295855,
+			"version": 958,
+			"versionNonce": 990618574,
 			"isDeleted": false,
 			"id": "cYd0fS0isQNGeRNPMVoyk",
 			"fillStyle": "solid",
@@ -2570,7 +2570,7 @@ C ^UZSTzVyg
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1702200947697,
+			"updated": 1702822461241,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2603,8 +2603,8 @@ C ^UZSTzVyg
 		},
 		{
 			"type": "text",
-			"version": 237,
-			"versionNonce": 654606786,
+			"version": 238,
+			"versionNonce": 338691986,
 			"isDeleted": false,
 			"id": "sq7t3D01",
 			"fillStyle": "solid",
@@ -2617,24 +2617,24 @@ C ^UZSTzVyg
 			"y": -205.7434277118778,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 139.679931640625,
+			"width": 154.5479278564453,
 			"height": 43.199999999999996,
 			"seed": 1759609871,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702200934526,
+			"updated": 1702822471441,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 4,
-			"text": "결론 : A = C",
-			"rawText": "결론 : A = C",
+			"text": "결론 : A => C",
+			"rawText": "결론 : A => C",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "결론 : A = C",
+			"originalText": "결론 : A => C",
 			"lineHeight": 1.2,
 			"baseline": 36
 		},
@@ -2906,8 +2906,8 @@ C ^UZSTzVyg
 		},
 		{
 			"type": "arrow",
-			"version": 539,
-			"versionNonce": 1342014479,
+			"version": 543,
+			"versionNonce": 554009358,
 			"isDeleted": false,
 			"id": "_qalXEiHDQTYdjhc6GhMF",
 			"fillStyle": "solid",
@@ -2929,7 +2929,7 @@ C ^UZSTzVyg
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1702200947697,
+			"updated": 1702822461242,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2958,8 +2958,8 @@ C ^UZSTzVyg
 		},
 		{
 			"type": "arrow",
-			"version": 550,
-			"versionNonce": 641696911,
+			"version": 554,
+			"versionNonce": 1908182030,
 			"isDeleted": false,
 			"id": "0je8DmNvqVG5kToRfB5MJ",
 			"fillStyle": "solid",
@@ -2981,7 +2981,7 @@ C ^UZSTzVyg
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1702200947697,
+			"updated": 1702822461242,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3010,8 +3010,8 @@ C ^UZSTzVyg
 		},
 		{
 			"type": "arrow",
-			"version": 1058,
-			"versionNonce": 1344150191,
+			"version": 1060,
+			"versionNonce": 984341070,
 			"isDeleted": false,
 			"id": "eCCnWooxriLudZPhAAuw7",
 			"fillStyle": "solid",
@@ -3033,7 +3033,7 @@ C ^UZSTzVyg
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1702200947698,
+			"updated": 1702822461242,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3066,8 +3066,8 @@ C ^UZSTzVyg
 		},
 		{
 			"type": "text",
-			"version": 278,
-			"versionNonce": 879128581,
+			"version": 279,
+			"versionNonce": 1263209170,
 			"isDeleted": false,
 			"id": "nxMLMq3c",
 			"fillStyle": "solid",
@@ -3080,24 +3080,24 @@ C ^UZSTzVyg
 			"y": -439.4526944019756,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 138.81593322753906,
+			"width": 153.68392944335938,
 			"height": 43.199999999999996,
 			"seed": 7579855,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702200934527,
+			"updated": 1702822465675,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 4,
-			"text": "결론 : D = C",
-			"rawText": "결론 : D = C",
+			"text": "결론 : D => C",
+			"rawText": "결론 : D => C",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "결론 : D = C",
+			"originalText": "결론 : D => C",
 			"lineHeight": 1.2,
 			"baseline": 36
 		},
@@ -3763,10 +3763,10 @@ C ^UZSTzVyg
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 998.9755089020682,
-		"scrollY": 1868.3217838728199,
+		"scrollX": 1448.0231279496882,
+		"scrollY": 1026.9021410156772,
 		"zoom": {
-			"value": 0.35000000000000003
+			"value": 0.5999999999999999
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,
