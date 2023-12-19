@@ -1,20 +1,20 @@
 {
   "logLevel": "INFO",
   "citationEditorSuggester": true,
-  "showCitekeyInSuggester": false,
+  "showCitekeyInSuggester": true,
   "literatureNoteFolder": "Room_3_Lab/shelf_2_library/Box_1_manuscripts",
   "enableServer": true,
   "serverPort": 9091,
   "serverHostname": "127.0.0.1",
   "template": {
-    "folder": "ZtTemplates",
+    "folder": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
     "templates": {
-      "filename": "<%= it.citekey ?? it.DOI ?? it.title ?? it.key %>.md"
+      "filename": "@{{citekey}}"
     }
   },
   "updateAnnotBlock": false,
   "updateOverwrite": false,
-  "autoPairEta": false,
+  "autoPairEta": true,
   "autoTrim": [
     false,
     false
