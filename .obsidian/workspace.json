@@ -21,30 +21,16 @@
             }
           },
           {
-            "id": "d314d228b7b1ca77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "72f97a1422037737",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md"
+                "file": "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Room_2_daily notes/23.12.13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Room_2_daily notes/23.12.13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,9 +182,44 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "a23edb65c9b96a84",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Room_2_daily notes/23.12.13.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7132754626224422,
+                  "close": true
+                }
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -229,16 +250,18 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "d314d228b7b1ca77",
+  "active": "a0c93ae87f7e84f3",
   "lastOpenFiles": [
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/PARA method.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md",
     "Room_2_daily notes/23.12.13.md",
     "conflict-files-obsidian-git.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Obsidian introduction.excalidraw.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/옵시디언에서의 파일관리.excalidraw.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Introduction of PARA method.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.excalidraw.md"
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md"
   ]
 }

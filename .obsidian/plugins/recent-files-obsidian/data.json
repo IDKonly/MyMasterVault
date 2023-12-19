@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
-    },
-    {
       "basename": "23.12.13",
       "path": "Room_2_daily notes/23.12.13.md"
     },
     {
+      "basename": "Detail of PARA.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.excalidraw.md"
+    },
+    {
+      "basename": "PARA method.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/PARA method.excalidraw.md"
+    },
+    {
       "basename": "Work flow.excalidraw",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md"
+    },
+    {
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md"
     },
     {
       "basename": "DIKW model.excalidraw",
@@ -31,10 +39,6 @@
     {
       "basename": "Area of responsibility",
       "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Area of responsibility.md"
-    },
-    {
-      "basename": "Detail of PARA.excalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.excalidraw.md"
     }
   ],
   "omittedPaths": [],
