@@ -21,7 +21,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
+                "file": "Room_2_daily notes/23.12.19.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38a9b9303d9be5e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -29,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md"
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md"
               }
             }
           },
@@ -208,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +238,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -253,7 +266,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/hughes2023.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -314,15 +327,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d732851c3412f2a9",
+  "active": "38a9b9303d9be5e4",
   "lastOpenFiles": [
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@soares2012/image-3-x39-y530.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@soares2012",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Functions for S. cerevisiae Swd2p in 3′ end formation of specific mRNAs and snoRNAs and global histone 3 lysine 4 methylation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Nucleoskeleton.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/bae2020.md",
+    "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
+    "Room_2_daily notes/23.12.19.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Introduction of PARA method.excalidraw.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Shelf_1_How to zettelkasten.md",
     "Room_1_rules/1. 기본적인 계층적 파일구성에 대하여.md",
     "Room_0_metadata/Room_0_metadata.md",
     "Room_1_rules/2. 각 파일들의 작명규칙.md",
-    "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/you2022.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A CpG island-encoded mechanism protects genes from premature transcription termination.md",
@@ -337,11 +356,6 @@
     "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/PARA method.excalidraw.md",
     "Room_2_daily notes/23.12.13.md",
     "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.md",
-    "Room_2_daily notes/23.12.17.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Obsidian introduction.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Detail of PARA.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/_Excalidraw.md",
     "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw",
     "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
@@ -364,7 +378,6 @@
     "Room_4_personal work/Shelf_1_How to zettelkasten",
     "Room_0_metadata/font/THEFACESHOP+INKLIPQUID.ttf",
     "Room_0_metadata/font",
-    "Room_4_personal work/InBox",
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",
