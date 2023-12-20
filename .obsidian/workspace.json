@@ -16,38 +16,25 @@
             }
           },
           {
-            "id": "d732851c3412f2a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_2_daily notes/23.12.19.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7fb019d2e1c320df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Transcription of Mammalian cis-Regulatory Elements Is Restrained by Actively Enforced Early Termination.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "23c52ed953c6458f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Room_2_daily notes/23.12.20.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bdd0047ee36cc8d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -75,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -374,10 +361,13 @@
   },
   "active": "c8f426fc7fde5d39",
   "lastOpenFiles": [
-    "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
     "Room_2_daily notes/23.12.20.md",
-    "Excalidraw/231207 western blot loading design.excalidraw.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Transcription of Mammalian cis-Regulatory Elements Is Restrained by Actively Enforced Early Termination.md",
+    "Room_2_daily notes/23.12.19.md",
+    "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md",
+    "Excalidraw/NNS complexexcalidraw.md",
+    "Excalidraw/231207 western blot loading design.excalidraw.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Transformation of yeast by lithium acetate_single-stranded carrier DNA_polyethylene glycol method.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Ubiquitylation of the COMPASS component Swd2 links H2B ubiquitylation to H3K4 trimethylation.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor.md",
@@ -397,9 +387,6 @@
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Assays for gene silencing in yeast.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Architecture and subunit arrangement of the complete Saccharomyces cerevisiae COMPASS complex.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A trithorax-group complex purified from Saccharomyces cerevisiae is required for methylation of histone H3.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1 1.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription 1.md",
     "Room_0_metadata/Shelf_1_template for templater/ZotLit",
     "Room_0_metadata/Shelf_1_template for templater/Zotlit",
     "Room_0_metadata/Shelf_1_template for templater/무제 폴더",
