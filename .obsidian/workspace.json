@@ -42,6 +42,19 @@
             }
           },
           {
+            "id": "16fa4ecbb48ba857",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/준수형의 피드백.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "81989627df7255e7",
             "type": "leaf",
             "state": {
@@ -62,7 +75,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -91,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"PARA\"]",
+                "query": "tag:#---",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "e7419118ec9faabd",
@@ -198,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/NNS complexexcalidraw.md"
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/준수형의 피드백.md"
               }
             }
           },
@@ -241,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/NNS complexexcalidraw.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/준수형의 피드백.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/NNS complexexcalidraw.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/준수형의 피드백.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -270,7 +283,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Excalidraw/NNS complexexcalidraw.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/준수형의 피드백.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": "ob-note"
@@ -299,7 +312,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/NNS complexexcalidraw.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/준수형의 피드백.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -359,15 +372,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c8f426fc7fde5d39",
+  "active": "73eac5888198fafc",
   "lastOpenFiles": [
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/준수형의 피드백.md",
     "Room_2_daily notes/23.12.20.md",
+    "Excalidraw/231207 western blot loading design.excalidraw.md",
+    "Room_2_daily notes/23.12.21.md",
+    "Excalidraw/NNS complexexcalidraw.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Transcription of Mammalian cis-Regulatory Elements Is Restrained by Actively Enforced Early Termination.md",
     "Room_2_daily notes/23.12.19.md",
     "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md",
-    "Excalidraw/NNS complexexcalidraw.md",
-    "Excalidraw/231207 western blot loading design.excalidraw.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Transformation of yeast by lithium acetate_single-stranded carrier DNA_polyethylene glycol method.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Ubiquitylation of the COMPASS component Swd2 links H2B ubiquitylation to H3K4 trimethylation.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor.md",
@@ -385,8 +400,6 @@
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Bypassing the Catalytic Activity of SIR2 for SIR Protein Spreading in _i_Saccharomyces cerevisiae__i_.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Assays for gene silencing in yeast.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Architecture and subunit arrangement of the complete Saccharomyces cerevisiae COMPASS complex.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A trithorax-group complex purified from Saccharomyces cerevisiae is required for methylation of histone H3.md",
     "Room_0_metadata/Shelf_1_template for templater/ZotLit",
     "Room_0_metadata/Shelf_1_template for templater/Zotlit",
     "Room_0_metadata/Shelf_1_template for templater/무제 폴더",
