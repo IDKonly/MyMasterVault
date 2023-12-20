@@ -7,4 +7,4 @@ Swd2는 Yeast에서 essential gene이다. 이는 APT complex에서의 역할에�
 
 # APT 재작성
 
-Swd2는 S.cerevisiae의 유전자의 5’ end 뿐만 아니라 3’ end에서도 높은 수준으로 존재한다.
+Swd2는 S.cerevisiae의 유전자의 5’ end 뿐만 아니라 3’ end에서도 높은 수준으로 존재한다. 이것은 Swd2가 trasnscription start site 주변에서 기능하는 COMPASS의 subunit일 뿐만 아니라 tramnscription termination에 관여하는 CPF(Cleavage and Polyadenylation factor)의 subunit이기도 하기 때문이다. CPF는 nuclease, polymerase, phosphate module로 이루어진 holo-complex이다. Swd2는 세 module 중 phosphatase module에 포함되어 있으며, 
