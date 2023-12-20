@@ -11,4 +11,4 @@ Swd2는 Yeast에서 essential gene이다. 이는 APT complex에서의 역할에�
 Swd2는 S.cerevisiae의 유전자의 5’ end 뿐만 아니라 3’ end에서도 높은 수준으로 존재한다. 이것은 Swd2가 trasnscription start site 주변에서 기능하는 COMPASS의 subunit일 뿐만 아니라 tramnscription termination에 관여하는 CPF(Cleavage and Polyadenylation factor)의 subunit이기도 하기 때문이다. CPF는 nuclease, polymerase, phosphate module로 이루어진 holo-complex이다. Swd2는 세 module 중 phosphatase module에 포함되어 있다. phosphate module은 Syc1을 포함하여 CPF와 구별되게 snoRNA의 전사종결을 담당하는 APT complex로 존재한다.
 
 *Swd2가 없으면?*
-Swd2가 phosphatase module(혹은 APT complex)에 없으면, 
+Swd2가 없을때 CPF의 phosphate module 또는 APT 내에 Glc7의 존재가 유지되지 못한다. Glc7은 serine/threonine Phosphatase이고 이 복합체의 main function에서 매우 중요한 역할을 맡기 때문에, Glc7의 부재는 complex의 기능이상을 일으킨다. 특히 Glc7은 
