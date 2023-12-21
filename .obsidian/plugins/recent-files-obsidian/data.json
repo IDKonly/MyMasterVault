@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "23.12.21",
+      "path": "Room_2_daily notes/23.12.21.md"
+    },
+    {
       "basename": "_Box_1_manuscripts",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "231207 Two-step TAP purificaiton work",
       "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas"
-    },
-    {
-      "basename": "Knowledge based workflow",
-      "path": "Room_0_metadata/Shelf_0_Resource/Knowledge based workflow.md"
     }
   ],
   "omittedPaths": [],
