@@ -1,12 +1,15 @@
 ---
-title : 2_b CRISP-DM 분석 방법론
-creation_date : 22.11.28
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : [데이터]
+title: 2_b CRISP-DM 분석 방법론
+creation_date: 22.11.28
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - 데이터
+  - data_analysis
+  - data
 ---
 
 Parent : [[_KnowledgeParticle]]

@@ -1,12 +1,17 @@
 ---
-title : 무제 파일
-creation_date : 23.03.06
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : [BRIC,생물학연구정보센터,Western Blot]
+title: 무제 파일
+creation_date: 23.03.06
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - BRIC
+  - 생물학연구정보센터
+  - Western_blot
+  - Biology
+  - Methodology
 source: https://www.ibric.org/myboard/read.php?Board=news&id=323152
 ---
 
@@ -14,14 +19,14 @@ Parent : [[_KnowledgeParticle]]
 Drived from : [[]]
 
 > ## Excerpt
-> “생명 과학자 기초 체력 다지기” 세번째 주제는 “단백질 시료”에서 “항체”를 probe (탐침)로 사용하여 특정 “단백질의 유무”를 확인하는 방법인 “Western blot (WB)”에 대해 알아 보고자 한다.
+> “생명 과학자 기초 체력 다지기” 세번째 주제는 “단백질 시료”에서 “항체”를 probe (탐침)로 사용하여 특정 “단백질의 유무”를 확인하는 방법인 “[[Western blot]] (WB)”에 대해 알아 보고자 한다.
 
 ---
 **“생명 과학자 기초 체력 다지기”** 세번째 주제는 **“단백질 시료”** 에서 **“항체”** 를 probe (탐침)로 사용하여 특정 **“단백질의 유무”** 를 확인하는 방법인 **“Western blot (WB)”** 에 대해 알아보고자 한다.
 
 **Western blot**이라는 명칭만 봐서는 무슨 실험법인지 바로 와 닿지 않는다. 그 이유는 이 명칭이  **“DNA 시료”** 에서 **“DNA”** 를 probe로 사용하여 특정 **“유전자(DNA)의 유무”** 를 확인하는 방법을 1975년 **Edwin Southern**이 개발하여 자신의 이름을 따서 **“Southern blot”** 이라 하고, 그 뒤 **“RNA 시료”** 에서 **“DNA”** 를 probe로 사용하여 유전자의 전사체인 특정 **“RNA의 유무”** 를 확인하는 방법을 **“Northern blot”** 이라 붙인 데서 비롯된 상대적인 명칭이기 때문이다.
 
-예전엔 3종류의 실험법을 구분하는 것이 헷갈렸었는데, 지금은 Southern이나 Northern blots은 보다 간편하고 특이성이 높은 **PCR법**으로 대체되고, Western blot만 주로 사용되고 있어 그럴 일은 없을 듯하다.    
+예전엔 3종류의 실험법을 구분하는 것이 헷갈렸었는데, 지금은 Southern이나 Northern blots은 보다 간편하고 특이성이 높은 **[[PCR]]법**으로 대체되고, Western blot만 주로 사용되고 있어 그럴 일은 없을 듯하다.    
  
 
 ![The processes of Western blot](https://www.ibric.org/upload/geditor/202010/0.86240600_1603194666.png)
@@ -31,7 +36,7 @@ Drived from : [[]]
   
 **WB**이 비록 보편적인 실험법이긴 하지만 적용하기 위해서는 확인하고자 하는 “표적 단백질에 특이적인 항체”가 반드시 있어야 한다는 전제 조건이 있다.
 
-**WB**은 크게 **"4단계 과정"** 으로 나눌 수 있다. 1) **시료 준비**, 2) 시료를 polyacrylamide gel에서 **전기영동**하여 분자량에 따라 분리, 3) 단백질을 gel에서 membrane으로 **transfer**, 4) 항체를 사용하여 **표적 단백질 확인**.
+**WB**은 크게 **"4단계 과정"** 으로 나눌 수 있다. 1) **시료 준비**, 2) 시료를 polyacrylamide gel에서 **전기영동**하여 분자량에 따라 분리, 3) 단백질을 gel에서 membrane으로 **[[transfer]]**, 4) 항체를 사용하여 **표적 단백질 확인**.
 
 그럼 WB의 각 단계별 과정을 하나씩 차근차근 알아 보자.
 
@@ -53,7 +58,7 @@ Drived from : [[]]
 
 **단백질 추출 시 주의해야 할 점**은, 추출 과정에 표적 단백질이 **"변형"** 혹은 **"분해"** 되지 않도록 하여야 한다. 단백질 간의 결합을 유지하기 위해서는 **SDS**나 **Triton X-100**은 사용하지 않아야 한다. 단백질 분해를 방지하고 인산화 상태를 유지하기 위해서는 lysis buffer에 **"protease inhibitor"** 와 **"phosphatase inhibitor"** 를 반드시 사용하여야 한다.
 
-**"Protease inhibitor"** 는 여러 가지가 혼합된 cocktail 형태를 사용한다. 다만, 추출 후 His-tag 단백질과 같이 Ni 혹은 Cu가 포함된 His-tag 정제 column을 사용하는 경우는 **EDTA**나 **EGTA**와 같은 metal chelator를 사용해서는 안 된다. 사용하면 단백질이 column의 resin에 결합하지 않는다.
+**"Protease inhibitor"** 는 여러 가지가 혼합된 cocktail 형태를 사용한다. 다만, 추출 후 His-tag 단백질과 같이 Ni 혹은 Cu가 포함된 His-tag 정제 column을 사용하는 경우는 **[[EDTA]]**나 **EGTA**와 같은 metal chelator를 사용해서는 안 된다. 사용하면 단백질이 [[column]]의 resin에 결합하지 않는다.
 
 **Table 2. Proteases/Phosphatases inhibitors**  
 ![upload_image](https://www.ibric.org/upload/geditor/202010/0.68904100_1603194912.png)
@@ -111,11 +116,11 @@ Acrylamide와 bisacrylamide간의 중합 반응이 일어나기 위해서는 **"
 
 요즘은 실험실 환경이 적정 온도를 유지하여 문제가 없지만, 예전에는 여름철에는 실내 온도가 높아 중합 반응이 너무 빠르고, 겨울철에는 중합 반응이 느려 TEMED 농도를 조절하여 사용하기도 했다. 1회용 pre-casting gel을 사용하는 경우가 많아 gel 만드는 과정이 생략되는 경우가 많지만, gel이 만들어지는 원리는 알 필요가 있다.
 
-**"Polyacrylamide gel electrophoresis (PAGE)"** 는 단백질 시료의 고차 구조가 유지되는 **"native PAGE"** 와 변성된 단백질을 사용하는 **"denaturing 또는 SDS-PAGE"** 로 구분된다.
+**"Polyacrylamide gel electrophoresis (PAGE)"** 는 단백질 시료의 고차 구조가 유지되는 **"native PAGE"** 와 변성된 단백질을 사용하는 **"denaturing 또는 [[SDS-PAGE]]"** 로 구분된다.
 
 **“Native PAGE”** 는 gel과 sample 조제 시 고차 구조를 변성(subunit 분리)시키는 SDS (Sodium dodecyl sulfate)나 S-S 결합을 분리시키는 reducing agent를 사용하지 않는다.
 
-**“SDS-PAGE”** 는 SDS를 gel과 sample buffer에 사용하고, reducing agent (2-mercaptoethanol, 5~20 mM; Dithiothreitol(DTT), 0.5~1 mM)를 sample buffer 에 사용한다.
+**“[[SDS-PAGE]]”** 는 SDS를 gel과 sample buffer에 사용하고, reducing agent (2-mercaptoethanol, 5~20 mM; Dithiothreitol(DTT), 0.5~1 mM)를 sample buffer 에 사용한다.
 
 **"SDS"** 는 단백질 1 g당 약 **1.4 g**이 결합되는데, 이는 단백질 전체를 **"(-) charge"** 가 되도록 코팅하는 역할을 하며, 전기영동 시 단백질의 구조나 charge에는 영향을 받지 않고 오로지 **분자량에 의해서만 분리**되도록 한다.
 

@@ -10,6 +10,7 @@ tags:
   - terminology
   - Methodology
   - algorithm
+  - pdf
 ---
 
 Parent : [[_KnowledgeParticle]]

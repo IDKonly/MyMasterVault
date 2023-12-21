@@ -5,9 +5,12 @@ last_modified:
 note_type: basic
 category: 
 memo_level: 
-aliases: []
+aliases: 
 tags:
-  - analyse tool
+  - analyse
+  - tool
+  - Program
+  - web_site
 ---
 
 Parent : [[_KnowledgeParticle]]

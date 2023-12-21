@@ -1,12 +1,14 @@
 ---
-title : Broth
-creation_date : 23.01.26
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+title: Broth
+creation_date: 23.01.26
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - Biology
+  - terminology
 ---
 
 Parent : [[_KnowledgeParticle]]

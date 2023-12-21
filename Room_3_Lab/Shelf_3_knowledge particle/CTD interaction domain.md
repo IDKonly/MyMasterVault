@@ -7,6 +7,8 @@ memo_level:
 aliases:
   - CID
 tags:
+  - Biology
+  - domain
 ---
 
 Parent : [[_KnowledgeParticle]]

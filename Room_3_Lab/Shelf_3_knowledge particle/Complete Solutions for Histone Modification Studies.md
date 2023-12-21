@@ -1,12 +1,14 @@
 ---
-title : Complete Solutions for Histone Modification Studies
-creation_date : 23.03.21
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+title: Complete Solutions for Histone Modification Studies
+creation_date: 23.03.21
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - Biology
+  - Methodology
 ---
 
 Parent : [[_KnowledgeParticle]]

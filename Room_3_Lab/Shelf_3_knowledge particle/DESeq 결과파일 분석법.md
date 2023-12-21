@@ -1,12 +1,15 @@
 ---
-title : 무제 파일
-creation_date : 23.01.03
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+title: 무제 파일
+creation_date: 23.01.03
+last_modified: 
+note_type: basic
+category: affinity chromatography
+memo_level: 
+aliases: 
+tags:
+  - Biology
+  - Sequencing
+  - data_analysis
 ---
 
 Parent : [[_KnowledgeParticle]]

@@ -1,12 +1,15 @@
 ---
-title : 프라이머 Tm
-creation_date : 23.01.06
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+title: 프라이머 Tm
+creation_date: 23.01.06
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - Biology
+  - DNA
+  - PCR
 ---
 
 Parent : [[_KnowledgeParticle]]

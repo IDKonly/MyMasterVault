@@ -7,6 +7,9 @@ memo_level:
 aliases:
   - CTD
 tags:
+  - Biology
+  - terminology
+  - domain
 ---
 
 Parent : [[_KnowledgeParticle]]

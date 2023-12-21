@@ -1,12 +1,14 @@
 ---
-title : compentant cell 50ul
-creation_date : 23.01.25
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+title: compentant cell 50ul
+creation_date: 23.01.25
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - Biology
+  - cloning
 ---
 
 Parent : [[_KnowledgeParticle]]

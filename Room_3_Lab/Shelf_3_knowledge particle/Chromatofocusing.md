@@ -5,9 +5,9 @@ last_modified:
 note_type: basic
 category: 
 memo_level: 
-aliases: []
+aliases: 
 tags:
-  - Chromotograpy
+  - Chromatograpy
 ---
 
 Parent : [[_KnowledgeParticle]]

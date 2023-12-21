@@ -6,6 +6,10 @@ category:
 memo_level: 
 aliases: 
 tags:
+  - Biology
+  - terminology
+  - chromatin
+  - Nucleous
 ---
 
 Drived from : [[]]

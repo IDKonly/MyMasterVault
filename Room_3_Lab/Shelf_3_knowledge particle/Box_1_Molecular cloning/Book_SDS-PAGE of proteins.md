@@ -3,7 +3,7 @@ title: Book_SDS-PAGE of proteins
 creation_date: 23.02.20
 last_modified: 
 note_type: basic
-category: 
+category: molecular coloning
 memo_level: 
 aliases: 
 tags:

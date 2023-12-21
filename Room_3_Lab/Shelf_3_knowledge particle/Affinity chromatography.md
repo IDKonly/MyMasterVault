@@ -10,7 +10,7 @@ tags:
   - Biology
   - terminology
   - List_up
-  - Chromotograpy
+  - chromatograpy
 ---
 
 Parent : [[_KnowledgeParticle]]
