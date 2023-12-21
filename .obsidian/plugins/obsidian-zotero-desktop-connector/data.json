@@ -7,7 +7,8 @@
   "citeFormats": [
     {
       "name": "APA style Bibliography",
-      "format": "formatted-bibliography"
+      "format": "formatted-bibliography",
+      "cslStyle": "apa"
     },
     {
       "name": "APA style citation",
@@ -16,6 +17,12 @@
     }
   ],
   "exportFormats": [
+    {
+      "name": "Import #2",
+      "outputPathTemplate": "{{citekey}}.md",
+      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageBaseNameTemplate": "image"
+    },
     {
       "name": "Create Literature Notes",
       "outputPathTemplate": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@{{citekey}}.md",

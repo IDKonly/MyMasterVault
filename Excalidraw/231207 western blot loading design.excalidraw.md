@@ -13,7 +13,7 @@ comment ^E2YU0QIh
 
 # Embedded files
 b54a933ca6f15d8ff969065565c9066fa22bc8bd: [[Pasted Image 20231208155726_899.png]]
-167f227bfcb62c78b4aa1ef8976b90d5708c6375: [[Swd2-TAP COMPASS activity check Western blot|100%]]
+167f227bfcb62c78b4aa1ef8976b90d5708c6375: [[Swd2-TAP COMPASS activity check Western blot.excalidraw|100%]]
 
 %%
 # Drawing
@@ -21,7 +21,7 @@ b54a933ca6f15d8ff969065565c9066fa22bc8bd: [[Pasted Image 20231208155726_899.png]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.8",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.10",
 	"elements": [
 		{
 			"type": "image",
@@ -123,38 +123,114 @@ b54a933ca6f15d8ff969065565c9066fa22bc8bd: [[Pasted Image 20231208155726_899.png]
 			"baseline": 21
 		},
 		{
-			"id": "nRk5z338",
 			"type": "image",
-			"x": -248.07546997070312,
-			"y": -394.4505081176758,
-			"width": 1225,
-			"height": 798,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 3,
+			"versionNonce": 1673385037,
+			"isDeleted": false,
+			"id": "nRk5z338",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"roundness": null,
+			"angle": 0,
+			"x": -267.6112055683959,
+			"y": -395.4584370283227,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 1266,
+			"height": 798,
 			"seed": 25067,
-			"version": 1,
-			"versionNonce": 485581255,
-			"updated": 1702344237439,
-			"isDeleted": false,
 			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
 			"boundElements": [],
+			"updated": 1702959565026,
 			"link": null,
 			"locked": false,
+			"customData": {
+				"isAnchored": true
+			},
+			"status": "pending",
 			"fileId": "167f227bfcb62c78b4aa1ef8976b90d5708c6375",
 			"scale": [
 				1,
 				1
-			],
-			"customData": {
-				"isAnchored": true
-			}
+			]
+		},
+		{
+			"id": "14rWv6Bk",
+			"type": "text",
+			"x": -103.30410880780107,
+			"y": -270.0731412085629,
+			"width": 10,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "dashed",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 56412835,
+			"version": 2,
+			"versionNonce": 926858093,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1702959565741,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 21,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "2Ewv9DRM",
+			"type": "text",
+			"x": -102.38401145589341,
+			"y": -279.2741147276394,
+			"width": 10,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "dashed",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1261339693,
+			"version": 2,
+			"versionNonce": 851100867,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1702959566903,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 21,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
@@ -172,10 +248,10 @@ b54a933ca6f15d8ff969065565c9066fa22bc8bd: [[Pasted Image 20231208155726_899.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 291.6473388671875,
-		"scrollY": 779.4844843928975,
+		"scrollX": 627.6942592298197,
+		"scrollY": 530.9390410557138,
 		"zoom": {
-			"value": 0.8
+			"value": 1.0868415151143394
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

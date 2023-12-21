@@ -78,6 +78,8 @@ Past ^4SPRL4BA
 
 Future ^mIYYJn2h
 
+Personal knowledge management의 핵심! ^hYM6lEvv
+
 
 # Embedded files
 55d4244465ef204c3f2051c26909b36772d609a7: [[Pasted Image 20231210135953_040.png]]
@@ -96,7 +98,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.8",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.10",
 	"elements": [
 		{
 			"type": "image",
@@ -214,8 +216,8 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 		},
 		{
 			"type": "text",
-			"version": 86,
-			"versionNonce": 1175715169,
+			"version": 96,
+			"versionNonce": 1296861283,
 			"isDeleted": false,
 			"id": "PkQp3JNp",
 			"fillStyle": "solid",
@@ -235,7 +237,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702190957314,
+			"updated": 1702960149930,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -321,7 +323,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "Searching",
 			"lineHeight": 1.25,
-			"baseline": 29
+			"baseline": 28
 		},
 		{
 			"type": "text",
@@ -358,7 +360,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "collect",
 			"lineHeight": 1.25,
-			"baseline": 29
+			"baseline": 28
 		},
 		{
 			"type": "line",
@@ -439,7 +441,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "Present",
 			"lineHeight": 1.25,
-			"baseline": 29
+			"baseline": 28
 		},
 		{
 			"type": "image",
@@ -542,7 +544,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "- shallow searching",
 			"lineHeight": 1.25,
-			"baseline": 29
+			"baseline": 28
 		},
 		{
 			"type": "text",
@@ -579,7 +581,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "- Deep searching",
 			"lineHeight": 1.25,
-			"baseline": 29
+			"baseline": 28
 		},
 		{
 			"type": "image",
@@ -711,7 +713,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "고전적인 자료 탐색 방법.\n검색능력이 좋다면 방대한 양의 지식을 얻을 수 있음\n키워드 중심의 탐색 방법",
 			"lineHeight": 1.2,
-			"baseline": 95
+			"baseline": 96
 		},
 		{
 			"type": "text",
@@ -822,7 +824,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "논문의 citation 정보를 이용하여 논문간의 상관관계를 시각적을 보여줌\n맥락상 핵심이 되는 논문을 발견하는데에 도움이 되므로\n고전적인 방식으로 찾지 못하거나 찾기 어려운 정보를 얻을 수 있음.",
 			"lineHeight": 1.2,
-			"baseline": 95
+			"baseline": 96
 		},
 		{
 			"type": "text",
@@ -954,7 +956,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "Required",
 			"lineHeight": 1.25,
-			"baseline": 29
+			"baseline": 28
 		},
 		{
 			"type": "image",
@@ -1119,7 +1121,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "Obsidian",
 			"lineHeight": 1.25,
-			"baseline": 29
+			"baseline": 28
 		},
 		{
 			"type": "text",
@@ -1161,7 +1163,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "메모 관리 프로그램.\n서드파티 플러그인을 통한 각종 기능들이\n지식관리 체계를 구현하기에 용이함",
 			"lineHeight": 1.2,
-			"baseline": 95
+			"baseline": 96
 		},
 		{
 			"type": "line",
@@ -1507,12 +1509,12 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"roundness": null,
 			"boundElements": [],
 			"updated": 1702190957314,
-			"link": "[[DIKW model.excalidraw]]",
+			"link": "[[Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw]]",
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 1,
 			"text": "📍[[DIKW model]]",
-			"rawText": "[[DIKW model.excalidraw|DIKW model]]",
+			"rawText": "[[Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw|DIKW model]]",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -1631,7 +1633,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "Obsidian",
 			"lineHeight": 1.25,
-			"baseline": 29
+			"baseline": 28
 		},
 		{
 			"type": "image",
@@ -2491,7 +2493,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "Past",
 			"lineHeight": 1.25,
-			"baseline": 29
+			"baseline": 28
 		},
 		{
 			"type": "text",
@@ -2533,7 +2535,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"containerId": null,
 			"originalText": "Future",
 			"lineHeight": 1.25,
-			"baseline": 29
+			"baseline": 28
 		},
 		{
 			"type": "arrow",
@@ -2715,16 +2717,188 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 					11.604058506013018
 				]
 			]
+		},
+		{
+			"id": "_vgbAZL7mgu45HJK4bHbr",
+			"type": "rectangle",
+			"x": -255.62611510342208,
+			"y": 116.92623835844728,
+			"width": 496.60179501488096,
+			"height": 330.7200985863095,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 362417059,
+			"version": 116,
+			"versionNonce": 374621091,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "S6ag5gXUIlDIBPHhYtzkz",
+					"type": "arrow"
+				}
+			],
+			"updated": 1702960178336,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "S6ag5gXUIlDIBPHhYtzkz",
+			"type": "arrow",
+			"x": -10.455100408481607,
+			"y": 448.68951495814963,
+			"width": 5.329070518200751e-15,
+			"height": 58.72679938526596,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 487108493,
+			"version": 217,
+			"versionNonce": 1623864717,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1702960281722,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-5.329070518200751e-15,
+					58.72679938526596
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "_vgbAZL7mgu45HJK4bHbr",
+				"focus": 0.012605201366242349,
+				"gap": 1.0431780133928328
+			},
+			"endBinding": {
+				"elementId": "hYM6lEvv",
+				"focus": 0.015686388545253654,
+				"gap": 12.242082868303669
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "hYM6lEvv",
+			"type": "text",
+			"x": -245.9500083325887,
+			"y": 519.6583972117193,
+			"width": 463.7157897949219,
+			"height": 43.199999999999996,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1104934627,
+			"version": 179,
+			"versionNonce": 1722107085,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "S6ag5gXUIlDIBPHhYtzkz",
+					"type": "arrow"
+				}
+			],
+			"updated": 1702960281722,
+			"link": null,
+			"locked": false,
+			"text": "Personal knowledge management의 핵심!",
+			"rawText": "Personal knowledge management의 핵심!",
+			"fontSize": 36,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 36,
+			"containerId": null,
+			"originalText": "Personal knowledge management의 핵심!",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "ZOw0McNL-1f-0HMgZBgHZ",
+			"type": "line",
+			"x": -243.00294073855935,
+			"y": 564.1216310533667,
+			"width": 371.56098300249755,
+			"height": 0,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 562116685,
+			"version": 109,
+			"versionNonce": 308673517,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1702960281722,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					371.56098300249755,
+					0
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": null
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",
-		"currentItemStrokeWidth": 4,
-		"currentItemStrokeStyle": "dashed",
+		"currentItemStrokeWidth": 2,
+		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 2,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 4,
@@ -2732,10 +2906,10 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1730.5803128018822,
-		"scrollY": 1052.9705470562521,
+		"scrollX": 1231.168184711511,
+		"scrollY": 304.8410284842041,
 		"zoom": {
-			"value": 0.65
+			"value": 0.9788107009300621
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
