@@ -1,12 +1,14 @@
 ---
-title : Book_SDS-PAGE of proteins
-creation_date : 23.02.20
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+title: Book_SDS-PAGE of proteins
+creation_date: 23.02.20
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - SDS-PAGE
+  - Methodology
 ---
 
 Parent : [[_Molecular cloning]]

@@ -1,12 +1,16 @@
 ---
-title : antiSMASH
-creation_date : 23.05.18
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+title: antiSMASH
+creation_date: 23.05.18
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - Biology
+  - Program
+  - Antibiotics
+  - Gene_cluster
 ---
 
 Parent : [[_KnowledgeParticle]]

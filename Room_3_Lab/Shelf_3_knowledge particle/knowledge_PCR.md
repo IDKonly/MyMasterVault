@@ -12,7 +12,7 @@ tags : []
 Parent : [[_KnowledgeParticle]]
 Drived from : [[Room_3_Lab/Shelf_2_library/Box_2_methods/PCR]]
 
-[[생명과학자 기초체력 다지기] #2_PCR > BRIC (ibric.org)](https://www.ibric.org/myboard/read.php?Board=news&id=322351&BackLink=L215Ym9hcmQvbGlzdC5waHA/Qm9hcmQ9bmV3cyZQQVJBMz05MQ==)
+[[생명과학자 기초체력 다지기] 2_PCR > BRIC (ibric.org)](https://www.ibric.org/myboard/read.php?Board=news&id=322351&BackLink=L215Ym9hcmQvbGlzdC5waHA/Qm9hcmQ9bmV3cyZQQVJBMz05MQ==)
 
 **PCR primer**는 크기는 약 20 nucleotides 내외, GC 비율은 50% 내외, Tm (melting temperature)은 55°C 정도를 기본값 (default 값)으로 하여 디자인한다.  
   

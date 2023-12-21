@@ -1,12 +1,16 @@
 ---
-title : a list of the major protein complex categories that are associated with chromosome complexes
-creation_date : 23.04.04
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+title: a list of the major protein complex categories that are associated with chromosome complexes
+creation_date: 23.04.04
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - Biology
+  - Nucleation
+  - Complex
+  - List_up
 ---
 
 Parent : [[_KnowledgeParticle]]

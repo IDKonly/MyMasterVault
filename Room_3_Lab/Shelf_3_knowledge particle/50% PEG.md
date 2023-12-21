@@ -1,12 +1,15 @@
 ---
-title : PEG
-creation_date : 23.02.14
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : Polyethlene glycol 
-tags : []
+title: PEG
+creation_date: 23.02.14
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases:
+  - Polyethlene glycol
+tags:
+  - Solution
+  - Reagent
 ---
 
 Parent : [[_KnowledgeParticle]]

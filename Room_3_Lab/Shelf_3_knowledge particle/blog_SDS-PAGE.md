@@ -1,12 +1,16 @@
 ---
-title : blog_SDS-PAGE
-creation_date : 23.02.20
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : [refences]
+title: blog_SDS-PAGE
+creation_date: 23.02.20
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - references
+  - SDS-PAGE
+  - Biology
+  - Methodology
 ---
 
 Parent : [[_KnowledgeParticle]]

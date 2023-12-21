@@ -1,8 +1,108 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
+      "basename": "Book_SDS-PAGE of proteins",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_1_Molecular cloning/Book_SDS-PAGE of proteins.md"
+    },
+    {
+      "basename": "blog_SDS-PAGE",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/blog_SDS-PAGE.md"
+    },
+    {
+      "basename": "Blast",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Blast.md"
+    },
+    {
+      "basename": "Binding capacity",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Binding capacity.md"
+    },
+    {
+      "basename": "Binding buffer",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Binding buffer.md"
+    },
+    {
+      "basename": "Back pressure",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Back pressure.md"
+    },
+    {
+      "basename": "Band broadiening",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Band broadiening.md"
+    },
+    {
+      "basename": "Asymmetry (asymmetry factor)",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md"
+    },
+    {
+      "basename": "Adsorption",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Adsorption.md"
+    },
+    {
+      "basename": "knowledge_PCR",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/knowledge_PCR.md"
+    },
+    {
+      "basename": "APT complex와 PNUTS-WDR82-PP1 complex 간의 관계",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/APT complex와 PNUTS-WDR82-PP1 complex 간의 관계.md"
+    },
+    {
+      "basename": "Affinity chromatography",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Affinity chromatography.md"
+    },
+    {
+      "basename": "Adapter",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Adapter.md"
+    },
+    {
+      "basename": "antiSMASH",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/antiSMASH.md"
+    },
+    {
+      "basename": "11639_10061",
+      "path": "Room_0_metadata/Shelf_0_Resource/11639_10061.pdf"
+    },
+    {
+      "basename": "a list of the major protein complex categories that are associated with chromosome complexes",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/a list of the major protein complex categories that are associated with chromosome complexes.md"
+    },
+    {
+      "basename": "A260A280",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/A260A280.md"
+    },
+    {
+      "basename": "A260A230",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/A260A230.md"
+    },
+    {
+      "basename": "552 균주",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/552 균주.md"
+    },
+    {
+      "basename": "552균주 성장 원래 느림",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/552균주 성장 원래 느림.md"
+    },
+    {
+      "basename": "551 WT",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/551 WT.md"
+    },
+    {
+      "basename": "1M Lithium Acetate",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/1M Lithium Acetate.md"
+    },
+    {
+      "basename": "50% PEG",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/50% PEG.md"
+    },
+    {
+      "basename": "1st Draft",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/1st Draft.md"
+    },
+    {
+      "basename": "_Excalidraw",
+      "path": "Excalidraw/_Excalidraw.md"
+    },
+    {
+      "basename": "Room_0_metadata",
+      "path": "Room_0_metadata/Room_0_metadata.md"
     },
     {
       "basename": "23.12.21",
@@ -19,10 +119,6 @@
     {
       "basename": "1. 기본적인 계층적 파일구성에 대하여",
       "path": "Room_1_rules/1. 기본적인 계층적 파일구성에 대하여.md"
-    },
-    {
-      "basename": "Room_0_metadata",
-      "path": "Room_0_metadata/Room_0_metadata.md"
     },
     {
       "basename": "2. 각 파일들의 작명규칙",
@@ -103,86 +199,6 @@
     {
       "basename": "231208.excalidraw",
       "path": "Excalidraw/231208.excalidraw.md"
-    },
-    {
-      "basename": "23.12.11",
-      "path": "Room_2_daily notes/23.12.11.md"
-    },
-    {
-      "basename": "23.12.08",
-      "path": "Room_2_daily notes/23.12.08.md"
-    },
-    {
-      "basename": "Determinants of histone H3K4 methylation patterns",
-      "path": "Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/Determinants of histone H3K4 methylation patterns.md"
-    },
-    {
-      "basename": "231207 western blot loading design.excalidraw",
-      "path": "Excalidraw/231207 western blot loading design.excalidraw.md"
-    },
-    {
-      "basename": "_Swd2 review paper",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md"
-    },
-    {
-      "basename": "Abstract",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md"
-    },
-    {
-      "basename": "Swd2 Review outline",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2 Review outline.md"
-    },
-    {
-      "basename": "Swd2를 subunit으로 가지고 있는 complex",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2를 subunit으로 가지고 있는 complex.md"
-    },
-    {
-      "basename": "Swd2의 기본적인 소개",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2의 기본적인 소개.md"
-    },
-    {
-      "basename": "Glc7 is dissociation after Swd2 depletion (Nedea et al., 2008) draft",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Glc7 is dissociation after Swd2 depletion (Nedea et al., 2008) draft.md"
-    },
-    {
-      "basename": "Discussion",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Discussion.md"
-    },
-    {
-      "basename": "Q - Pol2 associated mechanism",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas"
-    },
-    {
-      "basename": "23.12.07",
-      "path": "Room_2_daily notes/23.12.07.md"
-    },
-    {
-      "basename": "채워넣을 노트 목록",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md"
-    },
-    {
-      "basename": "Project",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md"
-    },
-    {
-      "basename": "23.12.10",
-      "path": "Room_2_daily notes/23.12.10.md"
-    },
-    {
-      "basename": "231207 개인미팅 요약",
-      "path": "Room_2_daily notes/231207 개인미팅 요약.md"
-    },
-    {
-      "basename": "Rapid small scale isolation of yeast total DNA",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Rapid small scale isolation of yeast total DNA.md"
-    },
-    {
-      "basename": "준수형의 Westernblot recipe",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/준수형의 Westernblot recipe.md"
-    },
-    {
-      "basename": "231207 Two-step TAP purificaiton work",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas"
     }
   ],
   "omittedPaths": [],

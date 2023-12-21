@@ -6,6 +6,9 @@ category:
 memo_level: 
 aliases: 
 tags:
+  - Biology
+  - 인용문
+  - insight
 ---
 
 Drived from : [[]]

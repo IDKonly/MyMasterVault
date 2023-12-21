@@ -6,6 +6,10 @@ category:
 memo_level: 
 aliases: 
 tags:
+  - Biology
+  - terminology
+  - Methodology
+  - algorithm
 ---
 
 Parent : [[_KnowledgeParticle]]

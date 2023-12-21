@@ -1,12 +1,15 @@
 ---
-title : Lithium Acetate
-creation_date : 23.02.14
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : LiAc
-tags : []
+title: Lithium Acetate
+creation_date: 23.02.14
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases:
+  - LiAc
+tags:
+  - Solution
+  - Reagent
 ---
 
 Parent : [[_KnowledgeParticle]]

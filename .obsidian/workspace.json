@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_1_Molecular cloning/Book_SDS-PAGE of proteins.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_1_Molecular cloning/Book_SDS-PAGE of proteins.md"
               }
             }
           },
@@ -221,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_1_Molecular cloning/Book_SDS-PAGE of proteins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +238,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_1_Molecular cloning/Book_SDS-PAGE of proteins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_1_Molecular cloning/Book_SDS-PAGE of proteins.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -329,7 +329,32 @@
   },
   "active": "b0eb05959f218ca0",
   "lastOpenFiles": [
-    "Room_2_daily notes/23.12.21.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/blog_SDS-PAGE.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Blast.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Binding capacity.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Binding buffer.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Back pressure.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Band broadiening.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Adsorption.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/knowledge_PCR.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/APT complex와 PNUTS-WDR82-PP1 complex 간의 관계.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Affinity chromatography.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Adapter.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/antiSMASH.md",
+    "Room_0_metadata/Shelf_0_Resource/11639_10061.pdf",
+    "Room_3_Lab/Shelf_3_knowledge particle/a list of the major protein complex categories that are associated with chromosome complexes.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/A260A280.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/A260A230.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/552 균주.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/552균주 성장 원래 느림.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/551 WT.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/1M Lithium Acetate.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/50% PEG.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/1st Draft.md",
+    "Excalidraw/_Excalidraw.md",
+    "A CpG island-encoded mechanism protects genes from premature transcription termination.md",
+    "Room_0_metadata/Room_0_metadata.md",
     "conflict-files-obsidian-git.md",
     "Room_0_metadata/pdftoppm-poppler-23.11.0/Library/share/man/man1/pdfunite.1",
     "Room_0_metadata/pdftoppm-poppler-23.11.0/Library/share/man/man1/pdftotext.1",
@@ -340,30 +365,6 @@
     "Room_0_metadata/pdftoppm-poppler-23.11.0/Library/share/man/man1/pdfseparate.1",
     "Room_0_metadata/pdftoppm-poppler-23.11.0/Library/share/man/man1/pdfinfo.1",
     "Room_0_metadata/pdftoppm-poppler-23.11.0/Library/share/man/man1/pdfimages.1",
-    "Room_0_metadata/pdftoppm-poppler-23.11.0/Library/share/man/man1/pdffonts.1",
-    "A CpG island-encoded mechanism protects genes from premature transcription termination.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/_Box_1_manuscripts.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Introduction of PARA method.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Shelf_1_How to zettelkasten.md",
-    "Room_1_rules/1. 기본적인 계층적 파일구성에 대하여.md",
-    "Room_0_metadata/Room_0_metadata.md",
-    "Room_1_rules/2. 각 파일들의 작명규칙.md",
-    "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/you2022.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A CpG island-encoded mechanism protects genes from premature transcription termination.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/_0_resources.md",
-    "Room_3_Lab/Shelf_2_library/_Shelf_2_library.md",
-    "Room_3_Lab/Shelf_2_library/_Library.md",
-    "Room_3_Lab/_Room_3_Lab.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/DIKW model.excalidraw.md",
-    "Room_0_metadata/Shelf_0_Resource/DIKW model.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/PARA method.excalidraw.md",
-    "Room_2_daily notes/23.12.13.md",
-    "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.md",
-    "Room_2_daily notes/23.12.17.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Obsidian introduction.excalidraw.md",
     "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
     "무제 파일.canvas",
