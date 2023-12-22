@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "spaces://$tags",
+  "activeView": "/",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -55,7 +55,9 @@
     "//Room_3_Lab/Room_3_Lab/Shelf_3_knowledge particle",
     "spaces://#2_PCR",
     "spaces://#PCR",
-    "spaces://#Chromotograpy"
+    "spaces://#Chromotograpy",
+    "//Excalidraw",
+    "//Excalidraw/Excalidraw/Scripts"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

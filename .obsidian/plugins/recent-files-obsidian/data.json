@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Transcription regulator Swd2 model.excalidraw",
+      "path": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
+    },
+    {
       "basename": "23.12.22",
       "path": "Room_2_daily notes/23.12.22.md"
+    },
+    {
+      "basename": "23.12.21",
+      "path": "Room_2_daily notes/23.12.21.md"
     },
     {
       "basename": "Design of experiments (DoE)",
@@ -191,14 +199,6 @@
     {
       "basename": "Affinity chromatography",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Affinity chromatography.md"
-    },
-    {
-      "basename": "C terminal",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/C terminal.md"
-    },
-    {
-      "basename": "Bre2",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Bre2.md"
     }
   ],
   "omittedPaths": [],
