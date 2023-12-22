@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "23.12.22",
+      "path": "Room_2_daily notes/23.12.22.md"
+    },
+    {
       "basename": "Design of experiments (DoE)",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Design of experiments (DoE).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Bre2",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Bre2.md"
-    },
-    {
-      "basename": "_Box_1_Molecular cloning",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_1_Molecular cloning/_Box_1_Molecular cloning.md"
     }
   ],
   "omittedPaths": [],

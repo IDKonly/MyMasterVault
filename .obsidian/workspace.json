@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Design of experiments (DoE).md",
+                "file": "Room_2_daily notes/23.12.22.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "e7419118ec9faabd",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Design of experiments (DoE).md"
+                "file": "Room_2_daily notes/23.12.22.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Design of experiments (DoE).md",
+                "file": "Room_2_daily notes/23.12.22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Design of experiments (DoE).md",
+                "file": "Room_2_daily notes/23.12.22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Design of experiments (DoE).md",
+                "file": "Room_2_daily notes/23.12.22.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -321,6 +321,8 @@
   },
   "active": "b0eb05959f218ca0",
   "lastOpenFiles": [
+    "Room_3_Lab/Shelf_3_knowledge particle/Design of experiments (DoE).md",
+    "Room_2_daily notes/23.12.22.md",
     "Room_3_Lab/Shelf_3_knowledge particle/DESeq 결과파일 분석법.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Degassing.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Dead volume.md",
@@ -345,8 +347,6 @@
     "Room_3_Lab/Shelf_3_knowledge particle/Chromatography.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Chromatogram.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Chromatofocusing.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Chromatin.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Capacity factor.md",
     "Spaces/#Chromotograpy",
     "Room_2_daily notes/23년 11월",
     "Room_0_metadata/Shelf_1_template for templater/ZotLit",
