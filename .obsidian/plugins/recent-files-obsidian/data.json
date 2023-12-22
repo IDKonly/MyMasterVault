@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "cTT-seq",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/cTT-seq.md"
+    },
+    {
       "basename": "Transcription regulator Swd2 model.excalidraw",
       "path": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "552균주 성장 원래 느림",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/552균주 성장 원래 느림.md"
-    },
-    {
-      "basename": "Affinity chromatography",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Affinity chromatography.md"
     }
   ],
   "omittedPaths": [],
