@@ -15,6 +15,7 @@ Parent : [[_Methods]]
 2. Master mix를 만들어도 좋고, 따로 넣어도 좋다.
 	1. 권장하는 것은 실험오차를 줄이기 위해 master mix를 만드는 것이다.
 	2. Recipe (per single tube)
+
 | Chemical                          | Volume |  
 | :--------------------------------- | ------: | 
 | 1M Sorbitol-50mM Tris-Cl (pH 7.4) | 1ml    |  
@@ -47,6 +48,7 @@ Parent : [[_Methods]]
 
 ## Buffers
 Protoplasting buffer
+
 | Chemical          | volume |
 | ----------------- | ------ |
 | 2-mercaptoehtanol | 10ul   |
@@ -54,8 +56,9 @@ Protoplasting buffer
 | Tris-Cl (pH 7.5)  | 100mM  |
 | EDTA         | 10mM       |
 Lysis solution
+
 | Chemical | Volume |
 | -------- | ------ |
 | NaOH     | 0.2M   |
-| SDS          | 1%       |
+| SDS      | 1%     |
 

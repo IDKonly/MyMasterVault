@@ -1,11 +1,14 @@
 ---
-creation_date : 22.12.20
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+creation_date: 22.12.20
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - linux
+  - Program
+  - services
 ---
 
 Parent : [[_Services]]

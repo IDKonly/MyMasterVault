@@ -1,14 +1,18 @@
 ---
-title : Geneall bybrid-Q plasmid rapidprep
-creation_date : 23.01.19
-last_modified :
-note_type : method
-category : []
-aliases : 
-tags : [method, DNA, plasmid]
+title: Geneall bybrid-Q plasmid rapidprep
+creation_date: 23.01.19
+last_modified: 
+note_type: method
+category: 
+aliases: 
+tags:
+  - method
+  - DNA
+  - plasmid
+  - Kit
 ---
 
-Parent : [[\_Methods]]
+Parent : [[_Methods]]
 
 
 ![[Pasted image 20230127160026.png]]

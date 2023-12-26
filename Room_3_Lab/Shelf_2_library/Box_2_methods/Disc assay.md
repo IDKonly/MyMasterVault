@@ -1,11 +1,14 @@
 ---
-title : Disc assay
-creation_date : 23.05.31
-last_modified :
-note_type : method
-category : [Growth assay]
-aliases : 
-tags : []
+title: Disc assay
+creation_date: 23.05.31
+last_modified: 
+note_type: method
+category:
+  - Growth assay
+aliases: 
+tags:
+  - method
+  - Survival_Test
 ---
 
 Parent : [[_Methods]]

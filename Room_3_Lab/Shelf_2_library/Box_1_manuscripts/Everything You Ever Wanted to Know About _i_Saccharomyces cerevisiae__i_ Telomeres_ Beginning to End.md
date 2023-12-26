@@ -1,11 +1,14 @@
 ---
-title : Everything You Ever Wanted to Know About <i>Saccharomyces cerevisiae</i> Telomeres: Beginning to End
-citekey : wellinger_everything_2012
-authors : Raymund J Wellinger, Virginia A Zakian
-DOI : 10.1534/genetics.111.137851
-year:  2012
-publisher : 
-tags : 
+title: Everything You Ever Wanted to Know About Saccharomyces cerevisiae Telomeres Beginning to End
+citekey: wellinger_everything_2012
+authors: Raymund J Wellinger, Virginia A Zakian
+DOI: 10.1534/genetics.111.137851
+year: 2012
+publisher: 
+tags:
+  - Saccharomyces_cerevisiae
+  - telomere
+  - review
 ---
 parent file : [[_Manuscripts]]
 [to Zotero](zotero://select/items/@wellinger_everything_2012) [DOI](https://doi.org/10.1534/genetics.111.137851)

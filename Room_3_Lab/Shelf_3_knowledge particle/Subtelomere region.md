@@ -1,12 +1,16 @@
 ---
-title : Subtelomere region
-creation_date : 23.01.31
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+title: Subtelomere region
+creation_date: 23.01.31
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - chromatin
+  - structure
+  - telomere
+  - heterochromatin_block
 ---
 
 Parent : [[_KnowledgeParticle]]

@@ -1,12 +1,15 @@
 ---
-title : The COMPASS family of histone H3K4 methylases mechanisms of regulation in development and disease pathogenesis
-citekey : shilatifard2012
-authors : Ali Shilatifard
-DOI : 10.1146/annurev-biochem-051710-134100
-year:  2012
-publisher : 
-note_type : zotero
-tags : 
+title: The COMPASS family of histone H3K4 methylases mechanisms of regulation in development and disease pathogenesis
+citekey: shilatifard2012
+authors: Ali Shilatifard
+DOI: 10.1146/annurev-biochem-051710-134100
+year: 2012
+publisher: 
+note_type: zotero
+tags:
+  - COMPASS
+  - pathogenesis
+  - H3K4methylation
 ---
 parent file : [[_Manuscripts]]
 [to Zotero](zotero://select/items/@shilatifard2012) [DOI](https://doi.org/10.1146/annurev-biochem-051710-134100)
