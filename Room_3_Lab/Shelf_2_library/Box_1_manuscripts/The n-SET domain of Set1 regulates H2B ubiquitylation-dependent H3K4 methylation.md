@@ -1,12 +1,15 @@
 ---
-title : The n-SET domain of Set1 regulates H2B ubiquitylation-dependent H3K4 methylation
-citekey : kim2013
-authors : Jaehoon Kim, Jung-Ae Kim, Robert K. McGinty, Uyen T. T. Nguyen, Tom W. Muir, C. David Allis, Robert G. Roeder
-DOI : 10.1016/j.molcel.2013.01.034
-year:  2013
-publisher : 
-note_type : zotero
-tags : 
+title: The n-SET domain of Set1 regulates H2B ubiquitylation-dependent H3K4 methylation
+citekey: kim2013
+authors: Jaehoon Kim, Jung-Ae Kim, Robert K. McGinty, Uyen T. T. Nguyen, Tom W. Muir, C. David Allis, Robert G. Roeder
+DOI: 10.1016/j.molcel.2013.01.034
+year: 2013
+publisher: 
+note_type: zotero
+tags:
+  - n-SET_domain
+  - Set1
+  - H3K4methylation
 ---
 parent file : [[_Manuscripts]]
 [to Zotero](zotero://select/items/@kim2013) [DOI](https://doi.org/10.1016/j.molcel.2013.01.034)

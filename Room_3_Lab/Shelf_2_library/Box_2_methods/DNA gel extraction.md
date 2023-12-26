@@ -1,11 +1,14 @@
 ---
-title : DNA gel extraction
-creation_date : 23.01.30
-last_modified :
-note_type : method
-category : []
-aliases : gel purification
-tags : [method]
+title: DNA gel extraction
+creation_date: 23.01.30
+last_modified: 
+note_type: method
+category: 
+aliases:
+  - gel purification
+tags:
+  - method
+  - DNA
 ---
 
 Parent : [[_Methods]]

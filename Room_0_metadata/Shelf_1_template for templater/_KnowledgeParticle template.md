@@ -5,7 +5,9 @@ note_type: basic
 category: 
 memo_level: 
 aliases: 
-tags:
+tags: 
+PARA:
+  - Archive
 ---
 
 Drived from : [[]]

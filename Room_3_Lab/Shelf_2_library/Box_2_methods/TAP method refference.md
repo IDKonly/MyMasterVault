@@ -1,11 +1,15 @@
 ---
-title : TAP method refference
-creation_date : 23.04.13
-last_modified :
-note_type : method
-category : [refference]
-aliases : TAP ref
-tags : [refference]
+title: TAP method refference
+creation_date: 23.04.13
+last_modified: 
+note_type: method
+category:
+  - refference
+aliases:
+  - TAP ref
+tags:
+  - refference
+  - TAP_purificaiton
 ---
 
 Parent : [[_Methods]]

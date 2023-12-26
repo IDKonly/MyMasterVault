@@ -1,12 +1,15 @@
 ---
-title : Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor
-citekey : soares2012
-authors : Luis M. Soares, Stephen Buratowski
-DOI : 10.1074/jbc.M112.341412
-year:  2012
-publisher : 
-note_type : zotero
-tags : 
+title: Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor
+citekey: soares2012
+authors: Luis M. Soares, Stephen Buratowski
+DOI: 10.1074/jbc.M112.341412
+year: 2012
+publisher: 
+note_type: zotero
+tags:
+  - Set1
+  - Swd2
+  - APT_complex
 ---
 parent file : [[_Manuscripts]]
 [to Zotero](zotero://select/items/@soares2012) [DOI](https://doi.org/10.1074/jbc.M112.341412)

@@ -1,12 +1,14 @@
 ---
-title : The Saccharomyces cerevisiae Set1 complex includes an Ash2 homologue and methylates histone 3 lysine 4
-citekey : roguev2001
-authors : Assen Roguev, Daniel Schaft, Anna Shevchenko, W.W.M.Pim Pijnappel, Matthias Wilm, Rein Aasland, A.Francis Stewart
-DOI : 10.1093/emboj/20.24.7137
-year:  2001
-publisher : 
-note_type : zotero
-tags : 
+title: The Saccharomyces cerevisiae Set1 complex includes an Ash2 homologue and methylates histone 3 lysine 4
+citekey: roguev2001
+authors: Assen Roguev, Daniel Schaft, Anna Shevchenko, W.W.M.Pim Pijnappel, Matthias Wilm, Rein Aasland, A.Francis Stewart
+DOI: 10.1093/emboj/20.24.7137
+year: 2001
+publisher: 
+note_type: zotero
+tags:
+  - COMPASS
+  - Set1
 ---
 parent file : [[_Manuscripts]]
 [to Zotero](zotero://select/items/@roguev2001) [DOI](https://doi.org/10.1093/emboj/20.24.7137)

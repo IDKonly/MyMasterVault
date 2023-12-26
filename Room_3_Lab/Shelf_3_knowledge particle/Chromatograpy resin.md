@@ -1,12 +1,13 @@
 ---
-title : Chromatograpy resin
-creation_date : 23.05.08
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+title: Chromatograpy resin
+creation_date: 23.05.08
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - chromatograpy
 ---
 
 Parent : [[_KnowledgeParticle]]

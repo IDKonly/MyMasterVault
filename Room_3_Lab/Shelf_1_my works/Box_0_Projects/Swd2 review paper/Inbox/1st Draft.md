@@ -5,7 +5,8 @@ note_type: basic
 category: 
 memo_level: 
 aliases: 
-tags: 
+tags:
+  - Swd2
 PARA:
   - Archive
 ---

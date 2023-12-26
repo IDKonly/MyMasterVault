@@ -1,12 +1,13 @@
 ---
-title : Context dependency of Set1/COMPASS-mediated histone H3 Lys4 trimethylation
-citekey : thornton2014
-authors : Janet L. Thornton, Gerwin H. Westfield, Yoh-Hei Takahashi, Malcolm Cook, Xin Gao, Ashley R. Woodfin, Jung-Shin Lee, Marc A. Morgan, Jessica Jackson, Edwin R. Smith, Jean-Francois Couture, Georgios Skiniotis, Ali Shilatifard
-DOI : 10.1101/gad.232215.113
-year:  2014
-publisher : 
-note_type : zotero
-tags : 
+title: Context dependency of Set1/COMPASS-mediated histone H3 Lys4 trimethylation
+citekey: thornton2014
+authors: Janet L. Thornton, Gerwin H. Westfield, Yoh-Hei Takahashi, Malcolm Cook, Xin Gao, Ashley R. Woodfin, Jung-Shin Lee, Marc A. Morgan, Jessica Jackson, Edwin R. Smith, Jean-Francois Couture, Georgios Skiniotis, Ali Shilatifard
+DOI: 10.1101/gad.232215.113
+year: 2014
+publisher: 
+note_type: zotero
+tags:
+  - COMPASS
 ---
 parent file : [[_Manuscripts]]
 [to Zotero](zotero://select/items/@thornton2014) [DOI](https://doi.org/10.1101/gad.232215.113)

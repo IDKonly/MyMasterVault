@@ -3,10 +3,12 @@ title: 230609 Swd2-TAP strain flocculation check
 startTime: 10:00
 endTime: 17:30
 date: 2023-06-09
-creation_date : 23.06.09
-note_type : 실험일지
-aliases : 
-tags : []
+creation_date: 23.06.09
+note_type: 실험일지
+aliases: 
+tags:
+  - flocculation
+  - Swd2-TAP
 ---
 
 Parent : [[_실험일지]]
