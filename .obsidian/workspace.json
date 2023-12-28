@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md",
+                "file": "Room_2_daily notes/23.12.29.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -119,7 +119,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "e7419118ec9faabd",
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md"
+                "file": "Room_2_daily notes/23.12.29.md"
               }
             }
           },
@@ -225,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md",
+                "file": "Room_2_daily notes/23.12.29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md",
+                "file": "Room_2_daily notes/23.12.29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -270,7 +271,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md",
+                "file": "Room_2_daily notes/23.12.29.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -333,6 +334,7 @@
   },
   "active": "9b57722d7d158902",
   "lastOpenFiles": [
+    "Room_2_daily notes/23.12.29.md",
     "Room_2_daily notes/23.12.26.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md",
@@ -358,7 +360,6 @@
     "Room_2_daily notes/23년 2월/23.02.08.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/석사 1학기/연구윤리와 논문작성 6 - 논문적기.md",
     "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/2 direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/allosteric model.md",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/@soares2012/image-3-x39-y530.png",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/@soares2012",
