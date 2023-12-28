@@ -1,12 +1,15 @@
 ---
-title : The Set1 N-terminal domain and Swd2 interact with RNA polymerase II CTD to recruit COMPASS
-citekey : bae2020
-authors : Hyun Jin Bae, Marion Dubarry, Jongcheol Jeon, Luis M. Soares, Catherine Dargemont, Jaehoon Kim, Vincent Geli, Stephen Buratowski
-DOI : 10.1038/s41467-020-16082-2
-year:  2020
-publisher : Nature Publishing Group
-note_type : zotero
-tags : 
+title: The Set1 N-terminal domain and Swd2 interact with RNA polymerase II CTD to recruit COMPASS
+citekey: bae2020
+authors: Hyun Jin Bae, Marion Dubarry, Jongcheol Jeon, Luis M. Soares, Catherine Dargemont, Jaehoon Kim, Vincent Geli, Stephen Buratowski
+DOI: 10.1038/s41467-020-16082-2
+year: 2020
+publisher: Nature Publishing Group
+note_type: zotero
+tags:
+  - Set1
+  - Swd2
+  - CTD
 ---
 parent file : [[_Manuscripts]]
 [to Zotero](zotero://select/items/@bae2020) [DOI](https://doi.org/10.1038/s41467-020-16082-2)
