@@ -18,14 +18,14 @@ Parent : [[_Methods]]
 ![[Pasted image 20230127160026.png]]
 각 프로토콜의 차이는 보라색 필터를 사용하냐 사용하지 않느냐로 나뉜다.
 
-# Cell harvest and wash
+# Cell Harvest and Wash
 
 1. wash cells use this protocol before;
 	1. Centrifugation 3000rpm 5min, cultured cell
 	2. remove supernatant.
 	3. resuspend with UPW and transfer to 1.5ml tube 
 
-# Rapid protocol
+# Rapid Protocol
 ![[Pasted image 20230127160921.png]]
  1. Pellet 1~3ml of culture by centrifugation(12000rpm, 1min). Discard the supernatant ASAP
  2. Resuspend in 170ul of **buffer S1.**
@@ -42,7 +42,7 @@ Parent : [[_Methods]]
 	 1. EB는 membrane에 직접 떨어트린다. 그러지 않으면 수율이 매우(2배이상) 떨어진다.
 	 2. **EB 분주해서 쓴다.**
 
-# Standard protocol
+# Standard Protocol
 
  1. Pellet up to 5ml of culture by centrifugation(12000rpm, 1min). Discard the supernatant ASAP
  2. Resuspend in 250ul of **buffer S1.**
@@ -59,7 +59,7 @@ Parent : [[_Methods]]
 	 1. EB는 membrane에 직접 떨어트린다. 그러지 않으면 수율이 매우(2배이상) 떨어진다.
 	 2. **EB 분주해서 쓴다.**
 
-# Low copy protocol
+# Low Copy Protocol
 
 > Due to the need of additional buffer for this protocol, fewer preparations can be carried out. Buffers can be purchased separately as accessory
 

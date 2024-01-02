@@ -14,18 +14,18 @@ Parent : [[_Methods]]
 
 [[KakaoTalk_20221212_140448846.jpg]]
 
-# method
+# Method
 
-## Overnight cell culture 
+## Overnight Cell Culture
 1. Inoculate 5ml YPD appropriate selection media with small amount of cells from plate.
 2. Allow to grow overnight with rotating at 30C
 
-## Harvest and wash 
+## Harvest and Wash
 1. Harvest cells by centrifugation at 3000rpm for 5min
 2. Pour off media and wash with 1ml H<sub>2</sub>O
 	1. resuspend the pellet with water and harvest by centrifuge at 3000rpm for 5min
 
-## Nuclear extraction 
+## Nuclear Extraction
 1. resuspend in 200ul NIB (nuclear isolating buffer, 4ºC에 있음) 
 2. prepare 1.5ml with 100ul(under) glass beads (0.5mm) and transfer NIB mixture to 1.5ml tube.
 3. Vortex in cold room(4ºC) for 20~30min

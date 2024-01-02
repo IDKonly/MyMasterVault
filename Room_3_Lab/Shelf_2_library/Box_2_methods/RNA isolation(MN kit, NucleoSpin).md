@@ -63,31 +63,31 @@ day 2
 1. Grow yeast in 10mL YPD until OD_600= 1.0
 2. Harvest and wash with 1 mL UPW(Ultra purified water, 3차 증류수) and transfer to 1.5 ml tube.
 
-### Homogenization by enzymatic digest
+### Homogenization by Enzymatic Digest
 
 1.  Resuspend in **1 ml** of **1 M Sorbitol – 50 mM Tris-Cl (pH 7.4)**. Add **10 ul β-mercaptoethanol** and **5ul zymolase (100mg/ml stock)**.
 2.  _Shaking incubate for 30 min at 30 °C._
 3.  Centrifuge **13000 rpm for 1 min at 4 °C**. (4도 쓸땐 온도 낮춰놓기)
 
-### Lyse cells
+### Lyse Cells
 
 1.  Add 600 ul **RA 1 buffer (lysis buffer)** and **3.5 ul β-mercaptoethanol**.
 2.  Vortex cells for 10 min **in cold room.**
 
-### Filtrate lysate
+### Filtrate Lysate
 
 1.  Trasfer to Nucleospin® Filter (**violet ring**) and **centrifuge 13000 rpm for 1 min**.
 2.  **Collect sup** in collection tube to 1.5 mL tube.
     -   이 단계에서 cell debris가 걸러진다.
 
-### Adjust RNA binding condition
+### Adjust RNA Binding Condition
 1.  Add **600 ul 70 % ethanol and vortex.**
 
 ### Bind RNA
 1.  Up and down 2-3 times and transfer to NucleoSpin® RNA Column (**light blue ring**) (maximal loading capacity: 750ul). **Centrifuge 12000 rpm for 30 sec.**
     -   maximum 750ul니까 500~650ul씩 따서 수행한다. 각 샘플이 총 1ml 내외니까 두번 수행하면 된다.
 
-### Desalt silica membrane
+### Desalt Silica Membrane
 1.  Add **350ul MDB (membrane desalting buffer)** and centrifuge 12000rpm for 1min. ~~Centrifuge 12000 rpm for 30 sec.~~ ( 키트로 하면 4도씨 센트리 필요없음. 근데 키트없이하면 4도씨에서 해야됨.)
 
 _Salt removal_: to make more effective rDNase digest condition.

@@ -10,7 +10,7 @@ aliases:
 tags:
   - 준수_protocol
 ---
-## Cell growth
+## Cell Growth
 1. Broth 5ml, O/N
 2. Subculture from initial OD 0.1 to OD 2.0 at 100ml broth 
 	1. Transfer 50ml conical tube and centrifuge 3000rpm, 5min (Harvest)
@@ -27,18 +27,18 @@ tags:
 6. Transfer **Supernatant** to new 1.5ml tube and keep in ice.
 	1. Keeping **input WB sample**
 
-## bradford assay
+## Bradford Assay
 1. 정량한 뒤 coumn의 capacity에 따라 희석배수를 정할 것.
 2. purification 과정을 전혀 거치지 않았기 때문에 농도가 높을 것이다.
 	1. 1/20 희석 후 측정 권장
 3. [[Bradford assay]]
 
-## Resin binding
+## Resin Binding
 1. Column에 1ml volume에 맞추어서 lysis buffer를 채워준다.
 2. Myc, HA antibody 각각 2.5㎕ 씩 넣고 2hr, 4℃ rotation
 3. Tip 끝을 자른 pipette tip으로 Protein A/G agarose 100ul를 column에 넣고 1hr, 4℃ rotation
 
-## Collection and elution
+## Collection and Elution
 1. Flow-through를 받아줌.
 2. FLAGbinding buffer 0.5ml로 washing 6번 (2ml tube 3개에 washing fraction을 받음)
 3. Elution buffer 200ul로 5번 elution -> 1bead volume/elution buffer (1.5ml tube 5개에 한 번씩 elution)

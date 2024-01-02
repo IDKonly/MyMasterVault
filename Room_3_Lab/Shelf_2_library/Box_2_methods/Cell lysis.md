@@ -10,7 +10,7 @@ tags : [method]
 
 Parent : [[_Methods]]
 
-# RNA isolation의 경우
+# RNA Isolation의 경우
 1. [[Cell harvest]]한 pellet을 얻었으면, 세포를 깨기 위한 처리를한다.
 2. Master mix를 만들어도 좋고, 따로 넣어도 좋다.
 	1. 권장하는 것은 실험오차를 줄이기 위해 master mix를 만드는 것이다.
@@ -24,7 +24,7 @@ Parent : [[_Methods]]
 1. Shaking incubate / 30min at 30 °C.
 
 
-# gDNA isolation의 경우
+# gDNA Isolation의 경우
 1. [[Yeast Cell culture#Overnight cell culture|Overnight cell cuture]]를 한 후에 [[Cell harvest]]를 한다.
 	1. 이 경우 배양액의 OD를 고려하지 않아도 된다. 충분한 양의 DNA가 필요한거지 어떤 상태의 세포들이 필요한 것이 아니기 때문이다.
 	2. early stationary phase : > 2 * 10<sup>8</sup> Cells/ml

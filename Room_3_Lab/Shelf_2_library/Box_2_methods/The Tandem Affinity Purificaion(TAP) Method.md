@@ -3,9 +3,10 @@ title: The Tandem Affinity Purificaion(TAP) Method
 creation_date: 23.04.10
 last_modified: 
 note_type: method
-category: []
+category:
+  - protocol
 aliases:
-  - TAP purification
+  - One step TAP purification
 tags:
   - protein
   - purification
@@ -15,15 +16,15 @@ tags:
 Parent : [[_Methods]]
 Drived from : [[Immunoprecipitation]]
 
-# one step method
+# One step Method
 → Calmodulin binding만 이용
 
-## Cell growth 
+## Cell Growth
 1. Overnight culture in YPD 5ml
 2. Subculture with 0.1~0.2 initiate OD<sub>600</sub> to 2.0 (mid-log phase ~ late-log phase, this value can be change)
 	1. subculture 용량은 요구하는 타겟 단백질의 양이나 성장조건등에 따라 바뀔 수 있음.
 
-## Harvest and lysis
+## Harvest and Lysis
 1. Harvest cell (3000 rpm 5 min) and wash with dH2O 1mL.
 	1. 50ml Used conical tube에 세포를 배양한 배지를 모두 나눠담고, harvest한다.
 2. transfer to 2ml tube; harvest cell in 2ml tube(12000 rpm 30 sec). *→ can store at -80℃ (escape)*.
@@ -31,8 +32,8 @@ Drived from : [[Immunoprecipitation]]
 	2. 2ml tube에 최대 300ml 배양한 cell을 담을 수 있음.
 3. This cells can then be lysis by variable methods
 
-### Cell lysis methods
-#### bead beating
+### Cell Lysis Methods
+#### Bead Beating
 1. Resuspend in mixture (2X binding buffer and [[protease inhibitor]]) 1 volume of pellet.
 	1. 혼합물이 cell을 포함해서 1x binding buffer, 1x Protase inhibitor 만큼 되도록 넣는다.
 2. Add 1ml (or 1 volume of resuspend mixture) glass bead 
@@ -45,8 +46,8 @@ Drived from : [[Immunoprecipitation]]
 
 #### [[Coffee grinder]]
 
-## Calmodulin binding
-1. **Remove cap from new chromatography culumns.**
+## Calmodulin Binding
+1. **Remove cap from new [[chromatography]] culumns.**
 2. Transfer **100ul resin bead** (or what you need) to chromatography column, and wash it with **1x binding buffer 2ml**
 	1. 이 작업은 레진을 보관하고 있는 20% 에탄올 용액이 레진과 단백질의 반응성을 약화시키지 않게 하기 위해서이다. (equalization)
 	2. 바닥에 용액받이를 깔고 거치대에 세워서 한다.
@@ -61,7 +62,7 @@ Drived from : [[Immunoprecipitation]]
 2. Wash 3 times with 2ml 1X binding buffer
 3. Elute 5 times with 300µl elution buffer to each of the tubes.
 
-### Out put
+### Output
 → 샘플당 5개의 300ul elution sampe과 하나의 Flow-through가 발생한다. (*store at -80℃*)
 → 이중 첫번째부터 세번째 까지의 샘플은 적정한 양(50ul정도) 분주하여 4X loading dye를 처리하고 95도에서 5분간 끓인다. [[Western blot]] 샘플을 만들기 위한 것이다.
 

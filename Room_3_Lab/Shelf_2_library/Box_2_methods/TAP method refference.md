@@ -23,7 +23,7 @@ Parent : [[_Methods]]
 
 → 아래 적힌 procedure는 해당 저자의 실험실에서 진행하는 방법이니 잘 조정해서 쓸 것. 
 
-#### Extract preparation
+#### Extract Preparation
 
 > Extracts are routinely prepared from 2 liters of yeast cells grown to late log phase (OD600 ,2–3).
 
@@ -47,7 +47,7 @@ Parent : [[_Methods]]
 
 > After dialysis, the extract is frozen and kept at -80℃.
 
-#### TAP purification
+#### TAP Purification
 
 > We perform all the binding and elution steps in 0.8 X 4 cm poly-prep columns (Bio-Rad, Hercules, CA)
 

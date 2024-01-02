@@ -10,7 +10,7 @@ tags : [method]
 
 Parent : [[_Methods]]
 
-# prepare
+# Prepare
 
 [[Gel electrophoresis]]
 [[Primer dilution]] : 만약 프라이머 stock을 쓴다면, 10ul(primer) : 90ul(UPW)로 희석한다.
@@ -27,7 +27,7 @@ Parent : [[_Methods]]
 
 # Recipe
 
-## Dream taq
+## Dream Taq
 | Agent          | Volume (ul/per 10ul rxn) | 비고 |
 | -------------- | --------------------: |-----|
 | 10X buffer     | 1                    | Mater mix |
@@ -54,7 +54,7 @@ reference : [[DreamTaq_user guide_221020_101620.pdf]]
 → Dreamtaq은 proof-reading 기능이 없어서 무언가를 측정하고 나서 product를 버릴때만 사용한다. mutation이 자주 일어나서 높은 정확도가 필요한 작업에는 좋지 않음.
 → 이런 경우에는 Phusion polymerase를 쓰는 것이 맞다.
 
-## Phusion polymerase
+## Phusion Polymerase
 
 
 Ref : [PCR Protocol Phusion® DNA Polymerase | NEB](https://international.neb.com/protocols/0001/01/01/pcr-protocol-m0530)
@@ -84,7 +84,7 @@ PCR Cycle
 
 주의) gDNA 농도가 너무 높으면 PCR이 안되더라
 
-### PCR troubleshooting guide 
+### PCR Troubleshooting Guide
 
 [PCR Troubleshooting | Bio-Rad](https://www.bio-rad.com/ko-kr/applications-technologies/pcr-troubleshooting?ID=LUSO3HC4S)
 [PCR Troubleshooting Guide | NEB](https://international.neb.com/tools-and-resources/troubleshooting-guides/pcr-troubleshooting-guide)
@@ -95,7 +95,7 @@ PCR Cycle
 
 너무 많은 템플레이트는 아예 증폭 산물을 없애버릴 수도 있다.
 
-## Hot start
+## Hot Start
 
 polymeras를 cpr cycle 중 preheating이 끝나고 집어넣는다.
 

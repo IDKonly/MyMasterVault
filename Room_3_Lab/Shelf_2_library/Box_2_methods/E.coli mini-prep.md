@@ -9,7 +9,7 @@ tags : [method, DNA, E.coli]
 ---
 
 Parent : [[_Methods]]
-# method
+# Method
 1. 2ml to LB+Amp. 37C Overnight culture(50ul/ml)
 2. Centrifugation 3000rpm 5min.
 3. Resuspend with 1X TE → Transfer into 1.5ml tube.

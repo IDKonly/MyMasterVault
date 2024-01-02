@@ -15,7 +15,7 @@ Parent : [[_Methods]]
 
 Ref : MG med protocol
 
-# protocol
+# Protocol
 
 1. Excise the DNA band of interest using a erhanol-cleaned razor blade or scalpel on a transilluminator
 	1. minimizegel volume by cutting the gel slice **as small as passible**
@@ -35,7 +35,7 @@ Ref : MG med protocol
 10. Apply **50ul of buffer EB** or ddH<sub>2</sub>O to the center of the membrane in the MG SV column, let **stand for 1min** and **centrifuge(12000)** for **1min**
 	1. **Product의 농도를 위해 EB를 30ul만 넣을것**
 
-# Quick protocol (kor)
+# Quick Protocol (kor)
 
 1. 원하는 DNA가 포함되어 있는 gel을 가능한한 작게 잘라낸다.
 2. 적당한 양(3조각 정도)의 gel을 tube에 옮겨 담은 뒤, gel의 3배정도 되는 양의 **GB(= gel buffer**, 보통 900ul를 루틴하게 넣는다.)를 투입한다.

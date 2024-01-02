@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Nano drop.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -29,20 +29,7 @@
             }
           },
           {
-            "id": "9b57722d7d158902",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_2_daily notes/23.12.29.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5db6b17bd05c4f82",
+            "id": "731902c32eb633d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,12 +42,61 @@
             }
           },
           {
-            "id": "1bcd88a417c6101b",
+            "id": "5bec0a7045b191ff",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/work flow.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "d971b2af3638147e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_2_daily notes/23년 10월/23.10.13.md",
+                "file": "Room_2_daily notes/24.01.02.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad0096362aa375e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73b66c01903688bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e0dd8423c3c5310",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -68,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -132,8 +168,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "e7419118ec9faabd",
@@ -196,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_2_daily notes/24.01.02.md"
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md"
               }
             }
           },
@@ -222,9 +257,7 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
+                "sortOrder": "frequency"
               }
             }
           }
@@ -241,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/24.01.02.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/24.01.02.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -286,7 +319,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_2_daily notes/24.01.02.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -315,8 +348,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -347,34 +379,37 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5db6b17bd05c4f82",
+  "active": "8e0dd8423c3c5310",
   "lastOpenFiles": [
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
     "Room_2_daily notes/24.01.02.md",
-    "Room_2_daily notes/23.12.29.md",
+    "Room_0_metadata/Shelf_0_Resource/231228 COMPASS activity check result.png",
+    "Room_2_daily notes/23년 11월/23.11.14.md",
+    "Excalidraw/work flow.excalidraw.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/Nano drop.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/Fast Protein Liquid Chromatography (FPLC) machine protocol.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Bypassing the Catalytic Activity of SIR2 for SIR Protein Spreading in _i_Saccharomyces cerevisiae__i_.md",
+    "Excalidraw/무제 폴더",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/PCR.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/준수형의 Westernblot recipe.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/Acetone  precipitation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
+    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Set1 N-terminal domain and Swd2 interact with RNA polymerase II CTD to recruit COMPASS.md",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
+    "Room_2_daily notes/23년 10월/23.10.13.md",
+    "Excalidraw/Scripts/Downloaded/Lighten background color.md",
+    "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/서비스/NextVault.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Gibson Assembly cloning (깁슨 어셈블리 클로닝).md",
+    "Room_2_daily notes/23.12.28.md",
+    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md",
     "Room_2_daily notes/23.12.26.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
     "Room_0_metadata/Shelf_2_work_schedule/2023-12-29 실험실 휴일.md",
-    "Room_2_daily notes/23년 10월/23.10.13.md",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Saccharomyces cerevisiae Set1 complex includes an Ash2 homologue and methylates histone 3 lysine 4.md",
-    "Room_2_daily notes/22년/22년 12월/22.12.28.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/DNA gel extraction.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/1st Draft.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The n-SET domain of Set1 regulates H2B ubiquitylation-dependent H3K4 methylation.md",
-    "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/서비스/TAPO(power switch).md",
-    "Excalidraw/Scripts/_Scripts.md",
-    "Room_2_daily notes/23년 1월/23.01.19.md",
-    "Excalidraw/Scripts/Downloaded/Set Dimensions.md",
-    "Room_2_daily notes/23년 11월/23.11.17.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/COMPASS.md",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/TAP method refference.md",
-    "Room_2_daily notes/23년 5월/23.05.22.md",
-    "Room_2_daily notes/22년/22년 10월/22.10.28.md",
-    "Room_2_daily notes/23년 2월/23.02.08.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/석사 1학기/연구윤리와 논문작성 6 - 논문적기.md",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/@soares2012/image-3-x39-y530.png",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/@soares2012",
@@ -390,14 +425,11 @@
     "Room_2_daily notes/23년 11월",
     "Room_0_metadata/Shelf_1_template for templater/ZotLit",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@soares2012/image-3-x39-y530.png",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@soares2012",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231211174632_595.png",
     "무제 파일.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20231210225502_860.png",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
-    "Excalidraw/Scripts/Downloaded/Text Aura.svg",
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",

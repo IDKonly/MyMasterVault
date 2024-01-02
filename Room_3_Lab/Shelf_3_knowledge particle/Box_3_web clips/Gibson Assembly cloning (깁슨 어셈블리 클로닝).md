@@ -9,6 +9,7 @@ aliases:
 tags:
   - 실전_실험_프로토콜_101
   - BRIC
+  - cloning
 ---
 
 Parent : [[_Webclips]]
@@ -57,12 +58,12 @@ NEBuilder Assembly Tool를 이용해서 겹치는 PCR 프라이머를 디자인�
      
 8.  농도를 측정하고 결합을 설정합니다.
     
-    |  |   2-3 Fragment Assembly   |
-    | --- | --- |
-    |   Total Amount Fragments   |   0.02-0.5pmols, Xµl   |
-    |   Gibson Assembly Master Mix (2X)   |   10µl   |
-    |   Deionized H2O   |   10-Xµl   |
-    |   Total Volume   |   20µl   |
+    |                                 | 2-3 Fragment Assembly |
+    | ------------------------------- | --------------------- |
+    | Total Amount Fragments          | 0.02-0.5pmols, Xµl    |
+    | Gibson Assembly Master Mix (2X) | 10µl                  |
+    | Deionized H2O                   | 10-Xµl                |
+    | Total Volume                    | 20µl                  |
     
 9.  NEB 5-apha competent 셀을 이용해서 트랜스포메이션 합니다. 항생제 (예, Ampicillin)와 IPTG/Xgal를 이용해서 콜로니를 스크린 합니다.  
      

@@ -10,7 +10,7 @@ tags : [method]
 
 Parent : [[_Methods]]
 
-# prepare
+# Prepare
 
 [[4_b_Agarose gel]]
 
