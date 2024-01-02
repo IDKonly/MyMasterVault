@@ -17,7 +17,7 @@ Parent : [[_Methods]]
 2. [[Nano drop]]
 3. Dilution with RNase-free water or UPW to 1000ng/ul.
 
-## PCR mixure recipe (each sample)
+## PCR Mixure Recipe (each sample)
 | Material                                     | volume (ul)       |
 | -------------------------------------------- | ----------------- |
 | 10X TOPscript RT buffer                      | 2                 |
@@ -29,10 +29,10 @@ Parent : [[_Methods]]
 | sterile water(RNase free)                    | up to 20 (12.5-x) |
 → Store at -20°C
 
-### PCR condition
+### PCR Condition
 42/5:00 - 50/1h - 95/5:00 - 4/inf
 
-### Template RNA 
+### Template RNA
 Total RNA : 1ng ~ 5ug
 mRNA : 1ng ~ 250ng
 Specific RNA : 0.01pg ~ 0.5ug
@@ -46,7 +46,7 @@ Random hexamer : 50 ~ 100 uM
 → IF using ramdom hexamer, incubate at 25℃ for 10min before PCR.
 Specific Primer : 15 ~ 20pmol
 
-## Warning 
+## Warning
 
 >Reaction conditions is only a general recommendation. The experimental conditions should be adjusted according to the purpose and sample
 
@@ -56,7 +56,7 @@ Specific Primer : 15 ~ 20pmol
 [TOPscript™ cDNA Synthesis Kit | Global Supplier of enzymes, experiment kits & cloning kits for enzymes | Enzynomics](https://www.enzynomics.com/shop/product_item.php?it_id=402004)
 
 
-# Legacy 
+# Legacy
 
 > P.S.
 > 이 실험은 옵시디언을 사용하기 전에 진행되어 노션에 기록이 남아있음

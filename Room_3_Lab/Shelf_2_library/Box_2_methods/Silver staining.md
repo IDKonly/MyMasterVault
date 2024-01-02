@@ -30,9 +30,9 @@ Parent : [[_Methods]]
 1. **Develop solution 50ml**, shaking 보일때까지
 ## Destaining
 9. **Destaining solution**, shaking
-# list of solutions
+# List of Solutions
 > All Buffers is must made with 3DW.
-#### Fixative solution
+#### Fixative Solution
 >Total 1L
 
 | Agent       | Ratio of Solutions | volume | 
@@ -40,21 +40,21 @@ Parent : [[_Methods]]
 | 94% Ethanol | 30%                | 319ml  |
 | Acetic acid | 10%                | 100ml  |
 | 3DW          |                    | 581ml  |
-#### Pretreat solution
+#### Pretreat Solution
 
 | Agent              | Ratio of Solutions | volume | 
 | ------------------ | ------------------ | ------ |
 | Sodium thiosulfate | 0.02%              | 0.1g   |
 | 3DW up to 500ml     |                    |        |
 | Store at dark, RT  |                    |        |
-#### Silver staining solution
+#### Silver Staining Solution
 >Freshly made 
 
 | Agent          | Ratio of Solutions | volume | 
 | -------------- | ------------------ | ------ |
 | Silver nitrate(AgNO<sub>3</sub>) | 0.2%               | 0.1g   |
 | 3DW up to 50ml  |                    |        |
-#### Develop solution
+#### Develop Solution
 > Freshly made
 
 | Agent                             | Ratio of Solution | Volume | 
@@ -63,7 +63,7 @@ Parent : [[_Methods]]
 | Formaldehyde                      |                   | 50μl   |
 | 3DW up to 47.5ml                   |                   |        |
 | 0.02% Sodium thiosulfate solution |                   | 2.5ml  |
-#### Destaining solution
+#### Destaining Solution
 >Freshly made 
 
 | agent               | Ratio of solution | Volume |

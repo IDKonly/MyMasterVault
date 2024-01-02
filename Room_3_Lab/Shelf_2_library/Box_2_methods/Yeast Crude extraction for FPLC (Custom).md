@@ -10,7 +10,7 @@ tags : []
 
 Parent : [[_Methods]]
 
-## Cell growth 
+## Cell Growth
 1. Overnight culture in YPD 5ml
 2. Subculture with 0.1~0.2 initiate OD<sub>600</sub> in 10ml YPD to 2.0
 
@@ -18,7 +18,7 @@ Parent : [[_Methods]]
 1. Harvest cell (3000 rpm 5 min) and wash with dH2O 1mL.
 2. transfer to 1.5ml tube; harvest cell in 1.5ml tube(12000 rpm 30 sec). *→ can store at -80℃ (escape)*.
 
-## Cell lysis (Bead beating)
+## Cell Lysis (Bead beating)
 1. Resuspend in mixture (2X binding buffer and [[protease inhibitor]]) 1 volume of pellet.
 	1. 혼합물이 cell을 포함해서 1x binding buffer, 1x Protase inhibitor 만큼 되도록 넣는다.
 2. Add 100ul (or 1 volume of resuspend mixture) glass bead 
@@ -29,7 +29,7 @@ Parent : [[_Methods]]
 6. Transfer **Supernatant** to new 1.5ml tube and keep in ice.
 	1. 최대한 맑은 상등액만 딴다.
 
-## [[Bradford assay]] 
+## [[Bradford assay]]
 1. 정량한 뒤 coumn의 capacity에 따라 희석배수를 정할 것.
 2. purification 과정을 전혀 거치지 않았기 때문에 농도가 높을 것이다.
 	1. 1/20 희석 후 측정 권장

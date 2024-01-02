@@ -10,7 +10,7 @@ tags : [method, buffer]
 
 Parent : [[_Methods]]
 
-# RNA isolation buffer
+# RNA Isolation Buffer
 
 | Chemical                          | Volume |  
 | :--------------------------------- | ------: | 
@@ -18,7 +18,7 @@ Parent : [[_Methods]]
 | β-mercaptoethanol                 | 1ul    |
 | zymolase (100mg/ml stock)                          | 5ul    | 
 
-# Protoplasting buffer
+# Protoplasting Buffer
 
 | Chemical           | volume   |    
 | :----------------- | ------ : |    
@@ -30,14 +30,14 @@ Parent : [[_Methods]]
 → Tris-Cl + EDTA → TE 1X buffer 
 in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 100
 
-# Lysis solution
+# Lysis Solution
 
 | Chemical | Volume |
 | :-------- | ------ :|
 | NaOH     | 0.2M   |
 | SDS          | 1%       |
 
-# NIB buffer 
+# NIB Buffer
 
 | Chemical            |   Volume |
 |:------------------- | --------:|
@@ -50,7 +50,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 | add water           | Up to 1L |
 
 
-# Agarose gel 2%
+# Agarose Gel 2%
 
 | Chemical      | Volume |
 | ------------- | ------: |
@@ -59,7 +59,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 > TAE 버퍼는 저울 뒤편 벽너머에 있다.
 > [[Gel green]] 사용할 때에는 30ml당 3ul 정도 투입해서 사용한다.
 
-# RT-PCR mix recipe (each sample)
+# RT-PCR Mix Recipe (each sample)
 
 | Material                                     | volume (ul)                 | agent location |
 | -------------------------------------------- | ---------------------------: | -------------- |
@@ -71,7 +71,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 | RNase Inhibitor(40units/ul)                  | 0.5                         | -20            |
 | sterile water(RNase free)                    | up to 20 (12.5-x) |             |
 
-# qPCR mix (each well)
+# qPCR Mix (each well)
 
 | Material | Volume |
 | -------- | ------ |
@@ -80,7 +80,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 | qPCR mix(RT-PCR mixure)         |   7.5ul     |
 > qPCR mix는 이미 제품으로 만들어져 있다
 
-# PEG cocktail
+# PEG Cocktail
 
 | Agent          | Volume (per unit ) |
 | -------------- | ------------------ |
@@ -111,7 +111,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 | 50X TAE | 20ml   |
 | DW      | 980ml  | 
 
-# 10X Electrophoresis buffer 
+# 10X Electrophoresis Buffer
 
 | Agent     | Volume   |
 | --------- | -------- |
@@ -120,7 +120,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 | SDS       | 10g      |
 | add water | up to 1L |
 
-# 1X transfer buffer 
+# 1X Transfer Buffer
 
 | Agent    | Volume |
 | -------- | ------ |
@@ -136,7 +136,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 | 0.01M EDTA | 2.92g   |
 | add water  | up to 1L   |
 
-# 60% glycerol 
+# 60% Glycerol
 
 | Agent         | Volume |
 | ------------- | ------ |
@@ -153,7 +153,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 
 → [[DH5alpha competent cell without dry-ice]] 용 버퍼
 
-# 6X loading dye
+# 6X Loading Dye
 
 | Agent                | Volume     |
 | -------------------- | ---------- |
@@ -166,14 +166,14 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 > pH는 정확할 필요 없이 우리가 아는 검푸른색이 될때 까지 적정해주어 넣으면 된다.
 > Tris-HCl 를 처리하지 않으면 옅은 오렌지색 느낌이 난다.
 
-# Gel running buffer
+# Gel Running Buffer
 
 | Agent                         | Volume |
 | ----------------------------- | ------ |
 | 10X Laemmili Electrode buffer | 100ml   |
 | H<sub>2</sub>O                              |   900ml     |
 
-# Western transfer buffer
+# Western Transfer Buffer
 
 | Agent                         | Volume |
 | ----------------------------- | ------ |
@@ -181,7 +181,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 | Methanol                      | 200ml  |
 | H<sub>2</sub>O                           | 700ml  |
 
-# 10X Laemili Electrode buffer
+# 10X Laemili Electrode Buffer
 
 | Agent          | Volume   |
 | -------------- | -------- |
@@ -190,7 +190,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 | SDS            | 10g      |
 | H<sub>2</sub>O | up tp 1L |
 
-# Blocking solution
+# Blocking Solution
 
 | Agent | Volume |
 | ----- | ------ |
@@ -207,7 +207,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 | KCl   | 2g     |
 | pH7.4 | per 1L |
 
-# 4X loading dye
+# 4X Loading Dye
 > for protein
 
 | Agent                     | Volume     |
@@ -229,7 +229,7 @@ in this recipe, 2-mercaptoehtanol : TE 1X buffer = 1 : 99 , normally  mix 1 ; 10
 | DTT        | ?                       |
 
 
-# 50X [[protease inhibitor]] (pi) 
+# 50X [[protease inhibitor]] (pi)
 
 | Agent                       | Volume   |
 | --------------------------- | -------- |

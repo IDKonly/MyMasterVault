@@ -10,7 +10,7 @@ tags : [protein, concentration]
 
 Parent : [[_Methods]]
 
-## Materials required
+## Materials Required
 
 - Cold (-20°C ) acetone, a volume of four times that of the samples to be precipitated
 - Centrifuge tube, made of acetone-compatible polypropylene and able to hold five times the Sample volume

@@ -1,8 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "work flow.excalidraw",
+      "path": "Excalidraw/work flow.excalidraw.md"
+    },
+    {
+      "basename": "Bypassing the Catalytic Activity of SIR2 for SIR Protein Spreading in _i_Saccharomyces cerevisiae__i_",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Bypassing the Catalytic Activity of SIR2 for SIR Protein Spreading in _i_Saccharomyces cerevisiae__i_.md"
+    },
+    {
+      "basename": "Nano drop",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Nano drop.md"
+    },
+    {
+      "basename": "PCR",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/PCR.md"
+    },
+    {
+      "basename": "준수형의 Westernblot recipe",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/준수형의 Westernblot recipe.md"
+    },
+    {
+      "basename": "Bradford assay",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md"
+    },
+    {
+      "basename": "Acetone  precipitation",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Acetone  precipitation.md"
+    },
+    {
+      "basename": "A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md"
+    },
+    {
       "basename": "The Set1 N-terminal domain and Swd2 interact with RNA polymerase II CTD to recruit COMPASS",
       "path": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Set1 N-terminal domain and Swd2 interact with RNA polymerase II CTD to recruit COMPASS.md"
+    },
+    {
+      "basename": "231207 Two-step TAP purificaiton work",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas"
+    },
+    {
+      "basename": "23.11.14",
+      "path": "Room_2_daily notes/23년 11월/23.11.14.md"
+    },
+    {
+      "basename": "TAP(Tandem Affinity purification)",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md"
+    },
+    {
+      "basename": "23.10.13",
+      "path": "Room_2_daily notes/23년 10월/23.10.13.md"
+    },
+    {
+      "basename": "The Tandem Affinity Purificaion(TAP) Method",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md"
     },
     {
       "basename": "Lighten background color",
@@ -27,14 +79,6 @@
     {
       "basename": "23.12.26",
       "path": "Room_2_daily notes/23.12.26.md"
-    },
-    {
-      "basename": "A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md"
-    },
-    {
-      "basename": "23.10.13",
-      "path": "Room_2_daily notes/23년 10월/23.10.13.md"
     },
     {
       "basename": "Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation",
@@ -155,50 +199,6 @@
     {
       "basename": "23.06.22",
       "path": "Room_2_daily notes/23년 6월/23.06.22.md"
-    },
-    {
-      "basename": "_23년 3월",
-      "path": "Room_2_daily notes/23년 3월/_23년 3월.md"
-    },
-    {
-      "basename": "_Shelf_1_template for templater",
-      "path": "Room_0_metadata/Shelf_1_template for templater/_Shelf_1_template for templater.md"
-    },
-    {
-      "basename": "23.12.11",
-      "path": "Room_2_daily notes/23.12.11.md"
-    },
-    {
-      "basename": "22.12.23 PCR and Gel electrophoresis",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/22년/22.12.23 PCR and Gel electrophoresis.md"
-    },
-    {
-      "basename": "천연물신약 4강",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/석사 1학기/천연물신약 4강.md"
-    },
-    {
-      "basename": "230609 Swd2-TAP strain flocculation check",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/230609 Swd2-TAP strain flocculation check.md"
-    },
-    {
-      "basename": "ACT1 F",
-      "path": "Room_3_Lab/Shelf_4_Stocks/ACT1 F.md"
-    },
-    {
-      "basename": "Chromatograpy resin",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Chromatograpy resin.md"
-    },
-    {
-      "basename": "23.05.24",
-      "path": "Room_2_daily notes/23년 5월/23.05.24.md"
-    },
-    {
-      "basename": "Elute",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Elute.md"
-    },
-    {
-      "basename": "23.05.31",
-      "path": "Room_2_daily notes/23년 5월/23.05.31.md"
     }
   ],
   "omittedPaths": [],

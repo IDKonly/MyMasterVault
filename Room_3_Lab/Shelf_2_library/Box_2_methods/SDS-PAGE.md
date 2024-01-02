@@ -10,15 +10,15 @@ tags : [protein]
 
 Parent : [[_Methods]]
 
-# method
+# Method
 
 ## Sample
 [[Rapid Perparation of nuclear extract from Yeast cells for western blot]]에서 얻은 단백질샘플을 이용한다.
 
-## SDS gel
+## SDS Gel
 2가지 종류의 gel을 이용한다.
 
-### Running gel
+### Running Gel
 | Agent                | 5%   | 6%   | 7%   | 8%   | 9%   | 10%  | 12%  | 15%  |
 |----------------------|------|------|------|------|------|------|------|------|
 | 40% Acrylamide       | 625  | 750  | 875  | 1000 | 1125 | 1250 | 1500 | 1875 |
@@ -33,7 +33,7 @@ APS; Ammonium persurfate
 2. 젤의 상단부분을 평평하게 만들어주기 위해서, 70% 에탄올을 위에다가 붓는다. (약 2~3ml정도. 가득 찰때까지.)
 3. 15분 정도면 굳고, 최대 30분이면 다 굳는다.
 
-### Stacking gel
+### Stacking Gel
 | Agent              | 1    | 2    | 3    | 4    |
 |--------------------|------|------|------|------|
 | 40% Acrylamide     | 228  | 456  | 684  | 912  |
@@ -67,7 +67,7 @@ Running gel 위에 Stacking gel을 굳혀서 만든다.
 굳이 Double point 뿐만 아니라, Triple point 등의 여러 볼륨으로 로딩할 수 있으며
 이것은 컨트롤인 H3의 양을 정량해서 어떤 조작에 의한 변화가 일관됨을 확인할때, 굳이 여러 단계의 작업간에 [[SDS-PAGE]]를 여러번 내리지 않아도 되도록 한다.
 
-# Explain 
+# Explain
 
 1. 목적은 결국 단백질을 무게 순서대로 정렬하여 보는 것이다.
 2. 길이가 DNA보다 훨씬 짧기 때문에 acrylamind gel을 사용한다.

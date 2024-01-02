@@ -29,7 +29,7 @@ Parent : [[_Methods]]
 
 ![[Pasted image 20230501104131.png]]
 
-## Trouble shooting
+## Trouble Shooting
 
 ![[Pasted image 20230427163453.png]]
 - 밴드가 누출되어 퍼져보이는 현상은 semi-dry transfer를 할 때, 너무 많은 버퍼를 트레이에 사용했기 때문입니다. 너무 많은 버퍼를 사용하면 단백질이 멤브레인에 안착되지 못하고 버퍼 내로 확산될 수 있습니다. 이 문제는 [[Western blot]]의 해상도를 매우 많이 감소시키기 때문에 주의해야 합니다. 젤과 멤브레인을 감싼 filter paper는 완전히 젖은 상태여야 하지만, 트레이가 흠뻑 젖을 필요는 없습니다.

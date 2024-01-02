@@ -20,13 +20,13 @@ Parent : [[_Methods]]
 3. 30도에서 overnight한다. 성장속도에 따라 3일까지 배양할 수 있다. 성장이 끝나면 4도씨 냉장고에서 보관한다.
 
 
-# Overnight cell culture 
+# Overnight Cell Culture
 *AKA seeding*
 
 1. 15ml tube에 YPD(또는 실험에 적합한 배지) 5ml를 담는다.
 2. plate에서 배양한 균주를 배지에 접종하고 overnight(14시간 이상)한다.
 
-# Cell subculture
+# Cell Subculture
 *AKA sub*
 
 1. Overnight cell culture에서 배양한 균주의 OD를 측정한다.

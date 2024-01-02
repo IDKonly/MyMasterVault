@@ -12,11 +12,11 @@ Parent : [[_Methods]]
 
 # Method
 
-## Running the gel and transfer
+## Running the Gel and Transfer
 
 1. Run the gel and [[transfer]] to nitrocellulose for western blotting.
 
-### prepared solutions
+### Prepared Solutions
 1. [[Solutions#Gel running buffer]]
 2. [[Solutions#Western transfer buffer]]
 3. [[Solutions#10X Laemili Electrode buffer]]
@@ -27,7 +27,7 @@ Parent : [[_Methods]]
 	1. [[Solutions#Blocking solution]]
 	2. 그 다음 물로 blocking solution을 씻어낸다.
 
-## Binding primary antibody
+## Binding Primary Antibody
 
 1. Dilute [[primary antibody]] at 4C Overnight with shacking.
 	1. 이때 Pimary antibody는 TBS에 희석해서 쓴다.
@@ -36,7 +36,7 @@ Parent : [[_Methods]]
 	2. overnight이 끝난 antibody는 15ml 튜브에 다시 담아서 재사용한다.
 2. Remove antibody solution. Wash the membrane 3 times for 10 min each at room temperature in 1X TBST with shacking
 
-## binding secondary antibody 
+## Binding Secondary Antibody
 
 1. incubate membrane with diluted HRP-conjugate secondary antibody in 1X TBS for 30 min at room temperature with shacking.
 	1. 0.5ul/10ml antibody per TBS
@@ -44,7 +44,7 @@ Parent : [[_Methods]]
 	3. 항상 새로 만든다.
 2. Remove antibody solution. Wash the membrane 3 times for 10 min each at room temperature in 1X TBST with shacking
 
-## Development 
+## Development
 
 1. Membrane이 들어있는 통에 Peroxide와 luminol을 각 500ul 씩 넣고 잘 섞는다.
 	1. 과산화수소와 루미놀은 HRP의 substrate로 쓰인다.
@@ -61,7 +61,7 @@ Parent : [[_Methods]]
 8. 시간이 지나면 필름이 타기 시작하는데, 적절한 정도로 탄 필름을 물에 넣어 developer를 씻어낸 후 fixer에 넣으면 필름이 투명해진다.
 9. fixer에서 반응이 완료되면 필름을 꺼내 물에 넣고 실험실에서 말린다.
 
-## film keeping
+## Film Keeping
 
 1. 다 마른 film은, 실험에 대한 정보나 sample의 이름들을 다 적는다.
 	1. 이때 적는 정보들은 최대한 membrane과 접촉하지 않은 면에 적도록 한다.

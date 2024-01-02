@@ -12,7 +12,7 @@ Parent : [[_Methods]]
 [[Frozen stock]]  만드는 법
 # Method
 
-## Cell growth overnight
+## Cell Growth Overnight
 1. Growing cells in broth overnight.
 	1. Broth는 가능하면 selective media로 한다. (contamination 방지)
 2. Prepare 60% glycerol solution.
@@ -22,7 +22,7 @@ Parent : [[_Methods]]
 6. Mix 900ul of cell solution with 300ul of 60% glycerol to 1.2ml of 15% clycerol cell stock in cryovial.
 7. Store in -80℃.
 
-# Legacy 
+# Legacy
 1. 충분한 양의 Cell을 확보한 overnight batch를 준비한다.
 	1. [[Yeast Cell culture#Overnight cell culture]]
 2. 60% glycerol 용액도 준비한다.
