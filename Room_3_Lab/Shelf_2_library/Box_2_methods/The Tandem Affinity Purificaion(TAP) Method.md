@@ -3,9 +3,10 @@ title: The Tandem Affinity Purificaion(TAP) Method
 creation_date: 23.04.10
 last_modified: 
 note_type: method
-category: []
+category:
+  - protocol
 aliases:
-  - TAP purification
+  - One step TAP purification
 tags:
   - protein
   - purification
@@ -46,7 +47,7 @@ Drived from : [[Immunoprecipitation]]
 #### [[Coffee grinder]]
 
 ## Calmodulin Binding
-1. **Remove cap from new chromatography culumns.**
+1. **Remove cap from new [[chromatography]] culumns.**
 2. Transfer **100ul resin bead** (or what you need) to chromatography column, and wash it with **1x binding buffer 2ml**
 	1. 이 작업은 레진을 보관하고 있는 20% 에탄올 용액이 레진과 단백질의 반응성을 약화시키지 않게 하기 위해서이다. (equalization)
 	2. 바닥에 용액받이를 깔고 거치대에 세워서 한다.
@@ -61,7 +62,7 @@ Drived from : [[Immunoprecipitation]]
 2. Wash 3 times with 2ml 1X binding buffer
 3. Elute 5 times with 300µl elution buffer to each of the tubes.
 
-### Out Put
+### Output
 → 샘플당 5개의 300ul elution sampe과 하나의 Flow-through가 발생한다. (*store at -80℃*)
 → 이중 첫번째부터 세번째 까지의 샘플은 적정한 양(50ul정도) 분주하여 4X loading dye를 처리하고 95도에서 5분간 끓인다. [[Western blot]] 샘플을 만들기 위한 것이다.
 

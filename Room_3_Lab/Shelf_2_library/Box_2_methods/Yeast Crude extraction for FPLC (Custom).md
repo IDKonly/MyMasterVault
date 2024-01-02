@@ -1,11 +1,15 @@
 ---
-title : Yeast Crude extraction for FPLC
-creation_date : 23.07.21
-last_modified :
-note_type : method
-category : []
-aliases : 
-tags : []
+title: Yeast Crude extraction for FPLC
+creation_date: 23.07.21
+last_modified: 
+note_type: method
+category: FPLC
+aliases:
+  - Crude_FPLC
+tags:
+  - FPLC
+  - protein
+  - Protocol
 ---
 
 Parent : [[_Methods]]

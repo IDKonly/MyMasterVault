@@ -36,7 +36,7 @@ Parent : [[_Methods]]
 
 ### Setting up of Chromatography Coumn
 
->Warning
+>[!note] Warning
 >Column이 20% EtOH로 채워져 있는 경우, Salt를 포함하고 있는 buffer를 투입하지 마시오, 반대의 경우도 금지됩니다.
 >EtOH와 Salt가 직접 접촉할 경우 침강반응이 일어날 수 있고, 이렇게 만들어진 염은 column과 장비를 손상시킬 수 있습니다.
 
@@ -47,8 +47,8 @@ Parent : [[_Methods]]
 			1. 이후 column 하단을 열고, 액체가 새어나오기 시작하면 하단도 동일하게 연결한다.
 2. Equalibration
 	1. 위의 이유로 DW→ buffer 순서로 진행하고, 각 2CV만큼 column을 통과시킨다.
-	2. DW equilibration을 할때는 Wash tube를 뺀 모든 inlet tube가 DW에 담겨 있어야 하고, 반대로 buffer equilibration을 할 때는 buffer에 담겨 있어야 한다.
-	3. DW 2시간 30분, buffer 1시간 30분여 소요된다.
+		1. DW equilibration을 할때는 Wash tube(1M NaOH, inlet C)를 뺀 모든 inlet tube가 DW에 담겨 있어야 하고, 반대로 buffer equilibration을 할 때는 buffer에 담겨 있어야 한다.
+	2. DW 2시간 30분, buffer 1시간 30분여 소요된다.
 
 ## Main
 
