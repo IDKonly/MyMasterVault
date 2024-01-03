@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "24.01.03",
+      "path": "Room_2_daily notes/24.01.03.md"
+    },
+    {
       "basename": "Yeast Crude extraction for FPLC (Custom)",
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Transcription regulator Swd2 model.excalidraw",
       "path": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
-    },
-    {
-      "basename": "Swd2의 기본적인 소개",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2의 기본적인 소개.md"
     }
   ],
   "omittedPaths": [],
