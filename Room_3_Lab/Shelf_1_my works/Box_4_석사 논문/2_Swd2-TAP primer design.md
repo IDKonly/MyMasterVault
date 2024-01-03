@@ -52,3 +52,5 @@ Reverse primer – TATATATTATATCCTCTAGTATATCAATGCAGTAGCAGCAGT ACGACTCACTATAGGGCG
 
 
 띄어쓰기로 표시한 부분의 앞에있는 sequence가 Swd2의 유전자 말단을 뭉개고 들어가도록 homologous recombination을 일으키면서 뒤에 있는 TAP-tag까지 translation되게 한다.
+
+![[Pasted image 20240103204157.png]]

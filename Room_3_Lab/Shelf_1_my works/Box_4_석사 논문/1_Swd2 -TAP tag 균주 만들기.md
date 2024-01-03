@@ -1,4 +1,4 @@
-**---
+---
 creation_date : 22.12.28
 last_modified :
 note_type : basic
@@ -8,7 +8,6 @@ aliases :
 tags : [Project1]
 ---
 
-Parent : [[_LabWorks]]
 
 ### 221228 16시
 

@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
+      "basename": "3_Swd2-TAP 균주 검증",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_Swd2-TAP 균주 검증.md"
+    },
+    {
       "basename": "24.01.03",
       "path": "Room_2_daily notes/24.01.03.md"
+    },
+    {
+      "basename": "2_Swd2-TAP primer design",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/2_Swd2-TAP primer design.md"
+    },
+    {
+      "basename": "1_a_swd2-TAP TRP 균주 만들기",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/1_a_swd2-TAP TRP 균주 만들기.md"
+    },
+    {
+      "basename": "1_Swd2 -TAP tag 균주 만들기",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/1_Swd2 -TAP tag 균주 만들기.md"
+    },
+    {
+      "basename": "0_index",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/0_index.md"
+    },
+    {
+      "basename": "_Box_4_석사 논문",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/_Box_4_석사 논문.md"
+    },
+    {
+      "basename": "2023 KSMCB 경비",
+      "path": "Room_3_Lab/Shelf_1_my works/2023 KSMCB 경비.md"
+    },
+    {
+      "basename": "my model for work (may not colect)",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas"
+    },
+    {
+      "basename": "Rapid Perparation of nuclear extract from Yeast cells for western blot",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Rapid Perparation of nuclear extract from Yeast cells for western blot.md"
     },
     {
       "basename": "Yeast Crude extraction for FPLC (Custom)",
@@ -159,46 +199,6 @@
     {
       "basename": "23.05.22",
       "path": "Room_2_daily notes/23년 5월/23.05.22.md"
-    },
-    {
-      "basename": "22.10.28",
-      "path": "Room_2_daily notes/22년/22년 10월/22.10.28.md"
-    },
-    {
-      "basename": "23.02.08",
-      "path": "Room_2_daily notes/23년 2월/23.02.08.md"
-    },
-    {
-      "basename": "연구윤리와 논문작성 6 - 논문적기",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/석사 1학기/연구윤리와 논문작성 6 - 논문적기.md"
-    },
-    {
-      "basename": "2 direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/2 direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md"
-    },
-    {
-      "basename": "allosteric model",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/allosteric model.md"
-    },
-    {
-      "basename": "Ssu72",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Ssu72.md"
-    },
-    {
-      "basename": "Glc7",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Glc7.md"
-    },
-    {
-      "basename": "_KnowledgeParticle template",
-      "path": "Room_0_metadata/Shelf_1_template for templater/_KnowledgeParticle template.md"
-    },
-    {
-      "basename": "_23년 5월",
-      "path": "Room_2_daily notes/23년 5월/_23년 5월.md"
-    },
-    {
-      "basename": "Transcription regulator Swd2 model.excalidraw",
-      "path": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
     }
   ],
   "omittedPaths": [],

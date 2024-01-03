@@ -15,3 +15,6 @@ Parent : [[_LabWorks]]
 [[SDS-PAGE]] 
 
 [[Western blot]]
+
+![[그림3.png]]
+![[그림4.png]]
