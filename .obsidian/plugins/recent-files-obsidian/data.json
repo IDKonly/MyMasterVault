@@ -5,6 +5,14 @@
       "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/240102 논문 작업물.md"
     },
     {
+      "basename": "Bradford assay",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md"
+    },
+    {
+      "basename": "3_Swd2-TAP 균주 검증",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_Swd2-TAP 균주 검증.md"
+    },
+    {
       "basename": "점심메뉴",
       "path": "점심메뉴.md"
     },
@@ -137,10 +145,6 @@
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Fast Protein Liquid Chromatography (FPLC) machine protocol.md"
     },
     {
-      "basename": "Bradford assay",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md"
-    },
-    {
       "basename": "Dead volume",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Dead volume.md"
     },
@@ -155,10 +159,6 @@
     {
       "basename": "한 번의 PCR로 여러 개의 isoform을 찾아내는 방법",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/한 번의 PCR로 여러 개의 isoform을 찾아내는 방법.md"
-    },
-    {
-      "basename": "3_Swd2-TAP 균주 검증",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_Swd2-TAP 균주 검증.md"
     },
     {
       "basename": "3_a_균주 COMPASS  활성 검증",
@@ -191,14 +191,6 @@
     {
       "basename": "The Set1 N-terminal domain and Swd2 interact with RNA polymerase II CTD to recruit COMPASS",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Set1 N-terminal domain and Swd2 interact with RNA polymerase II CTD to recruit COMPASS.md"
-    },
-    {
-      "basename": "Position effect at S. cerevisiae telomeres_ Reversible repression of Pol II transcription",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Position effect at S. cerevisiae telomeres_ Reversible repression of Pol II transcription.md"
-    },
-    {
-      "basename": "23.10.24",
-      "path": "Room_2_daily notes/23년 10월/23.10.24.md"
     }
   ],
   "omittedPaths": [],
