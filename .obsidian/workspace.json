@@ -59,6 +59,7 @@
       {
         "id": "a2bf4cc14bcaf7bb",
         "type": "tabs",
+        "dimension": 68.89763779527559,
         "children": [
           {
             "id": "a1ed11d596305dc2",
@@ -110,21 +111,14 @@
               "type": "mk-path-view",
               "state": {}
             }
-          },
-          {
-            "id": "0cac59f5a9e15c28",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       },
       {
         "id": "e7419118ec9faabd",
         "type": "tabs",
+        "dimension": 31.10236220472441,
         "children": [
           {
             "id": "5ea82ab294a090a0",
@@ -333,7 +327,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dd4647d65db293c4",
+  "active": "7dcd2f9e9871d031",
   "lastOpenFiles": [
     "점심메뉴.md",
     "Room_0_metadata/Shelf_1_template for templater/Basic template.md",
