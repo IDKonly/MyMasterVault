@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
+      "basename": "24.01.03",
+      "path": "Room_2_daily notes/24.01.03.md"
     },
     {
       "basename": "3_Swd2-TAP 균주 검증",
       "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_Swd2-TAP 균주 검증.md"
     },
     {
-      "basename": "24.01.03",
-      "path": "Room_2_daily notes/24.01.03.md"
+      "basename": "0_index",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/0_index.md"
     },
     {
-      "basename": "2_Swd2-TAP primer design",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/2_Swd2-TAP primer design.md"
+      "basename": "231208.excalidraw",
+      "path": "Excalidraw/231208.excalidraw.md"
+    },
+    {
+      "basename": "Transcription regulator Swd2 model.excalidraw",
+      "path": "Excalidraw/Transcription regulator Swd2 model.excalidraw.md"
+    },
+    {
+      "basename": "NNS complexexcalidraw",
+      "path": "Excalidraw/NNS complexexcalidraw.md"
+    },
+    {
+      "basename": "my model for work (may not colect)",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas"
     },
     {
       "basename": "1_a_swd2-TAP TRP 균주 만들기",
@@ -25,8 +37,12 @@
       "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/1_Swd2 -TAP tag 균주 만들기.md"
     },
     {
-      "basename": "0_index",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/0_index.md"
+      "basename": "2_Swd2-TAP primer design",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/2_Swd2-TAP primer design.md"
+    },
+    {
+      "basename": "3_a_균주 COMPASS  활성 검증",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_a_균주 COMPASS  활성 검증.md"
     },
     {
       "basename": "_Box_4_석사 논문",
@@ -35,10 +51,6 @@
     {
       "basename": "2023 KSMCB 경비",
       "path": "Room_3_Lab/Shelf_1_my works/2023 KSMCB 경비.md"
-    },
-    {
-      "basename": "my model for work (may not colect)",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas"
     },
     {
       "basename": "Rapid Perparation of nuclear extract from Yeast cells for western blot",
@@ -183,22 +195,6 @@
     {
       "basename": "23.11.17",
       "path": "Room_2_daily notes/23년 11월/23.11.17.md"
-    },
-    {
-      "basename": "COMPASS",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/COMPASS.md"
-    },
-    {
-      "basename": "Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor",
-      "path": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor.md"
-    },
-    {
-      "basename": "TAP method refference",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/TAP method refference.md"
-    },
-    {
-      "basename": "23.05.22",
-      "path": "Room_2_daily notes/23년 5월/23.05.22.md"
     }
   ],
   "omittedPaths": [],

@@ -1,11 +1,12 @@
 ---
-creation_date : 23.01.25
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+creation_date: 23.01.25
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - 석사논문
 ---
 
 Parent : [[1_Swd2 -TAP tag 균주 만들기]]

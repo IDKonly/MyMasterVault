@@ -1,11 +1,12 @@
 ---
-creation_date : 22.12.28
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : [Project1]
+creation_date: 22.12.28
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - 석사논문
 ---
 
 

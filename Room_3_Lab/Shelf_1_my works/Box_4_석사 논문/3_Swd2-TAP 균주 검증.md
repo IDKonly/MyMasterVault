@@ -1,11 +1,12 @@
 ---
-creation_date : 23.02.20
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+creation_date: 23.02.20
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases: 
+tags:
+  - 석사논문
 ---
 
 Parent : [[_LabWorks]]
