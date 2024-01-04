@@ -33,10 +33,10 @@
   "custom-font-loader",
   "obsidian-enhancing-export",
   "obsidian-excalidraw-plugin",
-  "obsidian-icon-folder",
   "zotlit",
   "obsidian-git",
   "make-md",
   "obsidian-custom-frames",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "obsidian-icon-folder"
 ]

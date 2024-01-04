@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "f4f311d1415547c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7dcd2f9e9871d031",
             "type": "leaf",
             "state": {
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -59,7 +72,7 @@
       {
         "id": "a2bf4cc14bcaf7bb",
         "type": "tabs",
-        "dimension": 68.89763779527559,
+        "dimension": 34.44881889763779,
         "children": [
           {
             "id": "a1ed11d596305dc2",
@@ -87,14 +100,6 @@
             }
           },
           {
-            "id": "dd4647d65db293c4",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          },
-          {
             "id": "d40e1e38d692b966",
             "type": "leaf",
             "state": {
@@ -116,9 +121,24 @@
         "currentTab": 3
       },
       {
+        "id": "3918255c240dee0d",
+        "type": "tabs",
+        "dimension": 34.44881889763779,
+        "children": [
+          {
+            "id": "dd4647d65db293c4",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "e7419118ec9faabd",
         "type": "tabs",
-        "dimension": 31.10236220472441,
+        "dimension": 31.102362204724407,
         "children": [
           {
             "id": "5ea82ab294a090a0",
@@ -141,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 364.5110321044922
   },
   "right": {
     "id": "0ea7d8fda78ec24d",
@@ -177,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Cleavage and Polyadenylation Factor.md"
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md"
               }
             }
           },
@@ -222,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Cleavage and Polyadenylation Factor.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Cleavage and Polyadenylation Factor.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -292,12 +312,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e9e475e7cc684d15",
+  "active": "f4f311d1415547c5",
   "lastOpenFiles": [
-    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Cleavage and Polyadenylation Factor.md",
-    "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/2 direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md",
+    "Room_3_Lab/Room_3_Lab.md",
+    "Room_2_daily notes/Room_2_daily notes.md",
+    "Room_1_rules/Room_1_rules.md",
     "Room_3_Lab/Shelf_3_knowledge particle/C-terminal domain.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Cleavage and Polyadenylation Factor.md",
+    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
+    "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/2 direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
     "Room_3_Lab/Shelf_3_knowledge particle/RNA 젤 걸때 락스처리하기.md",
     "Room_2_daily notes/23.12.29.md",
     "Room_2_daily notes/23년 4월/_23년 4월.md",
@@ -316,10 +340,6 @@
     "Room_2_daily notes/23년 2월/23.02.27.md",
     "Room_0_metadata/Shelf_1_template for templater/_KnowledgeParticle template.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Broth.md",
-    "Room_0_metadata/Shelf_2_work_schedule/2023-01-25 E.coli transformation.md",
-    "Room_3_Lab/Shelf_1_my works/(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Box_1_Molecular cloning/_Box_1_Molecular cloning.md",
-    "Room_2_daily notes/22년/22년 11월/22.11.28.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205620.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205605.png",
     "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas",

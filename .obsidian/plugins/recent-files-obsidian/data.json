@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "TPE marker gene Abstract",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md"
+    },
+    {
+      "basename": "Bradford assay",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md"
+    },
+    {
+      "basename": "C-terminal domain",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/C-terminal domain.md"
+    },
+    {
       "basename": "Cleavage and Polyadenylation Factor",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Cleavage and Polyadenylation Factor.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "2 direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription",
       "path": "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/2 direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md"
-    },
-    {
-      "basename": "C-terminal domain",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/C-terminal domain.md"
     },
     {
       "basename": "RNA 젤 걸때 락스처리하기",
@@ -137,10 +145,6 @@
       "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/240102 논문 작업물.md"
     },
     {
-      "basename": "Bradford assay",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md"
-    },
-    {
       "basename": "3_Swd2-TAP 균주 검증",
       "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_Swd2-TAP 균주 검증.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "3. Metadata 구조",
       "path": "Room_1_rules/3. Metadata 구조.md"
-    },
-    {
-      "basename": "APT complex와 PNUTS-WDR82-PP1 complex 간의 관계",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/APT complex와 PNUTS-WDR82-PP1 complex 간의 관계.md"
     }
   ],
   "omittedPaths": [],
