@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "240102 논문 작업물",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/240102 논문 작업물.md"
+    },
+    {
+      "basename": "점심메뉴",
+      "path": "점심메뉴.md"
+    },
+    {
+      "basename": "Basic template",
+      "path": "Room_0_metadata/Shelf_1_template for templater/Basic template.md"
+    },
+    {
+      "basename": "Short introduction",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md"
+    },
+    {
+      "basename": "In CPF",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/In CPF.md"
+    },
+    {
+      "basename": "준수형의 피드백",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/준수형의 피드백.md"
+    },
+    {
+      "basename": "24.01.04",
+      "path": "Room_2_daily notes/24.01.04.md"
+    },
+    {
       "basename": "New Zotero Literature Note",
       "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
     },
@@ -11,10 +39,6 @@
     {
       "basename": "Daily note template",
       "path": "Room_0_metadata/Shelf_1_template for templater/Daily note template.md"
-    },
-    {
-      "basename": "Basic template",
-      "path": "Room_0_metadata/Shelf_1_template for templater/Basic template.md"
     },
     {
       "basename": "실험일지 template",
@@ -41,10 +65,6 @@
       "path": "Room_3_Lab/Shelf_3_knowledge particle/APT complex와 PNUTS-WDR82-PP1 complex 간의 관계.md"
     },
     {
-      "basename": "Short introduction",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md"
-    },
-    {
       "basename": "24.01.02",
       "path": "Room_2_daily notes/24.01.02.md"
     },
@@ -58,7 +78,7 @@
     },
     {
       "basename": "1_Saccharomyces cerevisiae의 telomeric silencing 연구를 위한 새로운 마커 유전자의 탐색_intro",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_1_Graduate paper/1_Saccharomyces cerevisiae의 telomeric silencing 연구를 위한 새로운 마커 유전자의 탐색_intro.md"
+      "path": "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_Saccharomyces cerevisiae의 telomeric silencing 연구를 위한 새로운 마커 유전자의 탐색_intro.md"
     },
     {
       "basename": "23.12.05",
@@ -179,26 +199,6 @@
     {
       "basename": "23.10.24",
       "path": "Room_2_daily notes/23년 10월/23.10.24.md"
-    },
-    {
-      "basename": "2023-01-27 PCR condition check",
-      "path": "Room_0_metadata/Shelf_2_work_schedule/2023-01-27 PCR condition check.md"
-    },
-    {
-      "basename": "work flow.excalidraw",
-      "path": "Excalidraw/work flow.excalidraw.md"
-    },
-    {
-      "basename": "α-H3",
-      "path": "Room_3_Lab/Shelf_4_Stocks/α-H3.md"
-    },
-    {
-      "basename": "24.01.04",
-      "path": "Room_2_daily notes/24.01.04.md"
-    },
-    {
-      "basename": "0_index",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/0_index.md"
     }
   ],
   "omittedPaths": [],
