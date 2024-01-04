@@ -77,7 +77,7 @@ Why? ^Agl1kEh6
 
 What is Best? ^YrwfGHM0
 
-Desctiption ^9GKB8meb
+Description ^9GKB8meb
 
 Instruction ^MpoxXX1h
 
@@ -89,7 +89,7 @@ Explanation ^b2HBqq5q
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.8",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.10",
 	"elements": [
 		{
 			"type": "text",
@@ -1436,7 +1436,7 @@ Explanation ^b2HBqq5q
 			"containerId": null,
 			"originalText": "Future",
 			"lineHeight": 1.25,
-			"baseline": 52
+			"baseline": 53
 		},
 		{
 			"type": "text",
@@ -1473,7 +1473,7 @@ Explanation ^b2HBqq5q
 			"containerId": null,
 			"originalText": "Past",
 			"lineHeight": 1.25,
-			"baseline": 52
+			"baseline": 53
 		},
 		{
 			"type": "arrow",
@@ -1750,8 +1750,8 @@ Explanation ^b2HBqq5q
 		},
 		{
 			"type": "text",
-			"version": 238,
-			"versionNonce": 624817098,
+			"version": 244,
+			"versionNonce": 1408649611,
 			"isDeleted": false,
 			"id": "9GKB8meb",
 			"fillStyle": "solid",
@@ -1760,28 +1760,28 @@ Explanation ^b2HBqq5q
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 0,
-			"x": -487.90240430557225,
+			"x": -483.0424036952207,
 			"y": 1022.7816526325776,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 196.34390258789062,
+			"width": 191.48390197753906,
 			"height": 45,
 			"seed": 1542424431,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702200984105,
+			"updated": 1704335809688,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 1,
-			"text": "Desctiption",
-			"rawText": "Desctiption",
+			"text": "Description",
+			"rawText": "Description",
 			"textAlign": "right",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Desctiption",
+			"originalText": "Description",
 			"lineHeight": 1.25,
 			"baseline": 37
 		},
@@ -1904,8 +1904,25 @@ Explanation ^b2HBqq5q
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
+		"scrollX": 1096.0681321911225,
+		"scrollY": 71.94227190560673,
+		"zoom": {
+			"value": 0.75
+		},
 		"currentItemRoundness": "sharp",
-		"gridSize": 0
+		"gridSize": null,
+		"gridColor": {
+			"Bold": "#C9C9C9FF",
+			"Regular": "#EDEDEDFF"
+		},
+		"currentStrokeOptions": null,
+		"previousGridSize": null,
+		"frameRendering": {
+			"enabled": true,
+			"clip": true,
+			"name": true,
+			"outline": true
+		}
 	},
 	"files": {}
 }

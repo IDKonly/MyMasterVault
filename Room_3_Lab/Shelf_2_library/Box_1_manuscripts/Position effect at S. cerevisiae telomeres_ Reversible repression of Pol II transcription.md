@@ -1,5 +1,5 @@
 ---
-title : Position effect at S. cerevisiae telomeres: Reversible repression of Pol II transcription
+title : Position effect at S. cerevisiae telomeres Reversible repression of Pol II transcription
 citekey : gottschling_position_1990
 authors : Daniel E. Gottschling, Oscar M. Aparicio, Barbara L. Billington, Virginia A. Zakian
 DOI : 10.1016/0092-8674(90)90141-Z

@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "a33ed12f64d1adfe",
+            "id": "51b0bab99a6ee7f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/0_index.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,20 +34,12 @@
             }
           },
           {
-            "id": "f6b1109e9a00bf28",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "51b0bab99a6ee7f9",
+            "id": "7dcd2f9e9871d031",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_2_daily notes/24.01.03.md",
+                "file": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -55,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,8 +111,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "e7419118ec9faabd",
@@ -183,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_2_daily notes/24.01.03.md"
+                "file": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
               }
             }
           },
@@ -228,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/24.01.03.md",
+                "file": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/24.01.03.md",
+                "file": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -273,7 +264,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_2_daily notes/24.01.03.md",
+                "file": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -333,49 +324,49 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "51b0bab99a6ee7f9",
+  "active": "7dcd2f9e9871d031",
   "lastOpenFiles": [
+    "Room_0_metadata/Shelf_1_template for templater/method template.md",
+    "Room_0_metadata/Shelf_1_template for templater/Daily note template.md",
+    "Room_0_metadata/Shelf_1_template for templater/Basic template.md",
+    "Room_0_metadata/Shelf_1_template for templater/실험일지 template.md",
+    "Room_0_metadata/Shelf_1_template for templater/_KnowledgeParticle template.md",
+    "Room_0_metadata/Shelf_1_template for templater/_Core file template.md",
+    "Room_0_metadata/Shelf_1_template for templater/_Shelf_1_template for templater.md",
+    "Room_1_rules/3. Metadata 구조.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/APT complex와 PNUTS-WDR82-PP1 complex 간의 관계.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md",
+    "Room_2_daily notes/24.01.02.md",
+    "Room_3_Lab/Shelf_4_Stocks/ACT1 F.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/_Resource.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_Graduate paper/1_Saccharomyces cerevisiae의 telomeric silencing 연구를 위한 새로운 마커 유전자의 탐색_intro.md",
+    "Room_2_daily notes/23.12.05.md",
+    "Room_2_daily notes/23년 5월/23.05.24.md",
+    "Room_2_daily notes/23년 9월/23.09.06.md",
+    "_Myvault.md",
+    "Room_0_metadata/Shelf_0_Resource/Another type of DIKW model.md",
+    "Room_2_daily notes/23년 7월/23.07.19.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/Semi dry transfer.md",
+    "Room_2_daily notes/23년 9월/23.09.05.md",
+    "Room_3_Lab/Shelf_4_Stocks/F-YBL113C.md",
+    "Room_2_daily notes/22년/22년 12월/22.12.19.md",
+    "Room_2_daily notes/23년 7월/23.07.26.md",
+    "Room_3_Lab/Shelf_4_Stocks/KDH004.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205620.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205605.png",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_Swd2-TAP 균주 검증.md",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/0_index.md",
-    "Excalidraw/231208.excalidraw.md",
-    "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
-    "Excalidraw/NNS complexexcalidraw.md",
     "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas",
     "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
     "Excalidraw/Transcription regulator Swd2 model.excalidraw.svg",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/1_a_swd2-TAP TRP 균주 만들기.md",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/1_Swd2 -TAP tag 균주 만들기.md",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/2_Swd2-TAP primer design.md",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_a_균주 COMPASS  활성 검증.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205235.png",
-    "conflict-files-obsidian-git.md",
-    "Room_2_daily notes/24.01.03.md",
-    "Room_2_daily notes/23.12.29.md",
     "Room_0_metadata/Shelf_0_Resource/그림4.png",
     "Room_0_metadata/Shelf_0_Resource/그림3.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103204157.png",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/_Box_4_석사 논문.md",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/_Box_4_LabWorks.md",
-    "Room_3_Lab/Shelf_1_my works/2023 KSMCB 경비.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/Rapid Perparation of nuclear extract from Yeast cells for western blot.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md",
-    "Room_2_daily notes/24.01.02.md",
     "Room_0_metadata/Shelf_0_Resource/231228 COMPASS activity check result.png",
-    "Room_2_daily notes/23년 11월/23.11.14.md",
-    "Excalidraw/work flow.excalidraw.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/Nano drop.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/Fast Protein Liquid Chromatography (FPLC) machine protocol.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Bypassing the Catalytic Activity of SIR2 for SIR Protein Spreading in _i_Saccharomyces cerevisiae__i_.md",
     "Excalidraw/무제 폴더",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/@soares2012/image-3-x39-y530.png",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/@soares2012",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/N3I5U2UK.png",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/zotero.json",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources",
