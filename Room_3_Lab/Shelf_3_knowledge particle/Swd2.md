@@ -11,7 +11,7 @@ tags : [component]
 Parent : [[_KnowledgeParticle]]
 Drived from : [[]]
 
-Subunit of the [[COMPASS]] ([[COMPASS|Set1C]]) histone H3K4 methyltransferase complex; required for Set1C stability and optimal activity; COMPASS methylates histone H3 on lys 4 and is involved in telomeric silencing; subunit of [[Cleavage and Polyadenylation Factor]] (cleavage and polyadenylation factor), a complex involved in RNAP II transcription termination
+Subunit of the [[COMPASS]] ([[COMPASS|Set1C]]) histone H3K4 methyltransferase complex; required for Set1C stability and optimal activity; COMPASS methylates histone H3 on lys 4 and is involved in telomeric silencing; subunit of [[Cleavage and Polyadenylation Factor]] ([[cleavage and polyadenylation factor]]), a complex involved in RNAP II transcription termination
 
 [Park *et al.*, 2017](zotero://select/items/@park2017a)
 

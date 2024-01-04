@@ -36,7 +36,7 @@ ORF , Verified
 
 Description
 
-RNA-binding protein; involved in the cleavage step of mRNA 3'-end formation prior to polyadenylation, and in snoRNA maturation; part of holo-CPF subcomplex APT, which associates with 3'-ends of snoRNA- and mRNA-encoding genes; putative regulatory subunit of type 1 protein phosphatase Glc7p, required for actomyosin ring formation, and for timely dephosphorylation and release of Bnr1p from the division site; relocalizes to the cytosol in response to hypoxia [1](https://www.yeastgenome.org/locus/S000002603#reference) [2](https://www.yeastgenome.org/locus/S000002603#reference) [3](https://www.yeastgenome.org/locus/S000002603#reference) [4](https://www.yeastgenome.org/locus/S000002603#reference) [5](https://www.yeastgenome.org/locus/S000002603#reference)
+RNA-binding protein; involved in the cleavage step of mRNA 3'-end formation prior to polyadenylation, and in snoRNA maturation; part of holo-[[Cleavage and Polyadenylation Factor|CPF]] subcomplex APT, which associates with 3'-ends of snoRNA- and mRNA-encoding genes; putative regulatory subunit of type 1 protein phosphatase Glc7p, required for actomyosin ring formation, and for timely dephosphorylation and release of Bnr1p from the division site; relocalizes to the cytosol in response to hypoxia [1](https://www.yeastgenome.org/locus/S000002603#reference) [2](https://www.yeastgenome.org/locus/S000002603#reference) [3](https://www.yeastgenome.org/locus/S000002603#reference) [4](https://www.yeastgenome.org/locus/S000002603#reference) [5](https://www.yeastgenome.org/locus/S000002603#reference)
 
 Name Description
 

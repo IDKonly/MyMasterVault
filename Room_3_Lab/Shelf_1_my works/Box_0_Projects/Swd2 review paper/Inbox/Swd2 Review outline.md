@@ -17,8 +17,8 @@ Parent : [[]]
 ## 세호형 초안
 1. Swd2의 기본적인 소개(구조, Set1 complex, APT complex)
 2. Set1 complex에서의 기능(H2Bub1 dependant H3K4methylation)
-3. CPF complex에서의 기능(snoRNA, mRNA의 3’end 형성)
-4. Set1 – CPF 사이의 기능이 연관되어 있다는 증거 (Soares and Bratowski, 2012)
+3. [[Cleavage and Polyadenylation Factor|CPF]] complex에서의 기능(snoRNA, mRNA의 3’end 형성)
+4. Set1 – [[Cleavage and Polyadenylation Factor|CPF]] 사이의 기능이 연관되어 있다는 증거 (Soares and Bratowski, 2012)
 5. Swd2가 Transcription에 미치는 영향
 6. Human Wdr82
 
@@ -70,7 +70,7 @@ Parent : [[]]
            1. COMPASS
                      1. 구성요소 및 기능
                      2. complex 안에서의 Swd2의 기능 (또는 complex 자체의 기능설명)
-           2. APT subcomponent in CPF complex
+           2. APT subcomponent in [[Cleavage and Polyadenylation Factor|CPF]] complex
                      1. 구성요소 및 기능
                      2. complex 안에서의 Swd2의 기능 (또는 complex 자체의 기능설명)
 4. initiation/termination 에서의 Swd2의 기능

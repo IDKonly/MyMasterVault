@@ -48,7 +48,7 @@ n   따라서 전사 활성도가 높은 조건에서는 WDR82, PNUTS/PP1, SET
 
 Ø  Discussion
 
-The role of WDR82, PNUTS/PP1, and SET1 in the control of transcription termination is consistent with data in yeast. The yeast WDR82 ortholog (Swd2) and PP1 ortholog (Glc7) are both CPF subunits (Dichtl et al., 2002; He et al., 2003), and their deletion caused termination defects at a subset of Pol II-dependent genes (Cheng et al., 2004; Nedea et al., 2008). In S. pombe, a PNUTS ortholog (Ppn1) interacts with both Swd2 and Glc7 within the CPF (Vanoosthuyse et al., 2014).
+The role of WDR82, PNUTS/PP1, and SET1 in the control of transcription termination is consistent with data in yeast. The yeast WDR82 ortholog (Swd2) and PP1 ortholog (Glc7) are both [[Cleavage and Polyadenylation Factor|CPF]] subunits (Dichtl et al., 2002; He et al., 2003), and their deletion caused termination defects at a subset of Pol II-dependent genes (Cheng et al., 2004; Nedea et al., 2008). In S. pombe, a PNUTS ortholog (Ppn1) interacts with both Swd2 and Glc7 within the [[Cleavage and Polyadenylation Factor|CPF]] (Vanoosthuyse et al., 2014).
 
 Nevertheless, by mining data from a proteomics screening (Malovannaya et al., 2011), we retrieved an interaction between WDR82 and a CPSF ancillary complex, cleavage factor I.
 

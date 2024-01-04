@@ -7,6 +7,8 @@ category:
 memo_level: 
 aliases:
   - CPF
+  - Cleavage and Polyadenylation Factor(CPF)
+  - CPF(Cleavage and Polyadenylation Factor)
 tags:
   - protein
   - complex

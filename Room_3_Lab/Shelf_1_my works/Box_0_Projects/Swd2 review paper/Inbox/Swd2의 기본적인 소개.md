@@ -81,7 +81,7 @@ PARA:
 3. Park, S. & Lee, J.-S. The effect of Swd2’s binding to Set1 on the dual functions of Swd2 in Saccharomyces cerevisiae. Korean Journal of Microbiology 53, 286–291 (2017).
 
 1. [Dichtl *et al.*, 2004](zotero://select/items/@dichtl2004) 
-	1. Swd2p bridges the APT, core-CPF, and CF IA subcomplexes of the 3’ end formation machinery
+	1. Swd2p bridges the APT, core-[[Cleavage and Polyadenylation Factor|CPF]], and CF IA subcomplexes of the 3’ end formation machinery
 	2. Swd2p is required for [[COMPASS|SET1C]] activity
 
 ### H3K4 methylation
