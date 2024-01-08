@@ -58,9 +58,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9848b1387c3ab3a5",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -300,8 +308,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e9e475e7cc684d15",
+  "active": "9848b1387c3ab3a5",
   "lastOpenFiles": [
+    "Room_2_daily notes/24.01.05.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Linear velocity.md",
     "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
     "Room_2_daily notes/24.01.08.md",
@@ -329,7 +338,6 @@
     "Room_2_daily notes/23년 4월/_23년 4월.md",
     "Room_2_daily notes/22년/22년 12월/22.12.14.md",
     "Room_3_Lab/Shelf_3_knowledge particle/552균주 성장 원래 느림.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Elute.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205620.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205605.png",
     "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas",
