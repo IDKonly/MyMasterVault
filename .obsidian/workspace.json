@@ -39,20 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/C-terminal domain.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9e475e7cc684d15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Cleavage and Polyadenylation Factor.md",
+                "file": "Room_4_personal work/Obcidian citation 개선하기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -72,7 +59,7 @@
       {
         "id": "a2bf4cc14bcaf7bb",
         "type": "tabs",
-        "dimension": 34.44881889763779,
+        "dimension": 50.35405192761605,
         "children": [
           {
             "id": "a1ed11d596305dc2",
@@ -123,7 +110,7 @@
       {
         "id": "3918255c240dee0d",
         "type": "tabs",
-        "dimension": 34.44881889763779,
+        "dimension": 18.568056648308417,
         "children": [
           {
             "id": "dd4647d65db293c4",
@@ -138,7 +125,7 @@
       {
         "id": "e7419118ec9faabd",
         "type": "tabs",
-        "dimension": 31.102362204724407,
+        "dimension": 31.07789142407553,
         "children": [
           {
             "id": "5ea82ab294a090a0",
@@ -170,7 +157,7 @@
       {
         "id": "daefff7f14edf752",
         "type": "tabs",
-        "dimension": 23.490813648293965,
+        "dimension": 35.05882352941176,
         "children": [
           {
             "id": "9304162af39fcac6",
@@ -197,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md"
+                "file": "Room_4_personal work/Obcidian citation 개선하기.md"
               }
             }
           },
@@ -234,7 +221,7 @@
       {
         "id": "5f3c3202b3b66b36",
         "type": "tabs",
-        "dimension": 51.50918635170603,
+        "dimension": 32.470588235294116,
         "children": [
           {
             "id": "b41b08e27bc20578",
@@ -242,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md",
+                "file": "Room_4_personal work/Obcidian citation 개선하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md",
+                "file": "Room_4_personal work/Obcidian citation 개선하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -269,12 +256,12 @@
         "currentTab": 1
       },
       {
-        "id": "f5a296f83230101c",
+        "id": "5de1a3b3ac017660",
         "type": "tabs",
-        "dimension": 25.000000000000004,
+        "dimension": 32.470588235294116,
         "children": [
           {
-            "id": "8eaa790f170533d0",
+            "id": "e9e475e7cc684d15",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -312,14 +299,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f4f311d1415547c5",
+  "active": "7dcd2f9e9871d031",
   "lastOpenFiles": [
+    "Room_4_personal work/Shelf_1_How to zettelkasten/Project.md",
+    "Room_4_personal work/Obcidian citation 개선하기.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/C-terminal domain.md",
     "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md",
+    "Room_4_personal work/Room_4_personal work.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Cleavage and Polyadenylation Factor.md",
     "Room_3_Lab/Room_3_Lab.md",
     "Room_2_daily notes/Room_2_daily notes.md",
     "Room_1_rules/Room_1_rules.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/C-terminal domain.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Cleavage and Polyadenylation Factor.md",
     "Excalidraw/Transcription regulator Swd2 model.excalidraw.md",
     "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/2 direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
     "Room_3_Lab/Shelf_3_knowledge particle/RNA 젤 걸때 락스처리하기.md",
@@ -336,10 +327,6 @@
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.09.11 TAP purifcation, Crude extraction.md",
     "Room_2_daily notes/23년 10월/23.10.10.md",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 2월/23.02.06 PCR condition check (2).md",
-    "Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/_MemoForManuscripts.md",
-    "Room_2_daily notes/23년 2월/23.02.27.md",
-    "Room_0_metadata/Shelf_1_template for templater/_KnowledgeParticle template.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Broth.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205620.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205605.png",
     "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas",
