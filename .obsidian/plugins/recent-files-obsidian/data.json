@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Fast Protein Liquid Chromatography (FPLC) machine protocol",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Fast Protein Liquid Chromatography (FPLC) machine protocol.md"
+      "basename": "24.01.08",
+      "path": "Room_2_daily notes/24.01.08.md"
     },
     {
       "basename": "Yeast Crude extraction for FPLC (Custom)",
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md"
+    },
+    {
+      "basename": "ZC3H4 restricts non-coding transcription in human cells",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/ZC3H4 restricts non-coding transcription in human cells.md"
+    },
+    {
+      "basename": "A first exon termination checkpoint preferentially suppresses extragenic transcription",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A first exon termination checkpoint preferentially suppresses extragenic transcription.md"
+    },
+    {
+      "basename": "New Zotero Literature Note",
+      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
+    },
+    {
+      "basename": "Fast Protein Liquid Chromatography (FPLC) machine protocol",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Fast Protein Liquid Chromatography (FPLC) machine protocol.md"
     },
     {
       "basename": "TPE marker gene Abstract",
@@ -15,10 +31,6 @@
     {
       "basename": "Bradford assay",
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md"
-    },
-    {
-      "basename": "24.01.08",
-      "path": "Room_2_daily notes/24.01.08.md"
     },
     {
       "basename": "Obcidian citation 개선하기",
@@ -183,22 +195,6 @@
     {
       "basename": "Short introduction",
       "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md"
-    },
-    {
-      "basename": "In CPF",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/In CPF.md"
-    },
-    {
-      "basename": "준수형의 피드백",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/준수형의 피드백.md"
-    },
-    {
-      "basename": "24.01.04",
-      "path": "Room_2_daily notes/24.01.04.md"
-    },
-    {
-      "basename": "New Zotero Literature Note",
-      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
     }
   ],
   "omittedPaths": [],
