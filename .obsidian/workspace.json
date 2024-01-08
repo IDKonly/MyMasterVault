@@ -58,22 +58,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7cbc58c5f028b20e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_2_daily notes/24.01.08.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -209,9 +196,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Room_2_daily notes/24.01.08.md"
-              }
+              "state": {}
             }
           },
           {
@@ -219,14 +204,6 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "9a4ceeeb1a86a830",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
               "state": {}
             }
           },
@@ -255,7 +232,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/24.01.08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +248,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/24.01.08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -325,8 +300,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7cbc58c5f028b20e",
+  "active": "e9e475e7cc684d15",
   "lastOpenFiles": [
+    "Room_3_Lab/Shelf_3_knowledge particle/Linear velocity.md",
     "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
     "Room_2_daily notes/24.01.08.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A CpG island-encoded mechanism protects genes from premature transcription termination.md",
@@ -354,7 +330,6 @@
     "Room_2_daily notes/22년/22년 12월/22.12.14.md",
     "Room_3_Lab/Shelf_3_knowledge particle/552균주 성장 원래 느림.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Elute.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/석사 1학기/천연물신약 1강.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205620.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205605.png",
     "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas",
