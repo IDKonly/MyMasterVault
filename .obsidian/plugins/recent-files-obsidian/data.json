@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Linear velocity",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Linear velocity.md"
+      "basename": "24.01.09",
+      "path": "Room_2_daily notes/24.01.09.md"
     },
     {
       "basename": "Yeast Crude extraction for FPLC (Custom)",
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md"
+    },
+    {
+      "basename": "Linear velocity",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Linear velocity.md"
     },
     {
       "basename": "24.01.08",
@@ -195,10 +199,6 @@
     {
       "basename": "Basic template",
       "path": "Room_0_metadata/Shelf_1_template for templater/Basic template.md"
-    },
-    {
-      "basename": "Short introduction",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Short introduction.md"
     }
   ],
   "omittedPaths": [],
