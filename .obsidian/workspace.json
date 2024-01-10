@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b162569ba96ffd5a",
+        "id": "a5950b3c10086160",
         "type": "tabs",
         "children": [
           {
-            "id": "51b0bab99a6ee7f9",
+            "id": "25231c039acd9260",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md",
+                "file": "Room_2_daily notes/24.01.10.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "f4f311d1415547c5",
+            "id": "1ab273a9a89cca27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,82 +34,12 @@
             }
           },
           {
-            "id": "695561d759c50505",
+            "id": "39e81ffc6e873409",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7dcd2f9e9871d031",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_2_daily notes/24.01.08.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c45cdf483b1876c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aeee792533e602ff",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "2f5286257aef81a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_2_daily notes/24.01.09.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "452c0b61bda7c44c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Swd2-9myc Crude FPLC work.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "a42e61ab47b35c6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2023.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -117,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "3918255c240dee0d",
@@ -254,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md"
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2023.md"
               }
             }
           },
@@ -291,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +238,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -360,8 +290,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a42e61ab47b35c6d",
+  "active": "39e81ffc6e873409",
   "lastOpenFiles": [
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2023.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
+    "Room_2_daily notes/24.01.10.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-7-x62-y479.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-3-x83-y471.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-6-x351-y491.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-3-x330-y213.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Swd2-9myc Crude FPLC work.excalidraw.md",
+    "Room_2_daily notes/24.01.09.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
+    "Room_2_daily notes/24.01.08.md",
+    "Room_3_Lab/Shelf_1_my works/(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md",
     "Room_3_Lab/Shelf_3_knowledge particle/Peak tailing.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Affinity chromatography.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Dead volume.md",
@@ -376,31 +323,15 @@
     "Room_3_Lab/Shelf_3_knowledge particle/Matrix.md",
     "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md",
     "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.31 TAP purification.md",
-    "Room_2_daily notes/23년 9월/23.09.14.md",
-    "Room_2_daily notes/23년 2월/23.02.07.md",
-    "Room_3_Lab/Shelf_4_Stocks/F-YEL077C.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/DNA snap viewer.md",
-    "Room_2_daily notes/23년 10월/23.10.10.md",
-    "Room_2_daily notes/24.01.08.md",
-    "Room_2_daily notes/24.01.09.md",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Swd2-9myc Crude FPLC work.excalidraw.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240109160248_977.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240109160231_960.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240109160023_973.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240109155928_680.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240109155928_652.png",
-    "Excalidraw/231208.excalidraw.md",
-    "Excalidraw/231207 western blot loading design.excalidraw.md",
-    "Room_3_Lab/Shelf_1_my works/(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획.md",
     "Room_0_metadata/Shelf_0_Resource/석사논문을 쓰는지, 박사논문을 써야할 지 잘 모르겠다면 이 글을 읽어 보세요. 박사학위 학생과 석사학위 학생들을 대상으로 두 논문의 차이점을 이해하는 데 도움이 되기 위해 쓰였습니다.png",
     "Spaces/Home",
     "Spaces",
-    "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205620.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted image 20240103205605.png",
     "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas",
-    "Excalidraw/Transcription regulator Swd2 model.excalidraw.png",
-    "Excalidraw/Transcription regulator Swd2 model.excalidraw.svg",
     "Excalidraw/무제 폴더",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",
@@ -409,7 +340,6 @@
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts",
-    "Spaces/#Chromotograpy",
     "무제 파일.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
