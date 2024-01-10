@@ -1,8 +1,12 @@
 ---
-type:
-tags: zotero, note/zotero
+type: Zotero Literature Note
+publish-year: {{date | format("YYYY")}} 
 created: <% tp.file.creation_date("YYYY-MM-DD")%>
-updated:
+PARA:
+  - Archive
+tags:
+  - zotero
+  - note/zotero
 ---
 ## Self notes
 - Critique
@@ -39,6 +43,7 @@ updated:
 > [!LINK]  
 > {%- for attachment in attachments | filterby("path", "endswith", ".pdf") %}  
 > [{{attachment.title}}](file://{{attachment.path | replace(" ", "%20")}}) {%- endfor -%}.
+> [to Zotero]({{desktopURI}})
 
 > [!Abstract]  
 > {%- if abstractNote %}  
@@ -78,7 +83,7 @@ Note
 
 {%- set annots = annotations | filterby("date", "dateafter", lastExportDate) -%}  
 {%- if annots.length > 0 %}  
-### Exported: {{exportDate | format("YYYY-MM-DD h:mm a")}}
+### Exported: {{exportDate | format("YYYY-MM-DD a h:mm ")}}
 
 {% for annot in annots -%}  
 > {{calloutHeader(annot.type, annot.color)}}  
@@ -88,10 +93,13 @@ Note
 {%- if annot.imageRelativePath %}  
 > ![[{{annot.imageRelativePath}}]]  
 {%- endif %}  
-> [page {{annot.page}}](file://{{annot.attachment.path | replace(" ", "%20")}}) [[{{annot.date | format("YYYY-MM-DD#h:mm a")}}]]  
+> [page {{annot.page}}](file://{{annot.attachment.path | replace(" ", "%20")}}) [[{{annot.date | format("YY.MM.DD")}}|{{annot.date | format("YYYY-MM-DD#a h:mm")}}]]  
 {%- if annot.comment %}  
 > - {{annot.comment | nl2br}}  
 {% endif %}
 
 {% endfor -%}  
 {% endif -%}
+
+##### meta data
+{{hashTags}}

@@ -32,7 +32,7 @@
   "exeVersion": "1.0.15",
   "shouldShowCiteSuggest": true,
   "shouldConcat": true,
-  "pdfExportImageOCR": true,
+  "pdfExportImageOCR": false,
   "pdfExportImageOCRLang": "eng+kor",
   "_exeInternalVersion": 1
 }

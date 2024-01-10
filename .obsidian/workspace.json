@@ -21,7 +21,41 @@
             }
           },
           {
+            "id": "9f408701fabfe97b",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
             "id": "1ab273a9a89cca27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ac2257d28ebf308",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_2_daily notes/24.01.10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ebcbeff3a402f2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +68,51 @@
             }
           },
           {
-            "id": "39e81ffc6e873409",
+            "id": "c75d518f7bb2cefb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2023.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "562999df29fa0224",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@lee2007.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "367f6a7017581cd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfacab6129f6f2e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@austenaa2021.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -184,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2023.md"
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md"
               }
             }
           },
@@ -221,7 +294,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2023.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +311,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2023.md",
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -263,7 +336,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389
+    "width": 389,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -290,45 +364,118 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "39e81ffc6e873409",
+  "floating": {
+    "id": "dbabfa15d6104fd1",
+    "type": "floating",
+    "children": [
+      {
+        "id": "53de88dce23b72ed",
+        "type": "window",
+        "children": [
+          {
+            "id": "34ce98d3f390c5cd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "09f2c914a751afd1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@lee2007.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1280,
+        "y": 0,
+        "width": 1280,
+        "height": 1392,
+        "maximize": false,
+        "zoom": -0.5
+      },
+      {
+        "id": "45fbd3e7adb3d8f7",
+        "type": "window",
+        "children": [
+          {
+            "id": "9342e5cd78e34a08",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "18de284eb1f0fcf4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 768,
+        "y": 296,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "18de284eb1f0fcf4",
   "lastOpenFiles": [
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2023.md",
+    "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@lee2007.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
     "Room_2_daily notes/24.01.10.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@austenaa2021.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Molecular regulation of H3K4 trimethylation by Wdr82, a component of human Set1_COMPASS.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/In vivo chromatin organization on native yeast telomeric regions is independent of a cis-telomere loopback conformation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Histone Crosstalk_ H2Bub and H3K4 Methylation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Histone crosstalk between H2B monoubiquitination and H3 methylation mediated by COMPASS.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Functions for S. cerevisiae Swd2p in 3′ end formation of specific mRNAs and snoRNAs and global histone 3 lysine 4 methylation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Everything You Ever Wanted to Know About _i_Saccharomyces cerevisiae__i_ Telomeres_ Beginning to End.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Epitope tagging of yeast genes using a PCR-based strategy_ more tags and improved practical routines.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Epigenetic gene silencing alters the mechanisms and rate of evolutionary adaptation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Dot1 and Histone H3K79 Methylation in Natural Telomeric and HM Silencing.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Disengaging polymerase_ Terminating RNA polymerase II transcription in budding yeast.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Determinants of Histone H3K4 Methylation Patterns.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Dare to challenge the silence_ Telomeric gene silencing revisited.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Crosstalk among Set1 complex subunits involved in H2B ubiquitylation-dependent H3K4 methylation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/COMPASS_ A complex of proteins associated with a trithorax-related SET domain protein.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Bypassing the Catalytic Activity of SIR2 for SIR Protein Spreading in _i_Saccharomyces cerevisiae__i_.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Assays for gene silencing in yeast.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@park2017/image-3-x302-y601.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@park2017",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@lee2007/image-6-x145-y582.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@lee2007/image-4-x68-y156.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@lee2007",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@landsverk2020/image-12-x302-y242.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@landsverk2020",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-7-x62-y479.png",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-3-x83-y471.png",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-6-x351-y491.png",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-3-x330-y213.png",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Swd2-9myc Crude FPLC work.excalidraw.md",
-    "Room_2_daily notes/24.01.09.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
-    "Room_2_daily notes/24.01.08.md",
-    "Room_3_Lab/Shelf_1_my works/(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Peak tailing.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Affinity chromatography.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Dead volume.md",
-    "Excalidraw/NNS complexexcalidraw.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/RNA isolation(MN kit, NucleoSpin).md",
-    "Room_2_daily notes/23년 7월/23.07.17.md",
-    "_Myvault.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Nucleoskeleton.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/영어논문 또는 리서치에 유용한 문장들 2 (Phrases) - 에세이리뷰 블로그.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Column equilibration.md",
-    "Room_2_daily notes/23년 1월/23.01.11.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Matrix.md",
-    "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240109160248_977.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240109160231_960.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240109160023_973.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240109155928_680.png",
-    "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240109155928_652.png",
-    "Room_0_metadata/Shelf_0_Resource/석사논문을 쓰는지, 박사논문을 써야할 지 잘 모르겠다면 이 글을 읽어 보세요. 박사학위 학생과 석사학위 학생들을 대상으로 두 논문의 차이점을 이해하는 데 도움이 되기 위해 쓰였습니다.png",
     "Spaces/Home",
     "Spaces",
     "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas",
@@ -337,9 +484,6 @@
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/@soares2012",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/zotero.json",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts",
     "무제 파일.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
