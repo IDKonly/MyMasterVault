@@ -1,5 +1,6 @@
 {
   "pinned": [
+    "obsidian-zotero-desktop-connector:zdc-exp-Create Literature Notes",
     "obsidian-citation-plugin:insert-markdown-citation",
     "file-explorer:move-file"
   ]

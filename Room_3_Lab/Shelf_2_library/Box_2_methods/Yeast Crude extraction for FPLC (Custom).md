@@ -11,7 +11,7 @@ tags:
   - protein
   - Protocol
 ---
-
+[Hughes *et al.*, 2023](zotero://select/items/@hughes2023)
 Parent : [[_Methods]]
 
 ## Cell Growth

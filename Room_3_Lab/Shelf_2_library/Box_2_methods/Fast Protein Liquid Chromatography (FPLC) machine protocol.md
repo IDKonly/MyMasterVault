@@ -47,7 +47,7 @@ Parent : [[_Methods]]
 			1. 이후 column 하단을 열고, 액체가 새어나오기 시작하면 하단도 동일하게 연결한다.
 2. Equalibration
 	1. 위의 이유로 DW→ buffer 순서로 진행하고, 각 2CV만큼 column을 통과시킨다.
-		1. DW equilibration을 할때는 Wash tube(1M NaOH, inlet C)를 뺀 모든 inlet tube가 DW에 담겨 있어야 하고, 반대로 buffer equilibration을 할 때는 buffer에 담겨 있어야 한다.
+		1. DW equilibration을 할때는 Wash tube( **inlet C는 1M NaOH에 있어야 한다.**)를 뺀 모든 inlet tube가 DW에 담겨 있어야 하고, 반대로 buffer equilibration을 할 때는 buffer에 담겨 있어야 한다.
 	2. DW 2시간 30분, buffer 1시간 30분여 소요된다.
 
 ## Main
@@ -55,11 +55,11 @@ Parent : [[_Methods]]
 ### Standard Loading
 > [[Size exclusion chromatography(SEC)]] 결과물의 사이즈 레퍼런스가 되어줄 비교물질을 장비에 걸고, 그 데이터를 얻는 작업. 이 데이터를 얻는 작업이 선행되어야 이후에 얻는 데이터를 분석할 수 있다.
 
-1. inlet 3개(A, B, Sample)을 Buffer를 받아들일 수  있도록 담근다. 
+1. inlet 3개(**A, B, Sample**)을 Buffer를 받아들일 수  있도록 담근다. 
 	1. Equilibration 단계를 거쳤다면 이미 담겨져 있을 것이다.
 2. Method를 실행하면, buffer가 흐르기 시작하는데, 이때 loop tube는 격리된 상태로 있는다. 약 5ml가 흐를 동안, 이 격리된 상태는 유지된다.
 	1. 이 사이에, Chromatography buffer 1ml를 injection valve port를 통해서 주입한다.
-	2. 그 다음 희석된 Standard(buffer 400ul + standard 20ul (분주된 두개의 standard(230517 현재는 한 바이알에 10ul씩 들어있음.)))를 injection valve에 있는 포트를 통해 주입한다.
+	2. 그 다음 희석된 Standard(buffer 400ul + standard 20ul (분주된 한개의 standard))를 injection valve에 있는 포트를 통해 주입한다.
 	3. 이때, 공기가 들어가지 않도록 주의하고, 주사기는 뽑지 않는다.
 	4. 주사기를 뽑으면, 외부로 용액이 누출되거나, 주입한 샘플이 제대로 로딩되지 않을 수 있음. (Siphoning)
 	5. 주입이 완료되었으면, process가 완료될때까지 기다린다. 이 시간에 Sample을 준비해두면 된다. (약 1시간 30분 소요)
@@ -77,7 +77,7 @@ Go to : [[Bradford assay]]
 ### Main Practice
 
 1. 기본적으로 Standard loading과 동일한 방법으로 수행합니다.
-2. Buffer로 injection loop를 세척한 뒤, Bradford assay 등을 통해 정량한 단백질을 정해진 양 혹은 농도대로 주입합니다.
+2. Buffer로 injection loop를 세척한 뒤, [[Bradford assay]] 등을 통해 정량한 단백질을 정해진 양 혹은 농도대로 주입합니다.
 3. Standard loading과는 달리 fraction을 받게 되므로, fraction collector에 tube를 거치해두고, 암(arm)을 정위치에 둔다.
 4. Method를 선택하고 실행한다.
 

@@ -1,11 +1,13 @@
 ---
-title : Semi dry transfer
-creation_date : 23.04.27
-last_modified :
-note_type : method
-category : []
-aliases : Turbo blot
-tags : []
+title: Semi dry transfer
+creation_date: 23.04.27
+last_modified: 
+note_type: method
+category: 
+aliases:
+  - Turbo blot
+tags:
+  - transfer
 ---
 
 Parent : [[_Methods]]

@@ -18,12 +18,6 @@
   ],
   "exportFormats": [
     {
-      "name": "Import #2",
-      "outputPathTemplate": "{{citekey}}.md",
-      "imageOutputPathTemplate": "{{citekey}}/",
-      "imageBaseNameTemplate": "image"
-    },
-    {
       "name": "Create Literature Notes",
       "outputPathTemplate": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@{{citekey}}.md",
       "imageOutputPathTemplate": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@{{citekey}}/",
@@ -34,11 +28,11 @@
   ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
   "openNoteAfterImport": true,
-  "whichNotesToOpenAfterImport": "first-imported-note",
+  "whichNotesToOpenAfterImport": "all-imported-notes",
   "exeVersion": "1.0.15",
   "shouldShowCiteSuggest": true,
   "shouldConcat": true,
-  "pdfExportImageOCR": true,
+  "pdfExportImageOCR": false,
   "pdfExportImageOCRLang": "eng+kor",
   "_exeInternalVersion": 1
 }

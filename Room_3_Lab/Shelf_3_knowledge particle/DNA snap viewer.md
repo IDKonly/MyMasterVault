@@ -1,12 +1,14 @@
 ---
-title : DNA snap viewer
-creation_date : 23.01.05
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+title: DNA snap viewer
+creation_date: 23.01.05
+last_modified: 
+note_type: basic
+category: 
+memo_level: 
+aliases:
+  - Snapgene viewer
+tags:
+  - Program
 ---
 
 Parent : [[_KnowledgeParticle]]

@@ -23,7 +23,7 @@ PARA:
 3. [[Saccharomyces cerevisiae|S. cerevisiae]]에서 H3K4 메틸레이션을 일으키는 유일한 complex로 알려진 COMPASS는 complex의 platform으로 작용하는 Set1을 제외한 7개의 subunit([Bae *et al.*, 2020](zotero://select/items/@bae2020)의 intro 참고, Bre2, Sdc1, Shg1, Spp1, Swd1, Swd2, Swd3)으로 이루어져 있다.
 	1. 주목해야 할 것은 COMPASS의 구성요소중 Swd2만이 S. cerevisiae에서 essential하다는 것이다. (뒤로 빼거나 단독단락으로 써야할듯)
 	2. 심지어 set1이 결실되었을 때, COMPASS가 만들어지지 못함에도 불구하고, 세포가 살아남을 수 있다는 것을 고려해보면 Swd2가 세포 내에서 COMPASS의 구성요소로서의 기능 이외의 중요한 기능을 하고 있음을 알 수 있다.
-4. CPF complex는 전사 종결단계에서 RNA pol2와 직접적으로 결합하며, poly adenylation과 전사의 종결 모두에 필요한 중요한 complex이다.
+4. [[Cleavage and Polyadenylation Factor|CPF]] complex는 전사 종결단계에서 RNA pol2와 직접적으로 결합하며, poly adenylation과 전사의 종결 모두에 필요한 중요한 complex이다.
 	1. CPF complex의 subcomplex인 APT subcomplex 또한 Swd2를 포함하고 있다.
 		1. APT의 기능은 구체적으로 밝혀지지 않았지만([Mischo *et al.*, 2013](zotero://select/items/@mischo2013)) 3’ end processing의 finetuning에 관여할 것으로 예측되고 있다.
 		2. 와 나 APT에 대해서 아는게 없네… 

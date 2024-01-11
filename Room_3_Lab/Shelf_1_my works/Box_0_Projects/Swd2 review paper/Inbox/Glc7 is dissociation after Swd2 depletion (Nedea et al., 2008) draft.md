@@ -15,7 +15,7 @@ Status:
 PARA:
   - Project
 ---
-CPF의 APT subcomplex에 있는 serine/threonine phosphatase인 Glc7은 snoRNA의 transcription termination에 필수적이다. 
+[[Cleavage and Polyadenylation Factor|CPF]]의 APT subcomplex에 있는 serine/threonine phosphatase인 Glc7은 snoRNA의 transcription termination에 필수적이다. 
 
 Glc7이 working할 수 있도록 APT subcomplex에 잡아 두는 역할을 Swd2와 Ref2 두 단백질이 하기 때문에 이 두 단백질이 없을 때, Glc7이 APT subcomplex로부터 dissociation되면 transcription termination defect가 일어난다.
 

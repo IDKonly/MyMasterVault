@@ -1,8 +1,9 @@
 ---
-
 excalidraw-plugin: parsed
-tags: [excalidraw]
-
+tags:
+  - excalidraw
+  - 석사논문
+  - Swd2
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
@@ -125,7 +126,7 @@ WDR82 ^SmdQt29y
 
 recruit ^6AT8KknP
 
-Still there is no WDR82 related complex at termination like yeast CPF.
+Still there is no WDR82 related complex at termination like yeast [[Cleavage and Polyadenylation Factor|CPF]].
 It may not conserved.  ^KX06itS4
 
 ? ^2cKh6uNh

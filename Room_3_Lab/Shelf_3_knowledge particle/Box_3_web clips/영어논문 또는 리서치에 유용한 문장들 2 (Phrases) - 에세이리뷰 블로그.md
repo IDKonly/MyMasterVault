@@ -1,11 +1,12 @@
 ---
-title : 영어논문 또는 리서치에 유용한 문장들 #2 (Phrases) - 에세이리뷰 블로그
-creation_date : 9
-note_type : Webclips
-category :
-memo_level :
-aliases : 
-tags : []
+title: 영어논문 또는 리서치에 유용한 문장들
+creation_date: 9
+note_type: Webclips
+category: 
+memo_level: 
+aliases: 
+tags:
+  - english_writing
 ---
 
 Parent : [[_Webclips]]
@@ -18,8 +19,11 @@ Parent : [[_Webclips]]
 
 -   One of the most significant current discussions in legal and moral philosophy is ….
 -   It is becoming increasingly difficult to ignore the ….
+	- ~를 무시하기 어려워 지고 있다
 -   X is the leading cause of death in western industrialised countries.
+	- X는 서구 선진국의 주요 사망 원인이다.
 -   X is a common disorder characterised by ….
+	- X는 ~으로 특정된 일반적인 장애이다.
 -   Xs are one of the most widely used groups of antibacterial agents and ….
 -   Xs are the most potent anti-inflammatory agents known.
 -   X is an important component in the climate system, and plays a key role in Y.

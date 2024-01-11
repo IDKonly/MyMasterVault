@@ -27,7 +27,7 @@ tags:
 6. Transfer **Supernatant** to new 1.5ml tube and keep in ice.
 	1. Keeping **input WB sample**
 
-## Bradford Assay
+## [[Bradford Assay]]
 1. 정량한 뒤 coumn의 capacity에 따라 희석배수를 정할 것.
 2. purification 과정을 전혀 거치지 않았기 때문에 농도가 높을 것이다.
 	1. 1/20 희석 후 측정 권장

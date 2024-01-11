@@ -26,23 +26,23 @@ PARA:
 
 mRNA 3’-end processing은 <u>C</u>leavage and <u>P</u>olyadenylation <u>F</u>actor([[Cleavage and Polyadenylation Factor|CPF]](이스트) 또는 CPSF(인간))에 의해 수행된다. [[Cleavage and Polyadenylation Factor|CPF]]는 **3개의 enzymatic module로 구성된 14개 subunit으로 구성된 1메가달톤 크기의 complex이다.** 3개의 subunit을 가진 nuclease module은 초기 RNA 서열을 잘라내는 Ysh1(CPSF73) endonuclease를 포함하고 있다. 5개의 subunit을 가진 polymerase module은 새로운 3’-end에 poly(A) tail을 추가하는 Pap1(PAP)를 포함하고 있다. 6개의 subunit을 포함하고 있는 phosphatase module은 Ssu72(SSU72)와 Glc7(이스트의 PP1 phosphatase)가 있다. **[[Ssu72]]는 transcripting elongation과 gene looping에서 역할을 하는 P-Ser5 phosphatase인데, 유전자의 promoter와 terminater에서 Pol2 recycling과 전사 방향성을 조절하기 위해서 동일하게 존재한다.** [[Glc7]]은 전사 종료를 일으키기 위해 CTD의 P-Tyr1를 탈인산화한다. 인간과 fission yeast의 Glc7, PP1 그리고 Dis2 각각의 orthologues 또한 elongation factor인 Spt5를 탈인산화를 통해서 전사종료를 촉진한다. [[Cleavage and Polyadenylation Factor|CPF]]가 단백질을 coding하고 있는 전사체의 3’-end를 processing 하는 동안, 관련된 APT(Associated with Pta1) complex를 yeast의 pol2에 의해서 non-coding snRNA와 snoRNA의 전사를 위해 필요로 한다. **APT complex는 6개의 phosphatase module의 6개 서브유닛 모두 뿐만 아니라 추가적인 subunit인 Syc1를 포함하고 있다.**
 
-Transcription과 mRNA 3’-end processing은 진핵세포 전반에 걸쳐 밀접하게 연관되어 있다. CPF는 프로모터에서 transcription initiation complex와 상호작용하고, 나머지 부분에서는 transcription 전반에서 pol2와 관련되어 있다. 그리고 CPF는 transcription termination에 필요하다. 2개의 일반적이고 배타적이지 않은 transcription termination모델이 있다. 첫번째는 **torpedo model**인데, CPF에 의해 일어나는 pre-mRNA cleavage는 DNA로부터 pol2를 떼어내는 5’-3’ ‘torpedo’ exonuclease의 접근을 허용하기 위해 필요하다. (다른 model인) **Allosteric model에서는**, PAS의 transcription은 pol2가 termination 되도록 정의되지 않은(undefined) 변화를 발생시킨다. Pol2의 CPF 매개 탈인산화는 **allosteric model**에 원인이 되는 것처럼 보인다.
+Transcription과 mRNA 3’-end processing은 진핵세포 전반에 걸쳐 밀접하게 연관되어 있다. [[Cleavage and Polyadenylation Factor|CPF]]는 프로모터에서 transcription initiation complex와 상호작용하고, 나머지 부분에서는 transcription 전반에서 pol2와 관련되어 있다. 그리고 [[Cleavage and Polyadenylation Factor|CPF]]는 transcription termination에 필요하다. 2개의 일반적이고 배타적이지 않은 transcription termination모델이 있다. 첫번째는 **torpedo model**인데, [[Cleavage and Polyadenylation Factor|CPF]]에 의해 일어나는 pre-mRNA cleavage는 DNA로부터 pol2를 떼어내는 5’-3’ ‘torpedo’ exonuclease의 접근을 허용하기 위해 필요하다. (다른 model인) **Allosteric model에서는**, PAS의 transcription은 pol2가 termination 되도록 정의되지 않은(undefined) 변화를 발생시킨다. Pol2의 [[Cleavage and Polyadenylation Factor|CPF]] 매개 탈인산화는 **allosteric model**에 원인이 되는 것처럼 보인다.
 
-3’-end processing과 transcription의 연관성에도 불구하고, CPF가 전사중인(transcribing) pol2에 결합하는지 아닌지 또는 어떻게 결합하는지에 대해서 명확하지 않은 부분이 남아있다. 게다가, 어떻게 pol2가 3’-end processing에 영향을 미치는지는 모른다. 이 논문에서는 CPF와 APT가 직접적으로 pol2와 결합한다는 것을 보고한다. 이 상호작용은 CPF posphatase인 Glc7을 조절하는 [[Ref2]] subunit을 통해 부분적으로 매개된다. 우리는 CTD의 탈인산화가 transcription elongation과 구조적으로 호환되지 않은 pol2의 homodimer 형태를 촉진한다는 것을 봤다. 더해서, 이것은 transcription과 3’-end processing이 물리적으로 연결되어 있다는 것을 확립시키고 CPF의 phosphatase activity가 pol2의 oligomerzation state를 제어해서 transcription transcription termination 을 조절할 수 있다는 것을 암시한다.
+3’-end processing과 transcription의 연관성에도 불구하고, [[Cleavage and Polyadenylation Factor|CPF]]가 전사중인(transcribing) pol2에 결합하는지 아닌지 또는 어떻게 결합하는지에 대해서 명확하지 않은 부분이 남아있다. 게다가, 어떻게 pol2가 3’-end processing에 영향을 미치는지는 모른다. 이 논문에서는 [[Cleavage and Polyadenylation Factor|CPF]]와 APT가 직접적으로 pol2와 결합한다는 것을 보고한다. 이 상호작용은 [[Cleavage and Polyadenylation Factor|CPF]] posphatase인 Glc7을 조절하는 [[Ref2]] subunit을 통해 부분적으로 매개된다. 우리는 CTD의 탈인산화가 transcription elongation과 구조적으로 호환되지 않은 pol2의 homodimer 형태를 촉진한다는 것을 봤다. 더해서, 이것은 transcription과 3’-end processing이 물리적으로 연결되어 있다는 것을 확립시키고 [[Cleavage and Polyadenylation Factor|CPF]]의 phosphatase activity가 pol2의 oligomerzation state를 제어해서 transcription transcription termination 을 조절할 수 있다는 것을 암시한다.
 
 # 정리
 
 ## Abstract 
-1. CPF가 물리적, 기능적으로 Pol2와 상호작용한다.
-2. CPF를 통한 탈인산화가 Pol2의 stalk-to-stalk homodimer 형성을 촉진시킨다.
+1. [[Cleavage and Polyadenylation Factor|CPF]]가 물리적, 기능적으로 Pol2와 상호작용한다.
+2. [[Cleavage and Polyadenylation Factor|CPF]]를 통한 탈인산화가 Pol2의 stalk-to-stalk homodimer 형성을 촉진시킨다.
 	1. 이 dimer는 다른 Pol2 dimer와는 달리 transcription과 양립할 수 있는데, 하지만 transcription elongation factor와의 결합과는 다르다.
-3. CPF의 서브유닛인 Ref2가 Pol2와의 결합에 직접적으로 기여하고, CPF phosphatase인 Glc7/PP1을  조절합니다.
+3. [[Cleavage and Polyadenylation Factor|CPF]]의 서브유닛인 Ref2가 Pol2와의 결합에 직접적으로 기여하고, [[Cleavage and Polyadenylation Factor|CPF]] phosphatase인 Glc7/PP1을  조절합니다.
 4. Pol2 dimer가 어쩌면 gene looping에서 어떤 역할을 하고, allosteric model의 기계적 토대를 제공한다는 가설을 제기합니다.
 
 ## Result
 
-### CPF and APT interact directly with Pol2
-> CPF와 APT는 Pol2와 직접적으로 상호작용한다.
+### [[Cleavage and Polyadenylation Factor|CPF]] and APT interact directly with Pol2
+> [[Cleavage and Polyadenylation Factor|CPF]]와 APT는 Pol2와 직접적으로 상호작용한다.
 
 1. Insect cell에서 baculovirus-based overexpression system을 통해 생산한 재조합된 CPF, core-CPF, phosphatase module, APT와 이스트로부터 affinity tag(StrepII-StrepTactin)가 달린 Pol2를 정제했다.
 	1. 그 다음, Immobilized pol2를 이용해서 CPF와 APT의 [[Pull down assay]]를 진행했다.
@@ -87,7 +87,7 @@ Pol II 이합체의 토폴로지는 단량체가 2중 대칭 축을 중심으로
 ### CTD dephosphorylation promotes Pol2 dimerization
 > Pol2의 C-terminal domain의 탈인산화가 pol2의 dimerization을 촉진한다.
 
-CTD의 인산화 상태가 Pol II 이량체화 정도를 조절할 수 있는지 확인하기 위해 음성 염색 EM을 사용하여 다양한 조건에서 이량체의 비율을 추정했습니다. Erk2 키나아제로 Pol II를 과인산화한 다음 CPF, APT 또는 λ포스파타제로 배양했습니다(그림 S8A-B). 각 조건에서 현미경 사진당 이합체의 비율을 비교하고 쌍별 비교를 위해 평균 이합체화 빈도를 계산했습니다(그림 4C). 그 결과, CPF 및 APT 처리된 Pol II는 과인산화된 Pol II에 비해 이량체화 빈도가 증가했습니다. λ-포스파타제로 처리한 경우에도 이량체 수가 증가했습니다. **따라서 Pol II 이량체화는 CPF 또는 APT의 결합보다는 포스파타제 활성에 의해 강화됩니다.**
+CTD의 인산화 상태가 Pol II 이량체화 정도를 조절할 수 있는지 확인하기 위해 음성 염색 EM을 사용하여 다양한 조건에서 이량체의 비율을 추정했습니다. Erk2 키나아제로 Pol II를 과인산화한 다음 [[Cleavage and Polyadenylation Factor|CPF]], APT 또는 λ포스파타제로 배양했습니다(그림 S8A-B). 각 조건에서 현미경 사진당 이합체의 비율을 비교하고 쌍별 비교를 위해 평균 이합체화 빈도를 계산했습니다(그림 4C). 그 결과, CPF 및 APT 처리된 Pol II는 과인산화된 Pol II에 비해 이량체화 빈도가 증가했습니다. λ-포스파타제로 처리한 경우에도 이량체 수가 증가했습니다. **따라서 Pol II 이량체화는 CPF 또는 APT의 결합보다는 포스파타제 활성에 의해 강화됩니다.**
 
 또한 Pol II-ΔCTD와 Pol II-Δstalk의 이량체 비율을 계산한 결과, 야생형, 처리되지 않은 Pol II(저인산화된 것으로 생각됨)에 비해 둘 모두의 이량체화 빈도가 감소하는 것을 확인했습니다(그림 4C). cryoEM 데이터와 일치하게, 야생형 스토킹으로 보완된 Pol II-Δstalk는 돌연변이 스토킹이 있는 Pol II 또는 음성 염색 EM의 Pol II-Δstalk보다 이합체의 비율이 더 높습니다(그림 4C 오른쪽). 전반적으로 이러한 데이터는 **탈인산화 Pol II가 인산화 Pol II에 비해 이량체화 빈도가 증가하며, 효율적인 이량체화를 위해서는 Pol II CTD와 스토킹이 필요하다는 것을 보여줍니다.**
 
