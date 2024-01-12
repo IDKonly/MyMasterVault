@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Introduction",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Introduction.md"
+    },
+    {
+      "basename": "_Inbox",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/_Inbox.md"
+    },
+    {
+      "basename": "Swd2의 기본적인 소개",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2의 기본적인 소개.md"
+    },
+    {
       "basename": "New Zotero Literature Note(temp)",
       "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Bradford assay",
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md"
-    },
-    {
-      "basename": "Asymmetry (asymmetry factor)",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md"
-    },
-    {
-      "basename": "Peak tailing",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Peak tailing.md"
-    },
-    {
-      "basename": "Affinity chromatography",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Affinity chromatography.md"
     }
   ],
   "omittedPaths": [],
