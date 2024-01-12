@@ -96,7 +96,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_2_daily notes/24.01.11.md",
+                "file": "Room_2_daily notes/24.01.12.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_2_daily notes/24.01.11.md"
+                "file": "Room_2_daily notes/24.01.12.md"
               }
             }
           },
@@ -277,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/24.01.11.md",
+                "file": "Room_2_daily notes/24.01.12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/24.01.11.md",
+                "file": "Room_2_daily notes/24.01.12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -322,7 +322,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_2_daily notes/24.01.11.md",
+                "file": "Room_2_daily notes/24.01.12.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -384,6 +384,8 @@
   },
   "active": "8e0dd8423c3c5310",
   "lastOpenFiles": [
+    "Room_2_daily notes/24.01.11.md",
+    "Room_2_daily notes/24.01.12.md",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/포지션 데이터 정리.md",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/_GraduatePaper.md",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/Q_sir2 spreading.md",
@@ -425,8 +427,6 @@
     "Room_0_metadata/Shelf_0_Resource/그림4.png",
     "Room_0_metadata/Shelf_0_Resource/그림3.png",
     "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
-    "Room_2_daily notes/24.01.11.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md",
     "Excalidraw/무제 폴더",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",

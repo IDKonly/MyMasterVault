@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "24.01.12",
+      "path": "Room_2_daily notes/24.01.12.md"
+    },
+    {
+      "basename": "24.01.11",
+      "path": "Room_2_daily notes/24.01.11.md"
+    },
+    {
       "basename": "New Zotero Literature Note",
       "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "Column equilibration",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Column equilibration.md"
-    },
-    {
-      "basename": "23.01.11",
-      "path": "Room_2_daily notes/23년 1월/23.01.11.md"
     }
   ],
   "omittedPaths": [],

@@ -383,7 +383,7 @@
             "containerId": null,
             "originalText": "DIS3",
             "lineHeight": 1.25,
-            "baseline": 29
+            "baseline": 28
           }
         ],
         "created": 1702347857624
@@ -6831,7 +6831,7 @@
             "containerId": null,
             "originalText": "F",
             "lineHeight": 1.2499999999999996,
-            "baseline": 32
+            "baseline": 31
           },
           {
             "type": "ellipse",
@@ -7035,7 +7035,7 @@
             "containerId": null,
             "originalText": "N",
             "lineHeight": 1.2499999999999996,
-            "baseline": 32
+            "baseline": 31
           },
           {
             "type": "rectangle",
@@ -7260,7 +7260,7 @@
             "containerId": null,
             "originalText": "P",
             "lineHeight": 1.2499999999999996,
-            "baseline": 32
+            "baseline": 31
           }
         ],
         "id": "zitA0IGBs0U7dMPFr2V-c",
@@ -7460,7 +7460,7 @@
             "containerId": null,
             "originalText": "X",
             "lineHeight": 1.2499999999999996,
-            "baseline": 32
+            "baseline": 31
           },
           {
             "type": "rectangle",
@@ -7749,7 +7749,7 @@
             "containerId": null,
             "originalText": "W",
             "lineHeight": 1.2499999999999996,
-            "baseline": 32
+            "baseline": 31
           }
         ],
         "id": "CyCpKxXwmDyr5mpKdvZJU",
@@ -8150,7 +8150,7 @@
             "containerId": null,
             "originalText": "D",
             "lineHeight": 1.2500000000000033,
-            "baseline": 29
+            "baseline": 30
           }
         ],
         "id": "pi06_-uWh3nFH2lefvOGd",
@@ -8570,7 +8570,7 @@
             "containerId": null,
             "originalText": "O",
             "lineHeight": 1.2500000000000033,
-            "baseline": 29
+            "baseline": 30
           }
         ],
         "id": "Yha2BDHWG31jv7Dywbl6i",
@@ -8800,7 +8800,7 @@
             "containerId": null,
             "originalText": "T",
             "lineHeight": 1.2500000000000033,
-            "baseline": 20
+            "baseline": 21
           },
           {
             "type": "ellipse",
@@ -21496,7 +21496,7 @@
             "containerId": "ummBbVMiXAvLPl_SGexR6",
             "originalText": "RNA PolII",
             "lineHeight": 1.25,
-            "baseline": 29
+            "baseline": 28
           },
           {
             "type": "rectangle",
@@ -21571,7 +21571,7 @@
             "containerId": "ewQd_6fJ0hY0JrPIHMvSy",
             "originalText": "WDR82",
             "lineHeight": 1.25,
-            "baseline": 29
+            "baseline": 28
           },
           {
             "type": "diamond",
