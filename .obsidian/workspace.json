@@ -16,68 +16,6 @@
             }
           },
           {
-            "id": "b717a7ed1940039f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/Nano drop.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "731902c32eb633d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_2_daily notes/24.01.02.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bec0a7045b191ff",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/work flow.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "d971b2af3638147e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_2_daily notes/24.01.02.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad0096362aa375e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "73b66c01903688bd",
             "type": "leaf",
             "state": {
@@ -102,9 +40,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d268f13614450606",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a65b83e0e40230fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "63e7fb12b593623d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@bae2020.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -169,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "e7419118ec9faabd",
@@ -232,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_2_daily notes/24.01.12.md"
+                "file": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
               }
             }
           },
@@ -277,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/24.01.12.md",
+                "file": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/24.01.12.md",
+                "file": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -322,7 +299,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_2_daily notes/24.01.12.md",
+                "file": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -355,7 +332,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389
+    "width": 389,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -382,10 +360,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8e0dd8423c3c5310",
+  "active": "d268f13614450606",
   "lastOpenFiles": [
-    "Room_2_daily notes/24.01.11.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@bae2020.md",
+    "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
+    "_Box_3_Memo for manuscripts/@hughes2023.md",
+    "_Box_3_Memo for manuscripts/__Box_3_Memo for manuscripts.md",
+    "_Box_3_Memo for manuscripts",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2021.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md",
     "Room_2_daily notes/24.01.12.md",
+    "Room_2_daily notes/24.01.02.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/Nano drop.md",
+    "Excalidraw/work flow.excalidraw.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md",
+    "Room_2_daily notes/24.01.11.md",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/포지션 데이터 정리.md",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/_GraduatePaper.md",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/Q_sir2 spreading.md",
@@ -399,9 +389,6 @@
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_d_Q log2change의 어느정도 수준까지 용인 가능할까.md",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_d_marker 선별에 수학적으로 접근해보기.md",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_d_a position data.md",
-    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_b Telomeric position effect(TPE).md",
-    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_c Telomeric silencing을 나타내는 URA3 assay와 한계.md",
-    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_a Telomere.md",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@park2017/image-3-x302-y601.png",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@park2017",
@@ -415,23 +402,14 @@
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-3-x83-y471.png",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-3-x330-y213.png",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/_Box_4_석사 논문.md",
     "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_a_균주 COMPASS  활성 검증.md",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_Swd2-TAP 균주 검증.md",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/2_Swd2-TAP primer design.md",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/1_Swd2 -TAP tag 균주 만들기.md",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/1_a_swd2-TAP TRP 균주 만들기.md",
-    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/0_index.md",
     "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문",
     "Room_0_metadata/Shelf_0_Resource/그림4.png",
     "Room_0_metadata/Shelf_0_Resource/그림3.png",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md",
     "Excalidraw/무제 폴더",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources from zotero/zotero.json",
     "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/@soares2012",
-    "Room_3_Lab/shelf_2_library/Box_1_manuscripts/0_resources/zotero.json",
     "무제 파일.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",

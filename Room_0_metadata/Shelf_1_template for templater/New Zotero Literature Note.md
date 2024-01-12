@@ -1,30 +1,30 @@
 ---
 type: Zotero Literature Note
 publish-year: {{date | format("YYYY")}} 
-created: <% tp.file.creation_date("YYYY-MM-DD")%>
+created: {{importDate | format("YY.MM.DD")}}
 PARA:
   - Archive
 tags:
   - zotero
   - note/zotero
 ---
-## Self notes
+## Notes
+{% persist "notes" %}{% if isFirstImport %}
 - Critique
 	- Pros
 	- Cons
 - How is it relevant to my research?
 	- Relevant_Topic::
 	- Use::
-
+{% endif %}
+{% endpersist %}
+External note : [[_Box_3_Memo for manuscripts/@{{citekey}}]]
 
 > [!Cite]  
 > {{bibliography}}
 
->[!Synth]  
->**Contribution**::
-
->[!md]  
-> {%- for creator in creators %} {%- if creator.name == null %} **{{creator.creatorType | capitalize}}**:: {{creator.lastName}}, {{creator.firstName}}{%- endif -%}<br>  
+>[!Info]  
+> {%- for creator in creators %} {%- if creator.name == null %} **{{creator.creatorType | capitalize}}**::{{creator.lastName}}, {{creator.firstName}}{%- endif -%}<br>  
 > {%- if creator.name %}**{{creator.creatorType | capitalize}}**:: {{creator.name}}{%- endif -%}{%- endfor %}  
 > **Title**:: {{title}}  
 > **Year**:: {{date | format("YYYY")}}  
@@ -93,7 +93,7 @@ Note
 {%- if annot.imageRelativePath %}  
 > ![[{{annot.imageRelativePath}}]]  
 {%- endif %}  
-> [page {{annot.page}}](file://{{annot.attachment.path | replace(" ", "%20")}}) [[{{annot.date | format("YY.MM.DD")}}|{{annot.date | format("YYYY-MM-DD#a h:mm")}}]]  
+> [page {{annot.page}}]({{annot.desktopURI}}) [[{{annot.date | format("YY.MM.DD")}}|{{annot.date | format("YYYY-MM-DD#a h:mm")}}]]  
 {%- if annot.comment %}  
 > - {{annot.comment | nl2br}}  
 {% endif %}
