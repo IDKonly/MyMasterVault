@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "New Zotero Literature Note",
-      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
+      "basename": "New Zotero Literature Note(temp)",
+      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md"
+    },
+    {
+      "basename": "24.01.12",
+      "path": "Room_2_daily notes/24.01.12.md"
+    },
+    {
+      "basename": "@bae2020",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@bae2020.md"
     },
     {
       "basename": "@hughes2023",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md"
     },
     {
-      "basename": "@bae2020",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@bae2020.md"
+      "basename": "New Zotero Literature Note",
+      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
     },
     {
       "basename": "@hughes2023",
@@ -23,10 +31,6 @@
     {
       "basename": "The Tandem Affinity Purificaion(TAP) Method",
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md"
-    },
-    {
-      "basename": "24.01.12",
-      "path": "Room_2_daily notes/24.01.12.md"
     },
     {
       "basename": "24.01.02",
@@ -195,10 +199,6 @@
     {
       "basename": "Affinity chromatography",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Affinity chromatography.md"
-    },
-    {
-      "basename": "Dead volume",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Dead volume.md"
     }
   ],
   "omittedPaths": [],
