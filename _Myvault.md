@@ -15,7 +15,7 @@ tags:
 📄 [[_MyMasterVault|_MyMasterVault]]
 📄 [[수정요함|수정요함]]
 📄 [[점심메뉴|점심메뉴]]
-🗂️ [[_Box_3_Memo for manuscripts/__Box_3_Memo for manuscripts|__Box_3_Memo for manuscripts]]
+📄 [[Vault|Vault]]
 🗂️ [[Excalidraw/_Excalidraw|_Excalidraw]]
 🗂️ [[Room_0_metadata/_Room_0_metadata|_Room_0_metadata]]
 🗂️ [[Room_1_rules/_Room_1_rules|_Room_1_rules]]

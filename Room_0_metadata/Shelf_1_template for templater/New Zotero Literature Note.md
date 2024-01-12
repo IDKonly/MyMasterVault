@@ -18,7 +18,7 @@ tags:
 	- Use::
 {% endif %}
 {% endpersist %}
-External note : [[_Box_3_Memo for manuscripts/@{{citekey}}]]
+External note : [[Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/@{{citekey}}]]
 
 > [!Cite]  
 > {{bibliography}}

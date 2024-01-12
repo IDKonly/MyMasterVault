@@ -53,7 +53,9 @@
     "//Excalidraw/Excalidraw/Scripts",
     "//Spaces/Spaces/Home",
     "//Spaces",
-    "//Room_4_personal work"
+    "//Room_4_personal work",
+    "Spaces/Home/Spaces/Home/Excalidraw",
+    "Spaces/Home/Spaces/Home/Excalidraw"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
