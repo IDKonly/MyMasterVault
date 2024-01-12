@@ -5,12 +5,24 @@
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Reversed phase chromatography (RPC).md"
     },
     {
-      "basename": "231117 실험계획",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231117 실험계획.md"
+      "basename": "24.01.02",
+      "path": "Room_2_daily notes/24.01.02.md"
+    },
+    {
+      "basename": "23.12.04 1",
+      "path": "Room_2_daily notes/23년 12월/23.12.04 1.md"
+    },
+    {
+      "basename": "23.05.19 Swd2-TAP Size Exclusion Chromatography",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas"
     },
     {
       "basename": "231207 Two-step TAP purificaiton work",
       "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas"
+    },
+    {
+      "basename": "231117 실험계획",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231117 실험계획.md"
     },
     {
       "basename": "Swd2 Associated proteins",
@@ -35,10 +47,6 @@
     {
       "basename": "23.05.31 TAP purification",
       "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.31 TAP purification.md"
-    },
-    {
-      "basename": "23.05.19 Swd2-TAP Size Exclusion Chromatography",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas"
     },
     {
       "basename": "23.05.17 Size exclusion chromatography",
@@ -129,10 +137,6 @@
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md"
     },
     {
-      "basename": "24.01.02",
-      "path": "Room_2_daily notes/24.01.02.md"
-    },
-    {
       "basename": "Nano drop",
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Nano drop.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Epigenetic gene silencing alters the mechanisms and rate of evolutionary adaptation",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Epigenetic gene silencing alters the mechanisms and rate of evolutionary adaptation.md"
-    },
-    {
-      "basename": "Dot1 and Histone H3K79 Methylation in Natural Telomeric and HM Silencing",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Dot1 and Histone H3K79 Methylation in Natural Telomeric and HM Silencing.md"
     }
   ],
   "omittedPaths": [],
