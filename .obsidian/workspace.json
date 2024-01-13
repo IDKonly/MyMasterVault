@@ -211,7 +211,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Article 24.01.14 0001.md"
+=======
+                "file": "Room_2_daily notes/24.01.13.md"
+>>>>>>> Stashed changes
               }
             }
           },
@@ -249,7 +253,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Article 24.01.14 0001.md",
+=======
+                "file": "Room_2_daily notes/24.01.13.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +274,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Article 24.01.14 0001.md",
+=======
+                "file": "Room_2_daily notes/24.01.13.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -294,7 +306,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Article 24.01.14 0001.md",
+=======
+                "file": "Room_2_daily notes/24.01.13.md",
+>>>>>>> Stashed changes
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -356,6 +372,7 @@
       "homepage:Open homepage": false
     }
   },
+<<<<<<< Updated upstream
   "active": "437b65cdfe9fd788",
   "lastOpenFiles": [
     "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/어제자 데일리 노트의 특정 섹션 가져오기.md",
@@ -402,6 +419,54 @@
     "Room_2_daily notes/24년 01월",
     "무제 폴더",
     "Room_2_daily notes/23년/23년 12월",
+=======
+  "active": "73b66c01903688bd",
+  "lastOpenFiles": [
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/Nano drop.md",
+    "Room_2_daily notes/24.01.13.md",
+    "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
+    "Room_2_daily notes/24.01.09.md",
+    "Room_2_daily notes/24.01.10.md",
+    "Room_2_daily notes/24.01.11.md",
+    "Room_2_daily notes/24.01.02.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/포지션 데이터 정리.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/_GraduatePaper.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/Q_sir2 spreading.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/_Box_1_학사 논문.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/_Box_1_Graduate paper.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/3. Redefine subtelomere region as telomeric silencing target in Saccharomyces cerevisiae.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/2_z_초안 이었던것.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/2_a 졸업논문 논리구조 세우기.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/2_ Saccharomyces serevisiae의 subtelomere region의 재정의.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_Saccharomyces cerevisiae의 telomeric silencing 연구를 위한 새로운 마커 유전자의 탐색_intro.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_d_Q log2change의 어느정도 수준까지 용인 가능할까.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_d_marker 선별에 수학적으로 접근해보기.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_d_a position data.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_b Telomeric position effect(TPE).md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_c Telomeric silencing을 나타내는 URA3 assay와 한계.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문/1_a Telomere.md",
+    "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@park2017/image-3-x302-y601.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@park2017",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@lee2007/image-4-x68-y156.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@lee2007/image-6-x145-y582.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@lee2007",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@landsverk2020/image-12-x302-y242.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@landsverk2020",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-7-x62-y479.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-6-x351-y491.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-3-x83-y471.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-3-x330-y213.png",
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023",
+    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/_Box_4_석사 논문.md",
+    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas",
+    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_a_균주 COMPASS  활성 검증.md",
+    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/3_Swd2-TAP 균주 검증.md",
+    "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문",
+    "Room_0_metadata/Shelf_0_Resource/그림4.png",
+    "Room_0_metadata/Shelf_0_Resource/그림3.png",
+    "Excalidraw/무제 폴더",
+>>>>>>> Stashed changes
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",
