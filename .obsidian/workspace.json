@@ -60,12 +60,14 @@
             "id": "d1c739810d7f1d5a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
+                "viewState": {
+                  "x": 267.8335872048749,
+                  "y": 952.2536876270879,
+                  "zoom": -1.6992051782721294
+                }
               }
             }
           }
@@ -135,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "e7419118ec9faabd",
@@ -198,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md"
+                "file": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas"
               }
             }
           },
@@ -243,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -288,7 +290,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
+                "file": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -350,6 +352,9 @@
   },
   "active": "d1c739810d7f1d5a",
   "lastOpenFiles": [
+    "Room_2_daily notes/23년/23년 12월/23.12.04 1.md",
+    "Room_2_daily notes/24년 01월/24.01.13.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
     "Room_2_daily notes/24년 01월/24.01.12.md",
     "Room_2_daily notes/24년 01월/Swd2 review abstract.md",
     "Room_2_daily notes/24년 01월/24.01.10.md",
@@ -365,7 +370,6 @@
     "Room_3_Lab/Shelf_3_knowledge particle/Reversed phase chromatography (RPC).md",
     "Room_2_daily notes/24년 01월",
     "무제 폴더",
-    "Room_2_daily notes/23년/23년 12월/23.12.04 1.md",
     "Room_2_daily notes/23년/23년 12월/_23년 12월.md",
     "Room_2_daily notes/23년/23년 12월",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
@@ -382,8 +386,6 @@
     "Room_3_Lab/Room_3_Lab.md",
     "Room_3_Lab/_Room_3_Lab.md",
     "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md",
-    "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
     "Spaces/Home/Excalidraw",
     "_Box_3_Memo for manuscripts",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문",
