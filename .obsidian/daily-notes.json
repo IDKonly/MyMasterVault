@@ -1,5 +1,5 @@
 {
-  "format": "YY.MM.DD",
+  "format": "YY년 MM월/YY.MM.DD",
   "folder": "Room_2_daily notes",
   "autorun": true
 }

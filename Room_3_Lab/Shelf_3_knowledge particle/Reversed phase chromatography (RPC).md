@@ -12,4 +12,4 @@ tags : []
 Parent : [[_KnowledgeParticle]]
 Drived from : [[]]
 
-Method based on hydrophobic interections between solutes (sample components) and ligands dcoupled to the chromatography resin. Organic modifiers (for example, acentonitrile) in the [[Eluent]] are used for elution.
+Method based on hydrophobic interections between solutes ([[sample]] components) and ligands dcoupled to the [[chromatography]] resin. Organic modifiers (for example, acentonitrile) in the [[Eluent]] are used for elution.

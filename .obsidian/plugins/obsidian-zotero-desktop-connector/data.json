@@ -18,6 +18,14 @@
   ],
   "exportFormats": [
     {
+      "name": "Create Literature Notes(temp)",
+      "outputPathTemplate": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@{{citekey}}.md",
+      "imageOutputPathTemplate": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md",
+      "cslStyle": "apa"
+    },
+    {
       "name": "Create Literature Notes",
       "outputPathTemplate": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@{{citekey}}.md",
       "imageOutputPathTemplate": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@{{citekey}}/",

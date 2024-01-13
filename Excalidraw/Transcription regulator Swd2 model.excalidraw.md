@@ -4,6 +4,8 @@ tags:
   - excalidraw
   - 석사논문
   - Swd2
+  - Master_file
+  - Project
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

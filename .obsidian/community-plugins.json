@@ -22,7 +22,6 @@
   "obsidian-footnotes",
   "calendar",
   "text-extractor",
-  "chronology",
   "custom-font-loader",
   "obsidian-enhancing-export",
   "obsidian-excalidraw-plugin",
@@ -32,5 +31,7 @@
   "obsidian-custom-frames",
   "obsidian-minimal-settings",
   "obsidian-icon-folder",
-  "highlightr-plugin"
+  "highlightr-plugin",
+  "chronology",
+  "cm-typewriter-scroll-obsidian"
 ]
