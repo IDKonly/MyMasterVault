@@ -10,3 +10,8 @@ Status:
   - Working
 PARA: 
 ---
+```button
+name Open daily note
+type command
+action 데일리 노트: 오늘의 데일리 노트 열기
+```

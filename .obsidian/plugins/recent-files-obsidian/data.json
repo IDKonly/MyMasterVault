@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Daily Note를 요일별, 날짜별 다르게 쓰기",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Daily Note를 요일별, 날짜별 다르게 쓰기.md"
+    },
+    {
+      "basename": "어제자 데일리 노트의 특정 섹션 가져오기",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/어제자 데일리 노트의 특정 섹션 가져오기.md"
+    },
+    {
+      "basename": "Full Calendar ICS 플러그인",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Full Calendar ICS 플러그인.md"
+    },
+    {
+      "basename": "플러그인 Modal form + QuickAdd + Button을 이용해서 반복작업 줄이기",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/플러그인 Modal form + QuickAdd + Button을 이용해서 반복작업 줄이기.md"
+    },
+    {
       "basename": "Home page",
       "path": "Spaces/Home/Home page.md"
     },
     {
-      "basename": "_Home",
-      "path": "Spaces/Home/_Home.md"
+      "basename": "24.01.14",
+      "path": "Room_2_daily notes/24년 01월/24.01.14.md"
     },
     {
-      "basename": "Obsidian �ɽõ�� ����� ����  ���̹� ī��",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Obsidian �ɽõ�� ����� ����  ���̹� ī��.md"
+      "basename": "_Home",
+      "path": "Spaces/Home/_Home.md"
     },
     {
       "basename": "올라마(Ollama)와 옵시디언(노트앱)을 효과적으로 활용하는 방법",
@@ -183,18 +199,6 @@
     {
       "basename": "kamieniarz-gdula2019b",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md"
-    },
-    {
-      "basename": "@austenaa2021",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@austenaa2021.md"
-    },
-    {
-      "basename": "Molecular regulation of H3K4 trimethylation by Wdr82, a component of human Set1_COMPASS",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Molecular regulation of H3K4 trimethylation by Wdr82, a component of human Set1_COMPASS.md"
-    },
-    {
-      "basename": "In vivo chromatin organization on native yeast telomeric regions is independent of a cis-telomere loopback conformation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/In vivo chromatin organization on native yeast telomeric regions is independent of a cis-telomere loopback conformation.md"
     }
   ],
   "omittedPaths": [],

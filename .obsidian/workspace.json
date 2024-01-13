@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Home/Home page.md",
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/플러그인 Modal form + QuickAdd + Button을 이용해서 반복작업 줄이기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,15 +57,46 @@
             }
           },
           {
-            "id": "891ac56bb12db16f",
+            "id": "112dd959e4b6d292",
             "type": "leaf",
             "state": {
-              "type": "modal-form-manage-forms-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Full Calendar ICS 플러그인.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "437b65cdfe9fd788",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/어제자 데일리 노트의 특정 섹션 가져오기.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "280897e58154588c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Daily Note를 요일별, 날짜별 다르게 쓰기.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -122,15 +153,14 @@
             }
           },
           {
-            "id": "bec109850f263353",
+            "id": "5f91e3351df48f82",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "e7419118ec9faabd",
@@ -166,7 +196,7 @@
       {
         "id": "daefff7f14edf752",
         "type": "tabs",
-        "dimension": 23.490813648293965,
+        "dimension": 25.143678160919542,
         "children": [
           {
             "id": "9304162af39fcac6",
@@ -193,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Home/Home page.md"
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Daily Note를 요일별, 날짜별 다르게 쓰기.md"
               }
             }
           },
@@ -218,12 +248,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "5f3c3202b3b66b36",
         "type": "tabs",
-        "dimension": 51.50918635170603,
+        "dimension": 49.85632183908046,
         "children": [
           {
             "id": "b41b08e27bc20578",
@@ -231,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Home/Home page.md",
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Daily Note를 요일별, 날짜별 다르게 쓰기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Home/Home page.md",
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Daily Note를 요일별, 날짜별 다르게 쓰기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -260,7 +290,7 @@
       {
         "id": "f5a296f83230101c",
         "type": "tabs",
-        "dimension": 25.000000000000004,
+        "dimension": 25,
         "children": [
           {
             "id": "8eaa790f170533d0",
@@ -276,7 +306,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Spaces/Home/Home page.md",
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Daily Note를 요일별, 날짜별 다르게 쓰기.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -338,15 +368,19 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "93c6eb9344931a55",
+  "active": "280897e58154588c",
   "lastOpenFiles": [
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/어제자 데일리 노트의 특정 섹션 가져오기.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Daily Note를 요일별, 날짜별 다르게 쓰기.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Full Calendar ICS 플러그인.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/플러그인 Modal form + QuickAdd + Button을 이용해서 반복작업 줄이기.md",
     "Spaces/Home/Home page.md",
+    "Room_2_daily notes/24년 01월/24.01.14.md",
     "Spaces/Home/projects/projects.md",
     "Spaces/Home/projects/_projects.md",
     "Spaces/Home/projects",
     "Spaces/Home/_Home.md",
     "Spaces/_Spaces.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Obsidian �ɽõ�� ����� ����  ���̹� ī��.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/올라마(Ollama)와 옵시디언(노트앱)을 효과적으로 활용하는 방법.md",
     "Room_0_metadata/Shelf_0_Resource/Obsidian �ɽõ�� ����� ����.png",
     "Room_0_metadata/Shelf_0_Resource/�ñ��Ѱ� ���� �� ī�� ����Ʈ��.png",
@@ -377,14 +411,10 @@
     "Room_2_daily notes/23년",
     "Room_2_daily notes/24년 01월/24.01.02.md",
     "Room_2_daily notes/24년 01월/_24년 01월.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Reversed phase chromatography (RPC).md",
     "Room_2_daily notes/24년 01월",
     "무제 폴더",
-    "Room_2_daily notes/23년/23년 12월/_23년 12월.md",
     "Room_2_daily notes/23년/23년 12월",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231117 실험계획.md",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/Swd2 Associated proteins.md",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",
     "Spaces/Home/Excalidraw",
