@@ -1,200 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "New Zotero Literature Note",
-      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
+      "basename": "24.01.13",
+      "path": "Room_2_daily notes/24.01.13.md"
     },
     {
-      "basename": "A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md"
-    },
-    {
-      "basename": "@estell2021",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2021.md"
-    },
-    {
-      "basename": "24.01.10",
-      "path": "Room_2_daily notes/24.01.10.md"
-    },
-    {
-      "basename": "@hughes2023",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md"
-    },
-    {
-      "basename": "@lee2007",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@lee2007.md"
-    },
-    {
-      "basename": "kamieniarz-gdula2019b",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md"
+      "basename": "Nano drop",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Nano drop.md"
     },
     {
       "basename": "@austenaa2021",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@austenaa2021.md"
     },
     {
-      "basename": "Molecular regulation of H3K4 trimethylation by Wdr82, a component of human Set1_COMPASS",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Molecular regulation of H3K4 trimethylation by Wdr82, a component of human Set1_COMPASS.md"
-    },
-    {
-      "basename": "In vivo chromatin organization on native yeast telomeric regions is independent of a cis-telomere loopback conformation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/In vivo chromatin organization on native yeast telomeric regions is independent of a cis-telomere loopback conformation.md"
-    },
-    {
-      "basename": "Histone Crosstalk_ H2Bub and H3K4 Methylation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Histone Crosstalk_ H2Bub and H3K4 Methylation.md"
-    },
-    {
-      "basename": "Histone crosstalk between H2B monoubiquitination and H3 methylation mediated by COMPASS",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Histone crosstalk between H2B monoubiquitination and H3 methylation mediated by COMPASS.md"
-    },
-    {
-      "basename": "Functions for S. cerevisiae Swd2p in 3′ end formation of specific mRNAs and snoRNAs and global histone 3 lysine 4 methylation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Functions for S. cerevisiae Swd2p in 3′ end formation of specific mRNAs and snoRNAs and global histone 3 lysine 4 methylation.md"
-    },
-    {
-      "basename": "Everything You Ever Wanted to Know About _i_Saccharomyces cerevisiae__i_ Telomeres_ Beginning to End",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Everything You Ever Wanted to Know About _i_Saccharomyces cerevisiae__i_ Telomeres_ Beginning to End.md"
-    },
-    {
-      "basename": "Epitope tagging of yeast genes using a PCR-based strategy_ more tags and improved practical routines",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Epitope tagging of yeast genes using a PCR-based strategy_ more tags and improved practical routines.md"
-    },
-    {
-      "basename": "Epigenetic gene silencing alters the mechanisms and rate of evolutionary adaptation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Epigenetic gene silencing alters the mechanisms and rate of evolutionary adaptation.md"
-    },
-    {
-      "basename": "Dot1 and Histone H3K79 Methylation in Natural Telomeric and HM Silencing",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Dot1 and Histone H3K79 Methylation in Natural Telomeric and HM Silencing.md"
-    },
-    {
-      "basename": "Disengaging polymerase_ Terminating RNA polymerase II transcription in budding yeast",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Disengaging polymerase_ Terminating RNA polymerase II transcription in budding yeast.md"
-    },
-    {
-      "basename": "Determinants of Histone H3K4 Methylation Patterns",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Determinants of Histone H3K4 Methylation Patterns.md"
-    },
-    {
-      "basename": "Dare to challenge the silence_ Telomeric gene silencing revisited",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Dare to challenge the silence_ Telomeric gene silencing revisited.md"
-    },
-    {
-      "basename": "Crosstalk among Set1 complex subunits involved in H2B ubiquitylation-dependent H3K4 methylation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Crosstalk among Set1 complex subunits involved in H2B ubiquitylation-dependent H3K4 methylation.md"
-    },
-    {
-      "basename": "Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md"
-    },
-    {
-      "basename": "Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation.md"
-    },
-    {
-      "basename": "COMPASS_ A complex of proteins associated with a trithorax-related SET domain protein",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/COMPASS_ A complex of proteins associated with a trithorax-related SET domain protein.md"
-    },
-    {
-      "basename": "COMPASS and SWI_SNF complexes in development and disease",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/COMPASS and SWI_SNF complexes in development and disease.md"
-    },
-    {
-      "basename": "Bypassing the Catalytic Activity of SIR2 for SIR Protein Spreading in _i_Saccharomyces cerevisiae__i_",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Bypassing the Catalytic Activity of SIR2 for SIR Protein Spreading in _i_Saccharomyces cerevisiae__i_.md"
-    },
-    {
-      "basename": "Assays for gene silencing in yeast",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Assays for gene silencing in yeast.md"
-    },
-    {
-      "basename": "Architecture and subunit arrangement of the complete Saccharomyces cerevisiae COMPASS complex",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Architecture and subunit arrangement of the complete Saccharomyces cerevisiae COMPASS complex.md"
-    },
-    {
-      "basename": "A trithorax-group complex purified from Saccharomyces cerevisiae is required for methylation of histone H3",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A trithorax-group complex purified from Saccharomyces cerevisiae is required for methylation of histone H3.md"
-    },
-    {
-      "basename": "23.10.07",
-      "path": "Room_2_daily notes/23년 10월/23.10.07.md"
-    },
-    {
-      "basename": "Swd2-9myc Crude FPLC work.excalidraw",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Swd2-9myc Crude FPLC work.excalidraw.md"
+      "basename": "New Zotero Literature Note",
+      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
     },
     {
       "basename": "24.01.09",
       "path": "Room_2_daily notes/24.01.09.md"
     },
     {
+      "basename": "24.01.10",
+      "path": "Room_2_daily notes/24.01.10.md"
+    },
+    {
+      "basename": "24.01.02",
+      "path": "Room_2_daily notes/24.01.02.md"
+    },
+    {
       "basename": "Yeast Crude extraction for FPLC (Custom)",
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast Crude extraction for FPLC (Custom).md"
     },
     {
-      "basename": "24.01.08",
-      "path": "Room_2_daily notes/24.01.08.md"
+      "basename": "The Tandem Affinity Purificaion(TAP) Method",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md"
     },
     {
-      "basename": "(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획",
-      "path": "Room_3_Lab/Shelf_1_my works/(국립대학육성사업) 학생연구역량강화 2023학년도 연구동아리 계획.md"
+      "basename": "TAP(Tandem Affinity purification)",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md"
     },
     {
-      "basename": "TPE marker gene Abstract",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/KSBMB poster/TPE marker gene Abstract.md"
+      "basename": "231228 COMPASS activity check result",
+      "path": "Room_0_metadata/Shelf_0_Resource/231228 COMPASS activity check result.png"
+    },
+    {
+      "basename": "23.11.14",
+      "path": "Room_2_daily notes/23년 11월/23.11.14.md"
+    },
+    {
+      "basename": "work flow.excalidraw",
+      "path": "Excalidraw/work flow.excalidraw.md"
+    },
+    {
+      "basename": "Fast Protein Liquid Chromatography (FPLC) machine protocol",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Fast Protein Liquid Chromatography (FPLC) machine protocol.md"
+    },
+    {
+      "basename": "Bypassing the Catalytic Activity of SIR2 for SIR Protein Spreading in _i_Saccharomyces cerevisiae__i_",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Bypassing the Catalytic Activity of SIR2 for SIR Protein Spreading in _i_Saccharomyces cerevisiae__i_.md"
+    },
+    {
+      "basename": "PCR",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/PCR.md"
+    },
+    {
+      "basename": "준수형의 Westernblot recipe",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/준수형의 Westernblot recipe.md"
     },
     {
       "basename": "Bradford assay",
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Bradford assay.md"
     },
     {
-      "basename": "Asymmetry (asymmetry factor)",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md"
+      "basename": "Acetone  precipitation",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Acetone  precipitation.md"
     },
     {
-      "basename": "Peak tailing",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Peak tailing.md"
+      "basename": "A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md"
     },
     {
-      "basename": "Affinity chromatography",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Affinity chromatography.md"
+      "basename": "The Set1 N-terminal domain and Swd2 interact with RNA polymerase II CTD to recruit COMPASS",
+      "path": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/The Set1 N-terminal domain and Swd2 interact with RNA polymerase II CTD to recruit COMPASS.md"
     },
     {
-      "basename": "Dead volume",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Dead volume.md"
+      "basename": "231207 Two-step TAP purificaiton work",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas"
     },
     {
-      "basename": "NNS complexexcalidraw",
-      "path": "Excalidraw/NNS complexexcalidraw.md"
+      "basename": "23.10.13",
+      "path": "Room_2_daily notes/23년 10월/23.10.13.md"
     },
     {
-      "basename": "RNA isolation(MN kit, NucleoSpin)",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/RNA isolation(MN kit, NucleoSpin).md"
+      "basename": "Lighten background color",
+      "path": "Excalidraw/Scripts/Downloaded/Lighten background color.md"
     },
     {
-      "basename": "23.07.17",
-      "path": "Room_2_daily notes/23년 7월/23.07.17.md"
+      "basename": "NextVault",
+      "path": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/서비스/NextVault.md"
     },
     {
-      "basename": "_Myvault",
-      "path": "_Myvault.md"
+      "basename": "Gibson Assembly cloning (깁슨 어셈블리 클로닝)",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Gibson Assembly cloning (깁슨 어셈블리 클로닝).md"
     },
     {
-      "basename": "The Nucleoskeleton",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Nucleoskeleton.md"
+      "basename": "23.12.28",
+      "path": "Room_2_daily notes/23.12.28.md"
     },
     {
-      "basename": "영어논문 또는 리서치에 유용한 문장들 2 (Phrases) - 에세이리뷰 블로그",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/영어논문 또는 리서치에 유용한 문장들 2 (Phrases) - 에세이리뷰 블로그.md"
+      "basename": "Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1",
+      "path": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation 1.md"
     },
     {
-      "basename": "Column equilibration",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Column equilibration.md"
+      "basename": "23.12.26",
+      "path": "Room_2_daily notes/23.12.26.md"
     },
     {
-      "basename": "23.01.11",
-      "path": "Room_2_daily notes/23년 1월/23.01.11.md"
+      "basename": "Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation",
+      "path": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Context dependency of Set1_COMPASS-mediated histone H3 Lys4 trimethylation.md"
+    },
+    {
+      "basename": "The Saccharomyces cerevisiae Set1 complex includes an Ash2 homologue and methylates histone 3 lysine 4",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The Saccharomyces cerevisiae Set1 complex includes an Ash2 homologue and methylates histone 3 lysine 4.md"
+    },
+    {
+      "basename": "22.12.28",
+      "path": "Room_2_daily notes/22년/22년 12월/22.12.28.md"
+    },
+    {
+      "basename": "DNA gel extraction",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/DNA gel extraction.md"
+    },
+    {
+      "basename": "1st Draft",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/1st Draft.md"
+    },
+    {
+      "basename": "The n-SET domain of Set1 regulates H2B ubiquitylation-dependent H3K4 methylation",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/The n-SET domain of Set1 regulates H2B ubiquitylation-dependent H3K4 methylation.md"
+    },
+    {
+      "basename": "TAPO(power switch)",
+      "path": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/서비스/TAPO(power switch).md"
+    },
+    {
+      "basename": "_Scripts",
+      "path": "Excalidraw/Scripts/_Scripts.md"
+    },
+    {
+      "basename": "23.01.19",
+      "path": "Room_2_daily notes/23년 1월/23.01.19.md"
+    },
+    {
+      "basename": "Set Dimensions",
+      "path": "Excalidraw/Scripts/Downloaded/Set Dimensions.md"
+    },
+    {
+      "basename": "23.11.17",
+      "path": "Room_2_daily notes/23년 11월/23.11.17.md"
+    },
+    {
+      "basename": "COMPASS",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/COMPASS.md"
+    },
+    {
+      "basename": "Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor",
+      "path": "Room_3_Lab/shelf_2_library/Box_1_manuscripts/Yeast Swd2 is essential because of antagonism between Set1 histone methyltransferase complex and APT (associated with Pta1) termination factor.md"
+    },
+    {
+      "basename": "TAP method refference",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/TAP method refference.md"
+    },
+    {
+      "basename": "23.05.22",
+      "path": "Room_2_daily notes/23년 5월/23.05.22.md"
+    },
+    {
+      "basename": "22.10.28",
+      "path": "Room_2_daily notes/22년/22년 10월/22.10.28.md"
+    },
+    {
+      "basename": "23.02.08",
+      "path": "Room_2_daily notes/23년 2월/23.02.08.md"
+    },
+    {
+      "basename": "연구윤리와 논문작성 6 - 논문적기",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_2_School/석사 1학기/연구윤리와 논문작성 6 - 논문적기.md"
+    },
+    {
+      "basename": "2 direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/2 direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md"
+    },
+    {
+      "basename": "allosteric model",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/allosteric model.md"
+    },
+    {
+      "basename": "Ssu72",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Ssu72.md"
     }
   ],
   "omittedPaths": [],
