@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Home page",
+      "path": "Spaces/Home/Home page.md"
+    },
+    {
+      "basename": "_Home",
+      "path": "Spaces/Home/_Home.md"
+    },
+    {
+      "basename": "Obsidian �ɽõ�� ����� ����  ���̹� ī��",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Obsidian �ɽõ�� ����� ����  ���̹� ī��.md"
+    },
+    {
+      "basename": "올라마(Ollama)와 옵시디언(노트앱)을 효과적으로 활용하는 방법",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/올라마(Ollama)와 옵시디언(노트앱)을 효과적으로 활용하는 방법.md"
+    },
+    {
+      "basename": "23.05.19 Swd2-TAP Size Exclusion Chromatography",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas"
+    },
+    {
+      "basename": "24.01.12",
+      "path": "Room_2_daily notes/24년 01월/24.01.12.md"
+    },
+    {
+      "basename": "Vault",
+      "path": "Vault.md"
+    },
+    {
       "basename": "24.01.13",
       "path": "Room_2_daily notes/24년 01월/24.01.13.md"
     },
@@ -17,24 +45,12 @@
       "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md"
     },
     {
-      "basename": "24.01.12",
-      "path": "Room_2_daily notes/24년 01월/24.01.12.md"
-    },
-    {
       "basename": "24.01.10",
       "path": "Room_2_daily notes/24년 01월/24.01.10.md"
     },
     {
       "basename": "24.01.12 1",
       "path": "Room_2_daily notes/24년 01월/24.01.12 1.md"
-    },
-    {
-      "basename": "Excalidraw",
-      "path": "Spaces/Home/Excalidraw/Excalidraw.md"
-    },
-    {
-      "basename": "Vault",
-      "path": "Vault.md"
     },
     {
       "basename": "231207 개인미팅 요약",
@@ -47,10 +63,6 @@
     {
       "basename": "Reversed phase chromatography (RPC)",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Reversed phase chromatography (RPC).md"
-    },
-    {
-      "basename": "23.05.19 Swd2-TAP Size Exclusion Chromatography",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas"
     },
     {
       "basename": "231207 Two-step TAP purificaiton work",
@@ -133,10 +145,6 @@
       "path": "Excalidraw/231207 western blot loading design.excalidraw.md"
     },
     {
-      "basename": "Home",
-      "path": "Spaces/Home/Home.md"
-    },
-    {
       "basename": "@bae2020",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@bae2020.md"
     },
@@ -187,18 +195,6 @@
     {
       "basename": "In vivo chromatin organization on native yeast telomeric regions is independent of a cis-telomere loopback conformation",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/In vivo chromatin organization on native yeast telomeric regions is independent of a cis-telomere loopback conformation.md"
-    },
-    {
-      "basename": "Histone Crosstalk_ H2Bub and H3K4 Methylation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Histone Crosstalk_ H2Bub and H3K4 Methylation.md"
-    },
-    {
-      "basename": "Histone crosstalk between H2B monoubiquitination and H3 methylation mediated by COMPASS",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Histone crosstalk between H2B monoubiquitination and H3 methylation mediated by COMPASS.md"
-    },
-    {
-      "basename": "Functions for S. cerevisiae Swd2p in 3′ end formation of specific mRNAs and snoRNAs and global histone 3 lysine 4 methylation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Functions for S. cerevisiae Swd2p in 3′ end formation of specific mRNAs and snoRNAs and global histone 3 lysine 4 methylation.md"
     }
   ],
   "omittedPaths": [],

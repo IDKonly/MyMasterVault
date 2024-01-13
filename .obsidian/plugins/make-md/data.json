@@ -1,5 +1,5 @@
 {
-  "newNotePlaceholder": "YYMMDD HH:mm",
+  "newNotePlaceholder": "YY.MM.DD HH:mm",
   "defaultInitialization": false,
   "filePreviewOnHover": false,
   "flowMenuEnabled": true,
@@ -21,7 +21,7 @@
   "activeView": "Spaces/Home",
   "hideFrontmatter": true,
   "activeSpace": "",
-  "defaultDateFormat": "yyMMdd",
+  "defaultDateFormat": "yy.MM.dd",
   "spacesEnabled": true,
   "spacesPerformance": false,
   "enableFolderNote": true,
@@ -53,10 +53,7 @@
     "//Excalidraw/Excalidraw/Scripts",
     "//Spaces/Spaces/Home",
     "//Spaces",
-    "//Room_4_personal work",
-    "Spaces/Home/Spaces/Home/Excalidraw",
-    "Spaces/Home/Spaces/Home/Excalidraw",
-    "Spaces/Home/Spaces/Home/Excalidraw"
+    "//Room_4_personal work"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

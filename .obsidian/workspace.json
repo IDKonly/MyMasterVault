@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.12.md",
+                "file": "Spaces/Home/Home page.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,16 +57,11 @@
             }
           },
           {
-            "id": "d1c739810d7f1d5a",
+            "id": "891ac56bb12db16f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.13.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "modal-form-manage-forms-view",
+              "state": {}
             }
           }
         ],
@@ -127,7 +122,7 @@
             }
           },
           {
-            "id": "edf369e662e42989",
+            "id": "bec109850f263353",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -198,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.13.md"
+                "file": "Spaces/Home/Home page.md"
               }
             }
           },
@@ -207,14 +202,6 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "9a4ceeeb1a86a830",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
               "state": {}
             }
           },
@@ -230,7 +217,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "5f3c3202b3b66b36",
@@ -243,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.13.md",
+                "file": "Spaces/Home/Home page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +248,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.13.md",
+                "file": "Spaces/Home/Home page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -288,7 +276,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.13.md",
+                "file": "Spaces/Home/Home page.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -345,21 +333,45 @@
       "chronology:Open Chronology": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "modalforms:Edit forms": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "d1c739810d7f1d5a",
+  "active": "93c6eb9344931a55",
   "lastOpenFiles": [
-    "Room_2_daily notes/23년/23년 12월/23.12.04 1.md",
-    "Room_2_daily notes/24년 01월/24.01.13.md",
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
+    "Spaces/Home/Home page.md",
+    "Spaces/Home/projects/projects.md",
+    "Spaces/Home/projects/_projects.md",
+    "Spaces/Home/projects",
+    "Spaces/Home/_Home.md",
+    "Spaces/_Spaces.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Obsidian �ɽõ�� ����� ����  ���̹� ī��.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/올라마(Ollama)와 옵시디언(노트앱)을 효과적으로 활용하는 방법.md",
+    "Room_0_metadata/Shelf_0_Resource/Obsidian �ɽõ�� ����� ����.png",
+    "Room_0_metadata/Shelf_0_Resource/�ñ��Ѱ� ���� �� ī�� ����Ʈ��.png",
+    "Room_0_metadata/Shelf_0_Resource/NAVER.png",
+    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
+    "Spaces/Home",
+    "Spaces",
     "Room_2_daily notes/24년 01월/24.01.12.md",
+    "Room_0_metadata/Shelf_0_Resource/한국어 답변 화면.png",
+    "Room_0_metadata/Shelf_0_Resource/CQT1GMA.png",
+    "Room_0_metadata/Shelf_0_Resource/qoTFPIa.png",
+    "Room_0_metadata/Shelf_0_Resource/템플릿 선택 화면.png",
+    "Room_0_metadata/Shelf_0_Resource/mvSlgef.png",
+    "Room_0_metadata/Shelf_0_Resource/명령어 입력 화면 2.png",
+    "Room_0_metadata/Shelf_0_Resource/명령어 입력 화면 1.png",
+    "Vault.md",
+    "무제 파일.md",
+    "Room_2_daily notes/24년 01월/24.01.13.md",
+    "Room_2_daily notes/23년/23년 12월/23.12.04 1.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
     "Room_2_daily notes/24년 01월/Swd2 review abstract.md",
     "Room_2_daily notes/24년 01월/24.01.10.md",
     "Room_2_daily notes/24년 01월/24.01.12 1.md",
     "Room_2_daily notes/24년 01월/24.01.11.md",
     "Spaces/Home/Excalidraw/Excalidraw.md",
-    "Vault.md",
     "Excalidraw/231207 개인미팅 요약.md",
     "Room_2_daily notes/23년/_23년.md",
     "Room_2_daily notes/23년",
@@ -370,37 +382,15 @@
     "무제 폴더",
     "Room_2_daily notes/23년/23년 12월/_23년 12월.md",
     "Room_2_daily notes/23년/23년 12월",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231117 실험계획.md",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/Swd2 Associated proteins.md",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/230609 Swd2-TAP strain flocculation check.md",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.09.11 TAP purifcation, Crude extraction.md",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.31 TAP purification.md",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.17 Size exclusion chromatography.md",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Swd2 work log.excalidraw.md",
-    "Room_3_Lab/Room_3_Lab.md",
-    "Room_3_Lab/_Room_3_Lab.md",
-    "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md",
     "Spaces/Home/Excalidraw",
     "_Box_3_Memo for manuscripts",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@park2017/image-3-x302-y601.png",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@park2017",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@lee2007/image-4-x68-y156.png",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@lee2007/image-6-x145-y582.png",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@lee2007",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@landsverk2020/image-12-x302-y242.png",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@landsverk2020",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-7-x62-y479.png",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-6-x351-y491.png",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-3-x83-y471.png",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@hughes2023/image-3-x330-y213.png",
     "Room_3_Lab/Shelf_1_my works/Box_4_석사 논문/my model for work (may not colect).canvas",
-    "Room_0_metadata/Shelf_0_Resource/그림4.png",
-    "Room_0_metadata/Shelf_0_Resource/그림3.png",
     "무제 파일.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Q - Pol2 associated mechanism.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_4_LabWorks/my model for work (may not colect).canvas",

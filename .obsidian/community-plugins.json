@@ -27,11 +27,17 @@
   "obsidian-excalidraw-plugin",
   "zotlit",
   "obsidian-git",
-  "make-md",
   "obsidian-custom-frames",
   "obsidian-minimal-settings",
   "obsidian-icon-folder",
   "highlightr-plugin",
   "chronology",
-  "cm-typewriter-scroll-obsidian"
+  "cm-typewriter-scroll-obsidian",
+  "sheets",
+  "obsidian-style-settings",
+  "make-md",
+  "modalforms",
+  "quickadd",
+  "homepage",
+  "buttons"
 ]
