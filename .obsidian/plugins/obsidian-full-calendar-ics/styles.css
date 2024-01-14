@@ -1349,8 +1349,8 @@ a.fc-event:hover {
 	flex-direction: row; /* 일자를 왼쪽으로 정렬함 */
 }
 /*오늘 날짜 배경색 강조*/
-.fc .fc-daygrid-day .fc-day-today * {
-	background-color: rgba(100,140,200,0.25) ;
+.fc .fc-col-header-cell .fc-day .fc-day-today * {
+	background-color: rgba(100, 102, 200, 0.11) ;
   /* background-color: rgba(161,149,104,0.5) ; */
 }
 
