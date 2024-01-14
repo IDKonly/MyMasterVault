@@ -1349,7 +1349,7 @@ a.fc-event:hover {
 	flex-direction: row; /* 일자를 왼쪽으로 정렬함 */
 }
 /*오늘 날짜 배경색 강조*/
-.fc .fc-daygrid-day.fc-day-today {
+.fc .fc-daygrid-day .fc-day-today * {
 	background-color: rgba(100,140,200,0.25) ;
   /* background-color: rgba(161,149,104,0.5) ; */
 }
@@ -1420,16 +1420,16 @@ a.fc-event:hover {
       .fc-day * {
       color: rgb(218, 218, 218);  /* 전체 글자색을 밝은 회색으로 변경 */
       }
-      .fc-col-header-cell .fc-day-sun * {
+      .fc-col-header-cell.fc-day-sun * {
           color : rgb(182, 80, 80);  /* 일요일에 해당하는 항목들을 빨간색으로 변경 - 헤더만 변경하도록 함 */
       }
-      .fc-col-header-cell .fc-day-sat *{
+      .fc-col-header-cell.fc-day-sat *{
           color : rgb(122, 173, 209);  /* 토요일에 해당하는 항목들을 파란색으로 변경 - 헤더만 변경하도록 함*/
       }
       .fc-daygrid-event * {
           color : rgb(255, 255, 255);  /* 이벤트 글자색을 흰색으로 변경 */
       }
-      .fc-daygrid-dot-event .fc-event-title {
+      .fc-daygrid-dot-event.fc-event-title {
           color : rgb(218, 218, 218);  /* 구글캘린더 이벤트 글자색을 밝은 회색으로 변경 */
           font-weight: normal;	/* 구글캘린더 이벤트 글자 굵기를 일반으로 변경 */
       }
@@ -1469,7 +1469,7 @@ a.fc-event:hover {
       }
 
       /*오늘 날짜 숫자*/
-      .fc .fc-day-today .fc-daygrid-day-number {
+      .fc.fc-day-today.fc-daygrid-day-number {
         font-weight: bold;
         color: white;
       }
@@ -1520,7 +1520,7 @@ a.fc-event:hover {
   .fc .ofc-checkbox-white{
     margin: 0px;
   }
-  .fc .fc-event-main .fc-event-time {
+  .fc.fc-event-main.fc-event-time {
     flex: 0;
   }
   .fc .fc-event-main .fc-event-time {
