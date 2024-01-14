@@ -564,14 +564,13 @@ a.fc-event:hover {
   display: flex;
 }
 .fc-h-event .fc-event-time {
-  /* 시간부분을 완전히 지워버려서 주석처리
+  시간부분을 완전히 지워버려서 주석처리
   display: inline-block;
   left: 0;
   right: 0;
   flex-grow: 1;
   flex-shrink: 1;
   min-width: 0;
-  */
   max-width: 100%;
   overflow: hidden;
 }
@@ -853,6 +852,7 @@ a.fc-event:hover {
   font-size: var(--fc-small-font-size, .85em);
 }
 .fc-daygrid-block-event .fc-event-time {
+  font-weight: bold;/*내가 추가함*/
 }
 .fc-daygrid-block-event .fc-event-time,
 .fc-daygrid-block-event .fc-event-title {
@@ -862,7 +862,6 @@ a.fc-event:hover {
   display: flex;
   align-items: center;
   padding: 2px 0;
-
 }
 .fc-daygrid-dot-event .fc-event-title {
   flex-grow: 1;
@@ -880,14 +879,14 @@ a.fc-event:hover {
   bottom: -10px;
 }
 .fc-daygrid-event-dot {
-  /* margin: 0 4px;
+  /*margin: 0 4px;
   box-sizing: content-box;
   width: 0;
   height: 0;
   border: 4px solid #3788d8;
   border: calc(var(--fc-daygrid-event-dot-width, 8px) / 2) solid var(--fc-event-border-color, #3788d8);
   border-radius: 4px;
-  border-radius: calc(var(--fc-daygrid-event-dot-width, 8px) / 2); */
+  border-radius: calc(var(--fc-daygrid-event-dot-width, 8px) / 2);*/
 }
 .fc-direction-ltr .fc-daygrid-event .fc-event-time {
   margin-right: 3px;
@@ -1420,7 +1419,7 @@ a.fc-event:hover {
   /* 다크모드 */
   .theme-dark {
       .fc-day *{
-      color: rgb(218, 218, 218);  /* 전체 글자색을 밝은 회색으로 변경 */
+      color: rgb(219, 219, 219);  /* 전체 글자색을 밝은 회색으로 변경 */
       }
       .fc-day-sun * {
           color : rgb(182, 80, 80);  /* 일요일에 해당하는 항목들을 빨간색으로 변경 */
@@ -1430,10 +1429,11 @@ a.fc-event:hover {
       }
       .fc-daygrid-event * {
           color : rgb(255, 255, 255);  /* 이벤트 글자색을 흰색으로 변경 */
+          font-weight: bold;	/* 이벤트 글자 굵기를 bold으로 변경 */
       }
       .fc-daygrid-dot-event .fc-event-title {
-          color : rgb(218, 218, 218);  /* 구글캘린더 이벤트 글자색을 밝은 회색으로 변경 */
-          font-weight: normal;	/* 구글캘린더 이벤트 글자 굵기를 일반으로 변경 */
+          color : rgb(255, 255, 255);  /* 구글캘린더 이벤트 글자색을 밝은 백색으로 변경 */
+          font-weight: bold;	/* 구글캘린더 이벤트 글자 굵기를 bold으로 변경 */
       }
       .fc-daygrid-dot-event .fc-event-time {
       }
