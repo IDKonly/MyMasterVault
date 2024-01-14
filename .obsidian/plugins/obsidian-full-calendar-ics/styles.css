@@ -1417,14 +1417,14 @@ a.fc-event:hover {
   }
   /* 다크모드 */
   .theme-dark {
-      .fc-day *{
+      .fc-day * {
       color: rgb(218, 218, 218);  /* 전체 글자색을 밝은 회색으로 변경 */
       }
-      .fc-col-header-cell .fc-day-sun {
-          color : rgb(182, 80, 80);  /* 일요일에 해당하는 항목들을 빨간색으로 변경 */
+      .fc-col-header-cell .fc-day-sun * {
+          color : rgb(182, 80, 80);  /* 일요일에 해당하는 항목들을 빨간색으로 변경 - 헤더만 변경하도록 함 */
       }
-      .fc-day-sat *{
-          color : rgb(122, 173, 209);  /* 토요일에 해당하는 항목들을 파란색으로 변경 */
+      .fc-col-header-cell .fc-day-sat *{
+          color : rgb(122, 173, 209);  /* 토요일에 해당하는 항목들을 파란색으로 변경 - 헤더만 변경하도록 함*/
       }
       .fc-daygrid-event * {
           color : rgb(255, 255, 255);  /* 이벤트 글자색을 흰색으로 변경 */
