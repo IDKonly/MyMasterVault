@@ -1,28 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "옵시디언에서의 파일관리.excalidraw",
-      "path": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md"
-    },
-    {
-      "basename": "DIKW model.excalidraw",
-      "path": "Room_1_rules/DIKW model.excalidraw.md"
-    },
-    {
       "basename": "24.01.14",
       "path": "Room_2_daily notes/24년 01월/24.01.14.md"
     },
     {
-      "basename": "DIKW model.excalidraw",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md"
+      "basename": "옵시디언에서의 파일관리.excalidraw",
+      "path": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md"
+    },
+    {
+      "basename": "PARA method.excalidraw",
+      "path": "Room_1_rules/PARA method.excalidraw.md"
+    },
+    {
+      "basename": "Swd2의 기본적인 소개",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2의 기본적인 소개.md"
+    },
+    {
+      "basename": "_Swd2 review paper",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md"
+    },
+    {
+      "basename": "24.01.13",
+      "path": "Room_2_daily notes/24년 01월/24.01.13.md"
     },
     {
       "basename": "24.01.12",
       "path": "Room_2_daily notes/24년 01월/24.01.12.md"
     },
     {
-      "basename": "24.01.13",
-      "path": "Room_2_daily notes/24년 01월/24.01.13.md"
+      "basename": "Asymmetry (asymmetry factor)",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md"
+    },
+    {
+      "basename": "프라이머 Tm",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/프라이머 Tm.md"
+    },
+    {
+      "basename": "균주 데이터베이스",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/균주 데이터베이스.md"
+    },
+    {
+      "basename": "생명과학자 기초체력 다지기 - Western Blot",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/생명과학자 기초체력 다지기 - Western Blot.md"
+    },
+    {
+      "basename": "CIP (Cleaning-in-place)",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/CIP (Cleaning-in-place).md"
+    },
+    {
+      "basename": "Chromatogram",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Chromatogram.md"
+    },
+    {
+      "basename": "allosteric model",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/allosteric model.md"
+    },
+    {
+      "basename": "Binding",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Binding.md"
+    },
+    {
+      "basename": "한타바이러스",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/한타바이러스.md"
+    },
+    {
+      "basename": "A260A230",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/A260A230.md"
+    },
+    {
+      "basename": "통계로는 결론을 내기가 어렵다",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/통계로는 결론을 내기가 어렵다.md"
+    },
+    {
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_1_rules/DIKW model.excalidraw.md"
+    },
+    {
+      "basename": "Detail of PARA.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Detail of PARA.excalidraw.md"
+    },
+    {
+      "basename": "23.05.19 Swd2-TAP Size Exclusion Chromatography",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas"
+    },
+    {
+      "basename": "Reversed phase chromatography (RPC)",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Reversed phase chromatography (RPC).md"
+    },
+    {
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md"
     },
     {
       "basename": "Abstract",
@@ -53,16 +121,8 @@
       "path": "Room_2_daily notes/24년 01월/24.01.02.md"
     },
     {
-      "basename": "Reversed phase chromatography (RPC)",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Reversed phase chromatography (RPC).md"
-    },
-    {
       "basename": "23.12.04 1",
       "path": "Room_2_daily notes/23년/23년 12월/23.12.04 1.md"
-    },
-    {
-      "basename": "23.05.19 Swd2-TAP Size Exclusion Chromatography",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas"
     },
     {
       "basename": "231207 Two-step TAP purificaiton work",
@@ -139,66 +199,6 @@
     {
       "basename": "NNS complexexcalidraw",
       "path": "Excalidraw/NNS complexexcalidraw.md"
-    },
-    {
-      "basename": "231208.excalidraw",
-      "path": "Excalidraw/231208.excalidraw.md"
-    },
-    {
-      "basename": "231207 western blot loading design.excalidraw",
-      "path": "Excalidraw/231207 western blot loading design.excalidraw.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Spaces/Home/Home.md"
-    },
-    {
-      "basename": "@bae2020",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@bae2020.md"
-    },
-    {
-      "basename": "_Inbox",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/_Inbox.md"
-    },
-    {
-      "basename": "Swd2의 기본적인 소개",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2의 기본적인 소개.md"
-    },
-    {
-      "basename": "@estell2021",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2021.md"
-    },
-    {
-      "basename": "The Tandem Affinity Purificaion(TAP) Method",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md"
-    },
-    {
-      "basename": "Nano drop",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Nano drop.md"
-    },
-    {
-      "basename": "TAP(Tandem Affinity purification)",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md"
-    },
-    {
-      "basename": "A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md"
-    },
-    {
-      "basename": "@lee2007",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@lee2007.md"
-    },
-    {
-      "basename": "kamieniarz-gdula2019b",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/kamieniarz-gdula2019b.md"
-    },
-    {
-      "basename": "@austenaa2021",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@austenaa2021.md"
-    },
-    {
-      "basename": "Molecular regulation of H3K4 trimethylation by Wdr82, a component of human Set1_COMPASS",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Molecular regulation of H3K4 trimethylation by Wdr82, a component of human Set1_COMPASS.md"
     }
   ],
   "omittedPaths": [],
