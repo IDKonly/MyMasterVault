@@ -5,72 +5,92 @@
       "path": "Room_2_daily notes/24년 01월/24.01.14.md"
     },
     {
-      "basename": "옵시디언 템플레이터(Templater) - Callout 넣기",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/옵시디언 템플레이터(Templater) - Callout 넣기.md"
+      "basename": "옵시디언에서의 파일관리.excalidraw",
+      "path": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md"
     },
     {
-      "basename": "Zotero paper template_final",
-      "path": "Room_0_metadata/Shelf_1_template for templater/Zotero paper template_final.md"
+      "basename": "PARA method.excalidraw",
+      "path": "Room_1_rules/PARA method.excalidraw.md"
     },
     {
-      "basename": "New Zotero Literature Note(temp)",
-      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md"
+      "basename": "Swd2의 기본적인 소개",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2의 기본적인 소개.md"
     },
     {
-      "basename": "Article 24.01.14 0001",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Article 24.01.14 0001.md"
-    },
-    {
-      "basename": "어제자 데일리 노트의 특정 섹션 가져오기",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/어제자 데일리 노트의 특정 섹션 가져오기.md"
-    },
-    {
-      "basename": "Daily Note를 요일별, 날짜별 다르게 쓰기",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Daily Note를 요일별, 날짜별 다르게 쓰기.md"
-    },
-    {
-      "basename": "Full Calendar ICS 플러그인",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Full Calendar ICS 플러그인.md"
-    },
-    {
-      "basename": "플러그인 Modal form + QuickAdd + Button을 이용해서 반복작업 줄이기",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/플러그인 Modal form + QuickAdd + Button을 이용해서 반복작업 줄이기.md"
-    },
-    {
-      "basename": "Home page",
-      "path": "Spaces/Home/Home page.md"
-    },
-    {
-      "basename": "_Home",
-      "path": "Spaces/Home/_Home.md"
-    },
-    {
-      "basename": "올라마(Ollama)와 옵시디언(노트앱)을 효과적으로 활용하는 방법",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/올라마(Ollama)와 옵시디언(노트앱)을 효과적으로 활용하는 방법.md"
-    },
-    {
-      "basename": "23.05.19 Swd2-TAP Size Exclusion Chromatography",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas"
-    },
-    {
-      "basename": "24.01.12",
-      "path": "Room_2_daily notes/24년 01월/24.01.12.md"
-    },
-    {
-      "basename": "Vault",
-      "path": "Vault.md"
+      "basename": "_Swd2 review paper",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/_Swd2 review paper.md"
     },
     {
       "basename": "24.01.13",
       "path": "Room_2_daily notes/24년 01월/24.01.13.md"
     },
     {
-      "basename": "23.08.28  FPLC",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas"
+      "basename": "24.01.12",
+      "path": "Room_2_daily notes/24년 01월/24.01.12.md"
     },
     {
-      "basename": "23.12.04 1",
-      "path": "Room_2_daily notes/23년/23년 12월/23.12.04 1.md"
+      "basename": "Asymmetry (asymmetry factor)",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Asymmetry (asymmetry factor).md"
+    },
+    {
+      "basename": "프라이머 Tm",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/프라이머 Tm.md"
+    },
+    {
+      "basename": "균주 데이터베이스",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/균주 데이터베이스.md"
+    },
+    {
+      "basename": "생명과학자 기초체력 다지기 - Western Blot",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/생명과학자 기초체력 다지기 - Western Blot.md"
+    },
+    {
+      "basename": "CIP (Cleaning-in-place)",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/CIP (Cleaning-in-place).md"
+    },
+    {
+      "basename": "Chromatogram",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Chromatogram.md"
+    },
+    {
+      "basename": "allosteric model",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/allosteric model.md"
+    },
+    {
+      "basename": "Binding",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Binding.md"
+    },
+    {
+      "basename": "한타바이러스",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/한타바이러스.md"
+    },
+    {
+      "basename": "A260A230",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/A260A230.md"
+    },
+    {
+      "basename": "통계로는 결론을 내기가 어렵다",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/통계로는 결론을 내기가 어렵다.md"
+    },
+    {
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_1_rules/DIKW model.excalidraw.md"
+    },
+    {
+      "basename": "Detail of PARA.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Detail of PARA.excalidraw.md"
+    },
+    {
+      "basename": "23.05.19 Swd2-TAP Size Exclusion Chromatography",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas"
+    },
+    {
+      "basename": "Reversed phase chromatography (RPC)",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Reversed phase chromatography (RPC).md"
+    },
+    {
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md"
     },
     {
       "basename": "Abstract",
@@ -85,6 +105,14 @@
       "path": "Room_2_daily notes/24년 01월/24.01.12 1.md"
     },
     {
+      "basename": "Excalidraw",
+      "path": "Spaces/Home/Excalidraw/Excalidraw.md"
+    },
+    {
+      "basename": "Vault",
+      "path": "Vault.md"
+    },
+    {
       "basename": "231207 개인미팅 요약",
       "path": "Excalidraw/231207 개인미팅 요약.md"
     },
@@ -93,8 +121,8 @@
       "path": "Room_2_daily notes/24년 01월/24.01.02.md"
     },
     {
-      "basename": "Reversed phase chromatography (RPC)",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Reversed phase chromatography (RPC).md"
+      "basename": "23.12.04 1",
+      "path": "Room_2_daily notes/23년/23년 12월/23.12.04 1.md"
     },
     {
       "basename": "231207 Two-step TAP purificaiton work",
@@ -115,6 +143,10 @@
     {
       "basename": "23.09.11 TAP purifcation, Crude extraction",
       "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.09.11 TAP purifcation, Crude extraction.md"
+    },
+    {
+      "basename": "23.08.28  FPLC",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas"
     },
     {
       "basename": "23.07.21 FPLC",
@@ -141,6 +173,10 @@
       "path": "Room_3_Lab/_Room_3_Lab.md"
     },
     {
+      "basename": "New Zotero Literature Note(temp)",
+      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md"
+    },
+    {
       "basename": "New Zotero Literature Note",
       "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "NNS complexexcalidraw",
       "path": "Excalidraw/NNS complexexcalidraw.md"
-    },
-    {
-      "basename": "231208.excalidraw",
-      "path": "Excalidraw/231208.excalidraw.md"
-    },
-    {
-      "basename": "231207 western blot loading design.excalidraw",
-      "path": "Excalidraw/231207 western blot loading design.excalidraw.md"
-    },
-    {
-      "basename": "@bae2020",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@bae2020.md"
-    },
-    {
-      "basename": "_Inbox",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/_Inbox.md"
-    },
-    {
-      "basename": "Swd2의 기본적인 소개",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Swd2의 기본적인 소개.md"
-    },
-    {
-      "basename": "@estell2021",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@estell2021.md"
-    },
-    {
-      "basename": "The Tandem Affinity Purificaion(TAP) Method",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/The Tandem Affinity Purificaion(TAP) Method.md"
-    },
-    {
-      "basename": "Nano drop",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Nano drop.md"
-    },
-    {
-      "basename": "TAP(Tandem Affinity purification)",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md"
     }
   ],
   "omittedPaths": [],
