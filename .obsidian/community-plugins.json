@@ -17,7 +17,6 @@
   "zoottelkeeper-obsidian-plugin",
   "recent-files-obsidian",
   "obsidian-linter",
-  "obsidian-full-calendar",
   "obsidian-projects",
   "obsidian-footnotes",
   "calendar",
@@ -39,5 +38,6 @@
   "modalforms",
   "quickadd",
   "homepage",
-  "buttons"
+  "buttons",
+  "full-calendar-ics"
 ]

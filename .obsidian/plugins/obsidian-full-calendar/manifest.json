@@ -1,11 +1,11 @@
 {
-	"id": "full-calendar-ics", 
-	"name": "풀 캘린더 ICS",
-	"version": "1.0.0",
+	"id": "obsidian-full-calendar",
+	"name": "Full Calendar",
+	"version": "0.10.7",
 	"minAppVersion": "0.16.3",
-	"description": "달력을 사용해 일정을 관리하고 ics 파일로 내보냅니다.",
-	"author": "Annnonn",
+	"description": "Obsidian integration with Full Calendar (fullcalendar.io)",
+	"author": "Davis Haupt",
 	"authorUrl": "https://davi.sh",
-	"fundingUrl": "https://ko-fi.com/davish",
-	"isDesktopOnly": false
+	"isDesktopOnly": false,
+	"fundingUrl": "https://ko-fi.com/davish"
 }

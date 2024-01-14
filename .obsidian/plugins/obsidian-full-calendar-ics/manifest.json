@@ -1,0 +1,11 @@
+{
+	"id": "full-calendar-ics", 
+	"name": "풀 캘린더 ICS",
+	"version": "1.0.0",
+	"minAppVersion": "0.16.3",
+	"description": "달력을 사용해 일정을 관리하고 ics 파일로 내보냅니다.",
+	"author": "Annnonn",
+	"authorUrl": "https://davi.sh",
+	"fundingUrl": "https://ko-fi.com/davish",
+	"isDesktopOnly": false
+}
