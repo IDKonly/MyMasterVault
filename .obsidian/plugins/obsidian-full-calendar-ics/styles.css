@@ -1385,7 +1385,7 @@ a.fc-event:hover {
           background-color: transparent;	/* 이벤트에는 마우스 올려도 배경 변경하지 않도록 조정 */
       }
       .fc{
-          --fc-border-color: rgb(180, 180, 180);  /*주석. 기본 표 색상.*/
+          --fc-border-color: rgba(255, 255, 255, 0.753);  /*주석. 기본 표 색상.*/
       }
       .ofc-checkbox-white {
         border-color: rgb(180,180,180);
