@@ -1,0 +1,24 @@
+{
+  "calendarSources": [
+    {
+      "type": "dailynote",
+      "color": "hsl( 175, 49%, calc(45% - 5%) )",
+      "heading": "schedule"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 6,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "githubPersonalAccessToken": "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",
+  "githubGistId": "d5e3f3dac2b04f76ea7509ae10aa0120",
+  "githubUsername": "IDKonly",
+  "filename": "",
+  "uploadIcsFile": true,
+  "openNoteAfterSave": false,
+  "openNoteAfterClickTodayButton": false,
+  "getConfirmationAfterClickTodayButton": false,
+  "createNoteByClickingDay": true
+}
