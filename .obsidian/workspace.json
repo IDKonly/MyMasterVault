@@ -68,9 +68,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d3d1f2cd6048a441",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -135,7 +145,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "e7419118ec9faabd",
@@ -162,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0ea7d8fda78ec24d",
@@ -198,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.14.md"
+                "file": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md"
               }
             }
           },
@@ -243,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.14.md",
+                "file": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.14.md",
+                "file": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -288,7 +299,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.14.md",
+                "file": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -321,10 +332,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389
+    "width": 389,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "modalforms:Edit forms": false,
+      "homepage:Open homepage": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "obsidian-custom-frames:Open Research rabbit": false,
       "canvas:새 캔버스 만들기": false,
@@ -348,11 +362,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d1c739810d7f1d5a",
+  "active": "d3d1f2cd6048a441",
   "lastOpenFiles": [
-    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
+    "Room_1_rules/DIKW model.excalidraw.md",
+    "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md",
     "Room_2_daily notes/24년 01월/24.01.14.md",
+    "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md",
     "Room_2_daily notes/24년 01월/24.01.12.md",
+    "Room_2_daily notes/24년 01월/24.01.13.md",
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
     "Room_2_daily notes/24년 01월/Swd2 review abstract.md",
     "Room_2_daily notes/24년 01월/24.01.10.md",
     "Room_2_daily notes/24년 01월/24.01.12 1.md",
@@ -380,10 +398,6 @@
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.31 TAP purification.md",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.17 Size exclusion chromatography.md",
-    "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Swd2 work log.excalidraw.md",
-    "Room_3_Lab/Room_3_Lab.md",
-    "Room_3_Lab/_Room_3_Lab.md",
-    "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md",
     "Spaces/Home/Excalidraw",
     "_Box_3_Memo for manuscripts",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문",

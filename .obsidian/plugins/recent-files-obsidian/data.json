@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "옵시디언에서의 파일관리.excalidraw",
+      "path": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md"
+    },
+    {
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_1_rules/DIKW model.excalidraw.md"
+    },
+    {
       "basename": "24.01.14",
       "path": "Room_2_daily notes/24년 01월/24.01.14.md"
     },
     {
-      "basename": "Abstract",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md"
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw.md"
     },
     {
       "basename": "24.01.12",
       "path": "Room_2_daily notes/24년 01월/24.01.12.md"
+    },
+    {
+      "basename": "24.01.13",
+      "path": "Room_2_daily notes/24년 01월/24.01.13.md"
+    },
+    {
+      "basename": "Abstract",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md"
     },
     {
       "basename": "24.01.10",
@@ -183,22 +199,6 @@
     {
       "basename": "Molecular regulation of H3K4 trimethylation by Wdr82, a component of human Set1_COMPASS",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Molecular regulation of H3K4 trimethylation by Wdr82, a component of human Set1_COMPASS.md"
-    },
-    {
-      "basename": "In vivo chromatin organization on native yeast telomeric regions is independent of a cis-telomere loopback conformation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/In vivo chromatin organization on native yeast telomeric regions is independent of a cis-telomere loopback conformation.md"
-    },
-    {
-      "basename": "Histone Crosstalk_ H2Bub and H3K4 Methylation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Histone Crosstalk_ H2Bub and H3K4 Methylation.md"
-    },
-    {
-      "basename": "Histone crosstalk between H2B monoubiquitination and H3 methylation mediated by COMPASS",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Histone crosstalk between H2B monoubiquitination and H3 methylation mediated by COMPASS.md"
-    },
-    {
-      "basename": "Functions for S. cerevisiae Swd2p in 3′ end formation of specific mRNAs and snoRNAs and global histone 3 lysine 4 methylation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/Functions for S. cerevisiae Swd2p in 3′ end formation of specific mRNAs and snoRNAs and global histone 3 lysine 4 methylation.md"
     }
   ],
   "omittedPaths": [],
