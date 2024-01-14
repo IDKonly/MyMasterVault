@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "24.01.14",
-      "path": "Room_2_daily notes/24년 01월/24.01.14.md"
+      "basename": "옵시디언 템플레이터(Templater) - Callout 넣기",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/옵시디언 템플레이터(Templater) - Callout 넣기.md"
+    },
+    {
+      "basename": "Zotero paper template_final",
+      "path": "Room_0_metadata/Shelf_1_template for templater/Zotero paper template_final.md"
+    },
+    {
+      "basename": "New Zotero Literature Note(temp)",
+      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md"
     },
     {
       "basename": "Article 24.01.14 0001",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Article 24.01.14 0001.md"
+    },
+    {
+      "basename": "24.01.14",
+      "path": "Room_2_daily notes/24년 01월/24.01.14.md"
     },
     {
       "basename": "어제자 데일리 노트의 특정 섹션 가져오기",
@@ -129,10 +141,6 @@
       "path": "Room_3_Lab/_Room_3_Lab.md"
     },
     {
-      "basename": "New Zotero Literature Note(temp)",
-      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md"
-    },
-    {
       "basename": "New Zotero Literature Note",
       "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "TAP(Tandem Affinity purification)",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/TAP(Tandem Affinity purification).md"
-    },
-    {
-      "basename": "A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription.md"
-    },
-    {
-      "basename": "@lee2007",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@lee2007.md"
     }
   ],
   "omittedPaths": [],
