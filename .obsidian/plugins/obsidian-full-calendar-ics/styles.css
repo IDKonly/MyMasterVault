@@ -564,12 +564,14 @@ a.fc-event:hover {
   display: flex;
 }
 .fc-h-event .fc-event-time {
+  /* 시간부분을 완전히 지워버려서 주석처리
   display: inline-block;
   left: 0;
   right: 0;
   flex-grow: 1;
   flex-shrink: 1;
   min-width: 0;
+  */
   max-width: 100%;
   overflow: hidden;
 }

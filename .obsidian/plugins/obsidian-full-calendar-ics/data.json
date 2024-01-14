@@ -2,7 +2,7 @@
   "calendarSources": [
     {
       "type": "dailynote",
-      "color": "#9acafe",
+      "color": "#ffffff",
       "heading": "daily_cal"
     },
     {
