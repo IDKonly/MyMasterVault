@@ -14,3 +14,4 @@ PARA:
 
 [Full Calendar ICS 플러그인](https://cafe.naver.com/obsidianary/9628)
 Full calendar의 custom plugin
+**적용 완료**
