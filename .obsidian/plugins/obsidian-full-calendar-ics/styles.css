@@ -1420,7 +1420,7 @@ a.fc-event:hover {
       .fc-day *{
       color: rgb(218, 218, 218);  /* 전체 글자색을 밝은 회색으로 변경 */
       }
-      .fc-day-sun * {
+      .fc-col-header-cell .fc-day-sun {
           color : rgb(182, 80, 80);  /* 일요일에 해당하는 항목들을 빨간색으로 변경 */
       }
       .fc-day-sat *{
