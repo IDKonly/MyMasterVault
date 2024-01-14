@@ -564,7 +564,6 @@ a.fc-event:hover {
   display: flex;
 }
 .fc-h-event .fc-event-time {
-  시간부분을 완전히 지워버려서 주석처리
   display: inline-block;
   left: 0;
   right: 0;
@@ -693,7 +692,6 @@ a.fc-event:hover {
   position: relative;
   z-index: 1;
 }
-
 .fc .fc-daygrid-day.fc-day-today {
   background-color: rgba(255, 220, 40, 0.15);
   background-color: var(--fc-today-bg-color, rgba(255, 220, 40, 0.15));
@@ -712,7 +710,6 @@ a.fc-event:hover {
 .fc .fc-day-other .fc-daygrid-day-top {
   opacity: 0.3;
 }
-
 .fc {
 }
 .fc .fc-daygrid-day-number {
@@ -852,7 +849,6 @@ a.fc-event:hover {
   font-size: var(--fc-small-font-size, .85em);
 }
 .fc-daygrid-block-event .fc-event-time {
-  font-weight: bold;/*내가 추가함*/
 }
 .fc-daygrid-block-event .fc-event-time,
 .fc-daygrid-block-event .fc-event-title {
@@ -1422,10 +1418,10 @@ a.fc-event:hover {
       color: rgb(219, 219, 219);  /* 전체 글자색을 밝은 회색으로 변경 */
       }
       .fc-day-sun * {
-          color : rgb(182, 80, 80);  /* 일요일에 해당하는 항목들을 빨간색으로 변경 */
+          /*color : rgb(182, 80, 80);*/  /* 일요일에 해당하는 항목들을 빨간색으로 변경 -전체적인 가독성을 망쳐서 주석처리 */
       }
       .fc-day-sat *{
-          color : rgb(122, 173, 209);  /* 토요일에 해당하는 항목들을 파란색으로 변경 */
+          /*color : rgb(122, 173, 209);*/  /* 토요일에 해당하는 항목들을 파란색으로 변경 -전체적인 가독성을 망쳐서 주석처리 */
       }
       .fc-daygrid-event * {
           color : rgb(255, 255, 255);  /* 이벤트 글자색을 흰색으로 변경 */
@@ -1473,7 +1469,7 @@ a.fc-event:hover {
       /*오늘 날짜 숫자*/
       .fc .fc-day-today .fc-daygrid-day-number {
         font-weight: bold;
-        color: white;
+        color: rgb(142, 140, 255);
       }
 
   }

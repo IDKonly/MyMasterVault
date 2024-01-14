@@ -22,7 +22,7 @@
     }
   ],
   "defaultCalendar": 0,
-  "firstDay": 6,
+  "firstDay": 0,
   "initialView": {
     "desktop": "timeGridWeek",
     "mobile": "timeGrid3Days"
