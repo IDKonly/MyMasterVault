@@ -9,6 +9,8 @@ tags:
   - MOC
   - core
   - file
+  - "#Master_file"
+  - "#Project"
 PARA:
   - Project
 Deadline: 2023-10-20
