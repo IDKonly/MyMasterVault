@@ -3,5 +3,6 @@
   "cssTheme": "Minimal",
   "translucency": true,
   "baseFontSize": 18,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": []
 }
