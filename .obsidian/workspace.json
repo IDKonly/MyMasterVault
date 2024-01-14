@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
+                "file": "Room_2_daily notes/24년 01월/24.01.14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -135,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "e7419118ec9faabd",
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md"
+                "file": "Room_2_daily notes/24년 01월/24.01.14.md"
               }
             }
           },
@@ -243,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
+                "file": "Room_2_daily notes/24년 01월/24.01.14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
+                "file": "Room_2_daily notes/24년 01월/24.01.14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -288,7 +288,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
+                "file": "Room_2_daily notes/24년 01월/24.01.14.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -350,6 +350,8 @@
   },
   "active": "d1c739810d7f1d5a",
   "lastOpenFiles": [
+    "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
+    "Room_2_daily notes/24년 01월/24.01.14.md",
     "Room_2_daily notes/24년 01월/24.01.12.md",
     "Room_2_daily notes/24년 01월/Swd2 review abstract.md",
     "Room_2_daily notes/24년 01월/24.01.10.md",
@@ -382,8 +384,6 @@
     "Room_3_Lab/Room_3_Lab.md",
     "Room_3_Lab/_Room_3_Lab.md",
     "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md",
-    "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md",
     "Spaces/Home/Excalidraw",
     "_Box_3_Memo for manuscripts",
     "Room_3_Lab/Shelf_1_my works/Box_1_학사 논문",
