@@ -47,20 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_2_daily notes/23년/23년 10월/23.10.12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d33520f73538f5a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_2_daily notes/23년/23년 9월/23.09.27.md",
+                "file": "Room_2_daily notes/24년 01월/24.01.15.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -81,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -229,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_2_daily notes/23년/23년 9월/23.09.27.md"
+                "file": "Room_2_daily notes/24년 01월/24.01.15.md"
               }
             }
           }
@@ -246,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/23년/23년 9월/23.09.27.md",
+                "file": "Room_2_daily notes/24년 01월/24.01.15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/23년/23년 9월/23.09.27.md",
+                "file": "Room_2_daily notes/24년 01월/24.01.15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,12 +290,15 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "d33520f73538f5a5",
+  "active": "801355f457a88cbb",
   "lastOpenFiles": [
+    "Room_2_daily notes/23년/23년 10월/23.10.12.md",
+    "Dashboard++.md",
+    "_Myvault.md",
+    "Room_2_daily notes/23년/23년 9월/23.09.27.md",
     "Room_2_daily notes/23년/23년 10월/23.10.04.md",
     "Room_2_daily notes/23년/23년 10월/23.10.05.md",
     "Room_2_daily notes/23년/23년 10월/23.10.06.md",
-    "Room_2_daily notes/23년/23년 10월/23.10.12.md",
     "Room_2_daily notes/23년/23년 9월/23.09.20.md",
     "Room_2_daily notes/23년/23년 9월/23.09.18.md",
     "Room_2_daily notes/24년 01월/24.01.15.md",
@@ -329,9 +319,6 @@
     "2024-W03.md",
     "Room_0_metadata/Shelf_1_template for templater/실험일지 template.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast transformation.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Gibson Assembly cloning (깁슨 어셈블리 클로닝).md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md",
     "Room_0_metadata/Shelf_0_Resource/img-4.png",
     "Room_0_metadata/Shelf_0_Resource/img-3.png"
   ]
