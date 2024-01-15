@@ -1,13 +1,28 @@
 ---
 cssclasses:
   - dashboard
-banner: "![[home.jpg]]"
-banner_x: 0.5
-banner_y: 0
+banner: "![[Pasted image 20240115144724.png]]"
+obsidianUIMode: preview
 ---
-<div class="title" style="color:Sienna">HOME</div>
+<div class="title" style="color:White">Main page</div>
 
-# Family
+# Lab Works
+- 💼 Projects
+	- [[Cloud backup]]
+	- [[Firewall upgrades]]
+	- [[IT Cybersecurity training]]
+- 💰 Budget review
+	- [[Q1 2022]]
+	- [[Q2 2022]]
+	- [[Q3 2022]]
+	- [[Q4 2022]]
+- 👥 Personnel Review
+	- [[Sally Smith]]
+	- [[Bill Hansen]]
+	- [[Brad Jefferson]]
+	- [[Olga Olson]]
+
+# Personal
 - 🏈 Sunday Game
 	- [[Spicy-Sweet Buffalo Popcorn]]
 	- [[Guest list]]
@@ -37,21 +52,7 @@ banner_y: 0
 	- [[Early American History]]
 	- [[Spanish - Entry Level]]
 
-# Work
-- 💼 Projects
-	- [[Cloud backup]]
-	- [[Firewall upgrades]]
-	- [[IT Cybersecurity training]]
-- 💰 Budget review
-	- [[Q1 2022]]
-	- [[Q2 2022]]
-	- [[Q3 2022]]
-	- [[Q4 2022]]
-- 👥 Personnel Review
-	- [[Sally Smith]]
-	- [[Bill Hansen]]
-	- [[Brad Jefferson]]
-	- [[Olga Olson]]
+
 
 # Vault Info
 - 🗄️ Recent file updates
