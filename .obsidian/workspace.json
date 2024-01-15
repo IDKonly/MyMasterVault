@@ -21,10 +21,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard++.md",
-                "mode": "preview",
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/Improve use Obsidian.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "01657606537f48a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_3_knowledge particle/CODE.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "816921102ca0e75a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_5_MOCs/Main practice.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "514a4fe3c8595625",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System summery.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92d7a07d7cd498a2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Personal system summery.excalidraw.md"
               }
             }
           },
@@ -35,29 +84,6 @@
               "type": "markdown",
               "state": {
                 "file": "Room_4_personal work/Compute Platforms.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "999f7e763e885b20",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/home network flow.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "7a025c70e9be5995",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/Device/NAS(OMV).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +121,7 @@
             }
           },
           {
-            "id": "2dc31f93c0ba41c6",
+            "id": "7474274510b5cfe8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -118,20 +144,17 @@
             }
           },
           {
-            "id": "1170d4e69c2eaa0e",
+            "id": "f6b8e32c4d645102",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Room_3_Lab/Shelf_3_knowledge particle/Improve use Obsidian.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Excalidraw/Personal system summery.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -278,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/home network flow.excalidraw.md"
+                "file": "Excalidraw/Personal system summery.excalidraw.md"
               }
             }
           }
@@ -295,7 +318,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/home network flow.excalidraw.md",
+                "file": "Excalidraw/Personal system summery.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,7 +335,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/home network flow.excalidraw.md",
+                "file": "Excalidraw/Personal system summery.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -332,7 +355,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/home network flow.excalidraw.md",
+                "file": "Excalidraw/Personal system summery.excalidraw.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -406,15 +429,20 @@
       "auto-moc:AutoMOC": false
     }
   },
-  "active": "342bf3ff1f89ba97",
+  "active": "f6b8e32c4d645102",
   "lastOpenFiles": [
-    "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md",
-    "Excalidraw/home network flow.excalidraw.md",
-    "Room_0_metadata/Shelf_0_Resource/Knowledge based workflow.md",
     "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/서비스/Obsidian.md",
+    "Room_0_metadata/Shelf_0_Resource/Knowledge based workflow.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Improve use Obsidian.md",
-    "Room_4_personal work/Compute Platforms.md",
+    "Room_5_MOCs/Main practice.md",
+    "Room_3_Lab/Shelf_3_knowledge particle/CODE.md",
     "Dashboard++.md",
+    "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md",
+    "Excalidraw/Personal system summery.excalidraw.md",
+    "Room_4_personal work/Compute Platforms.md",
+    "Excalidraw/home network flow.excalidraw.md",
+    "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md",
+    "System summery.md",
     "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/Device/NAS(OMV).md",
     "Room_2_daily notes/24년 01월/24.01.15.md",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@soares2013.md",
@@ -432,11 +460,6 @@
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@park2017.md",
     "Room_5_MOCs/Swd2 review manuscripts.md",
     "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Glc7 is dissociation after Swd2 depletion (Nedea et al., 2008) draft.md",
-    "Room_0_metadata/Shelf_1_template for templater/MOC template.md",
-    "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md",
-    "Room_1_rules/DIKW model.excalidraw.md",
-    "Room_3_Lab/Shelf_2_library/Box_2_methods/_Methods.md",
-    "Room_5_MOCs/중견연구보고서 작성.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240115163806.png",
     "Room_5_MOCs",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240115144724.png",

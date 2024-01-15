@@ -14,6 +14,7 @@ tags:
 📄 [[_Myvault|_Myvault]]
 📄 [[점심메뉴|점심메뉴]]
 📄 [[Dashboard++|Dashboard++]]
+📄 [[System summery|System summery]]
 📄 [[Vault|Vault]]
 🗂️ [[Excalidraw/_Excalidraw|_Excalidraw]]
 🗂️ [[Room_0_metadata/_Room_0_metadata|_Room_0_metadata]]

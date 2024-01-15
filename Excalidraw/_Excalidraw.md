@@ -16,6 +16,7 @@ tags:
 📄 [[Excalidraw/231208.excalidraw|231208.excalidraw]]
 📄 [[Excalidraw/home network flow.excalidraw|home network flow.excalidraw]]
 📄 [[Excalidraw/NNS complexexcalidraw|NNS complexexcalidraw]]
+📄 [[Excalidraw/Personal system summery.excalidraw|Personal system summery.excalidraw]]
 📄 [[Excalidraw/Transcription regulator Swd2 model.excalidraw|Transcription regulator Swd2 model.excalidraw]]
 📄 [[Excalidraw/work flow.excalidraw|work flow.excalidraw]]
 🗂️ [[Excalidraw/Scripts/_Scripts|_Scripts]]

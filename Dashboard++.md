@@ -8,7 +8,7 @@ obsidianUIMode: preview
 
 # Lab Works (seperated as PARA method)
 - 💼 Projects (MOCs)
-	- Main practice
+	- [[Main practice]]
 	- [[Swd2 review manuscripts]]
 	- [[중견연구보고서 작성]]
 - 💰 Area of responsibility
@@ -29,6 +29,7 @@ obsidianUIMode: preview
 	- [[Obsidian]]
 	- [[3D print]]
 	- [[Compute Platforms]]
+	- [[System summery]]
 - 👨‍👩‍👦 Time management
 
 - 🌅 Improve PKM
