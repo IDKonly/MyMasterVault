@@ -21,6 +21,32 @@
             }
           },
           {
+            "id": "3e7755760c3321ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard++.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9929d9c8bcd1840f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room_3_Lab/Shelf_2_library/Box_2_methods/_Methods.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d3d3c4b6c2bbdda8",
             "type": "leaf",
             "state": {
@@ -34,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.15.md",
+                "file": "Room_5_MOCs/중견연구보고서 작성.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -42,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,8 +133,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "7d671dac6e36c056",
@@ -190,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.15.md"
+                "file": "Dashboard++.md"
               }
             }
           }
@@ -199,7 +224,7 @@
       {
         "id": "91d4f3c024ef3557",
         "type": "tabs",
-        "dimension": 65.73275862068965,
+        "dimension": 32.866379310344826,
         "children": [
           {
             "id": "59d535c1c7fbacec",
@@ -207,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.15.md",
+                "file": "Dashboard++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.15.md",
+                "file": "Dashboard++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,13 +257,65 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "6a2a384b79c0e2e1",
+        "type": "tabs",
+        "dimension": 32.866379310344826,
+        "children": [
+          {
+            "id": "650a651a61711565",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Dashboard++.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5087618855792587,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "c0f9107083235ea8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 480.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "full-calendar-ics:풀 캘린더 ICS": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
@@ -251,7 +328,6 @@
       "obsidian-custom-frames:Open Research rabbit": false,
       "chronology:Open Chronology": false,
       "modalforms:Edit forms": false,
-      "homepage:Open homepage": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -264,10 +340,18 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "dba394bc64b7ef52",
+  "active": "3e7755760c3321ec",
   "lastOpenFiles": [
+    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@lee2007.md",
+    "Room_5_MOCs/_Box_2_methods.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/_Box_2_methods.md",
     "Dashboard++.md",
+    "Room_3_Lab/Shelf_2_library/Box_2_methods/_Methods.md",
+    "Room_0_metadata/Shelf_1_template for templater/MOC template.md",
+    "Room_5_MOCs/중견연구보고서 작성.md",
     "Room_2_daily notes/24년 01월/24.01.15.md",
+    "Room_5_MOCs/_Room_5_MOCs.md",
+    "Room_5_MOCs",
     "Room_2_daily notes/23년/23년 9월/23.09.20.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240115144724.png",
     "Room_2_daily notes/23년/23년 10월/23.10.12.md",
@@ -286,13 +370,7 @@
     "Room_2_daily notes/24년 01월/24.01.16.md",
     "Room_2_daily notes/24년 01월/24.01.18.md",
     "Room_2_daily notes/24년 01월/24.01.17.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/어제자 데일리 노트의 특정 섹션 가져오기.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Daily Note를 요일별, 날짜별 다르게 쓰기.md",
-    "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Full Calendar ICS 플러그인.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240114201545.png",
-    "Room_2_daily notes/24년 01월/24.01.10.md",
-    "2024-W03.md",
-    "Room_0_metadata/Shelf_1_template for templater/실험일지 template.md",
     "Room_0_metadata/Shelf_0_Resource/img-4.png",
     "Room_0_metadata/Shelf_0_Resource/img-3.png"
   ]

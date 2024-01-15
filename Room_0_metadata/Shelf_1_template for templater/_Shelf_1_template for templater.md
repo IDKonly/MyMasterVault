@@ -17,6 +17,7 @@ tags:
 📄 [[Room_0_metadata/Shelf_1_template for templater/Basic template|Basic template]]
 📄 [[Room_0_metadata/Shelf_1_template for templater/Daily note template|Daily note template]]
 📄 [[Room_0_metadata/Shelf_1_template for templater/method template|method template]]
+📄 [[Room_0_metadata/Shelf_1_template for templater/MOC template|MOC template]]
 📄 [[Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp)|New Zotero Literature Note(temp)]]
 📄 [[Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note|New Zotero Literature Note]]
 📄 [[Room_0_metadata/Shelf_1_template for templater/Zotero paper template_final|Zotero paper template_final]]

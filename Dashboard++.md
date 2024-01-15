@@ -6,21 +6,23 @@ obsidianUIMode: preview
 ---
 <div class="title" style="color:White">Main page</div>
 
-# Lab Works
-- 💼 Projects
-	- [[Cloud backup]]
-	- [[Firewall upgrades]]
-	- [[IT Cybersecurity training]]
-- 💰 Budget review
-	- [[Q1 2022]]
-	- [[Q2 2022]]
-	- [[Q3 2022]]
-	- [[Q4 2022]]
-- 👥 Personnel Review
-	- [[Sally Smith]]
-	- [[Bill Hansen]]
-	- [[Brad Jefferson]]
-	- [[Olga Olson]]
+# Lab Works (seperated as PARA method)
+- 💼 Projects (MOCs)
+	- Main practice
+	- Swd2 review manuscripts
+	- [[중견연구보고서 작성]]
+- 💰 Area of responsibility
+	- 1
+	- 2
+	- 3
+	- 4
+- 👥 Star Resources
+	- 1
+	- 2
+	- 3
+	- 4
+- 🧱 Archive
+	- [[_Box_2_methods]]
 
 # Personal
 - 🏈 Sunday Game
