@@ -1,27 +1,20 @@
 ---
-creation_date : 22.12.20
-last_modified :
-note_type : basic
-category :
-memo_level :
-aliases : 
-tags : []
+creation_date: 23.12.10
+note_type: basic
+category: Map Of Contents
+aliases: 
+tags:
+  - MOC
+PARA:
+  - Project
 ---
-
-Parent : [[_Services]]
-
-## 프로그램
-
-### 상위서비스
-[[NAS(OMV)]]
-[[Main-PC]]
-[[Sub-PC]]
-[[iPad]]
-[[Smartphone]]
-
-### 하위서비스
+## Contents
+- NAS(Synology)
+	- Docker
+		- CouchDB
+			- Self hosted livesync(plugin)
+- [[Improve use Obsidian]]
 
 
-## 하드웨어(직결)
-
+## Notes
 

@@ -26,9 +26,9 @@ obsidianUIMode: preview
 
 # Personal Works
 -  🧾Personal projects (No deadline)
-	- [[Obsidian maintainance]]
+	- [[Obsidian]]
 	- [[3D print]]
-	- [[Computes]]
+	- [[Compute Platforms]]
 - 👨‍👩‍👦 Time management
 
 - 🌅 Improve PKM

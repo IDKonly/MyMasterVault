@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "home network flow.excalidraw",
+      "path": "Excalidraw/home network flow.excalidraw.md"
+    },
+    {
+      "basename": "옵시디언에서의 파일관리.excalidraw",
+      "path": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md"
+    },
+    {
+      "basename": "Knowledge based workflow",
+      "path": "Room_0_metadata/Shelf_0_Resource/Knowledge based workflow.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/서비스/Obsidian.md"
+    },
+    {
+      "basename": "Improve use Obsidian",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Improve use Obsidian.md"
+    },
+    {
+      "basename": "Compute Platforms",
+      "path": "Room_4_personal work/Compute Platforms.md"
+    },
+    {
+      "basename": "Dashboard++",
+      "path": "Dashboard++.md"
+    },
+    {
+      "basename": "NAS(OMV)",
+      "path": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/Device/NAS(OMV).md"
+    },
+    {
+      "basename": "24.01.15",
+      "path": "Room_2_daily notes/24년 01월/24.01.15.md"
+    },
+    {
       "basename": "@soares2013",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@soares2013.md"
     },
     {
       "basename": "New Zotero Literature Note",
       "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
-    },
-    {
-      "basename": "24.01.15",
-      "path": "Room_2_daily notes/24년 01월/24.01.15.md"
     },
     {
       "basename": "@hughes2023",
@@ -55,10 +87,6 @@
     {
       "basename": "MOC template",
       "path": "Room_0_metadata/Shelf_1_template for templater/MOC template.md"
-    },
-    {
-      "basename": "Dashboard++",
-      "path": "Dashboard++.md"
     },
     {
       "basename": "Work flow.excalidraw",
@@ -171,34 +199,6 @@
     {
       "basename": "Abstract",
       "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Abstract.md"
-    },
-    {
-      "basename": "Yeast transformation",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/Yeast transformation.md"
-    },
-    {
-      "basename": "Gibson Assembly cloning (깁슨 어셈블리 클로닝)",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Gibson Assembly cloning (깁슨 어셈블리 클로닝).md"
-    },
-    {
-      "basename": "채워넣을 노트 목록",
-      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/채워넣을 노트 목록.md"
-    },
-    {
-      "basename": "옵시디언 템플레이터(Templater) - Callout 넣기",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/옵시디언 템플레이터(Templater) - Callout 넣기.md"
-    },
-    {
-      "basename": "Article 24.01.14 0001",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Article 24.01.14 0001.md"
-    },
-    {
-      "basename": "플러그인 Modal form + QuickAdd + Button을 이용해서 반복작업 줄이기",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/플러그인 Modal form + QuickAdd + Button을 이용해서 반복작업 줄이기.md"
-    },
-    {
-      "basename": "Home page",
-      "path": "Spaces/Home/Home page.md"
     }
   ],
   "omittedPaths": [],

@@ -41,5 +41,6 @@
   "anuppuccin-theme-settings@@anp-rainbow-subfolder-color-toggle": false,
   "zotero-pandoc-reference-list@@pwc-citation-underline-color@@dark": "#DCDDDE",
   "minimal-advanced@@cursor": "default",
-  "minimal-style@@h2-l": true
+  "minimal-style@@h2-l": true,
+  "minimal-style@@image-muted": 1
 }
