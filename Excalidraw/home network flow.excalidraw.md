@@ -81,6 +81,8 @@ User ^hHIokKOZ
 
 User ^LIcec8qd
 
+*홈 네트워크 ^SpPAvO76
+
 
 # Embedded files
 819f4a20d71840408309024f4148b00325395823: [[Pasted Image 20231210141401_195.png]]
@@ -2895,7 +2897,7 @@ User ^LIcec8qd
 			"containerId": null,
 			"originalText": "DNS",
 			"lineHeight": 1.25,
-			"baseline": 16
+			"baseline": 17
 		},
 		{
 			"type": "arrow",
@@ -4602,8 +4604,8 @@ User ^LIcec8qd
 		},
 		{
 			"type": "arrow",
-			"version": 881,
-			"versionNonce": 927735529,
+			"version": 883,
+			"versionNonce": 733537961,
 			"isDeleted": false,
 			"id": "hE5fNkcSF7GOZIKrnRbgb",
 			"fillStyle": "solid",
@@ -4612,11 +4614,11 @@ User ^LIcec8qd
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -127.05962340110992,
+			"x": -127.0596234003069,
 			"y": 487.002807905684,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 28.212832553385084,
+			"width": 28.212832552682826,
 			"height": 174.19727570289785,
 			"seed": 526142951,
 			"groupIds": [],
@@ -4625,7 +4627,7 @@ User ^LIcec8qd
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1705325125253,
+			"updated": 1705329551903,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4647,7 +4649,7 @@ User ^LIcec8qd
 					0
 				],
 				[
-					28.212832553385084,
+					28.212832552682826,
 					174.19727570289785
 				]
 			]
@@ -5018,7 +5020,7 @@ User ^LIcec8qd
 			"containerId": null,
 			"originalText": "VPN",
 			"lineHeight": 1.25,
-			"baseline": 27
+			"baseline": 29
 		},
 		{
 			"type": "rectangle",
@@ -5756,7 +5758,7 @@ User ^LIcec8qd
 			"y": -608.3531695063364,
 			"strokeColor": "#000000",
 			"backgroundColor": "white",
-			"width": 17.79442318577243,
+			"width": 17.268798828125,
 			"height": 9.67088216618067,
 			"seed": 1480143273,
 			"groupIds": [
@@ -5771,7 +5773,7 @@ User ^LIcec8qd
 			"fontSize": 7.736705732944536,
 			"fontFamily": 1,
 			"text": "User",
-			"rawText": "",
+			"rawText": "User",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -5871,12 +5873,49 @@ User ^LIcec8qd
 			"updated": 1705325126599,
 			"link": null,
 			"locked": false
+		},
+		{
+			"id": "SpPAvO76",
+			"type": "text",
+			"x": -98.5860316490494,
+			"y": 479.5200872207058,
+			"width": 120.31999206542969,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 2012203561,
+			"version": 56,
+			"versionNonce": 1421010633,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705329590450,
+			"link": null,
+			"locked": false,
+			"text": "*홈 네트워크",
+			"rawText": "*홈 네트워크",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 21,
+			"containerId": null,
+			"originalText": "*홈 네트워크",
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 1,
@@ -5888,10 +5927,10 @@ User ^LIcec8qd
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 928.152881631423,
-		"scrollY": 1167.4892997023212,
+		"scrollX": 363.1722054440116,
+		"scrollY": -322.73630763086675,
 		"zoom": {
-			"value": 0.9816456618509296
+			"value": 2.88374856877925
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

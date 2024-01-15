@@ -152,9 +152,19 @@
                 "file": "Excalidraw/Personal system summery.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "8100b12e833468c2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/home network flow.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -301,7 +311,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Personal system summery.excalidraw.md"
+                "file": "Excalidraw/home network flow.excalidraw.md"
               }
             }
           }
@@ -318,7 +328,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Personal system summery.excalidraw.md",
+                "file": "Excalidraw/home network flow.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -335,7 +345,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Personal system summery.excalidraw.md",
+                "file": "Excalidraw/home network flow.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -355,7 +365,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/Personal system summery.excalidraw.md",
+                "file": "Excalidraw/home network flow.excalidraw.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -429,8 +439,9 @@
       "auto-moc:AutoMOC": false
     }
   },
-  "active": "f6b8e32c4d645102",
+  "active": "8100b12e833468c2",
   "lastOpenFiles": [
+    "Excalidraw/Personal system summery.excalidraw.md",
     "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/서비스/Obsidian.md",
     "Room_0_metadata/Shelf_0_Resource/Knowledge based workflow.md",
     "Room_3_Lab/Shelf_3_knowledge particle/Improve use Obsidian.md",
@@ -438,7 +449,6 @@
     "Room_3_Lab/Shelf_3_knowledge particle/CODE.md",
     "Dashboard++.md",
     "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md",
-    "Excalidraw/Personal system summery.excalidraw.md",
     "Room_4_personal work/Compute Platforms.md",
     "Excalidraw/home network flow.excalidraw.md",
     "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md",
