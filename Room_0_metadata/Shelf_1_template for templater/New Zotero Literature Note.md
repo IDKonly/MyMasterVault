@@ -4,9 +4,10 @@ publish-year: {{date | format("YYYY")}}
 created: {{importDate | format("YY.MM.DD")}}
 PARA:
   - Archive
-tags:
-  - zotero
-  - note/zotero
+tags: {% for t in tags %} 
+- {{t.tag | replace(" ", "-")}}{% endfor %}
+- zotero
+- note/zotero
 ---
 ## Notes
 {% persist "notes" %}{% if isFirstImport %}
@@ -23,7 +24,7 @@ External note : [[Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/@{{citek
 > [!Cite]  
 > {{bibliography}}
 
->[!Info]  
+>[!Info]  {%- for attachment in attachments | filterby("path", "endswith", ".pdf") %} [{{attachment.title}}](file://{{attachment.path | replace(" ", "%20")}}) {%- endfor -%}. [to Zotero]({{desktopURI}})
 > {%- for creator in creators %} {%- if creator.name == null %} **{{creator.creatorType | capitalize}}**::{{creator.lastName}}, {{creator.firstName}}{%- endif -%}<br>  
 > {%- if creator.name %}**{{creator.creatorType | capitalize}}**:: {{creator.name}}{%- endif -%}{%- endfor %}  
 > **Title**:: {{title}}  
@@ -41,9 +42,7 @@ External note : [[Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/@{{citek
 > {%- if ISBN %}**ISBN**:: {{ISBN}} {%- endif %}
 
 > [!LINK]  
-> {%- for attachment in attachments | filterby("path", "endswith", ".pdf") %}  
-> [{{attachment.title}}](file://{{attachment.path | replace(" ", "%20")}}) {%- endfor -%}.
-> [to Zotero]({{desktopURI}})
+
 
 > [!Abstract]  
 > {%- if abstractNote %}  
@@ -100,6 +99,3 @@ Note
 
 {% endfor -%}  
 {% endif -%}
-
-##### meta data
-{{hashTags}}
