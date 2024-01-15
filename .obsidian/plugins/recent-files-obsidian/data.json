@@ -5,6 +5,10 @@
       "path": "Room_4_personal work/Synology 패키지.md"
     },
     {
+      "basename": "24.01.16",
+      "path": "Room_2_daily notes/24년 01월/24.01.16.md"
+    },
+    {
       "basename": "Compute Platforms",
       "path": "Room_4_personal work/Compute Platforms.md"
     },
@@ -191,10 +195,6 @@
     {
       "basename": "Daily note template",
       "path": "Room_0_metadata/Shelf_1_template for templater/Daily note template.md"
-    },
-    {
-      "basename": "24.01.16",
-      "path": "Room_2_daily notes/24년 01월/24.01.16.md"
     },
     {
       "basename": "어제자 데일리 노트의 특정 섹션 가져오기",
