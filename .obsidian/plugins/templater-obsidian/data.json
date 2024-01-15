@@ -33,6 +33,10 @@
     {
       "folder": "Room_4_personal work",
       "template": "Room_0_metadata/Shelf_1_template for templater/Basic template.md"
+    },
+    {
+      "folder": "Room_5_MOCs",
+      "template": "Room_0_metadata/Shelf_1_template for templater/MOC template.md"
     }
   ],
   "syntax_highlighting": true,

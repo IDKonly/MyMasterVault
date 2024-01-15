@@ -80,6 +80,8 @@ Future ^mIYYJn2h
 
 Personal knowledge management의 핵심! ^hYM6lEvv
 
+기능이 불안정 해서 배제함 ^DgDUXM2Z
+
 
 # Embedded files
 55d4244465ef204c3f2051c26909b36772d609a7: [[Pasted Image 20231210135953_040.png]]
@@ -98,7 +100,7 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.10",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.17",
 	"elements": [
 		{
 			"type": "image",
@@ -1408,8 +1410,8 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 		},
 		{
 			"type": "text",
-			"version": 250,
-			"versionNonce": 2142537537,
+			"version": 251,
+			"versionNonce": 402994511,
 			"isDeleted": false,
 			"id": "ghdq25pR",
 			"fillStyle": "solid",
@@ -1432,9 +1434,13 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 				{
 					"id": "zpRkgdTxffKRI6fBehADp",
 					"type": "arrow"
+				},
+				{
+					"id": "qbp_2PNeBR2-MWamsohXL",
+					"type": "arrow"
 				}
 			],
-			"updated": 1702190957314,
+			"updated": 1705305141006,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2719,29 +2725,29 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			]
 		},
 		{
-			"id": "_vgbAZL7mgu45HJK4bHbr",
 			"type": "rectangle",
-			"x": -255.62611510342208,
-			"y": 116.92623835844728,
-			"width": 496.60179501488096,
-			"height": 330.7200985863095,
-			"angle": 0,
-			"strokeColor": "#e03131",
-			"backgroundColor": "transparent",
+			"version": 116,
+			"versionNonce": 374621091,
+			"isDeleted": false,
+			"id": "_vgbAZL7mgu45HJK4bHbr",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "dashed",
 			"roughness": 2,
 			"opacity": 100,
+			"angle": 0,
+			"x": -255.62611510342208,
+			"y": 116.92623835844728,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"width": 496.60179501488096,
+			"height": 330.7200985863095,
+			"seed": 362417059,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
-			"seed": 362417059,
-			"version": 116,
-			"versionNonce": 374621091,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "S6ag5gXUIlDIBPHhYtzkz",
@@ -2753,44 +2759,33 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"locked": false
 		},
 		{
-			"id": "S6ag5gXUIlDIBPHhYtzkz",
 			"type": "arrow",
-			"x": -10.455100408481607,
-			"y": 448.68951495814963,
-			"width": 5.329070518200751e-15,
-			"height": 58.72679938526596,
-			"angle": 0,
-			"strokeColor": "#e03131",
-			"backgroundColor": "transparent",
+			"version": 217,
+			"versionNonce": 1623864717,
+			"isDeleted": false,
+			"id": "S6ag5gXUIlDIBPHhYtzkz",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "dashed",
 			"roughness": 2,
 			"opacity": 100,
+			"angle": 0,
+			"x": -10.455100408481607,
+			"y": 448.68951495814963,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"width": 5.329070518200751e-15,
+			"height": 58.72679938526596,
+			"seed": 487108493,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 487108493,
-			"version": 217,
-			"versionNonce": 1623864717,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1702960281722,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-5.329070518200751e-15,
-					58.72679938526596
-				]
-			],
-			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "_vgbAZL7mgu45HJK4bHbr",
 				"focus": 0.012605201366242349,
@@ -2801,31 +2796,42 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 				"focus": 0.015686388545253654,
 				"gap": 12.242082868303669
 			},
+			"lastCommittedPoint": null,
 			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-5.329070518200751e-15,
+					58.72679938526596
+				]
+			]
 		},
 		{
-			"id": "hYM6lEvv",
 			"type": "text",
-			"x": -245.9500083325887,
-			"y": 519.6583972117193,
-			"width": 463.7157897949219,
-			"height": 43.199999999999996,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 179,
+			"versionNonce": 1722107085,
+			"isDeleted": false,
+			"id": "hYM6lEvv",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "dashed",
 			"roughness": 2,
 			"opacity": 100,
+			"angle": 0,
+			"x": -245.9500083325887,
+			"y": 519.6583972117193,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 463.7157897949219,
+			"height": 43.199999999999996,
+			"seed": 1104934627,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1104934627,
-			"version": 179,
-			"versionNonce": 1722107085,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "S6ag5gXUIlDIBPHhYtzkz",
@@ -2835,23 +2841,67 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"updated": 1702960281722,
 			"link": null,
 			"locked": false,
-			"text": "Personal knowledge management의 핵심!",
-			"rawText": "Personal knowledge management의 핵심!",
 			"fontSize": 36,
 			"fontFamily": 4,
+			"text": "Personal knowledge management의 핵심!",
+			"rawText": "Personal knowledge management의 핵심!",
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 36,
 			"containerId": null,
 			"originalText": "Personal knowledge management의 핵심!",
-			"lineHeight": 1.2
+			"lineHeight": 1.2,
+			"baseline": 36
 		},
 		{
-			"id": "ZOw0McNL-1f-0HMgZBgHZ",
 			"type": "line",
+			"version": 109,
+			"versionNonce": 308673517,
+			"isDeleted": false,
+			"id": "ZOw0McNL-1f-0HMgZBgHZ",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"angle": 0,
 			"x": -243.00294073855935,
 			"y": 564.1216310533667,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
 			"width": 371.56098300249755,
+			"height": 0,
+			"seed": 562116685,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1702960281722,
+			"link": null,
+			"locked": false,
+			"startBinding": null,
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": null,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					371.56098300249755,
+					0
+				]
+			]
+		},
+		{
+			"id": "WspaqIkCG6cYyIquqUFl5",
+			"type": "line",
+			"x": -234.5116341418771,
+			"y": 419.6630234840195,
+			"width": 180.53158395920656,
 			"height": 0,
 			"angle": 0,
 			"strokeColor": "#e03131",
@@ -2866,12 +2916,12 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"roundness": {
 				"type": 2
 			},
-			"seed": 562116685,
-			"version": 109,
-			"versionNonce": 308673517,
+			"seed": 1314219375,
+			"version": 33,
+			"versionNonce": 58799393,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1702960281722,
+			"updated": 1705305126243,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2880,8 +2930,146 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 					0
 				],
 				[
-					371.56098300249755,
+					180.53158395920656,
 					0
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": null
+		},
+		{
+			"id": "qbp_2PNeBR2-MWamsohXL",
+			"type": "arrow",
+			"x": -228.96629444811055,
+			"y": 431.3698593553248,
+			"width": 146.027232829063,
+			"height": 81.9477481088619,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 748833665,
+			"version": 67,
+			"versionNonce": 364159681,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705305154366,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-146.027232829063,
+					81.9477481088619
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "ghdq25pR",
+				"focus": 0.6053248716930136,
+				"gap": 7.915791947909611
+			},
+			"endBinding": {
+				"elementId": "DgDUXM2Z",
+				"focus": 0.27145821245376867,
+				"gap": 13.020648476272981
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "DgDUXM2Z",
+			"type": "text",
+			"x": -622.3744164058631,
+			"y": 526.3382559404597,
+			"width": 275.65191650390625,
+			"height": 43.199999999999996,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1358002945,
+			"version": 92,
+			"versionNonce": 796172961,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "qbp_2PNeBR2-MWamsohXL",
+					"type": "arrow"
+				}
+			],
+			"updated": 1705305154366,
+			"link": null,
+			"locked": false,
+			"text": "기능이 불안정 해서 배제함",
+			"rawText": "기능이 불안정 해서 배제함",
+			"fontSize": 36,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 36,
+			"containerId": null,
+			"originalText": "기능이 불안정 해서 배제함",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "YhfY0604PkLYG-6UHFt9g",
+			"type": "line",
+			"x": -216.02714560926097,
+			"y": 431.3698593553248,
+			"width": 118.9167251740941,
+			"height": 98.58380152025302,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 206562191,
+			"version": 44,
+			"versionNonce": 1922951073,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1705305136269,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-118.9167251740941,
+					98.58380152025302
 				]
 			],
 			"lastCommittedPoint": null,
@@ -2906,10 +3094,10 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1231.168184711511,
-		"scrollY": 304.8410284842041,
+		"scrollX": 1753.9952348044155,
+		"scrollY": 967.6385743636677,
 		"zoom": {
-			"value": 0.9788107009300621
+			"value": 0.7078363346684684
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

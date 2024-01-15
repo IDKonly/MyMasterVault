@@ -39,5 +39,9 @@
   "quickadd",
   "homepage",
   "buttons",
-  "full-calendar-ics"
+  "full-calendar-ics",
+  "obsidian-view-mode-by-frontmatter",
+  "obsidian-banners",
+  "dataview",
+  "auto-moc"
 ]

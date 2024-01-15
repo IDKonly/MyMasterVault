@@ -1,16 +1,120 @@
 {
   "recentFiles": [
     {
+      "basename": "@soares2013",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@soares2013.md"
+    },
+    {
+      "basename": "New Zotero Literature Note",
+      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
+    },
+    {
       "basename": "24.01.15",
       "path": "Room_2_daily notes/24년 01월/24.01.15.md"
     },
     {
-      "basename": "Vault",
-      "path": "Vault.md"
+      "basename": "@hughes2023",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md"
     },
     {
-      "basename": "점심메뉴",
-      "path": "점심메뉴.md"
+      "basename": "@wellinger2012",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@wellinger2012.md"
+    },
+    {
+      "basename": "@bae2020",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@bae2020.md"
+    },
+    {
+      "basename": "New Zotero Literature Note(temp)",
+      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md"
+    },
+    {
+      "basename": "Zotero paper template_final",
+      "path": "Room_0_metadata/Shelf_1_template for templater/Zotero paper template_final.md"
+    },
+    {
+      "basename": "@cheng2004",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@cheng2004.md"
+    },
+    {
+      "basename": "@vitaliano-prunier2008",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@vitaliano-prunier2008.md"
+    },
+    {
+      "basename": "@park2017",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@park2017.md"
+    },
+    {
+      "basename": "Swd2 review manuscripts",
+      "path": "Room_5_MOCs/Swd2 review manuscripts.md"
+    },
+    {
+      "basename": "Glc7 is dissociation after Swd2 depletion (Nedea et al., 2008) draft",
+      "path": "Room_3_Lab/Shelf_1_my works/Box_0_Projects/Swd2 review paper/Inbox/Glc7 is dissociation after Swd2 depletion (Nedea et al., 2008) draft.md"
+    },
+    {
+      "basename": "MOC template",
+      "path": "Room_0_metadata/Shelf_1_template for templater/MOC template.md"
+    },
+    {
+      "basename": "Dashboard++",
+      "path": "Dashboard++.md"
+    },
+    {
+      "basename": "Work flow.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md"
+    },
+    {
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_1_rules/DIKW model.excalidraw.md"
+    },
+    {
+      "basename": "_Methods",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/_Methods.md"
+    },
+    {
+      "basename": "중견연구보고서 작성",
+      "path": "Room_5_MOCs/중견연구보고서 작성.md"
+    },
+    {
+      "basename": "@lee2007",
+      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@lee2007.md"
+    },
+    {
+      "basename": "_Box_2_methods",
+      "path": "Room_5_MOCs/_Box_2_methods.md"
+    },
+    {
+      "basename": "23.09.20",
+      "path": "Room_2_daily notes/23년/23년 9월/23.09.20.md"
+    },
+    {
+      "basename": "23.10.12",
+      "path": "Room_2_daily notes/23년/23년 10월/23.10.12.md"
+    },
+    {
+      "basename": "_Myvault",
+      "path": "_Myvault.md"
+    },
+    {
+      "basename": "23.09.27",
+      "path": "Room_2_daily notes/23년/23년 9월/23.09.27.md"
+    },
+    {
+      "basename": "23.10.04",
+      "path": "Room_2_daily notes/23년/23년 10월/23.10.04.md"
+    },
+    {
+      "basename": "23.10.05",
+      "path": "Room_2_daily notes/23년/23년 10월/23.10.05.md"
+    },
+    {
+      "basename": "23.10.06",
+      "path": "Room_2_daily notes/23년/23년 10월/23.10.06.md"
+    },
+    {
+      "basename": "23.09.18",
+      "path": "Room_2_daily notes/23년/23년 9월/23.09.18.md"
     },
     {
       "basename": "_Swd2 review paper",
@@ -85,14 +189,6 @@
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/옵시디언 템플레이터(Templater) - Callout 넣기.md"
     },
     {
-      "basename": "Zotero paper template_final",
-      "path": "Room_0_metadata/Shelf_1_template for templater/Zotero paper template_final.md"
-    },
-    {
-      "basename": "New Zotero Literature Note(temp)",
-      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note(temp).md"
-    },
-    {
       "basename": "Article 24.01.14 0001",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Article 24.01.14 0001.md"
     },
@@ -103,102 +199,6 @@
     {
       "basename": "Home page",
       "path": "Spaces/Home/Home page.md"
-    },
-    {
-      "basename": "_Home",
-      "path": "Spaces/Home/_Home.md"
-    },
-    {
-      "basename": "올라마(Ollama)와 옵시디언(노트앱)을 효과적으로 활용하는 방법",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/올라마(Ollama)와 옵시디언(노트앱)을 효과적으로 활용하는 방법.md"
-    },
-    {
-      "basename": "23.05.19 Swd2-TAP Size Exclusion Chromatography",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.19 Swd2-TAP Size Exclusion Chromatography.canvas"
-    },
-    {
-      "basename": "24.01.12",
-      "path": "Room_2_daily notes/24년 01월/24.01.12.md"
-    },
-    {
-      "basename": "24.01.13",
-      "path": "Room_2_daily notes/24년 01월/24.01.13.md"
-    },
-    {
-      "basename": "23.08.28  FPLC",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.08.28  FPLC.canvas"
-    },
-    {
-      "basename": "23.12.04 1",
-      "path": "Room_2_daily notes/23년/23년 12월/23.12.04 1.md"
-    },
-    {
-      "basename": "24.01.12 1",
-      "path": "Room_2_daily notes/24년 01월/24.01.12 1.md"
-    },
-    {
-      "basename": "231207 개인미팅 요약",
-      "path": "Excalidraw/231207 개인미팅 요약.md"
-    },
-    {
-      "basename": "24.01.02",
-      "path": "Room_2_daily notes/24년 01월/24.01.02.md"
-    },
-    {
-      "basename": "Reversed phase chromatography (RPC)",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Reversed phase chromatography (RPC).md"
-    },
-    {
-      "basename": "231207 Two-step TAP purificaiton work",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231207 Two-step TAP purificaiton work.canvas"
-    },
-    {
-      "basename": "231117 실험계획",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/231117 실험계획.md"
-    },
-    {
-      "basename": "Swd2 Associated proteins",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/Swd2 Associated proteins.md"
-    },
-    {
-      "basename": "230609 Swd2-TAP strain flocculation check",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/230609 Swd2-TAP strain flocculation check.md"
-    },
-    {
-      "basename": "23.09.11 TAP purifcation, Crude extraction",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.09.11 TAP purifcation, Crude extraction.md"
-    },
-    {
-      "basename": "23.07.21 FPLC",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.07.21 FPLC.canvas"
-    },
-    {
-      "basename": "23.05.31 TAP purification",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.31 TAP purification.md"
-    },
-    {
-      "basename": "23.05.17 Size exclusion chromatography",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/23.05.17 Size exclusion chromatography.md"
-    },
-    {
-      "basename": "Swd2 work log.excalidraw",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/Swd2 work log.excalidraw.md"
-    },
-    {
-      "basename": "Room_3_Lab",
-      "path": "Room_3_Lab/Room_3_Lab.md"
-    },
-    {
-      "basename": "_Room_3_Lab",
-      "path": "Room_3_Lab/_Room_3_Lab.md"
-    },
-    {
-      "basename": "New Zotero Literature Note",
-      "path": "Room_0_metadata/Shelf_1_template for templater/New Zotero Literature Note.md"
-    },
-    {
-      "basename": "@hughes2023",
-      "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@hughes2023.md"
     }
   ],
   "omittedPaths": [],

@@ -1,9 +1,10 @@
 ---
 category: literaturenote
-tags: {{allTags}}
+tags: 
 puplished: 
-created: {{importDate|format("YYYY-MM-DD")}}
-project: "[[02-Projects]]"
+created:
+  "{ importDate|format(\"YYYY-MM-DD\") }": 
+project:
 ---
 # Summary
 > 

@@ -1,12 +1,20 @@
 ---
 type: Zotero Literature Note
-publish-year: 2023 
-created: 24.01.12
+publish-year: 2023
+created: 24.01.15
 PARA:
   - Archive
 tags:
+  - ✔️
+  - Chromatin
+  - CpG-Islands
+  - DNA-Methylation
+  - Histones
+  - RNA-Polymerase-II
+  - Transcription
   - zotero
   - note/zotero
+  - WDR82
 ---
 ## Notes
 %% begin notes %%
@@ -18,7 +26,7 @@ tags:
 	- Use::
 
 %% end notes %%
-External note : [[_Box_3_Memo for manuscripts/hughes2023]]
+External note : [[Room_3_Lab/Shelf_2_library/Box_3_Memo for manuscripts/@hughes2023]]
 
 > [!Cite]  
 > Hughes, A. L., Szczurek, A. T., Kelley, J. R., Lastuvkova, A., Turberfield, A. H., Dimitrova, E., Blackledge, N. P., & Klose, R. J. (2023). A CpG island-encoded mechanism protects genes from premature transcription termination. _Nature Communications_, _14_(1), 726. [https://doi.org/10.1038/s41467-023-36236-2](https://doi.org/10.1038/s41467-023-36236-2)
@@ -62,4 +70,4 @@ External note : [[_Box_3_Memo for manuscripts/hughes2023]]
 ## Annotations##### meta data
 #✔️, #Chromatin, #CpG-Islands, #DNA-Methylation, #Histones, #RNA-Polymerase-II, #Transcription,-Genetic
 
-%% Import Date: 2024-01-12T11:03:07.955+09:00 %%
+%% Import Date: 2024-01-15T17:32:28.398+09:00 %%

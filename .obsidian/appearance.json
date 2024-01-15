@@ -4,5 +4,9 @@
   "translucency": true,
   "baseFontSize": 18,
   "theme": "obsidian",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "dashboard-ReadLineLength",
+    "extended-colorschemes",
+    "dashboard"
+  ]
 }
