@@ -12,5 +12,6 @@ PARA:
 
 ![[home network flow.excalidraw|900]]
 
+[[Synology 패키지]]
 ## Notes
 

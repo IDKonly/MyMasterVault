@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Synology 패키지",
+      "path": "Room_4_personal work/Synology 패키지.md"
+    },
+    {
+      "basename": "Compute Platforms",
+      "path": "Room_4_personal work/Compute Platforms.md"
+    },
+    {
+      "basename": "Dashboard++",
+      "path": "Dashboard++.md"
+    },
+    {
       "basename": "home network flow.excalidraw",
       "path": "Excalidraw/home network flow.excalidraw.md"
     },
@@ -29,16 +41,8 @@
       "path": "Room_3_Lab/Shelf_3_knowledge particle/CODE.md"
     },
     {
-      "basename": "Dashboard++",
-      "path": "Dashboard++.md"
-    },
-    {
       "basename": "Swd2-TAP COMPASS activity check Western blot.excalidraw",
       "path": "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md"
-    },
-    {
-      "basename": "Compute Platforms",
-      "path": "Room_4_personal work/Compute Platforms.md"
     },
     {
       "basename": "옵시디언에서의 파일관리.excalidraw",
@@ -195,10 +199,6 @@
     {
       "basename": "어제자 데일리 노트의 특정 섹션 가져오기",
       "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/어제자 데일리 노트의 특정 섹션 가져오기.md"
-    },
-    {
-      "basename": "Daily Note를 요일별, 날짜별 다르게 쓰기",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Daily Note를 요일별, 날짜별 다르게 쓰기.md"
     }
   ],
   "omittedPaths": [],
