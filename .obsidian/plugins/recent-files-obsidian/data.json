@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "24.01.15",
-      "path": "Room_2_daily notes/24년 01월/24.01.15.md"
+      "basename": "Swd2 review manuscripts",
+      "path": "Room_5_MOCs/Swd2 review manuscripts.md"
+    },
+    {
+      "basename": "MOC template",
+      "path": "Room_0_metadata/Shelf_1_template for templater/MOC template.md"
     },
     {
       "basename": "Dashboard++",
       "path": "Dashboard++.md"
+    },
+    {
+      "basename": "24.01.15",
+      "path": "Room_2_daily notes/24년 01월/24.01.15.md"
     },
     {
       "basename": "Work flow.excalidraw",
@@ -31,10 +39,6 @@
     {
       "basename": "_Box_2_methods",
       "path": "Room_5_MOCs/_Box_2_methods.md"
-    },
-    {
-      "basename": "MOC template",
-      "path": "Room_0_metadata/Shelf_1_template for templater/MOC template.md"
     },
     {
       "basename": "23.09.20",
@@ -195,10 +199,6 @@
     {
       "basename": "24.01.12 1",
       "path": "Room_2_daily notes/24년 01월/24.01.12 1.md"
-    },
-    {
-      "basename": "231207 개인미팅 요약",
-      "path": "Excalidraw/231207 개인미팅 요약.md"
     }
   ],
   "omittedPaths": [],

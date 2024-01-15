@@ -9,7 +9,7 @@ obsidianUIMode: preview
 # Lab Works (seperated as PARA method)
 - 💼 Projects (MOCs)
 	- Main practice
-	- Swd2 review manuscripts
+	- [[Swd2 review manuscripts]]
 	- [[중견연구보고서 작성]]
 - 💰 Area of responsibility
 	- 1
@@ -58,4 +58,4 @@ obsidianUIMode: preview
  `$=dv.list(dv.pages('#favorite').sort(f=>f.file.name,"desc").limit(4).file.link)`
 - 〽️ Stats
 	-  File Count: `$=dv.pages().length`
-	-  Project Count: `$=dv.pages('"Project"').length`
+	-  Project Count: `$=dv.pages("#Project").length`
