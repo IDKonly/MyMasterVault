@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "24.01.15",
+      "path": "Room_2_daily notes/24년 01월/24.01.15.md"
+    },
+    {
       "basename": "Dashboard++",
       "path": "Dashboard++.md"
+    },
+    {
+      "basename": "Work flow.excalidraw",
+      "path": "Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw.md"
+    },
+    {
+      "basename": "DIKW model.excalidraw",
+      "path": "Room_1_rules/DIKW model.excalidraw.md"
+    },
+    {
+      "basename": "_Methods",
+      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/_Methods.md"
+    },
+    {
+      "basename": "중견연구보고서 작성",
+      "path": "Room_5_MOCs/중견연구보고서 작성.md"
     },
     {
       "basename": "@lee2007",
@@ -13,20 +33,8 @@
       "path": "Room_5_MOCs/_Box_2_methods.md"
     },
     {
-      "basename": "_Methods",
-      "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/_Methods.md"
-    },
-    {
       "basename": "MOC template",
       "path": "Room_0_metadata/Shelf_1_template for templater/MOC template.md"
-    },
-    {
-      "basename": "중견연구보고서 작성",
-      "path": "Room_5_MOCs/중견연구보고서 작성.md"
-    },
-    {
-      "basename": "24.01.15",
-      "path": "Room_2_daily notes/24년 01월/24.01.15.md"
     },
     {
       "basename": "23.09.20",
@@ -191,14 +199,6 @@
     {
       "basename": "231207 개인미팅 요약",
       "path": "Excalidraw/231207 개인미팅 요약.md"
-    },
-    {
-      "basename": "24.01.02",
-      "path": "Room_2_daily notes/24년 01월/24.01.02.md"
-    },
-    {
-      "basename": "Reversed phase chromatography (RPC)",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Reversed phase chromatography (RPC).md"
     }
   ],
   "omittedPaths": [],

@@ -22,37 +22,32 @@ obsidianUIMode: preview
 	- 3
 	- 4
 - 🧱 Archive
-	- [[_Box_2_methods]]
+	- [[_Box_2_methods|Methods]]
 
-# Personal
-- 🏈 Sunday Game
-	- [[Spicy-Sweet Buffalo Popcorn]]
-	- [[Guest list]]
-	- [Jalapeno Popper Wantons](https://www.allrecipes.com/recipe/166991/jalapeno-popper-wontons/)
-- 👨‍👩‍👦 Objectives
-	- [[Family Recipes]]
-	- [[Family Calendar]]
-	- [[Education Plan]]
-	- [[Yearly Budget]]
-- 🌅 Exotic Vacations 
-	- [[Peru]]
-	- [[Austria]]
-	- [[Texas]]  
-- 🎥 Movies to Watch
-	- [Sleepless in Seattle](https://www.imdb.com/title/tt0108160/)
-	- [Joe vs the Volcano](https://www.imdb.com/title/tt0099892/)
+# Personal Works
+-  🧾Personal projects (No deadline)
+	- [[Obsidian maintainance]]
+	- [[3D print]]
+	- [[Computes]]
+- 👨‍👩‍👦 Time management
 
- # Personal Projects
+- 🌅 Improve PKM
+	- Excalidraw
+		- [[옵시디언에서의 파일관리.excalidraw|옵시디언 파일관리]]
+		- [[Room_1_rules/DIKW model.excalidraw|DIKW model]]
+		- [[Introduction of PARA method.excalidraw|PARA method]]
+		- [[Room_4_personal work/Shelf_1_How to zettelkasten/Excalidraw/Work flow.excalidraw|Work flow]]
+
+- 🎥 Whatever
+
+
+# Co-op Works
 - 🏡 Remodeling Projects
-	- [[Bathroom Remodel]]
-	- [[Paint entryway]]
-	- [[Research building Garage]] 
+
  - ✍️ Writing Projects
-	- [[5 ways to love PKM more]]
-	- Read: [Obisidian core principles](https://tfthacker.medium.com/obsidian-understanding-its-core-design-principles-7f3fafbd6e36)
+
 - 📚 Learning
-	- [[Early American History]]
-	- [[Spanish - Entry Level]]
+
 
 
 
@@ -63,4 +58,4 @@ obsidianUIMode: preview
  `$=dv.list(dv.pages('#favorite').sort(f=>f.file.name,"desc").limit(4).file.link)`
 - 〽️ Stats
 	-  File Count: `$=dv.pages().length`
-	-  Personal recipes: `$=dv.pages('"Family/Recipes"').length`
+	-  Project Count: `$=dv.pages('"Project"').length`
