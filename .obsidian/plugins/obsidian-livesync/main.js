@@ -145,15 +145,15 @@ var __create = Object.create, __defProp = Object.defineProperty, __getOwnPropDes
       E[b + 1] = 0;
       S[b + 1] = 0;
       for (var O = g - _, D = O % 2 != 0, k = 0, C = 0, T = 0, I = 0, A = 0; A < m && !((new Date).getTime() > u); A++) {
-        for (var x = -A + k; x <= A - C; x += 2) {
-          var R = b + x;
-          if (x == -A || x != A && E[R - 1] < E[R + 1]) V = E[R + 1]; else V = E[R - 1] + 1;
-          for (var P = V - x; V < g && P < _ && s.charAt(V) == r.charAt(P); ) {
+        for (var R = -A + k; R <= A - C; R += 2) {
+          var x = b + R;
+          if (R == -A || R != A && E[x - 1] < E[x + 1]) V = E[x + 1]; else V = E[x - 1] + 1;
+          for (var P = V - R; V < g && P < _ && s.charAt(V) == r.charAt(P); ) {
             V++;
             P++;
           }
-          E[R] = V;
-          if (V > g) C += 2; else if (P > _) k += 2; else if (D) if ((F = b + O - x) >= 0 && F < w && -1 != S[F]) if (V >= (B = g - S[F])) return this.diff_bisectSplit_(s, r, V, P, u);
+          E[x] = V;
+          if (V > g) C += 2; else if (P > _) k += 2; else if (D) if ((F = b + O - R) >= 0 && F < w && -1 != S[F]) if (V >= (B = g - S[F])) return this.diff_bisectSplit_(s, r, V, P, u);
         }
         for (var N = -A + T; N <= A - I; N += 2) {
           var B, F = b + N;
@@ -163,9 +163,9 @@ var __create = Object.create, __defProp = Object.defineProperty, __getOwnPropDes
             M++;
           }
           S[F] = B;
-          if (B > g) I += 2; else if (M > _) T += 2; else if (!D) if ((R = b + O - N) >= 0 && R < w && -1 != E[R]) {
+          if (B > g) I += 2; else if (M > _) T += 2; else if (!D) if ((x = b + O - N) >= 0 && x < w && -1 != E[x]) {
             var V;
-            P = b + (V = E[R]) - R;
+            P = b + (V = E[x]) - x;
             if (V >= (B = g - B)) return this.diff_bisectSplit_(s, r, V, P, u);
           }
         }
@@ -1021,14 +1021,14 @@ var __create = Object.create, __defProp = Object.defineProperty, __getOwnPropDes
           return g.pre + S[0] + s;
         }));
         if (k) {
-          var T = numeric(S[0]), I = numeric(S[1]), A = Math.max(S[0].length, S[1].length), x = 3 == S.length ? Math.abs(numeric(S[2])) : 1, R = lte;
+          var T = numeric(S[0]), I = numeric(S[1]), A = Math.max(S[0].length, S[1].length), R = 3 == S.length ? Math.abs(numeric(S[2])) : 1, x = lte;
           if (I < T) {
-            x *= -1;
-            R = gte;
+            R *= -1;
+            x = gte;
           }
           var P = S.some(isPadded);
           L = [];
-          for (var N = T; R(N, I); N += x) {
+          for (var N = T; x(N, I); N += R) {
             var B;
             if (D) {
               if ("\\" === (B = String.fromCharCode(N))) B = "";
@@ -2010,7 +2010,7 @@ __export(main_exports, {
 
 module.exports = __toCommonJS(main_exports);
 
-var symbolFilePath = Symbol(), symbolFilePathWithPrefix = Symbol(), symbolId = Symbol(), MAX_DOC_SIZE_BIN = 102400, VER = 10, LEAF_WAIT_TIMEOUT = 9e4, REPLICATION_BUSY_TIMEOUT = 3e6, LOG_LEVEL_DEBUG = -1, LOG_LEVEL_VERBOSE = 1, LOG_LEVEL_INFO = 10, LOG_LEVEL_NOTICE = 100, LOG_LEVEL_URGENT = 1e3, VERSIONINFO_DOCID = "obsydian_livesync_version", MILSTONE_DOCID = "_local/obsydian_livesync_milestone", NODEINFO_DOCID = "_local/obsydian_livesync_nodeinfo", MODE_SELECTIVE = 0, MODE_AUTOMATIC = 1, MODE_PAUSED = 2, DEFAULT_SETTINGS = {
+var symbolFilePath = Symbol(), symbolFilePathWithPrefix = Symbol(), symbolId = Symbol(), MAX_DOC_SIZE_BIN = 102400, VER = 10, LEAF_WAIT_TIMEOUT = 9e4, REPLICATION_BUSY_TIMEOUT = 3e6, LOG_LEVEL_DEBUG = -1, LOG_LEVEL_VERBOSE = 1, LOG_LEVEL_INFO = 10, LOG_LEVEL_NOTICE = 100, LOG_LEVEL_URGENT = 1e3, CANCELLED = Symbol("cancelled"), AUTO_MERGED = Symbol("auto_merged"), NOT_CONFLICTED = Symbol("not_conflicted"), MISSING_OR_ERROR = Symbol("missing_or_error"), LEAVE_TO_SUBSEQUENT = Symbol("leave_to_subsequent_proc"), TIME_ARGUMENT_INFINITY = Symbol("infinity"), RESULT_TIMED_OUT = Symbol("timed out"), RESULT_NOT_FOUND = Symbol("NotFound"), VERSIONINFO_DOCID = "obsydian_livesync_version", MILSTONE_DOCID = "_local/obsydian_livesync_milestone", NODEINFO_DOCID = "_local/obsydian_livesync_nodeinfo", MODE_SELECTIVE = 0, MODE_AUTOMATIC = 1, MODE_PAUSED = 2, DEFAULT_SETTINGS = {
   couchDB_URI: "",
   couchDB_USER: "",
   couchDB_PASSWORD: "",
@@ -2040,6 +2040,7 @@ var symbolFilePath = Symbol(), symbolFilePathWithPrefix = Symbol(), symbolId = S
   usePluginSettings: false,
   showOwnPlugins: false,
   showStatusOnEditor: true,
+  showOnlyIconsOnEditor: false,
   usePluginSync: false,
   autoSweepPlugins: false,
   autoSweepPluginsPeriodic: false,
@@ -2051,6 +2052,7 @@ var symbolFilePath = Symbol(), symbolFilePathWithPrefix = Symbol(), symbolId = S
   disableRequestURI: false,
   skipOlderFilesOnSync: true,
   checkConflictOnlyOnOpen: false,
+  showMergeDialogOnlyOnActive: false,
   syncInternalFiles: false,
   syncInternalFilesBeforeReplication: false,
   syncInternalFilesIgnorePatterns: "\\/node_modules\\/, \\/\\.git\\/, \\/obsidian-livesync\\/",
@@ -2513,22 +2515,6 @@ generateCRC32CTable();
 
 generateCRC32KTable();
 
-function crc32CKHash(s) {
-  let r = 4294967295, o = 4294967295;
-  const u = "s0" + s + "\t" + s.length;
-  let g = u.length;
-  for (;--g; ) {
-    const s = u.charCodeAt(g), _ = 255 & s, m = s >> 8;
-    r = r >>> 8 ^ crc32cTable[255 & (r ^ _)];
-    r = r >>> 8 ^ crc32cTable[255 & (r ^ m)];
-    o = o >>> 8 ^ crc32kTable[255 & (o ^ _)];
-    o = o >>> 8 ^ crc32kTable[255 & (o ^ m)];
-  }
-  r ^= 4294967295;
-  o ^= 4294967295;
-  return r.toString(32) + "-" + o.toString(32);
-}
-
 function decodeToArrayBuffer(s) {
   if (1 == s.length) return _decodeToArrayBuffer(s[0]);
   const r = s.map((s => _decodeToArrayBuffer(s))), o = r.reduce(((s, r) => s + r.byteLength), 0), u = new Uint8Array(o);
@@ -2735,190 +2721,73 @@ async function testCrypt() {
   }
 }
 
-var ReadOnlyObservableStore = class {}, ObservableStore = class extends ReadOnlyObservableStore {
-  constructor(s) {
-    super();
-    this.observers = [];
-    this.interceptors = [];
-    this.value = s;
-  }
-  set(s) {
-    if (this.value != s) {
-      let r = s;
-      if (this.interceptors.length > 0) for (const s of this.interceptors) r = s(r);
-      this.value = r;
-      this.invalidate();
-    }
-  }
-  apply(s) {
-    this.value = s(this.value);
-    this.invalidate();
-  }
-  peek() {
-    return this.value;
-  }
-  invalidate() {
-    const s = this.value;
-    if (void 0 === s) return;
-    const r = this.observers;
-    for (const o of r) o(s);
-  }
-  intercept(s) {
-    this.interceptors.push(s);
-    return () => this.removeInterceptor(s);
-  }
-  removeInterceptor(s) {
-    this.interceptors = this.interceptors.filter((r => r != s));
-  }
-  observe(s) {
-    this.observers.push(s);
-    return () => this.unobserve(s);
-  }
-  unobserve(s) {
-    this.observers = this.observers.filter((r => r != s));
-  }
-}, StreamStore = class extends ObservableStore {
-  constructor(s) {
-    super(null != s ? s : []);
-    this.itemInterceptors = [];
-    this.subscribers = [];
-  }
-  push(s) {
-    var r;
-    let o = s;
-    for (const s of this.itemInterceptors) o = s(o);
-    for (const s of this.subscribers) s(o);
-    this.set([ ...null != (r = this.value) ? r : [], o ]);
-  }
-  pop() {
-    var s;
-    const r = [ ...null != (s = this.value) ? s : [] ], o = r.pop();
-    this.set(r);
-    return o;
-  }
-  unshift(s) {
-    var r;
-    let o = s;
-    for (const s of this.itemInterceptors) o = s(o);
-    for (const s of this.subscribers) s(o);
-    this.set([ o, ...null != (r = this.value) ? r : [] ]);
-  }
-  shift() {
-    var s;
-    const [r, ...o] = [ ...null != (s = this.value) ? s : [] ];
-    this.set(o);
-    return r;
-  }
-  subscribe(s) {
-    this.subscribers.push(s);
-    return () => this.unsubscribe(s);
-  }
-  unsubscribe(s) {
-    this.subscribers = this.subscribers.filter((r => r != s));
-  }
-  interceptEach(s) {
-    this.itemInterceptors.push(s);
-    return () => this.removeEachInterceptor(s);
-  }
-  removeEachInterceptor(s) {
-    this.itemInterceptors = this.itemInterceptors.filter((r => r != s));
-  }
-}, globalStore = new Map, globalStream = new Map;
+var queueTails = new Map;
 
-function getGlobalStore(s, r) {
-  if (!globalStore.has(s)) globalStore.set(s, new ObservableStore(r));
-  return globalStore.get(s);
-}
-
-function getGlobalStreamStore(s, r) {
-  if (!globalStream.has(s)) globalStream.set(s, new StreamStore(r));
-  return globalStream.get(s);
-}
-
-function observeStores(s, r) {
-  const o = {
-    ...s.peek(),
-    ...r.peek()
-  }, u = new ObservableStore(o);
-  s.observe((s => u.apply((r => ({
-    ...r,
-    ...s
-  })))));
-  r.observe((s => u.apply((r => ({
-    ...r,
-    ...s
-  })))));
-  return u;
-}
-
-var lockStore = getGlobalStore("locks", {
-  pending: [],
-  running: [],
-  count: 0
-}), waitingData = getGlobalStore("processingLast", 0), logStore = getGlobalStreamStore("logs", []), logMessageStore = getGlobalStore("logMessage", []), externalNotifier = () => {}, notifyTimer = null;
-
-function notifyLock() {
-  if (null != notifyTimer) clearTimeout(notifyTimer);
-  notifyTimer = setTimeout((() => {
-    externalNotifier();
-  }), 100);
-}
-
-var mutexes = new Map;
-
-function updateStore() {
-  const s = [ ...Object.values(mutexes).map((s => s.peekQueues())) ].flat();
-  lockStore.apply((r => ({
-    ...r,
-    count: s.length,
-    pending: s.filter((s => "NONE" == s.state)).map((s => {
-      var r;
-      return null != (r = s.memo) ? r : "";
-    })),
-    running: s.filter((s => "RUNNING" == s.state)).map((s => {
-      var r;
-      return null != (r = s.memo) ? r : "";
-    }))
-  })));
-}
-
-var semaphoreReleasedCount = 0, LOCKMODE_SKIP = 0, LOCKMODE_SERIALIZED = 1, CANCEL_LOCK = Symbol("CANCEL_LOCK");
-
-async function _runWithLock(s, r, o, u) {
-  if (semaphoreReleasedCount > 200) {
-    const s = [];
-    for (const r in mutexes) if (0 == mutexes.get(r).peekQueues().length) s.push(r);
-    for (const r of s) mutexes.delete(r);
-    semaphoreReleasedCount = 0;
-  }
-  if (!mutexes.has(s)) mutexes.set(s, Semaphore(o, (s => {
-    if (0 == s.length) semaphoreReleasedCount++;
-  })));
-  const g = mutexes.get(s);
-  if (1 != o) g.setLimit(o);
-  const _ = r == LOCKMODE_SKIP ? 1 : 0, m = await g.tryAcquire(1, _, s);
-  updateStore();
-  if (!m) return null;
+async function performTask(s) {
+  const r = s.key;
   try {
-    return await u();
+    const r = await s.task();
+    s.resolver(r);
+  } catch (r) {
+    s.rejector(r);
   } finally {
-    m();
-    notifyLock();
-    updateStore();
+    const o = s.next;
+    queueTails.set(r, o);
+    if (o) performTask(o);
   }
+}
+
+function _enqueue(s, r, {swapIfExist: o, shareResult: u} = {}) {
+  let resolver = () => {}, rejector = () => {};
+  const g = new Promise(((s, r) => {
+    resolver = s, rejector = r;
+  })), _ = {
+    task: r,
+    resolver,
+    rejector,
+    key: s
+  }, m = queueTails.get(s);
+  if (void 0 === m) {
+    queueTails.set(s, _);
+    performTask(_);
+  } else {
+    const r = m;
+    queueTails.set(s, _);
+    r.next = _;
+    if (o) r.rejector(new Error("Cancelled"));
+  }
+  return g;
 }
 
 function serialized(s, r) {
-  return _runWithLock(s, LOCKMODE_SERIALIZED, 1, r);
+  return _enqueue(s, r);
+}
+
+function shareRunningResult(s, r) {
+  const o = queueTails.get(s);
+  if (!o) return _enqueue(s, r);
+  const u = o.resolver, g = o.rejector;
+  let resolver = () => {}, rejector = () => {};
+  const _ = new Promise(((s, r) => {
+    resolver = s, rejector = r;
+  }));
+  o.resolver = s => {
+    u(s);
+    resolver(s);
+  };
+  o.rejector = s => {
+    g(s);
+    rejector(s);
+  };
+  return _;
 }
 
 function skipIfDuplicated(s, r) {
-  return _runWithLock(s, LOCKMODE_SKIP, 1, r);
+  if (void 0 !== queueTails.get(s)) return null; else return _enqueue(s, r);
 }
 
 function isLockAcquired(s) {
-  var r, o, u;
-  return 0 != (null != (u = null == (o = null == (r = mutexes.get(s)) ? void 0 : r.peekQueues()) ? void 0 : o.length) ? u : 0);
+  return void 0 !== queueTails.get(s);
 }
 
 var _root, _hasMagic, _uflag, _parts, _parent, _parentIndex, _negs, _filledNegs, _options, _toString, _emptyExt, _fillNegs, fillNegs_fn, _parseAST, parseAST_fn, _partsToRegExp, partsToRegExp_fn, _parseGlob, parseGlob_fn, import_brace_expansion = __toESM(require_brace_expansion(), 1), MAX_PATTERN_LENGTH = 65536, assertValidPattern = s => {
@@ -3960,32 +3829,6 @@ async function wrapEachProcess(s, r) {
   }
 }
 
-async function* processAllGeneratorTasksWithConcurrencyLimit(s, r) {
-  const o = new Map;
-  let u = 0, g = false;
-  for (;o.size > 0 || !g; ) {
-    e: for (;o.size < s && !g; ) {
-      const s = await r.next();
-      if (s.done) g = true;
-      if (void 0 === s.value) break e;
-      const _ = s.value;
-      u++;
-      const m = wrapEachProcess(u, isTaskWaiting(_) ? _() : _);
-      o.set(u, m);
-    }
-    const _ = await Promise.race(o.values());
-    o.delete(_.key);
-    yield _;
-  }
-}
-
-async function* pipeGeneratorToGenerator(s, r) {
-  for await (const o of s) {
-    const closure = () => r(o);
-    yield closure;
-  }
-}
-
 async function* processAllTasksWithConcurrencyLimit(s, r) {
   const o = new Map;
   let u = 0;
@@ -4010,7 +3853,279 @@ async function mapAllTasksWithConcurrencyLimit(s, r) {
   return [ ...o.entries() ].sort(((s, r) => s[0] - r[0])).map((s => s[1]));
 }
 
-var isValidRemoteCouchDBURI = s => {
+var tasks = {};
+
+function scheduleTask(s, r, o, u) {
+  if (!u || !(s in tasks)) {
+    cancelTask(s);
+    tasks[s] = setTimeout((async () => {
+      delete tasks[s];
+      await o();
+    }), r);
+  }
+}
+
+function cancelTask(s) {
+  if (s in tasks) {
+    clearTimeout(tasks[s]);
+    delete tasks[s];
+  }
+}
+
+function cancelAllTasks() {
+  for (const s in tasks) {
+    clearTimeout(tasks[s]);
+    delete tasks[s];
+  }
+}
+
+var intervals = {};
+
+function cancelAllPeriodicTask() {
+  for (const s in intervals) {
+    clearInterval(intervals[s]);
+    delete intervals[s];
+  }
+}
+
+var processNo = 0, QueueProcessor = class {
+  constructor(s, r, o, u) {
+    this._queue = [];
+    this._enqueueProcessor = (s, r) => (s.push(r), s);
+    this._isSuspended = true;
+    this._nextProcessNeedsImmediate = false;
+    this._processing = void 0;
+    this._waitId = "";
+    this._instance = processNo++;
+    this._keepResultUntilDownstreamConnected = false;
+    this._keptResult = [];
+    this._onIdle = () => {};
+    this._runOnUpdateBatch = () => {};
+    this.concurrentLimit = 1;
+    this.batchSize = 1;
+    this.yieldThreshold = 1;
+    this.delay = 0;
+    this.processingEntities = 0;
+    var g, _, m, b, w;
+    this._root = this;
+    this._processor = s;
+    this.batchSize = null != (g = null == r ? void 0 : r.batchSize) ? g : 1;
+    this.yieldThreshold = null != (m = null != (_ = null == r ? void 0 : r.yieldThreshold) ? _ : null == r ? void 0 : r.batchSize) ? m : 0;
+    this.concurrentLimit = null != (b = null == r ? void 0 : r.concurrentLimit) ? b : 1;
+    this.delay = null != (w = null == r ? void 0 : r.delay) ? w : 0;
+    if (null == r ? void 0 : r.keepResultUntilDownstreamConnected) this._keepResultUntilDownstreamConnected = r.keepResultUntilDownstreamConnected;
+    if (null == r ? void 0 : r.remainingReactiveSource) this._remainingReactiveSource = null == r ? void 0 : r.remainingReactiveSource;
+    if (null == r ? void 0 : r.totalRemainingReactiveSource) this._totalRemainingReactiveSource = null == r ? void 0 : r.totalRemainingReactiveSource;
+    if (void 0 !== (null == r ? void 0 : r.suspended)) this._isSuspended = null == r ? void 0 : r.suspended;
+    if (u) this.replaceEnqueueProcessor(u);
+    if (void 0 !== (null == r ? void 0 : r.pipeTo)) this.pipeTo(r.pipeTo);
+    if (o) this.enqueueAll(o);
+  }
+  get remaining() {
+    return this._queue.length + this.processingEntities;
+  }
+  get totalRemaining() {
+    var s;
+    return this.remaining + ((null == (s = this._pipeTo) ? void 0 : s.totalRemaining) || 0);
+  }
+  suspend() {
+    this._isSuspended = true;
+    return this;
+  }
+  resume() {
+    this._isSuspended = false;
+    this.requestNextFlush();
+    this._run();
+    return this;
+  }
+  resumePipeLine() {
+    var s;
+    null == (s = this._pipeTo) || s.resumePipeLine();
+    this.resume();
+    return this;
+  }
+  startPipeline() {
+    this._root.resumePipeLine();
+    return this;
+  }
+  get root() {
+    return this._root;
+  }
+  replaceEnqueueProcessor(s) {
+    this._enqueueProcessor = s;
+    return this;
+  }
+  modifyQueue(s) {
+    this._queue = s(this._queue);
+    this._updateBatchProcessStatus();
+  }
+  clearQueue() {
+    this._queue = [];
+    this._updateBatchProcessStatus();
+  }
+  onUpdateProgress(s) {
+    this._runOnUpdateBatch = s;
+    return this;
+  }
+  pipeTo(s) {
+    this._pipeTo = s;
+    this._pipeTo._root = this._root;
+    if (this._keptResult.length > 0) {
+      const s = [ ...this._keptResult ];
+      this._keptResult = [];
+      this._pipeTo.enqueueAll(s);
+    }
+    return s;
+  }
+  isIdle() {
+    return 0 == this._queue.length && 0 === this._processing && (!this._pipeTo ? true : this._pipeTo.isIdle());
+  }
+  onIdle(s) {
+    this._onIdle = s;
+    return this;
+  }
+  _updateReactiveSource() {
+    if (this._remainingReactiveSource) this._remainingReactiveSource.value = this.remaining;
+    if (this._totalRemainingReactiveSource) this._totalRemainingReactiveSource.value = this.totalRemaining;
+  }
+  _updateBatchProcessStatus() {
+    this._updateReactiveSource();
+    this._runOnUpdateBatch();
+  }
+  _collectBatch() {
+    return this._queue.splice(0, this.batchSize);
+  }
+  _finalizeBatch(s) {
+    this._updateBatchProcessStatus();
+  }
+  _spawnProcess() {
+    setTimeout((() => this._process()), 0);
+  }
+  isAnyEntityRemaining() {
+    return 0 != this._queue.length;
+  }
+  enqueue(s) {
+    this._queue = this._enqueueProcessor(this._queue, s);
+    this._updateBatchProcessStatus();
+    this._run();
+    return this;
+  }
+  enqueueAll(s) {
+    let r = this._queue;
+    for (const o of s) r = this._enqueueProcessor(r, o);
+    this._queue = r;
+    this._updateBatchProcessStatus();
+    this._run();
+    return this;
+  }
+  requestNextFlush() {
+    this._nextProcessNeedsImmediate = true;
+  }
+  flush() {
+    if (!this._isSuspended) {
+      cancelTask(`kickProcess-${this._instance}`);
+      this._process();
+      return this.waitForAllDownstream();
+    }
+  }
+  waitForAllDownstream(s) {
+    if (this.isIdle()) return Promise.resolve(true);
+    if ("" == this._waitId) {
+      const s = Date.now() + "-" + Math.random();
+      this._waitId = s;
+    }
+    return waitForSignal(this._waitId, s);
+  }
+  waitForPipeline(s) {
+    this._root.startPipeline();
+    return this._root.waitForAllDownstream(s);
+  }
+  async _runProcessor(s) {
+    const r = await this._processor(s);
+    if (r) if (this._pipeTo) this._pipeTo.enqueueAll(r); else if (this._keepResultUntilDownstreamConnected) this._keptResult.push(...r);
+  }
+  async _process() {
+    if (void 0 === this._processing) this._processing = 0;
+    if (!(this._processing >= this.concurrentLimit)) {
+      if (this._isSuspended) return this._root._notifyIfIdle();
+      try {
+        this._processing++;
+        let s;
+        do {
+          s = this._collectBatch();
+          if (!s || 0 == s.length) break;
+          const r = s.length;
+          this.processingEntities += r;
+          this._updateReactiveSource();
+          if (this.isAnyEntityRemaining() && this._processing < this.concurrentLimit) this._spawnProcess();
+          try {
+            await this._runProcessor(s);
+          } catch (s) {
+            Logger("Processor error!");
+            Logger(s, LOG_LEVEL_VERBOSE);
+          } finally {
+            this.processingEntities -= r;
+            this._updateReactiveSource();
+            this._finalizeBatch(s);
+          }
+        } while (!(this._isSuspended || s && 0 != s.length));
+      } finally {
+        this._processing--;
+      }
+      if (this.isAnyEntityRemaining()) this._spawnProcess();
+      this._root._notifyIfIdle();
+    }
+  }
+  _notifyIfIdle() {
+    if (!this.isIdle()) return;
+    this._onIdle();
+    this._updateReactiveSource();
+    if ("" == this._waitId) return;
+    const s = this._waitId;
+    this._waitId = "";
+    sendSignal(s);
+  }
+  _run() {
+    if (this._isSuspended) return;
+    const s = 0 == this.delay || this.yieldThreshold > 0 && this._queue.length > this.yieldThreshold || this._nextProcessNeedsImmediate ? 0 : this.delay;
+    this._nextProcessNeedsImmediate = false;
+    scheduleTask(`kickProcess-${this._instance}`, s, (() => this._process()));
+  }
+}, KeyedQueueProcessor = class extends QueueProcessor {
+  constructor(s, r) {
+    super((r => s(r.map((s => s.entity)))), r);
+    this.processingKeys = new Set;
+  }
+  _collectBatch() {
+    const s = [];
+    let r = 0;
+    do {
+      if (r >= this._queue.length) break;
+      const o = this._queue[r].key;
+      if (!this.processingKeys.has(o)) {
+        this.processingKeys.add(o);
+        s.push(this._queue[r]);
+        this._queue.splice(r, 1);
+        if (s.length >= this.batchSize) break;
+      } else r++;
+    } while (r + 1 < this._queue.length);
+    return s;
+  }
+  _finalizeBatch(s) {
+    for (const r of s) this.processingKeys.delete(r.key);
+    super._finalizeBatch(s);
+  }
+  isAnyEntityRemaining() {
+    return 0 != this._queue.filter((s => !this.processingKeys.has(s.key))).length;
+  }
+  enqueueWithKey(s, r) {
+    this.enqueue({
+      entity: r,
+      key: s
+    });
+    return this;
+  }
+}, isValidRemoteCouchDBURI = s => {
   if (s.startsWith("https://")) return true;
   if (s.startsWith("http://")) return true; else return false;
 };
@@ -4361,34 +4476,40 @@ async function purgeUnreferencedChunks(s, r, o, u = false) {
 }
 
 function transferChunks(s, r, o, u, g) {
-  const _ = arrayToChunkedArray(g, 25);
-  let m = 0;
-  const b = g.length;
-  return [ ..._ ].map((g => async () => {
-    const _ = g.length;
+  let _ = 0;
+  const m = g.length;
+  return new QueueProcessor((async s => (await o.allDocs({
+    keys: s.map((s => s.id)),
+    include_docs: true
+  })).rows.filter((s => !("error" in s))).map((s => s.doc))), {
+    batchSize: 25,
+    concurrentLimit: 1,
+    suspended: true
+  }, g).pipeTo(new QueueProcessor((async o => {
     try {
-      const s = (await o.allDocs({
-        keys: g.map((s => s.id)),
-        include_docs: true
-      })).rows.filter((s => !("error" in s))).map((s => s.doc));
-      await u.bulkDocs(s, {
+      await u.bulkDocs(o, {
         new_edits: false
       });
     } catch (s) {
       Logger(`${r}: Something went wrong on balancing`, LOG_LEVEL_NOTICE);
       Logger(s, LOG_LEVEL_VERBOSE);
     } finally {
-      m += _;
-      Logger(`${r}: ${m} / ${b}`, LOG_LEVEL_NOTICE, "balance-" + s);
+      _ += o.length;
+      Logger(`${r}: ${_} / ${m}`, LOG_LEVEL_NOTICE, "balance-" + s);
     }
-  }));
+  }), {
+    batchSize: 100,
+    delay: 100,
+    concurrentLimit: 2,
+    suspended: false
+  })).startPipeline().waitForPipeline();
 }
 
 async function balanceChunkPurgedDBs(s, r) {
   Logger("Complement missing chunks between databases", LOG_LEVEL_NOTICE);
   try {
     const {onlyOnLocal: o, onlyOnRemote: u} = await collectUnbalancedChunkIDs(s, r), g = transferChunks("l2r", "local -> remote", s, r, o), _ = transferChunks("r2l", "remote -> local", r, s, u);
-    await mapAllTasksWithConcurrencyLimit(6, [ ...g, ..._ ]);
+    await Promise.all([ g, _ ]);
     Logger("local -> remote: Done", LOG_LEVEL_NOTICE, "balance-l2r");
     Logger("remote -> local: Done", LOG_LEVEL_NOTICE, "balance-r2l");
   } catch (s) {
@@ -4400,8 +4521,8 @@ async function balanceChunkPurgedDBs(s, r) {
 
 async function fetchAllUsedChunks(s, r) {
   try {
-    const o = transferChunks("r2l", "remote -> local", r, s, await collectChunks(r, "INUSE"));
-    await mapAllTasksWithConcurrencyLimit(3, o);
+    const o = await collectChunks(r, "INUSE");
+    await transferChunks("r2l", "remote -> local", r, s, o);
     Logger("remote -> local: Done", LOG_LEVEL_NOTICE, "balance-r2l");
   } catch (s) {
     Logger("Something went wrong on balancing!", LOG_LEVEL_NOTICE);
@@ -4419,11 +4540,7 @@ var delay = s => new Promise((r => {
   setTimeout((() => {
     r();
   }), s);
-})), Parallels = (s = new Set) => ({
-  add: r => s.add(!!r.then((() => s.delete(r))).catch((() => s.delete(r))) && r),
-  wait: r => s.size >= r && Promise.race(s),
-  all: () => Promise.all(s)
-});
+}));
 
 function getDocData(s) {
   return "string" == typeof s ? s : s.join("");
@@ -4485,29 +4602,72 @@ function memorizeFuncWithLRUCache(s) {
 
 var traps = {};
 
-function waitForSignal(s, r) {
+async function waitForSignal(s, r) {
+  return await waitForValue(s, r) !== RESULT_TIMED_OUT;
+}
+
+function waitForValue(s, r) {
   let o, u;
-  const g = setTimeout((() => {
+  const g = r ? setTimeout((() => {
     if (s in traps) traps[s] = traps[s].filter((s => s != u));
-    if (o) o(false);
+    if (o) o(RESULT_TIMED_OUT);
     o = null;
-  }), r);
+  }), r) : false;
   return new Promise((r => {
     if (!(s in traps)) traps[s] = [];
     o = r;
-    u = () => {
+    u = s => {
       if (g) clearTimeout(g);
-      r(true);
+      r(s);
     };
     traps[s].push(u);
   }));
 }
 
 function sendSignal(s) {
+  sendValue(s, true);
+}
+
+function sendValue(s, r) {
   if (!(s in traps)) return;
-  const r = traps[s];
+  const o = traps[s];
   delete traps[s];
-  for (const s of r) s();
+  for (const s of o) s(r);
+}
+
+function onlyNot(s) {
+  return function _onlyNot(r) {
+    if (r === s) return false; else return true;
+  };
+}
+
+var lastProcessed = {};
+
+function markInterval(s, r) {
+  var o;
+  const u = null != r ? r : Date.now();
+  if (null != (o = null == lastProcessed ? void 0 : lastProcessed[s]) ? o : 0 < u) lastProcessed[s] = u;
+}
+
+async function runWithInterval(s, r, o) {
+  const u = Date.now();
+  try {
+    if (!(s in lastProcessed)) {
+      markInterval(s, u);
+      return await o();
+    }
+    const g = lastProcessed[s];
+    lastProcessed[s] = u;
+    const _ = u - g;
+    if (_ < r) {
+      markInterval(s, u);
+      await delay(_);
+    }
+    markInterval(s);
+    return await o();
+  } finally {
+    markInterval(s);
+  }
 }
 
 var ExportedSet, ExportedMap, globalConcurrencyController = Semaphore(50);
@@ -4522,6 +4682,16 @@ function* arrayToChunkedArray(s, r) {
 
 function unique(s) {
   return [ ...new Set(s) ];
+}
+
+function fireAndForget(s) {
+  if ("function" == typeof s) return fireAndForget(s());
+  s.then((s => {})).catch((s => {}));
+}
+
+function isObjectDifferent(s, r) {
+  if (typeof s != typeof r) return true;
+  if ("object" == typeof s) if (null === s || null === r) return s !== r; else return [ ...new Set([ ...Object.keys(s), ...Object.keys(r) ]) ].map((o => isObjectDifferent(null == s ? void 0 : s[o], null == r ? void 0 : r[o]))).some((s => true == s)); else return s !== r;
 }
 
 function mangle(s) {
@@ -5419,10 +5589,10 @@ function doMerge(s, r, o) {
           parentIdx: I
         }); else if (C.ids[0] === L.ids[0]) D.push(C);
       }
-      var x = D[0];
-      if (!x) g.push(E); else {
-        u = mergeTree(x.ids, L.ids);
-        x.parent[2][x.parentIdx] = u.tree;
+      var R = D[0];
+      if (!R) g.push(E); else {
+        u = mergeTree(R.ids, L.ids);
+        R.parent[2][R.parentIdx] = u.tree;
         g.push({
           pos: S.pos,
           ids: S.ids
@@ -6717,20 +6887,20 @@ var AbstractPouchDB = class extends import_events2.default {
             }))
           };
           if (r.revs_info) {
-            var x = D.pos + D.ids.length;
+            var R = D.pos + D.ids.length;
             _._revs_info = D.ids.map((function(s) {
               return {
-                rev: --x + "-" + s.id,
+                rev: --R + "-" + s.id,
                 status: s.opts.status
               };
             }));
           }
         }
         if (r.attachments && _._attachments) {
-          var R = _._attachments, P = Object.keys(R).length;
+          var x = _._attachments, P = Object.keys(x).length;
           if (0 === P) return o(null, _);
-          Object.keys(R).forEach((s => {
-            this._getAttachment(_._id, s, R[s], {
+          Object.keys(x).forEach((s => {
+            this._getAttachment(_._id, s, x[s], {
               rev: _._rev,
               binary: r.binary,
               ctx: b
@@ -7368,9 +7538,9 @@ function updateDoc(s, r, o, u, g, _, m, b) {
   o.metadata.rev_tree = D.tree;
   o.stemmedRevs = D.stemmedRevs || [];
   if (r.rev_map) o.metadata.rev_map = r.rev_map;
-  var T, I = winningRev(o.metadata), A = isDeleted(o.metadata, I), x = E === A ? 0 : E < A ? -1 : 1;
+  var T, I = winningRev(o.metadata), A = isDeleted(o.metadata, I), R = E === A ? 0 : E < A ? -1 : 1;
   if (C === I) T = A; else T = isDeleted(o.metadata, C);
-  m(o, I, A, T, true, x, g, _);
+  m(o, I, A, T, true, R, g, _);
 }
 
 function rootIsMissing(s) {
@@ -7587,7 +7757,7 @@ function idbBulkDocs(s, r, o, u, g, _) {
     if (!I._id || !isLocalId(I._id)) if ((I = k[C] = parseDoc(I, o.new_edits, s)).error && !O) O = I;
   }
   if (O) return _(O);
-  var A = false, x = 0, R = new Array(k.length), P = new ExportedMap, N = false, B = u._meta.blobSupport ? "blob" : "base64";
+  var A = false, R = 0, x = new Array(k.length), P = new ExportedMap, N = false, B = u._meta.blobSupport ? "blob" : "base64";
   preprocessAttachments(k, B, (function(r) {
     if (r) return _(r);
     (function startTransaction() {
@@ -7642,7 +7812,7 @@ function idbBulkDocs(s, r, o, u, g, _) {
           }
           function checkDone() {
             if (++r === k.length) (function idbProcessDocs() {
-              processDocs(s.revs_limit, k, u, P, m, R, writeDoc, o, onAllDocsProcessed);
+              processDocs(s.revs_limit, k, u, P, m, x, writeDoc, o, onAllDocsProcessed);
             })();
           }
           function readMetadata(s) {
@@ -7660,14 +7830,14 @@ function idbBulkDocs(s, r, o, u, g, _) {
   }
   function updateDocCountIfReady() {
     if (D && A) {
-      D.docCount += x;
+      D.docCount += R;
       L.put(D);
     }
   }
   function complete() {
     if (!N) {
       changesHandler$1.notify(u._meta.name);
-      _(null, R);
+      _(null, x);
     }
   }
   function writeDoc(s, r, o, u, g, _, m, b) {
@@ -7708,7 +7878,7 @@ function idbBulkDocs(s, r, o, u, g, _) {
         }
       }));
     }(s, r, o, g, m, b);
-    x += _;
+    R += _;
     updateDocCountIfReady();
     finishDoc(s, r, o, g, m, b);
   }
@@ -7726,7 +7896,7 @@ function idbBulkDocs(s, r, o, u, g, _) {
       b.put(E).onsuccess = afterPutMetadata;
     }
     function afterPutMetadata() {
-      R[_] = {
+      x[_] = {
         ok: true,
         id: O.id,
         rev: O.rev
@@ -7856,8 +8026,8 @@ function idbAllDocs(s, r, o) {
     if (s.attachments) postProcessAttachments(P, s.binary).then(onResultsReady); else onResultsReady();
   };
   k.onabort = idbError(o);
-  var C, T, I = k.objectStore(DOC_STORE), A = k.objectStore(BY_SEQ_STORE), x = k.objectStore(META_STORE), R = A.index("_doc_id_rev"), P = [];
-  x.get(META_STORE).onsuccess = function(s) {
+  var C, T, I = k.objectStore(DOC_STORE), A = k.objectStore(BY_SEQ_STORE), R = k.objectStore(META_STORE), x = A.index("_doc_id_rev"), P = [];
+  R.get(META_STORE).onsuccess = function(s) {
     C = s.target.result.docCount;
   };
   if (s.update_seq) (function getMaxUpdateSeq(s, r) {
@@ -7891,7 +8061,7 @@ function idbAllDocs(s, r, o) {
       P.push(u);
       if (s.include_docs) (function fetchDocAsynchronously(r, o, u) {
         var g = r.id + "::" + u;
-        R.get(g).onsuccess = function onGetDoc(u) {
+        x.get(g).onsuccess = function onGetDoc(u) {
           o.doc = decodeDoc(u.target.result) || {};
           if (s.conflicts) {
             var g = collectConflicts(r);
@@ -11289,7 +11459,7 @@ function replicate(s, r, o, u, g) {
     seq: 0,
     changes: [],
     docs: []
-  }, L = false, O = false, D = false, k = 0, C = 0, T = o.continuous || o.live || false, I = o.batch_size || 100, A = o.batches_limit || 10, x = o.style || "all_docs", R = false, P = o.doc_ids, N = o.selector, B = [], F = uuid();
+  }, L = false, O = false, D = false, k = 0, C = 0, T = o.continuous || o.live || false, I = o.batch_size || 100, A = o.batches_limit || 10, R = o.style || "all_docs", x = false, P = o.doc_ids, N = o.selector, B = [], F = uuid();
   g = g || {
     ok: true,
     start_time: (new Date).toISOString(),
@@ -11518,7 +11688,7 @@ function replicate(s, r, o, u, g) {
     }
   }
   function onChangesComplete(s) {
-    R = false;
+    x = false;
     if (u.cancelled) return completeReplication();
     if (s.results.length > 0) {
       M.since = s.results[s.results.length - 1].seq;
@@ -11546,13 +11716,13 @@ function replicate(s, r, o, u, g) {
     }
   }
   function onChangesError(s) {
-    R = false;
+    x = false;
     if (u.cancelled) return completeReplication();
     abortReplication("changes rejected", s);
   }
   function getChanges() {
-    if (!R && !O && E.length < A) {
-      R = true;
+    if (!x && !O && E.length < A) {
+      x = true;
       if (u._changes) {
         u.removeListener("cancel", u._abortChanges);
         u._changes.cancel();
@@ -11591,7 +11761,7 @@ function replicate(s, r, o, u, g) {
           since: C = s,
           limit: I,
           batch_size: I,
-          style: x,
+          style: R,
           doc_ids: P,
           selector: N,
           return_docs: true
@@ -12539,22 +12709,22 @@ function getMultiFieldQueryOpts(s, r) {
       }
     }
     for (var C = Object.keys(S), T = null, I = 0; I < C.length; I++) {
-      var A = C[I], x = getMultiFieldCoreQueryPlan(A, S[A]);
-      if (T) T = mergeObjects([ T, x ]); else T = x;
+      var A = C[I], R = getMultiFieldCoreQueryPlan(A, S[A]);
+      if (T) T = mergeObjects([ T, R ]); else T = R;
     }
     m.push("startkey" in T ? T.startkey : COLLATE_LO);
     b.push("endkey" in T ? T.endkey : COLLATE_HI);
     if ("inclusive_start" in T) o = T.inclusive_start;
     if ("inclusive_end" in T) u = T.inclusive_end;
   }
-  var R = {
+  var x = {
     startkey: m,
     endkey: b
   };
-  if ("undefined" != typeof o) R.inclusive_start = o;
-  if ("undefined" != typeof u) R.inclusive_end = u;
+  if ("undefined" != typeof o) x.inclusive_start = o;
+  if ("undefined" != typeof u) x.inclusive_end = u;
   return {
-    queryOpts: R,
+    queryOpts: x,
     inMemoryFields: _
   };
 }
@@ -12817,14 +12987,21 @@ index_es_default.prototype.purgeMulti = adapterFun("_purgeMulti", (function(s, r
 }));
 
 var import_diff_match_patch2 = __toESM(require_diff_match_patch(), 1), ConflictResolveModal = class extends import_obsidian.Modal {
-  constructor(s, r, o, u) {
+  constructor(s, r, o) {
     super(s);
+    this.response = CANCELLED;
+    this.isClosed = false;
+    this.consumed = false;
     this.result = o;
-    this.callback = u;
     this.filename = r;
+    sendValue("cancel-resolve-conflict:" + this.filename, true);
   }
   onOpen() {
     const {contentEl: s} = this;
+    sendValue("cancel-resolve-conflict:" + this.filename, true);
+    setTimeout((async () => {
+      if (await waitForValue("cancel-resolve-conflict:" + this.filename)) this.sendResponse(CANCELLED);
+    }), 10);
     this.titleEl.setText("Conflicting changes");
     s.empty();
     s.createEl("span", {
@@ -12843,46 +13020,34 @@ var import_diff_match_patch2 = __toESM(require_diff_match_patch(), 1), ConflictR
     u.innerHTML = `\n<span class='deleted'>A:${g}</span><br /><span class='added'>B:${_}</span><br> \n        `;
     s.createEl("button", {
       text: "Keep A"
-    }, (s => {
-      s.addEventListener("click", (async () => {
-        const s = this.callback;
-        this.callback = null;
-        this.close();
-        await s(this.result.right.rev);
-      }));
-    }));
+    }, (s => s.addEventListener("click", (() => this.sendResponse(this.result.right.rev)))));
     s.createEl("button", {
       text: "Keep B"
-    }, (s => {
-      s.addEventListener("click", (async () => {
-        const s = this.callback;
-        this.callback = null;
-        this.close();
-        await s(this.result.left.rev);
-      }));
-    }));
+    }, (s => s.addEventListener("click", (() => this.sendResponse(this.result.left.rev)))));
     s.createEl("button", {
       text: "Concat both"
-    }, (s => {
-      s.addEventListener("click", (async () => {
-        const s = this.callback;
-        this.callback = null;
-        this.close();
-        await s("");
-      }));
-    }));
+    }, (s => s.addEventListener("click", (() => this.sendResponse(LEAVE_TO_SUBSEQUENT)))));
     s.createEl("button", {
       text: "Not now"
-    }, (s => {
-      s.addEventListener("click", (() => {
-        this.close();
-      }));
-    }));
+    }, (s => s.addEventListener("click", (() => this.sendResponse(CANCELLED)))));
+  }
+  sendResponse(s) {
+    this.response = s;
+    this.close();
   }
   onClose() {
     const {contentEl: s} = this;
     s.empty();
-    if (null != this.callback) this.callback(null);
+    if (!this.consumed) {
+      this.consumed = true;
+      sendValue("close-resolve-conflict:" + this.filename, this.response);
+      sendValue("cancel-resolve-conflict:" + this.filename, false);
+    }
+  }
+  async waitForResult() {
+    await delay(100);
+    const s = await waitForValue("close-resolve-conflict:" + this.filename);
+    if (s === RESULT_TIMED_OUT) return CANCELLED; else return s;
   }
 }, import_obsidian4 = require("obsidian");
 
@@ -13608,7 +13773,7 @@ function get_each_context_1(s, r, o) {
 }
 
 function create_else_block(s) {
-  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, x, R, P, N, B, F, M, V = new Date(s[3].mtime).toLocaleString() + "", G = s[5].length + "", j = new Date(s[4].mtime).toLocaleString() + "", q = s[6].length + "", U = ensure_array_like(s[11]), z = [];
+  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, R, x, P, N, B, F, M, V = new Date(s[3].mtime).toLocaleString() + "", G = s[5].length + "", j = new Date(s[4].mtime).toLocaleString() + "", q = s[6].length + "", U = ensure_array_like(s[11]), z = [];
   for (let r = 0; r < U.length; r += 1) z[r] = create_each_block_1(get_each_context_1(s, U, r));
   function select_block_type_1(s, r) {
     if (false != s[8]) return create_if_block_3; else return create_else_block_1;
@@ -13638,8 +13803,8 @@ function create_else_block(s) {
       T = text(" ,");
       I = text(j);
       A = space();
-      x = text(q);
-      R = text(" letters");
+      R = text(q);
+      x = text(" letters");
       P = space();
       N = element("div");
       B = element("button");
@@ -13673,8 +13838,8 @@ function create_else_block(s) {
       append(D, T);
       append(D, I);
       append(D, A);
-      append(D, x);
       append(D, R);
+      append(D, x);
       insert(V, P, G);
       insert(V, N, G);
       append(N, B);
@@ -13727,7 +13892,7 @@ function create_else_block(s) {
         Q = null;
       }
       if (16 & o && j !== (j = new Date(s[4].mtime).toLocaleString() + "")) set_data(I, j);
-      if (64 & o && q !== (q = s[6].length + "")) set_data(x, q);
+      if (64 & o && q !== (q = s[6].length + "")) set_data(R, q);
     },
     d(s) {
       if (s) {
@@ -14038,7 +14203,7 @@ function revStringToRevNumber(s) {
 function instance(s, r, o) {
   let u, g, _, m, b, w, {docs: E = []} = r, {callback: S = (async (s, r) => {
     Promise.resolve();
-  })} = r, {filename: L = ""} = r, {nameA: O = "A"} = r, {nameB: D = "B"} = r, {defaultSelect: k = ""} = r, C = "", T = "", I = {}, A = {}, x = {}, R = {}, P = k;
+  })} = r, {filename: L = ""} = r, {nameA: O = "A"} = r, {nameB: D = "B"} = r, {defaultSelect: k = ""} = r, C = "", T = "", I = {}, A = {}, R = {}, x = {}, P = k;
   function docToString(s) {
     return "plain" == s.datatype ? getDocData(s.data) : readString(new Uint8Array(decodeBinary(s.data)));
   }
@@ -14066,20 +14231,20 @@ function instance(s, r, o) {
         o(17, A = false);
         o(16, I = JSON.parse(C));
         o(17, A = JSON.parse(T));
-        o(18, x = mergeObject(I, A));
-        o(19, R = mergeObject(A, I));
-        if (JSON.stringify(x) == JSON.stringify(R)) o(19, R = false);
+        o(18, R = mergeObject(I, A));
+        o(19, x = mergeObject(A, I));
+        if (JSON.stringify(R) == JSON.stringify(x)) o(19, x = false);
       } catch (s) {
-        o(19, R = false);
-        o(18, x = false);
+        o(19, x = false);
+        o(18, R = false);
       }
     }
     if (983040 & s.$$.dirty) o(9, u = {
       "": false,
       A: I,
       B: A,
-      AB: x,
-      BA: R
+      AB: R,
+      BA: x
     });
     if (640 & s.$$.dirty) o(8, g = P in u ? u[P] : {});
     if (65792 & s.$$.dirty) o(10, w = function getJsonDiff(s, r) {
@@ -14099,16 +14264,16 @@ function instance(s, r, o) {
       if ("A" == P) return S(null, docToString(m));
       if ("B" == P) return S(null, docToString(b));
     }
-    if ("BA" == P) return S(null, JSON.stringify(R, null, 2));
-    if ("AB" == P) return S(null, JSON.stringify(x, null, 2));
+    if ("BA" == P) return S(null, JSON.stringify(x, null, 2));
+    if ("AB" == P) return S(null, JSON.stringify(R, null, 2));
     S(null, null);
-  }, E, S, k, I, A, x, R, function input_change_handler() {
+  }, E, S, k, I, A, R, x, function input_change_handler() {
     P = this.__value;
     o(7, P);
   }, [ [] ] ];
 }
 
-var JsonResolvePane = class extends SvelteComponent {
+var context, JsonResolvePane = class extends SvelteComponent {
   constructor(s) {
     super();
     init2(this, s, instance, create_fragment, safe_not_equal, {
@@ -14129,6 +14294,7 @@ var JsonResolvePane = class extends SvelteComponent {
     this.nameA = g;
     this.nameB = _;
     this.defaultSelect = m;
+    waitForSignal(`cancel-internal-conflict:${r}`).then((() => this.close()));
   }
   async UICallback(s, r) {
     this.close();
@@ -14160,7 +14326,83 @@ var JsonResolvePane = class extends SvelteComponent {
       this.component = null;
     }
   }
-}, d = "​", d2 = "\n";
+};
+
+function reactiveSource(s) {
+  return _reactive({
+    initialValue: s
+  });
+}
+
+function reactive(s, r) {
+  return _reactive({
+    expression: s,
+    initialValue: r
+  });
+}
+
+function _reactive({expression: s, initialValue: r}) {
+  let o, u = false;
+  const g = new Set, _ = {
+    depends: new Set,
+    evalCount: 0,
+    readCount: 0,
+    markDirty() {
+      u = true;
+      _.markDependedDirty();
+      g.forEach((s => s(_)));
+    },
+    markClean() {
+      u = false;
+    },
+    markDependedDirty() {
+      _.depends.forEach((s => s.markDirty()));
+    },
+    get value() {
+      if (context) _.depends.add(context);
+      if (!s) return o;
+      if (u) {
+        const r = o, u = s();
+        if (isObjectDifferent(r, u)) {
+          o = u;
+          _.markClean();
+          _.markDependedDirty();
+        }
+      }
+      return o;
+    },
+    set value(s) {
+      if (isObjectDifferent(o, s)) {
+        o = s;
+        _.markDirty();
+      }
+    },
+    onChanged(s) {
+      g.add(s);
+    },
+    offChanged(s) {
+      g.delete(s);
+    }
+  };
+  o = function initialize() {
+    const o = context;
+    context = _;
+    const u = s ? s(r) : r;
+    context = o;
+    return u;
+  }();
+  return _;
+}
+
+var lockStats = reactiveSource({
+  pending: [],
+  running: [],
+  count: 0
+}), collectingChunks = reactiveSource(0), pluginScanningCount = reactiveSource(0), hiddenFilesProcessingCount = reactiveSource(0), hiddenFilesEventCount = reactiveSource(0), logStore = new QueueProcessor((s => s), {
+  batchSize: 1,
+  suspended: false,
+  keepResultUntilDownstreamConnected: true
+}), logMessages = reactiveSource([]), d = "​", d2 = "\n";
 
 function serialize(s) {
   var r, o, u, g;
@@ -14256,13 +14498,52 @@ function deserialize(s, r) {
 }
 
 var pluginList = writable([]), pluginIsEnumerating = writable(false), ConfigSync = class extends LiveSyncCommands {
-  constructor() {
-    super(...arguments);
+  constructor(s) {
+    super(s);
     this.confirmPopup = null;
     this.pluginDialog = null;
     this.periodicPluginSweepProcessor = new PeriodicProcessor(this.plugin, (async () => await this.scanAllConfigFiles(false)));
     this.pluginList = [];
+    this.pluginScanProcessor = new QueueProcessor((async s => {
+      const r = s[0], o = r.path || this.getPath(r), u = this.pluginList.find((s => s.documentPath == o));
+      if (!u || u.mtime != r.mtime) try {
+        const s = await this.loadPluginData(o);
+        if (s) return [ s ]; else return;
+      } catch (s) {
+        Logger(`Something happened at enumerating customization :${o}`, LOG_LEVEL_NOTICE);
+        Logger(s, LOG_LEVEL_VERBOSE);
+      }
+    }), {
+      suspended: true,
+      batchSize: 1,
+      concurrentLimit: 5,
+      delay: 300,
+      yieldThreshold: 10
+    }).pipeTo(new QueueProcessor((s => {
+      let r = [ ...this.pluginList ];
+      for (const o of s) {
+        r = r.filter((s => s.documentPath != o.documentPath));
+        r.push(o);
+      }
+      this.pluginList = r;
+      pluginList.set(r);
+    }), {
+      suspended: true,
+      batchSize: 1e3,
+      concurrentLimit: 10,
+      delay: 200,
+      yieldThreshold: 25,
+      totalRemainingReactiveSource: pluginScanningCount
+    })).startPipeline().root.onIdle((() => {
+      Logger("All files enumerated", LOG_LEVEL_INFO, "get-plugins");
+      this.createMissingConfigurationEntry();
+    }));
     this.recentProcessedInternalFiles = [];
+    pluginScanningCount.onChanged((s => {
+      const r = s.value;
+      pluginIsEnumerating.set(0 != r);
+      if (0 == r) Logger("Processing configurations done", LOG_LEVEL_INFO, "get-plugins");
+    }));
   }
   get kvDB() {
     return this.plugin.kvDB;
@@ -14338,7 +14619,7 @@ var pluginList = writable([]), pluginIsEnumerating = writable(false), ConfigSync
         const s = {
           ...r
         }, u = getDocData(s.data);
-        s.data = [ crc32CKHash(u) ];
+        s.data = [ await sha1(u) ];
         o.push(s);
       }
       return {
@@ -14366,55 +14647,25 @@ var pluginList = writable([]), pluginIsEnumerating = writable(false), ConfigSync
     if (s) this.plugin.saveSettingData();
   }
   async updatePluginList(s, r) {
-    const o = s ? LOG_LEVEL_NOTICE : LOG_LEVEL_INFO;
     if (this.settings.usePluginSync) {
-      await Promise.resolve();
-      scheduleTask("update-plugin-list-task", 200, (async () => {
-        await serialized("update-plugin-list", (async () => {
-          try {
-            const s = r ? await this.path2id(r) : "", u = r ? this.localDatabase.findEntries(s, s + "􏿿", {
-              include_docs: true,
-              key: s,
-              limit: 1
-            }) : this.localDatabase.findEntries(ICXHeader + "", `${ICXHeader}􏿿`, {
-              include_docs: true
-            });
-            let g = 0;
-            pluginIsEnumerating.set(true);
-            for await (const s of processAllGeneratorTasksWithConcurrencyLimit(20, pipeGeneratorToGenerator(u, (async s => {
-              const u = s.path || this.getPath(s);
-              if (r && r != u) return false;
-              const _ = this.pluginList.find((s => s.documentPath == u));
-              if (_ && _.mtime == s.mtime) return false;
-              try {
-                g++;
-                if (g % 10 == 0) Logger(`Enumerating files... ${g}`, o, "get-plugins");
-                Logger(`plugin-${u}`, LOG_LEVEL_VERBOSE);
-                return this.loadPluginData(u);
-              } catch (s) {
-                Logger(`Something happened at enumerating customization :${u}`, LOG_LEVEL_NOTICE);
-                console.warn(s);
-              }
-              return false;
-            })))) if ("ok" in s) if (false !== s.ok) {
-              let o = [ ...this.pluginList ];
-              const u = s.ok;
-              o = o.filter((s => s.documentPath != u.documentPath));
-              o.push(u);
-              if ("" != r) o = o.filter((s => s.documentPath != r));
-              this.pluginList = o;
-              pluginList.set(o);
-            }
-            Logger("All files enumerated", o, "get-plugins");
-            pluginIsEnumerating.set(false);
-            this.createMissingConfigurationEntry();
-          } finally {
-            pluginIsEnumerating.set(false);
-          }
-        }));
+      try {
+        const s = r ? await this.path2id(r) : "", o = r ? this.localDatabase.findEntries(s, s + "􏿿", {
+          include_docs: true,
+          key: s,
+          limit: 1
+        }) : this.localDatabase.findEntries(ICXHeader + "", `${ICXHeader}􏿿`, {
+          include_docs: true
+        });
+        for await (const s of o) {
+          const o = s.path || this.getPath(s);
+          if (!r || r == o) this.pluginScanProcessor.enqueue(s);
+        }
+      } finally {
         pluginIsEnumerating.set(false);
-      }));
+      }
+      pluginIsEnumerating.set(false);
     } else {
+      this.pluginScanProcessor.clearQueue();
       this.pluginList = [];
       pluginList.set(this.pluginList);
     }
@@ -14843,8 +15094,8 @@ function create_if_block2(s) {
 }
 
 function create_if_block_12(s) {
-  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, x = ensure_array_like(s[8]), R = [];
-  for (let r = 0; r < x.length; r += 1) R[r] = create_each_block2(get_each_context2(s, x, r));
+  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, R = ensure_array_like(s[8]), x = [];
+  for (let r = 0; r < R.length; r += 1) x[r] = create_each_block2(get_each_context2(s, R, r));
   function select_block_type_1(s, r) {
     if (s[6] || s[1] && "" != s[2]) return create_if_block_42; else return create_else_block_2;
   }
@@ -14864,7 +15115,7 @@ function create_if_block_12(s) {
       L = element("select");
       O = element("option");
       O.textContent = "-";
-      for (let s = 0; s < R.length; s += 1) R[s].c();
+      for (let s = 0; s < x.length; s += 1) x[s].c();
       k = space();
       N.c();
       C = space();
@@ -14878,8 +15129,8 @@ function create_if_block_12(s) {
       set_input_value(O, O.__value);
       if (void 0 === s[2]) add_render_callback((() => s[24].call(L)));
     },
-    m(D, x) {
-      insert(D, r, x);
+    m(D, R) {
+      insert(D, r, R);
       append(r, o);
       append(o, u);
       append(r, g);
@@ -14888,16 +15139,16 @@ function create_if_block_12(s) {
       append(r, b);
       append(r, w);
       append(w, E);
-      insert(D, S, x);
-      insert(D, L, x);
+      insert(D, S, R);
+      insert(D, L, R);
       append(L, O);
-      for (let s = 0; s < R.length; s += 1) if (R[s]) R[s].m(L, null);
+      for (let s = 0; s < x.length; s += 1) if (x[s]) x[s].m(L, null);
       select_option(L, s[2], true);
-      insert(D, k, x);
-      N.m(D, x);
-      insert(D, C, x);
-      if (B) B.m(D, x);
-      insert(D, T, x);
+      insert(D, k, R);
+      N.m(D, R);
+      insert(D, C, R);
+      if (B) B.m(D, R);
+      insert(D, T, R);
       if (!I) {
         A = listen(L, "change", s[24]);
         I = true;
@@ -14908,18 +15159,18 @@ function create_if_block_12(s) {
       if (16 & r[0]) set_data(m, s[4]);
       if (32 & r[0]) set_data(E, s[5]);
       if (256 & r[0]) {
-        x = ensure_array_like(s[8]);
+        R = ensure_array_like(s[8]);
         let o;
-        for (o = 0; o < x.length; o += 1) {
-          const u = get_each_context2(s, x, o);
-          if (R[o]) R[o].p(u, r); else {
-            R[o] = create_each_block2(u);
-            R[o].c();
-            R[o].m(L, null);
+        for (o = 0; o < R.length; o += 1) {
+          const u = get_each_context2(s, R, o);
+          if (x[o]) x[o].p(u, r); else {
+            x[o] = create_each_block2(u);
+            x[o].c();
+            x[o].m(L, null);
           }
         }
-        for (;o < R.length; o += 1) R[o].d(1);
-        R.length = x.length;
+        for (;o < x.length; o += 1) x[o].d(1);
+        x.length = R.length;
       }
       if (260 & r[0]) select_option(L, s[2]);
       if (P === (P = select_block_type_1(s)) && N) N.p(s, r); else {
@@ -14948,7 +15199,7 @@ function create_if_block_12(s) {
         detach(C);
         detach(T);
       }
-      destroy_each(R, s);
+      destroy_each(x, s);
       N.d(s);
       if (B) B.d(s);
       I = false;
@@ -15215,7 +15466,7 @@ function create_fragment2(s) {
 function instance2(s, r, o) {
   let {list: u = []} = r, {thisTerm: g = ""} = r, {hideNotApplicable: _ = false} = r, {selectNewest: m = 0} = r, {applyAllPluse: b = 0} = r, {applyData: w} = r, {compareData: E} = r, {deleteData: S} = r, {hidden: L} = r, {plugin: O} = r, {isMaintenanceMode: D = false} = r;
   const k = O.addOnConfigSync;
-  let C = "", T = "", I = "", A = "", x = false, R = false, P = 0, N = 0, B = [];
+  let C = "", T = "", I = "", A = "", R = false, x = false, P = 0, N = 0, B = [];
   async function comparePlugin(s, r) {
     var o, u;
     let g = "", _ = "", m = false, b = false;
@@ -15338,23 +15589,23 @@ function instance2(s, r, o) {
       o(3, T = "");
       o(4, I = "");
       o(5, A = "");
-      o(6, x = false);
+      o(6, R = false);
       if ("" == C) ; else if (C == g) {
         o(3, T = "This device");
-        o(6, x = false);
+        o(6, R = false);
       } else (async function performCompare(s, r) {
         var u, g, _;
         const m = await comparePlugin(s, r);
-        o(6, x = m.canApply);
+        o(6, R = m.canApply);
         o(3, T = m.freshness);
         o(4, I = m.equivalency);
         o(5, A = m.version);
-        o(7, R = m.canCompare);
-        if (1 != (null == s ? void 0 : s.files.length) || !(null === (_ = null === (g = null === (u = null == s ? void 0 : s.files) || void 0 === u ? void 0 : u.first()) || void 0 === g ? void 0 : g.filename) || void 0 === _ ? void 0 : _.endsWith(".json"))) o(7, R = false);
+        o(7, x = m.canCompare);
+        if (1 != (null == s ? void 0 : s.files.length) || !(null === (_ = null === (g = null === (u = null == s ? void 0 : s.files) || void 0 === u ? void 0 : u.first()) || void 0 === g ? void 0 : g.filename) || void 0 === _ ? void 0 : _.endsWith(".json"))) o(7, x = false);
       })(u.find((s => s.term == g)), u.find((s => s.term == C)));
     }
   };
-  return [ L, D, C, T, I, A, x, R, B, applySelected, async function compareSelected() {
+  return [ L, D, C, T, I, A, R, x, B, applySelected, async function compareSelected() {
     const s = u.find((s => s.term == g)), r = u.find((s => s.term == C));
     if (s && r && await E(s, r)) k.updatePluginList(true, s.documentPath);
   }, async function deleteSelected() {
@@ -15882,7 +16133,7 @@ function create_else_block_32(s) {
 }
 
 function create_if_block_13(s) {
-  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, x, R, P, N, B, F, M, V = s[16](s[53]) + "", G = s[16](s[55]) + "";
+  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, R, x, P, N, B, F, M, V = s[16](s[53]) + "", G = s[16](s[55]) + "";
   function click_handler_8(...r) {
     return s[32](s[48], s[52], ...r);
   }
@@ -15899,8 +16150,8 @@ function create_if_block_13(s) {
   function select_block_type_4(s, r) {
     if (s[55] == MODE_SELECTIVE) return 0; else return 1;
   }
-  x = select_block_type_4(s);
-  R = z[x] = U[x](s);
+  R = select_block_type_4(s);
+  x = z[R] = U[R](s);
   return {
     c() {
       r = element("div");
@@ -15921,7 +16172,7 @@ function create_if_block_13(s) {
       I = element("span");
       I.textContent = "DATA";
       A = space();
-      R.c();
+      x.c();
       P = space();
       attr(u, "class", "status svelte-17wm1te");
       attr(m, "class", "name");
@@ -15949,7 +16200,7 @@ function create_if_block_13(s) {
       append(D, T);
       append(D, I);
       append(O, A);
-      z[x].m(O, null);
+      z[R].m(O, null);
       append(O, P);
       B = true;
       if (!F) {
@@ -15978,34 +16229,34 @@ function create_if_block_13(s) {
       }
       if (!B || 4 & u[0] && S !== (S = "filerow " + (s[2] ? "hideeven" : "") + " svelte-17wm1te")) attr(r, "class", S);
       if ((!B || 17 & u[0]) && G !== (G = s[16](s[55]) + "")) set_data(C, G);
-      let m = x;
-      x = select_block_type_4(s);
-      if (x === m) z[x].p(s, u); else {
+      let m = R;
+      R = select_block_type_4(s);
+      if (R === m) z[R].p(s, u); else {
         group_outros();
         transition_out(z[m], 1, 1, (() => {
           z[m] = null;
         }));
         check_outros();
-        R = z[x];
-        if (!R) {
-          R = z[x] = U[x](s);
-          R.c();
-        } else R.p(s, u);
-        transition_in(R, 1);
-        R.m(O, P);
+        x = z[R];
+        if (!x) {
+          x = z[R] = U[R](s);
+          x.c();
+        } else x.p(s, u);
+        transition_in(x, 1);
+        x.m(O, P);
       }
       if (!B || 4 & u[0] && N !== (N = "filerow " + (s[2] ? "hideeven" : "") + " svelte-17wm1te")) attr(O, "class", N);
     },
     i(s) {
       if (!B) {
         transition_in(E);
-        transition_in(R);
+        transition_in(x);
         B = true;
       }
     },
     o(s) {
       transition_out(E);
-      transition_out(R);
+      transition_out(x);
       B = false;
     },
     d(s) {
@@ -16015,7 +16266,7 @@ function create_if_block_13(s) {
         detach(O);
       }
       q[w].d();
-      z[x].d();
+      z[R].d();
       F = false;
       run_all(M);
     }
@@ -16157,13 +16408,13 @@ function create_each_block3(s) {
   function click_handler_7(...r) {
     return s[31](s[48], s[50], ...r);
   }
-  let x = s[51] == MODE_SELECTIVE && create_if_block_43(s);
-  const R = [ create_if_block_13, create_else_block_32 ], P = [];
+  let R = s[51] == MODE_SELECTIVE && create_if_block_43(s);
+  const x = [ create_if_block_13, create_else_block_32 ], P = [];
   function select_block_type_2(s, r) {
     if (s[51] == MODE_SELECTIVE) return 0; else return 1;
   }
   L = select_block_type_2(s);
-  O = P[L] = R[L](s);
+  O = P[L] = x[L](s);
   return {
     c() {
       r = element("div");
@@ -16174,7 +16425,7 @@ function create_each_block3(s) {
       m = element("span");
       b = text(A);
       w = space();
-      if (x) x.c();
+      if (R) R.c();
       S = space();
       O.c();
       D = empty();
@@ -16192,7 +16443,7 @@ function create_each_block3(s) {
       append(o, m);
       append(m, b);
       append(r, w);
-      if (x) x.m(r, null);
+      if (R) R.m(r, null);
       insert(s, S, E);
       P[L].m(s, E);
       insert(s, D, E);
@@ -16206,18 +16457,18 @@ function create_each_block3(s) {
       s = o;
       if ((!k || 17 & u[0]) && I !== (I = s[16](s[51]) + "")) set_data(g, I);
       if ((!k || 1 & u[0]) && A !== (A = s[48] + "")) set_data(b, A);
-      if (s[51] == MODE_SELECTIVE) if (x) {
-        x.p(s, u);
-        if (17 & u[0]) transition_in(x, 1);
+      if (s[51] == MODE_SELECTIVE) if (R) {
+        R.p(s, u);
+        if (17 & u[0]) transition_in(R, 1);
       } else {
-        x = create_if_block_43(s);
-        x.c();
-        transition_in(x, 1);
-        x.m(r, null);
-      } else if (x) {
+        R = create_if_block_43(s);
+        R.c();
+        transition_in(R, 1);
+        R.m(r, null);
+      } else if (R) {
         group_outros();
-        transition_out(x, 1, 1, (() => {
-          x = null;
+        transition_out(R, 1, 1, (() => {
+          R = null;
         }));
         check_outros();
       }
@@ -16232,7 +16483,7 @@ function create_each_block3(s) {
         check_outros();
         O = P[L];
         if (!O) {
-          O = P[L] = R[L](s);
+          O = P[L] = x[L](s);
           O.c();
         } else O.p(s, u);
         transition_in(O, 1);
@@ -16241,13 +16492,13 @@ function create_each_block3(s) {
     },
     i(s) {
       if (!k) {
-        transition_in(x);
+        transition_in(R);
         transition_in(O);
         k = true;
       }
     },
     o(s) {
-      transition_out(x);
+      transition_out(R);
       transition_out(O);
       k = false;
     },
@@ -16257,7 +16508,7 @@ function create_each_block3(s) {
         detach(S);
         detach(D);
       }
-      if (x) x.d();
+      if (R) R.d();
       P[L].d(s);
       C = false;
       T();
@@ -16266,13 +16517,13 @@ function create_each_block3(s) {
 }
 
 function create_fragment3(s) {
-  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, x, R, P, N, B, F, M, V, G, j, q, U, z, W, H = s[1] && create_if_block_7(s), K = s[3] && create_if_block_6(s);
+  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, R, x, P, N, B, F, M, V, G, j, q, U, z, W, H = s[1] && create_if_block_7(s), K = s[3] && create_if_block_6(s);
   const Q = [ create_if_block3, create_else_block3 ], J = [];
   function select_block_type(s, r) {
     if (0 == s[0].length) return 0; else return 1;
   }
   A = select_block_type(s);
-  x = J[A] = Q[A](s);
+  R = J[A] = Q[A](s);
   return {
     c() {
       r = element("div");
@@ -16299,8 +16550,8 @@ function create_fragment3(s) {
       if (K) K.c();
       T = space();
       I = element("div");
-      x.c();
-      R = space();
+      R.c();
+      x = space();
       P = element("div");
       N = element("label");
       B = element("span");
@@ -16329,8 +16580,8 @@ function create_fragment3(s) {
       attr(G, "class", "svelte-17wm1te");
       attr(V, "class", "buttons svelte-17wm1te");
     },
-    m(x, Q) {
-      insert(x, r, Q);
+    m(R, Q) {
+      insert(R, r, Q);
       append(r, o);
       append(o, u);
       append(u, g);
@@ -16350,7 +16601,7 @@ function create_fragment3(s) {
       append(r, T);
       append(r, I);
       J[A].m(I, null);
-      append(r, R);
+      append(r, x);
       append(r, P);
       append(P, N);
       append(N, B);
@@ -16393,25 +16644,25 @@ function create_fragment3(s) {
           J[g] = null;
         }));
         check_outros();
-        x = J[A];
-        if (!x) {
-          x = J[A] = Q[A](s);
-          x.c();
-        } else x.p(s, o);
-        transition_in(x, 1);
-        x.m(I, null);
+        R = J[A];
+        if (!R) {
+          R = J[A] = Q[A](s);
+          R.c();
+        } else R.p(s, o);
+        transition_in(R, 1);
+        R.m(I, null);
       }
       if (4 & o[0]) F.checked = s[2];
       if (2 & o[0]) q.checked = s[1];
     },
     i(s) {
       if (!U) {
-        transition_in(x);
+        transition_in(R);
         U = true;
       }
     },
     o(s) {
-      transition_out(x);
+      transition_out(R);
       U = false;
     },
     d(s) {
@@ -16784,41 +17035,6 @@ function getPathFromTFile(s) {
   return s.path;
 }
 
-var tasks = {};
-
-function scheduleTask(s, r, o, u) {
-  if (!u || !(s in tasks)) {
-    cancelTask(s);
-    tasks[s] = setTimeout((async () => {
-      delete tasks[s];
-      await o();
-    }), r);
-  }
-}
-
-function cancelTask(s) {
-  if (s in tasks) {
-    clearTimeout(tasks[s]);
-    delete tasks[s];
-  }
-}
-
-function cancelAllTasks() {
-  for (const s in tasks) {
-    clearTimeout(tasks[s]);
-    delete tasks[s];
-  }
-}
-
-var intervals = {};
-
-function cancelAllPeriodicTask() {
-  for (const s in intervals) {
-    clearInterval(intervals[s]);
-    delete intervals[s];
-  }
-}
-
 var memos = {};
 
 function memoObject(s, r) {
@@ -17024,13 +17240,18 @@ var askYesNo = (s, r) => new Promise((o => {
   enable(s) {
     this.disable();
     if (0 != s) {
-      this._timer = window.setInterval((() => this.process().then((() => {}))), s);
+      this._timer = window.setInterval((() => fireAndForget((async () => {
+        await this.process();
+        if (this._plugin._unloaded) this.disable();
+      }))), s);
       this._plugin.registerInterval(this._timer);
     }
   }
   disable() {
-    if (void 0 !== this._timer) window.clearInterval(this._timer);
-    this._timer = void 0;
+    if (void 0 !== this._timer) {
+      window.clearInterval(this._timer);
+      this._timer = void 0;
+    }
   }
 }, _requestToCouchDB = async (s, r, o, u, g, _, m) => {
   const b = String.fromCharCode.apply(null, [ ...writeString(`${r}:${o}`) ]), w = {
@@ -17055,7 +17276,7 @@ async function performRebuildDB(s, r) {
   if ("rebuildBothByThisDevice" == r) await s.addOnSetup.rebuildEverything();
 }
 
-var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingTab {
+var ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(s, r) {
     super(s, r);
     this.selectedScreen = "";
@@ -17104,7 +17325,7 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
       text: "Updates"
     }), E = b.createEl("div", {
       text: ""
-    }), S = "0.21.5", L = ~~(versionNumberString2Number(S) / 1e3), O = createSpan();
+    }), S = "0.22.1", L = ~~(versionNumberString2Number(S) / 1e3), O = createSpan();
     O.addClass("sls-header-button");
     O.innerHTML = "<button> OK, I read all. </button>";
     if (L > this.plugin.settings.lastReadUpdates) {
@@ -17115,7 +17336,7 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
         s.remove();
       }));
     }
-    import_obsidian.MarkdownRenderer.render(this.plugin.app, "### 0.21.0\nThe E2EE encryption V2 format has been reverted. That was probably the cause of the glitch.\nInstead, to maintain efficiency, files are treated with Blob until just before saving. Along with this, the old-fashioned encryption format has also been discontinued.\nThere are both forward and backwards compatibilities, with recent versions. However, unfortunately, we lost compatibility with filesystem-livesync or some.\nIt will be addressed soon. Please be patient if you are using filesystem-livesync with E2EE.\n\n\n#### Version history\n- 0.21.5\n  - Improved:\n    - Now all revisions will be shown only its first a few letters.\n    - Now ID of the documents is shown in the log with the first 8 letters.\n  - Fixed:\n    - Check before modifying files has been implemented.\n    - Content change detection has been improved.\n- 0.21.4\n  - This release had been skipped.\n- 0.21.3\n  - Implemented:\n    - Now we can use SHA1 for hash function as fallback.\n- 0.21.2\n  - IMPORTANT NOTICE: **0.21.1 CONTAINS A BUG WHILE REBUILDING THE DATABASE. IF YOU HAVE BEEN REBUILT, PLEASE MAKE SURE THAT ALL FILES ARE SANE.**\n    - This has been fixed in this version.\n  - Fixed:\n    - No longer files are broken while rebuilding.\n    - Now, Large binary files can be written correctly on a mobile platform.\n    - Any decoding errors now make zero-byte files.\n  - Modified:\n    - All files are processed sequentially for each.\n- 0.21.1\n  - Fixed:\n    - No more infinity loops on larger files.\n    - Show message on decode error.\n  - Refactored:\n    - Fixed to avoid obsolete global variables.\n- 0.21.0\n  - Changes and performance improvements:\n    - Now the saving files are processed by Blob.\n    - The V2-Format has been reverted.\n    - New encoding format has been enabled in default.\n    - WARNING: Since this version, the compatibilities with older Filesystem LiveSync have been lost.\n\n... To continue on to `updates_old.md`.", E, "/", this.plugin);
+    import_obsidian.MarkdownRenderer.render(this.plugin.app, "### 0.22.0\nA few years passed since Self-hosted LiveSync was born, and our codebase had been very complicated. This could be patient now, but it should be a tremendous hurt.\nTherefore at v0.22.0, for future maintainability, I refined task scheduling logic totally.\n\nOf course, I think this would be our suffering in some cases. However, I would love to ask you for your cooperation and contribution.\n\nSorry for being absent so much long. And thank you for your patience!\n\nNote: we got a very performance improvement.\n\n#### Version history\n- 0.22.1\n  - New feature:\n    - We can perform automatic conflict resolution for inactive files, and postpone only manual ones by `Postpone manual resolution of inactive files`.\n    - Now we can see the image in the document history dialogue.\n      - We can see the difference of the image, in the document history dialogue.\n        - And also we can highlight differences.\n  - Improved:\n    - Hidden file sync has been stabilised.\n    - Now automatically reloads the conflict-resolution dialogue when new conflicted revisions have arrived.\n  - Fixed:\n    - No longer periodic process runs after unloading the plug-in.\n    - Now the modification of binary files is surely stored in the storage.\n- 0.22.0\n  - Refined:\n    - Task scheduling logics has been rewritten.\n    - Screen updates are also now efficient.\n    - Possibly many bugs and fragile behaviour has been fixed.\n    - Status updates and logging have been thinned out to display.\n  - Fixed:\n    - Remote-chunk-fetching now works with keeping request intervals\n  - New feature:\n    - We can show only the icons in the editor.\n    - Progress indicators have been more meaningful:\n      -   📥 Unprocessed transferred items\n      -   📄 Working database operation\n      -   💾 Working write storage processes\n      -   ⏳ Working read storage processes\n      -   🛫 Pending read storage processes\n      -   ⚙️ Working or pending storage processes of hidden files\n      -   🧩 Waiting chunks\n      -   🔌 Working Customisation items (Configuration, snippets and plug-ins)\n\n\n... To continue on to `updates_old.md`.", E, "/", this.plugin);
     addScreenElement("100", b);
     const isAnySyncEnabled = () => {
       if (this.plugin.settings.liveSync) return true;
@@ -17357,7 +17578,7 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
     C.createEl("h4", {
       text: "Confidentiality"
     });
-    const x = new import_obsidian.Setting(C).setName("End to End Encryption").setDesc("Encrypt contents on the remote database. If you use the plugin's synchronization feature, enabling this is recommend.").addToggle((s => s.setValue(r).onChange((async s => {
+    const R = new import_obsidian.Setting(C).setName("End to End Encryption").setDesc("Encrypt contents on the remote database. If you use the plugin's synchronization feature, enabling this is recommend.").addToggle((s => s.setValue(r).onChange((async s => {
       if (D) {
         this.plugin.settings.encrypt = s;
         r = s;
@@ -17368,17 +17589,17 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
         updateE2EControls();
       }
     }))));
-    let R = this.plugin.settings.usePathObfuscation;
+    let x = this.plugin.settings.usePathObfuscation;
     const updateE2EControls = () => {
-      x.controlEl.toggleClass("sls-item-dirty", r != this.plugin.settings.encrypt);
+      R.controlEl.toggleClass("sls-item-dirty", r != this.plugin.settings.encrypt);
       if (r) {
         P.settingEl.removeClass("sls-setting-hidden");
         B.settingEl.removeClass("sls-setting-hidden");
         N.settingEl.removeClass("sls-setting-hidden");
         null == P || P.controlEl.toggleClass("sls-item-dirty", o != this.plugin.settings.passphrase);
         null == B || B.controlEl.toggleClass("sls-item-dirty", u != this.plugin.settings.useDynamicIterationCount);
-        null == N || N.controlEl.toggleClass("sls-item-dirty", R != this.plugin.settings.usePathObfuscation);
-        if (r != this.plugin.settings.encrypt || o != this.plugin.settings.passphrase || u != this.plugin.settings.useDynamicIterationCount || R != this.plugin.settings.usePathObfuscation) F.settingEl.removeClass("sls-setting-hidden"); else F.settingEl.addClass("sls-setting-hidden");
+        null == N || N.controlEl.toggleClass("sls-item-dirty", x != this.plugin.settings.usePathObfuscation);
+        if (r != this.plugin.settings.encrypt || o != this.plugin.settings.passphrase || u != this.plugin.settings.useDynamicIterationCount || x != this.plugin.settings.usePathObfuscation) F.settingEl.removeClass("sls-setting-hidden"); else F.settingEl.addClass("sls-setting-hidden");
       } else {
         P.settingEl.addClass("sls-setting-hidden");
         B.settingEl.addClass("sls-setting-hidden");
@@ -17397,12 +17618,12 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
         }
       }));
       s.inputEl.setAttribute("type", "password");
-    })), N = new import_obsidian.Setting(C).setName("Path Obfuscation").setDesc("Obfuscate paths of files. If we configured, we should rebuild the database.").addToggle((s => s.setValue(R).onChange((async s => {
+    })), N = new import_obsidian.Setting(C).setName("Path Obfuscation").setDesc("Obfuscate paths of files. If we configured, we should rebuild the database.").addToggle((s => s.setValue(x).onChange((async s => {
       if (D) {
         this.plugin.settings.usePathObfuscation = s;
         await this.plugin.saveSettings();
       } else {
-        R = s;
+        x = s;
         await this.plugin.saveSettings();
         updateE2EControls();
       }
@@ -17450,7 +17671,7 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
           this.plugin.settings.encrypt = r;
           this.plugin.settings.passphrase = o;
           this.plugin.settings.useDynamicIterationCount = u;
-          this.plugin.settings.usePathObfuscation = R;
+          this.plugin.settings.usePathObfuscation = x;
           await this.plugin.saveSettings();
           updateE2EControls();
           if (s) await this.plugin.addOnSetup.rebuildRemote(); else {
@@ -17467,7 +17688,7 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
         this.plugin.settings.encrypt = r;
         this.plugin.settings.passphrase = o;
         this.plugin.settings.useDynamicIterationCount = u;
-        this.plugin.settings.usePathObfuscation = R;
+        this.plugin.settings.usePathObfuscation = x;
         Logger("All synchronization have been temporarily disabled. Please enable them after the fetching, if you need them.", LOG_LEVEL_NOTICE);
         await this.plugin.saveSettings();
         updateE2EControls();
@@ -17500,6 +17721,11 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
     });
     new import_obsidian.Setting(V).setName("Show status inside the editor").setDesc("").addToggle((s => s.setValue(this.plugin.settings.showStatusOnEditor).onChange((async s => {
       this.plugin.settings.showStatusOnEditor = s;
+      await this.plugin.saveSettings();
+      this.display();
+    }))));
+    if (this.plugin.settings.showStatusOnEditor) new import_obsidian.Setting(V).setName("Show status as icons only").setDesc("").addToggle((s => s.setValue(this.plugin.settings.showOnlyIconsOnEditor).onChange((async s => {
+      this.plugin.settings.showOnlyIconsOnEditor = s;
       await this.plugin.saveSettings();
     }))));
     V.createEl("h4", {
@@ -17728,8 +17954,12 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
       this.plugin.settings.resolveConflictsByNewerFile = s;
       await this.plugin.saveSettings();
     }))));
-    new import_obsidian.Setting(U).setName("Postpone resolution of unopened files").setClass("wizardHidden").addToggle((s => s.setValue(this.plugin.settings.checkConflictOnlyOnOpen).onChange((async s => {
+    new import_obsidian.Setting(U).setName("Postpone resolution of inactive files").setClass("wizardHidden").addToggle((s => s.setValue(this.plugin.settings.checkConflictOnlyOnOpen).onChange((async s => {
       this.plugin.settings.checkConflictOnlyOnOpen = s;
+      await this.plugin.saveSettings();
+    }))));
+    new import_obsidian.Setting(U).setName("Postpone manual resolution of inactive files").setClass("wizardHidden").addToggle((s => s.setValue(this.plugin.settings.showMergeDialogOnlyOnActive).onChange((async s => {
+      this.plugin.settings.showMergeDialogOnlyOnActive = s;
       await this.plugin.saveSettings();
     }))));
     U.createEl("h4", {
@@ -18038,7 +18268,7 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
             Logger(`${u} has been converted as conflicted document`, LOG_LEVEL_NOTICE);
             _._deleted = true;
             if ((await this.plugin.localDatabase.putRaw(_)).ok) Logger(`Old ${u} has been deleted`, LOG_LEVEL_NOTICE);
-            await this.plugin.showIfConflicted(u);
+            await this.plugin.queueConflictCheck(u);
           } else {
             Logger(`Converting ${u} Failed!`, LOG_LEVEL_NOTICE);
             Logger(w, LOG_LEVEL_VERBOSE);
@@ -18236,13 +18466,42 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
     applyDisplayEnabled();
     if ("" == this.selectedScreen) if (L != this.plugin.settings.lastReadUpdates) if (JSON.stringify(this.plugin.settings) != JSON.stringify(DEFAULT_SETTINGS)) changeDisplay("100"); else changeDisplay("110"); else if (isAnySyncEnabled()) changeDisplay("20"); else changeDisplay("110"); else changeDisplay(this.selectedScreen);
   }
-}, DocumentHistoryModal = class extends import_obsidian.Modal {
+};
+
+function isImage(s) {
+  const r = s.split(".").splice(-1)[0].toLowerCase();
+  return [ "png", "jpg", "jpeg", "gif", "bmp", "webp" ].includes(r);
+}
+
+function isComparableText(s) {
+  const r = s.split(".").splice(-1)[0].toLowerCase();
+  return isPlainText(s) || [ "md", "mdx", "txt", "json" ].includes(r);
+}
+
+function isComparableTextDecode(s) {
+  const r = s.split(".").splice(-1)[0].toLowerCase();
+  return [ "json" ].includes(r);
+}
+
+function readDocument(s) {
+  if (isImage(s.path)) return new Uint8Array(decodeBinary(s.data));
+  if ("plain" == s.data) return getDocData(s.data);
+  if (isComparableTextDecode(s.path)) return readString(new Uint8Array(decodeBinary(s.data)));
+  if (isComparableText(s.path)) return getDocData(s.data);
+  try {
+    return readString(new Uint8Array(decodeBinary(s.data)));
+  } catch (s) {}
+  return getDocData(s.data);
+}
+
+var e, DocumentHistoryModal = class extends import_obsidian.Modal {
   constructor(s, r, o, u, g) {
     super(s);
     this.showDiff = false;
     this.revs_info = [];
     this.currentText = "";
     this.currentDeleted = false;
+    this.BlobURLs = new Map;
     this.plugin = r;
     this.file = o instanceof import_obsidian.TFile ? getPathFromTFile(o) : o;
     this.id = u;
@@ -18268,7 +18527,6 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
         this.range.max = "0";
         this.range.value = "";
         this.range.disabled = true;
-        this.showDiff;
         this.contentView.setText("History of this file was not recorded.");
       } else {
         this.contentView.setText("Error occurred.");
@@ -18285,6 +18543,20 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
     const r = this.revs_info.length - 1 - this.range.value / 1, o = this.revs_info[r];
     await this.showExactRev(o.rev);
   }
+  revokeURL(s) {
+    const r = this.BlobURLs.get(s);
+    if (r) URL.revokeObjectURL(r);
+    this.BlobURLs.set(s, void 0);
+  }
+  generateBlobURL(s, r) {
+    this.revokeURL(s);
+    const o = URL.createObjectURL(new Blob([ r ], {
+      endings: "transparent",
+      type: "application/octet-stream"
+    }));
+    this.BlobURLs.set(s, o);
+    return o;
+  }
   async showExactRev(s) {
     const r = this.plugin.localDatabase, o = await r.getDBEntry(this.file, {
       rev: s
@@ -18298,27 +18570,37 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
     } else {
       this.currentDoc = o;
       this.info.innerHTML = `Modified:${new Date(o.mtime).toLocaleString()}`;
-      let s = "";
-      const u = "plain" == o.datatype ? getDocData(o.data) : readString(new Uint8Array(decodeBinary(o.data)));
+      let s;
+      const u = readDocument(o);
       this.currentDeleted = !!o.deleted;
-      this.currentText = u;
       if (this.showDiff) {
         const o = this.revs_info.length - 1 - (this.range.value / 1 - 1);
         if (o >= 0 && o < this.revs_info.length) {
           const g = this.revs_info[o].rev, _ = await r.getDBEntry(this.file, {
             rev: g
           }, false, false, true);
-          if (false != _) {
-            const r = new import_diff_match_patch.diff_match_patch, o = "plain" == _.datatype ? getDocData(_.data) : readString(new Uint8Array(decodeBinary(_.data))), g = r.diff_main(o, u);
+          if (false != _) if ("string" == typeof u) {
+            s = "";
+            const r = new import_diff_match_patch.diff_match_patch, o = readDocument(_), g = r.diff_main(o, u);
             r.diff_cleanupSemantic(g);
             for (const r of g) {
               const o = r[0], u = r[1];
               if (o == import_diff_match_patch.DIFF_DELETE) s += "<span class='history-deleted'>" + escapeStringToHTML(u) + "</span>"; else if (o == import_diff_match_patch.DIFF_EQUAL) s += "<span class='history-normal'>" + escapeStringToHTML(u) + "</span>"; else if (o == import_diff_match_patch.DIFF_INSERT) s += "<span class='history-added'>" + escapeStringToHTML(u) + "</span>";
             }
             s = s.replace(/\n/g, "<br>");
-          } else s = escapeStringToHTML(u);
-        } else s = escapeStringToHTML(u);
+          } else if (isImage(this.file)) {
+            s = `<div class='ls-imgdiff-wrap'>\n    <div class='overlay'>\n        <img class='img-base' src="${this.generateBlobURL("base", u)}">\n        <img class='img-overlay' src='${this.generateBlobURL("overlay", readDocument(_))}'>\n    </div>\n</div>`;
+            this.contentView.removeClass("op-pre");
+          }
+        }
+      }
+      if (null == s) if ("string" != typeof u) {
+        if (isImage(this.file)) {
+          s = `<div class='ls-imgdiff-wrap'>\n<div class='overlay'>\n<img class='img-base' src="${this.generateBlobURL("base", u)}">\n</div>\n</div>`;
+          this.contentView.removeClass("op-pre");
+        }
       } else s = escapeStringToHTML(u);
+      if (null == s) s = "string" == typeof u ? escapeStringToHTML(u) : "Binary file";
       this.contentView.innerHTML = (this.currentDeleted ? "(At this revision, the file has been deleted)\n" : "") + s;
     }
   }
@@ -18405,16 +18687,18 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
   onClose() {
     const {contentEl: s} = this;
     s.empty();
+    this.BlobURLs.forEach((s => {
+      console.log(s);
+      if (s) URL.revokeObjectURL(s);
+    }));
   }
 }, StorageEventManager = class {}, StorageEventManagerObsidian = class extends StorageEventManager {
   constructor(s) {
     super();
-    this.queuedFilesStore = getGlobalStore("queuedFiles", {
-      queuedItems: [],
-      fileEventItems: []
-    });
-    this.watchedFileEventQueue = [];
     this.plugin = s;
+  }
+  beginWatch() {
+    const s = this.plugin;
     this.watchVaultChange = this.watchVaultChange.bind(this);
     this.watchVaultCreate = this.watchVaultCreate.bind(this);
     this.watchVaultDelete = this.watchVaultDelete.bind(this);
@@ -18425,6 +18709,7 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
     s.registerEvent(s.app.vault.on("rename", this.watchVaultRename));
     s.registerEvent(s.app.vault.on("create", this.watchVaultCreate));
     s.registerEvent(s.app.vault.on("raw", this.watchVaultRawEvents));
+    s.fileEventQueue.startPipeline();
   }
   watchVaultCreate(s, r) {
     this.appendWatchEvent([ {
@@ -18474,79 +18759,38 @@ var e, ObsidianLiveSyncSettingTab = class extends import_obsidian.PluginSettingT
     } ], null);
   }
   async appendWatchEvent(s, r) {
-    let o = false;
-    for (const u of s) {
-      if (shouldBeIgnored(u.file.path)) continue;
-      const s = [ 0, 0, 0, 0, 0, 0 ].map((s => `${Math.floor(1e5 * Math.random())}`)).join("-"), g = u.type, _ = u.file, m = u.oldPath;
-      if (_ instanceof import_obsidian.TFolder) continue;
-      if (!await this.plugin.isTargetFile(_.path)) continue;
+    for (const o of s) {
+      if (shouldBeIgnored(o.file.path)) continue;
+      const s = [ 0, 0, 0, 0, 0, 0 ].map((s => `${Math.floor(1e5 * Math.random())}`)).join("-"), u = o.type, g = o.file, _ = o.oldPath;
+      if (g instanceof import_obsidian.TFolder) continue;
+      if (!await this.plugin.isTargetFile(g.path)) continue;
       if (this.plugin.settings.suspendFileWatching) continue;
-      let b;
-      if (_ instanceof import_obsidian.TFile && ("CREATE" == g || "CHANGED" == g)) {
-        if (this.plugin.vaultAccess.recentlyTouched(_)) continue;
-        if (!isPlainText(_.name)) b = await this.plugin.vaultAccess.vaultReadBinary(_); else {
-          b = await this.plugin.vaultAccess.vaultCacheRead(_);
-          if (!b) b = await this.plugin.vaultAccess.vaultRead(_);
+      let m;
+      if (g instanceof import_obsidian.TFile && ("CREATE" == u || "CHANGED" == u)) {
+        if (this.plugin.vaultAccess.recentlyTouched(g)) continue;
+        if (!isPlainText(g.name)) m = await this.plugin.vaultAccess.vaultReadBinary(g); else {
+          m = await this.plugin.vaultAccess.vaultCacheRead(g);
+          if (!m) m = await this.plugin.vaultAccess.vaultRead(g);
         }
       }
-      if ("DELETE" == g || "RENAME" == g) o = true;
-      if (this.plugin.settings.batchSave && !this.plugin.settings.liveSync) {
-        let s = this.watchedFileEventQueue.length;
-        e: for (;s >= 0; ) {
-          s--;
-          if (s < 0) break e;
-          if (this.watchedFileEventQueue[s].args.file.path == _.path) {
-            if (this.watchedFileEventQueue[s].type != g) break e;
-            this.watchedFileEventQueue.remove(this.watchedFileEventQueue[s]);
-            this.queuedFilesStore.apply((s => ({
-              ...s,
-              fileEventItems: this.watchedFileEventQueue
-            })));
-          }
-        }
-      }
-      const w = _ instanceof import_obsidian.TFile ? {
-        ctime: _.stat.ctime,
-        mtime: _.stat.mtime,
-        file: _,
-        path: _.path,
-        size: _.stat.size
-      } : _;
-      this.watchedFileEventQueue.push({
-        type: g,
+      const b = g instanceof import_obsidian.TFile ? {
+        ctime: g.stat.ctime,
+        mtime: g.stat.mtime,
+        file: g,
+        path: g.path,
+        size: g.stat.size
+      } : g;
+      this.plugin.fileEventQueue.enqueueWithKey(`file-${b.path}`, {
+        type: u,
         args: {
-          file: w,
-          oldPath: m,
-          cache: b,
+          file: b,
+          oldPath: _,
+          cache: m,
           ctx: r
         },
         key: s
       });
     }
-    this.queuedFilesStore.apply((s => ({
-      ...s,
-      fileEventItems: this.watchedFileEventQueue
-    })));
-    this.plugin.procFileEvent(o);
-  }
-  fetchEvent() {
-    if (0 == this.watchedFileEventQueue.length) return false;
-    const s = this.watchedFileEventQueue.shift();
-    this.queuedFilesStore.apply((s => ({
-      ...s,
-      fileEventItems: this.watchedFileEventQueue
-    })));
-    return s;
-  }
-  cancelRelativeEvent(s) {
-    this.watchedFileEventQueue = [ ...this.watchedFileEventQueue ].filter((r => r.key != s.key));
-    this.queuedFilesStore.apply((s => ({
-      ...s,
-      fileEventItems: this.watchedFileEventQueue
-    })));
-  }
-  getQueueLength() {
-    return this.watchedFileEventQueue.length;
   }
 }, t = new Uint8Array([ 0, 97, 115, 109, 1, 0, 0, 0, 1, 13, 2, 96, 2, 127, 127, 0, 96, 3, 127, 127, 127, 1, 127, 3, 3, 2, 1, 0, 5, 3, 1, 0, 1, 7, 23, 3, 3, 109, 101, 109, 2, 0, 5, 120, 120, 104, 51, 50, 0, 0, 5, 120, 120, 104, 54, 52, 0, 1, 10, 152, 9, 2, 242, 2, 1, 4, 127, 32, 0, 32, 1, 106, 33, 3, 32, 1, 32, 1, 65, 16, 79, 4, 127, 32, 3, 65, 16, 107, 33, 6, 32, 2, 65, 168, 136, 141, 161, 2, 106, 33, 1, 32, 2, 65, 137, 235, 208, 208, 7, 107, 33, 4, 32, 2, 65, 207, 140, 162, 142, 6, 106, 33, 5, 3, 64, 32, 1, 32, 0, 40, 2, 0, 65, 247, 148, 175, 175, 120, 108, 106, 65, 13, 119, 65, 177, 243, 221, 241, 121, 108, 33, 1, 32, 4, 32, 0, 65, 4, 106, 34, 0, 40, 2, 0, 65, 247, 148, 175, 175, 120, 108, 106, 65, 13, 119, 65, 177, 243, 221, 241, 121, 108, 33, 4, 32, 2, 32, 0, 65, 4, 106, 34, 0, 40, 2, 0, 65, 247, 148, 175, 175, 120, 108, 106, 65, 13, 119, 65, 177, 243, 221, 241, 121, 108, 33, 2, 32, 5, 32, 0, 65, 4, 106, 34, 0, 40, 2, 0, 65, 247, 148, 175, 175, 120, 108, 106, 65, 13, 119, 65, 177, 243, 221, 241, 121, 108, 33, 5, 32, 6, 32, 0, 65, 4, 106, 34, 0, 79, 13, 0, 11, 32, 2, 65, 12, 119, 32, 5, 65, 18, 119, 106, 32, 4, 65, 7, 119, 106, 32, 1, 65, 1, 119, 106, 5, 32, 2, 65, 177, 207, 217, 178, 1, 106, 11, 106, 33, 2, 3, 64, 32, 3, 32, 0, 65, 4, 106, 79, 4, 64, 32, 2, 32, 0, 40, 2, 0, 65, 189, 220, 202, 149, 124, 108, 106, 65, 17, 119, 65, 175, 214, 211, 190, 2, 108, 33, 2, 32, 0, 65, 4, 106, 33, 0, 12, 1, 11, 11, 3, 64, 32, 0, 32, 3, 73, 4, 64, 32, 2, 32, 0, 45, 0, 0, 65, 177, 207, 217, 178, 1, 108, 106, 65, 11, 119, 65, 177, 243, 221, 241, 121, 108, 33, 2, 32, 0, 65, 1, 106, 33, 0, 12, 1, 11, 11, 32, 2, 32, 2, 65, 15, 118, 115, 65, 247, 148, 175, 175, 120, 108, 34, 0, 65, 13, 118, 32, 0, 115, 65, 189, 220, 202, 149, 124, 108, 34, 0, 65, 16, 118, 32, 0, 115, 11, 161, 6, 2, 4, 126, 3, 127, 32, 0, 65, 4, 106, 53, 2, 0, 32, 0, 53, 2, 0, 66, 32, 134, 132, 33, 2, 32, 1, 32, 0, 65, 8, 106, 34, 6, 106, 33, 7, 32, 1, 65, 32, 79, 4, 126, 32, 7, 65, 32, 107, 33, 8, 32, 2, 66, 214, 235, 130, 238, 234, 253, 137, 245, 224, 0, 124, 33, 3, 32, 2, 66, 177, 169, 172, 193, 173, 184, 212, 166, 61, 125, 33, 4, 32, 2, 66, 249, 234, 208, 208, 231, 201, 161, 228, 225, 0, 124, 33, 5, 3, 64, 32, 3, 32, 6, 41, 3, 0, 66, 207, 214, 211, 190, 210, 199, 171, 217, 66, 126, 124, 66, 31, 137, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 33, 3, 32, 4, 32, 6, 65, 8, 106, 34, 6, 41, 3, 0, 66, 207, 214, 211, 190, 210, 199, 171, 217, 66, 126, 124, 66, 31, 137, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 33, 4, 32, 2, 32, 6, 65, 8, 106, 34, 6, 41, 3, 0, 66, 207, 214, 211, 190, 210, 199, 171, 217, 66, 126, 124, 66, 31, 137, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 33, 2, 32, 5, 32, 6, 65, 8, 106, 34, 6, 41, 3, 0, 66, 207, 214, 211, 190, 210, 199, 171, 217, 66, 126, 124, 66, 31, 137, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 33, 5, 32, 8, 32, 6, 65, 8, 106, 34, 6, 79, 13, 0, 11, 32, 2, 66, 12, 137, 32, 5, 66, 18, 137, 124, 32, 4, 66, 7, 137, 124, 32, 3, 66, 1, 137, 124, 32, 3, 66, 207, 214, 211, 190, 210, 199, 171, 217, 66, 126, 66, 31, 137, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 133, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 66, 157, 163, 181, 234, 131, 177, 141, 138, 250, 0, 125, 32, 4, 66, 207, 214, 211, 190, 210, 199, 171, 217, 66, 126, 66, 31, 137, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 133, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 66, 157, 163, 181, 234, 131, 177, 141, 138, 250, 0, 125, 32, 2, 66, 207, 214, 211, 190, 210, 199, 171, 217, 66, 126, 66, 31, 137, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 133, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 66, 157, 163, 181, 234, 131, 177, 141, 138, 250, 0, 125, 32, 5, 66, 207, 214, 211, 190, 210, 199, 171, 217, 66, 126, 66, 31, 137, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 133, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 66, 157, 163, 181, 234, 131, 177, 141, 138, 250, 0, 125, 5, 32, 2, 66, 197, 207, 217, 178, 241, 229, 186, 234, 39, 124, 11, 32, 1, 173, 124, 33, 2, 3, 64, 32, 7, 32, 6, 65, 8, 106, 79, 4, 64, 32, 2, 32, 6, 41, 3, 0, 66, 207, 214, 211, 190, 210, 199, 171, 217, 66, 126, 66, 31, 137, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 133, 66, 27, 137, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 66, 157, 163, 181, 234, 131, 177, 141, 138, 250, 0, 125, 33, 2, 32, 6, 65, 8, 106, 33, 6, 12, 1, 11, 11, 32, 6, 65, 4, 106, 32, 7, 77, 4, 64, 32, 2, 32, 6, 53, 2, 0, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 133, 66, 23, 137, 66, 207, 214, 211, 190, 210, 199, 171, 217, 66, 126, 66, 249, 243, 221, 241, 153, 246, 153, 171, 22, 124, 33, 2, 32, 6, 65, 4, 106, 33, 6, 11, 3, 64, 32, 6, 32, 7, 73, 4, 64, 32, 2, 32, 6, 49, 0, 0, 66, 197, 207, 217, 178, 241, 229, 186, 234, 39, 126, 133, 66, 11, 137, 66, 135, 149, 175, 175, 152, 182, 222, 155, 158, 127, 126, 33, 2, 32, 6, 65, 1, 106, 33, 6, 12, 1, 11, 11, 32, 0, 32, 2, 32, 2, 66, 33, 136, 133, 66, 207, 214, 211, 190, 210, 199, 171, 217, 66, 126, 34, 2, 66, 29, 136, 32, 2, 133, 66, 249, 243, 221, 241, 153, 246, 153, 171, 22, 126, 34, 2, 66, 32, 136, 32, 2, 133, 34, 2, 66, 32, 136, 62, 2, 0, 32, 0, 65, 4, 106, 32, 2, 62, 2, 0, 11 ]);
 
@@ -18693,9 +18937,9 @@ async function putDBEntry(s, r, o) {
     } else I.set(o, r);
     m.push(o);
   }
-  const x = [ ...I.keys() ];
+  const R = [ ...I.keys() ];
   do {
-    const r = x.splice(0, 100);
+    const r = R.splice(0, 100);
     if (r.length > 0) {
       const o = await s.localDatabase.allDocs({
         keys: [ ...r ],
@@ -18727,7 +18971,7 @@ async function putDBEntry(s, r, o) {
         }
       }
     }
-  } while (x.length > 0);
+  } while (R.length > 0);
   if (C.length > 0) try {
     const r = await s.localDatabase.bulkDocs(C);
     for (const o of r) if ("ok" in o) {
@@ -19062,9 +19306,22 @@ var LiveSyncLocalDB = class {
     this.maxChunkVersion = -1;
     this.minChunkVersion = -1;
     this.needScanning = false;
-    this.collectThrottleTimeout = null;
-    this.collectThrottleQueuedIds = [];
-    this.chunkCollectedCallbacks = {};
+    this._chunkCollectProcessor = new QueueProcessor((async s => {
+      try {
+        const r = await this._collectChunks(s, false);
+        if (r) r.forEach((s => sendValue(`chunk-fetch-${s._id}`, s))); else throw Error("Failed: CollectChunksInternal");
+      } catch (r) {
+        Logger("Exception raised while retrieving chunks", LOG_LEVEL_NOTICE);
+        Logger(r, LOG_LEVEL_VERBOSE);
+        s.forEach((s => sendValue(`chunk-fetch-${s}`, [])));
+      }
+    }), {
+      batchSize: 100,
+      delay: 10,
+      concurrentLimit: 1,
+      suspended: false,
+      totalRemainingReactiveSource: collectingChunks
+    });
     this.auth = {
       username: "",
       password: ""
@@ -19128,7 +19385,7 @@ var LiveSyncLocalDB = class {
       live: true,
       filter: s => "leaf" == s.type
     }).on("change", (s => {
-      if (!s.deleted) sendSignal(`leaf-${s.id}`);
+      if (!s.deleted) sendValue(`leaf-${s.id}`, s.doc);
     }));
     this.changeHandler = o;
     this.isReady = true;
@@ -19159,35 +19416,44 @@ var LiveSyncLocalDB = class {
       }
     } else Logger("Fallback(SHA1) is used for hashing", LOG_LEVEL_VERBOSE);
   }
-  async getDBLeafWithTimeout(s, r) {
-    const o = Date.now(), u = this.hashCaches.revGet(s);
-    if (u) return u;
+  async readChunk(s, r) {
+    const o = this.hashCaches.revGet(s);
+    if (o) return o;
+    let u;
     try {
-      const r = await this.localDatabase.get(s);
-      if ("leaf" == r.type) {
-        this.hashCaches.set(s, r.data);
-        return r.data;
-      }
-      throw new Error(`Corrupted chunk has been detected: ${s}`);
-    } catch (u) {
-      if (isErrorOfMissingDoc(u)) {
-        if (r < o) throw new Error(`Could not read chunk: Timed out: ${s}`);
-        await waitForSignal(`leaf-${s}`, 5e3);
-        return this.getDBLeafWithTimeout(s, r);
-      } else {
-        Logger("Something went wrong while retrieving chunks");
-        throw u;
-      }
+      u = await this.localDatabase.get(s);
+    } catch (s) {
+      if (!isErrorOfMissingDoc(s)) throw s;
+    }
+    if (void 0 === u && 0 != r) {
+      const o = await waitForValue(`leaf-${s}`, r);
+      if (o === RESULT_TIMED_OUT) throw new Error(`Timed out: ${s}`);
+      u = o;
+    }
+    if ("leaf" != u.type) throw new Error(`Corrupted chunk has been detected: ${s}`);
+    this.hashCaches.set(s, u.data);
+    return u.data;
+  }
+  async getDBLeafWithTimeout(s, r) {
+    try {
+      return await this.readChunk(s, r);
+    } catch (s) {
+      Logger("Something went wrong while retrieving chunks");
+      Logger(s, LOG_LEVEL_VERBOSE);
+      throw s;
     }
   }
   getDBLeaf(s, r) {
-    return this.getDBLeafWithTimeout(s, r ? Date.now() + LEAF_WAIT_TIMEOUT : 0);
+    return this.getDBLeafWithTimeout(s, r ? LEAF_WAIT_TIMEOUT : 0);
   }
   async getDBEntryMeta(s, r, o = false) {
     return getDBEntryMeta(this, s, r, o);
   }
   async getDBEntry(s, r, o = false, u = true, g = false) {
     return getDBEntry(this, s, r, o, u, g);
+  }
+  async getDBEntryFromMeta(s, r, o = false, u = true, g = false) {
+    return getDBEntryFromMeta(this, s, r, o, u, g);
   }
   async deleteDBEntry(s, r) {
     return deleteDBEntry(this, s, r);
@@ -19251,61 +19517,18 @@ var LiveSyncLocalDB = class {
     }
     return true;
   }
-  chunkCollected(s) {
-    const r = s._id;
-    if ("undefined" != typeof this.chunkCollectedCallbacks[r]) {
-      for (const o of this.chunkCollectedCallbacks[r].ok) o(s);
-      delete this.chunkCollectedCallbacks[r];
-    } else Logger(`Collected handler of ${r} is missing, it might be error but perhaps it already timed out.`, LOG_LEVEL_VERBOSE);
-  }
   async collectChunks(s, r = false, o) {
+    this._chunkCollectProcessor.batchSize = this.settings.concurrencyOfReadChunksOnline;
     const u = await this.collectChunksWithCache(s);
     if (0 == u.filter((s => !s.chunk)).map((s => s.id)).length) return u.map((s => s.chunk));
-    const g = s.map((s => new Promise(((r, o) => {
-      if ("undefined" == typeof this.chunkCollectedCallbacks[s]) this.chunkCollectedCallbacks[s] = {
-        ok: [],
-        failed: () => {
-          delete this.chunkCollectedCallbacks[s];
-          o(new Error("Failed to collect one of chunks"));
-        }
-      };
-      this.chunkCollectedCallbacks[s].ok.push((s => {
-        r(s);
-      }));
-    }))));
-    this.collectThrottleQueuedIds = [ ...new Set([ ...this.collectThrottleQueuedIds, ...s ]) ];
-    this.execCollect();
-    return await Promise.all(g);
+    this._chunkCollectProcessor.enqueueAll(s);
+    const g = s.map((s => waitForValue(`chunk-fetch-${s}`)));
+    return (await Promise.all(g)).filter(onlyNot(RESULT_TIMED_OUT));
   }
-  execCollect() {
-    skipIfDuplicated("execCollect", (async () => {
-      do {
-        const s = this.settings.minimumIntervalOfReadChunksOnline, r = Date.now(), o = this.collectThrottleQueuedIds.splice(0, this.settings.concurrencyOfReadChunksOnline);
-        if (0 == o.length) return;
-        try {
-          const s = await this.collectChunksInternal(o, false);
-          if (s) {
-            this.collectThrottleQueuedIds = this.collectThrottleQueuedIds.filter((r => !s.some((s => s._id == r))));
-            for (const r of s) this.chunkCollected(r);
-          } else {
-            Logger("Could not retrieve chunks", LOG_LEVEL_NOTICE);
-            for (const s of o) if (s in this.chunkCollectedCallbacks) this.chunkCollectedCallbacks[s].failed();
-          }
-        } catch (s) {
-          Logger("Exception raised while retrieving chunks", LOG_LEVEL_NOTICE);
-          Logger(s, LOG_LEVEL_VERBOSE);
-          for (const s of o) if (s in this.chunkCollectedCallbacks) this.chunkCollectedCallbacks[s].failed();
-        }
-        const u = s - (Date.now() - r);
-        if (0 == this.collectThrottleQueuedIds.length) return;
-        await delay(u < 0 ? 0 : u);
-      } while (this.collectThrottleQueuedIds.length > 0);
-    })).then((() => {}));
-  }
-  async collectChunksInternal(s, r = false) {
+  async _collectChunks(s, r = false) {
     const o = await this.collectChunksWithCache(s), u = o.filter((s => !s.chunk)).map((s => s.id));
     if (0 == u.length) return o.map((s => s.chunk));
-    const g = await this.env.getReplicator().fetchRemoteChunks(u, r);
+    const g = await runWithInterval("fetch-remote", this.settings.minimumIntervalOfReadChunksOnline, (() => this.env.getReplicator().fetchRemoteChunks(u, r)));
     if (false == g) return false;
     const _ = g.length;
     g.forEach((s => this.hashCaches.set(s._id, s.data)));
@@ -19517,7 +19740,7 @@ var idbProxyableTypes, cursorAdvanceMethods, LiveSyncDBReplicator = class {
     this.remoteCleaned = false;
     this.remoteLockedAndDeviceNotAccepted = false;
     this.updateInfo = () => {
-      this.env.replicationStat.set({
+      this.env.replicationStat.value = {
         sent: this.docSent,
         arrived: this.docArrived,
         maxPullSeq: this.maxPullSeq,
@@ -19525,7 +19748,7 @@ var idbProxyableTypes, cursorAdvanceMethods, LiveSyncDBReplicator = class {
         lastSyncPullSeq: this.lastSyncPullSeq,
         lastSyncPushSeq: this.lastSyncPushSeq,
         syncStatus: this.syncStatus
-      });
+      };
     };
     this.env = s;
     this.initializeDatabaseForReplication();
@@ -20179,8 +20402,91 @@ var databaseCache = {}, OpenKeyValueDatabase = async s => {
     super(...arguments);
     this.periodicInternalFileScanProcessor = new PeriodicProcessor(this.plugin, (async () => this.settings.syncInternalFiles && this.localDatabase.isReady && await this.syncInternalFilesAndDatabase("push", false)));
     this.confirmPopup = null;
-    this.procInternalFiles = [];
+    this.internalFileProcessor = new KeyedQueueProcessor((async s => {
+      Logger(`START :Applying hidden ${s.length} files change`, LOG_LEVEL_VERBOSE);
+      await this.syncInternalFilesAndDatabase("pull", false, false, s);
+      Logger(`DONE  :Applying hidden ${s.length} files change`, LOG_LEVEL_VERBOSE);
+    }), {
+      batchSize: 100,
+      concurrentLimit: 1,
+      delay: 10,
+      yieldThreshold: 10,
+      suspended: false,
+      totalRemainingReactiveSource: hiddenFilesEventCount
+    });
     this.recentProcessedInternalFiles = [];
+    this.conflictResolutionProcessor = new QueueProcessor((async s => {
+      var r, o;
+      const u = s[0];
+      sendSignal(`cancel-internal-conflict:${u}`);
+      try {
+        const s = await this.path2id(u, ICHeader), g = await this.localDatabase.getRaw(s, {
+          conflicts: true
+        });
+        if (!("_conflicts" in g)) return;
+        if (0 == g._conflicts.length) return;
+        Logger(`Hidden file conflicted:${u}`);
+        const _ = g._conflicts.sort(((s, r) => Number(s.split("-")[0]) - Number(r.split("-")[0]))), m = g._rev, b = _[0];
+        if (u.endsWith(".json")) {
+          const w = _[0], E = Number(w.split("-")[0]), S = null != (o = null == (r = (await this.localDatabase.getRaw(s, {
+            revs_info: true
+          }))._revs_info.filter((s => "available" == s.status && Number(s.rev.split("-")[0]) < E)).first()) ? void 0 : r.rev) ? o : "", L = await this.plugin.mergeObject(u, S, g._rev, w);
+          if (L) {
+            Logger(`Object merge:${u}`, LOG_LEVEL_INFO);
+            const r = stripAllPrefixes(u);
+            if (!await this.plugin.vaultAccess.adapterExists(r)) await this.ensureDirectoryEx(r);
+            await this.plugin.vaultAccess.adapterWrite(r, L);
+            const o = await this.vaultAccess.adapterStat(r);
+            await this.storeInternalFileToDatabase({
+              path: r,
+              ...o
+            });
+            await this.extractInternalFileFromDatabase(r);
+            await this.localDatabase.removeRaw(s, b);
+            this.conflictResolutionProcessor.enqueue(u);
+            return;
+          } else Logger("Object merge is not applicable.", LOG_LEVEL_VERBOSE);
+          return [ {
+            path: u,
+            revA: m,
+            revB: b
+          } ];
+        }
+        const w = await this.localDatabase.getRaw(s, {
+          rev: b
+        }), E = ("mtime" in g && g.mtime || 0) < ("mtime" in w && w.mtime || 0) ? m : b;
+        await this.localDatabase.removeRaw(s, E);
+        Logger(`Older one has been deleted:${u}`);
+        this.conflictResolutionProcessor.enqueue(u);
+        return;
+      } catch (s) {
+        Logger(`Failed to resolve conflict (Hidden): ${u}`);
+        Logger(s, LOG_LEVEL_VERBOSE);
+        return;
+      }
+    }), {
+      suspended: false,
+      batchSize: 1,
+      concurrentLimit: 5,
+      delay: 10,
+      keepResultUntilDownstreamConnected: true,
+      yieldThreshold: 10,
+      pipeTo: new QueueProcessor((async s => {
+        const {path: r, revA: o, revB: u} = s[0], g = await this.localDatabase.getDBEntry(r, {
+          rev: o
+        }), _ = await this.localDatabase.getDBEntry(r, {
+          rev: u
+        });
+        if (false == g || false == _) ; else if (await this.showJSONMergeDialogAndMerge(g, _)) this.conflictResolutionProcessor.enqueue(r);
+      }), {
+        suspended: false,
+        batchSize: 1,
+        concurrentLimit: 1,
+        delay: 10,
+        keepResultUntilDownstreamConnected: false,
+        yieldThreshold: 10
+      })
+    });
   }
   get kvDB() {
     return this.plugin.kvDB;
@@ -20233,20 +20539,8 @@ var databaseCache = {}, OpenKeyValueDatabase = async s => {
     null == (s = this.periodicInternalFileScanProcessor) || s.disable();
     if (!this.plugin.suspended) if (this.plugin.isReady) this.periodicInternalFileScanProcessor.enable(this.settings.syncInternalFiles && this.settings.syncInternalFilesInterval ? 1e3 * this.settings.syncInternalFilesInterval : 0);
   }
-  async execInternalFile() {
-    await serialized("execInternal", (async () => {
-      const s = [ ...this.procInternalFiles ];
-      this.procInternalFiles = [];
-      Logger(`Applying hidden ${s.length} files change...`);
-      await this.syncInternalFilesAndDatabase("pull", false, false, s);
-      Logger(`Applying hidden ${s.length} files changed`);
-    }));
-  }
   procInternalFile(s) {
-    this.procInternalFiles.push(s);
-    scheduleTask("procInternal", 500, (async () => {
-      await this.execInternalFile();
-    }));
+    this.internalFileProcessor.enqueueWithKey(s, s);
   }
   async watchVaultRawEventsAsync(s) {
     if (!this.settings.syncInternalFiles) return;
@@ -20270,60 +20564,17 @@ var databaseCache = {}, OpenKeyValueDatabase = async s => {
     const s = this.localDatabase.findEntries(ICHeader, ICHeaderEnd, {
       conflicts: true
     });
-    for await (const r of s) if ("_conflicts" in r) if (isInternalMetadata(r._id)) await this.resolveConflictOnInternalFile(r.path);
-  }
-  async resolveConflictOnInternalFile(s) {
-    var r, o;
+    this.conflictResolutionProcessor.suspend();
     try {
-      const u = await this.path2id(s, ICHeader), g = await this.localDatabase.getRaw(u, {
-        conflicts: true
-      });
-      if (!("_conflicts" in g)) return false;
-      if (0 == g._conflicts.length) return false;
-      Logger(`Hidden file conflicted:${s}`);
-      const _ = g._conflicts.sort(((s, r) => Number(s.split("-")[0]) - Number(r.split("-")[0]))), m = g._rev, b = _[0];
-      if (s.endsWith(".json")) {
-        const w = _[0], E = Number(w.split("-")[0]), S = null != (o = null == (r = (await this.localDatabase.getRaw(u, {
-          revs_info: true
-        }))._revs_info.filter((s => "available" == s.status && Number(s.rev.split("-")[0]) < E)).first()) ? void 0 : r.rev) ? o : "", L = await this.plugin.mergeObject(s, S, g._rev, w);
-        if (L) {
-          Logger(`Object merge:${s}`, LOG_LEVEL_INFO);
-          const r = stripAllPrefixes(s);
-          if (!await this.plugin.vaultAccess.adapterExists(r)) await this.ensureDirectoryEx(r);
-          await this.plugin.vaultAccess.adapterWrite(r, L);
-          const o = await this.vaultAccess.adapterStat(r);
-          await this.storeInternalFileToDatabase({
-            path: r,
-            ...o
-          });
-          await this.extractInternalFileFromDatabase(r);
-          await this.localDatabase.removeRaw(u, b);
-          return this.resolveConflictOnInternalFile(s);
-        } else Logger("Object merge is not applicable.", LOG_LEVEL_VERBOSE);
-        const O = await this.localDatabase.getDBEntry(s, {
-          rev: m
-        }), D = await this.localDatabase.getDBEntry(s, {
-          rev: b
-        });
-        if (false != O && false != D) {
-          if (await this.showJSONMergeDialogAndMerge(O, D)) {
-            await delay(200);
-            return this.resolveConflictOnInternalFile(s);
-          }
-          return false;
-        }
-      }
-      const w = await this.localDatabase.getRaw(u, {
-        rev: b
-      }), E = ("mtime" in g && g.mtime || 0) < ("mtime" in w && w.mtime || 0) ? m : b;
-      await this.localDatabase.removeRaw(u, E);
-      Logger(`Older one has been deleted:${s}`);
-      return this.resolveConflictOnInternalFile(s);
-    } catch (r) {
-      Logger(`Failed to resolve conflict (Hidden): ${s}`);
-      Logger(r, LOG_LEVEL_VERBOSE);
-      return false;
+      for await (const r of s) if ("_conflicts" in r) if (isInternalMetadata(r._id)) this.conflictResolutionProcessor.enqueue(r.path);
+    } catch (s) {
+      Logger("something went wrong on resolving all conflicted internal files");
+      Logger(s, LOG_LEVEL_VERBOSE);
     }
+    await this.conflictResolutionProcessor.startPipeline().waitForPipeline();
+  }
+  queueConflictCheck(s) {
+    this.conflictResolutionProcessor.enqueue(s);
   }
   async syncInternalFilesAndDatabase(s, r, o = false, u = false) {
     await this.resolveConflictOnInternalFiles();
@@ -20359,43 +20610,60 @@ var databaseCache = {}, OpenKeyValueDatabase = async s => {
     }), {}), I = E.reduce(((s, r) => {
       s[stripAllPrefixes(this.getPath(r))] = r;
       return s;
-    }), {}), A = Parallels();
-    for (const r of S) {
+    }), {});
+    await new QueueProcessor((async s => {
+      const r = s[0];
       O++;
       if (O % 100 == 0) Logger(`Hidden file: ${O}/${L}`, g, "sync_internal");
-      if (!r) continue;
-      if (_.some((s => r.match(s)))) continue;
-      if (await this.plugin.isIgnoredByIgnoreFiles(r)) continue;
-      const o = r in T ? T[r] : void 0, u = r in I ? I[r] : void 0, m = r in C ? C[r] : {
-        storageMtime: 0,
-        docMtime: 0
-      };
-      await A.wait(5);
-      const proc = async (o, u) => {
-        if (o && u) {
-          if ("pullForce" != s && "pushForce" != s && u.mtime == m.docMtime && o.mtime == m.storageMtime) return;
-          const g = ~~(o.mtime / 1e3) - ~~(u.mtime / 1e3);
-          if (g > 0 || "pushForce" == s) await this.storeInternalFileToDatabase(o);
-          if (g < 0 || "pullForce" == s) if (!await this.extractInternalFileFromDatabase(r)) return;
-          m.docMtime = u.mtime;
-          m.storageMtime = o.mtime;
-          C[r] = m;
-          countUpdatedFolder(r);
-        } else if (!o && u) {
-          if ("push" == s || "pushForce" == s) {
-            if (u.deleted) return;
-            await this.deleteInternalFileOnDatabase(r, false);
-          } else if ("pull" == s || "pullForce" == s) {
-            if (await this.extractInternalFileFromDatabase(r)) countUpdatedFolder(r);
-          } else if ("safe" == s) {
-            if (u.deleted) return;
-            if (await this.extractInternalFileFromDatabase(r)) countUpdatedFolder(r);
-          }
-        } else if (o && !u) await this.storeInternalFileToDatabase(o); else throw new Error("Invalid state on hidden file sync");
-      };
-      A.add(proc(o, u));
-    }
-    await A.all();
+      if (!r) return;
+      if (_.some((s => r.match(s)))) return;
+      if (await this.plugin.isIgnoredByIgnoreFiles(r)) return;
+      const o = r in T ? T[r] : void 0, u = r in I ? I[r] : void 0;
+      return [ {
+        filename: r,
+        fileOnStorage: o,
+        fileOnDatabase: u
+      } ];
+    }), {
+      suspended: true,
+      batchSize: 1,
+      concurrentLimit: 10,
+      delay: 0,
+      totalRemainingReactiveSource: hiddenFilesProcessingCount
+    }).pipeTo(new QueueProcessor((async r => {
+      const {filename: o, fileOnStorage: u, fileOnDatabase: g} = r[0];
+      if (u && g) {
+        const r = o in C ? C[o] : {
+          storageMtime: 0,
+          docMtime: 0
+        };
+        if ("pullForce" != s && "pushForce" != s && g.mtime == r.docMtime && u.mtime == r.storageMtime) return;
+        const _ = function compareMTime(s, r) {
+          return ~~(s / 1e3) - ~~(r / 1e3);
+        }(u.mtime, g.mtime);
+        if (_ > 0 || "pushForce" == s) await this.storeInternalFileToDatabase(u);
+        if (_ < 0 || "pullForce" == s) if (!await this.extractInternalFileFromDatabase(o)) return;
+        r.docMtime = g.mtime;
+        r.storageMtime = u.mtime;
+        C[o] = r;
+        countUpdatedFolder(o);
+      } else if (!u && g) {
+        if ("push" == s || "pushForce" == s) {
+          if (g.deleted) return;
+          await this.deleteInternalFileOnDatabase(o, false);
+        } else if ("pull" == s || "pullForce" == s) {
+          if (await this.extractInternalFileFromDatabase(o)) countUpdatedFolder(o);
+        } else if ("safe" == s) {
+          if (g.deleted) return;
+          if (await this.extractInternalFileFromDatabase(o)) countUpdatedFolder(o);
+        }
+      } else if (u && !g) await this.storeInternalFileToDatabase(u); else throw new Error("Invalid state on hidden file sync");
+    }), {
+      suspended: true,
+      batchSize: 1,
+      concurrentLimit: 5,
+      delay: 0
+    })).root.enqueueAll(S).startPipeline().waitForPipeline();
     await this.kvDB.set("diff-caches-internal", C);
     if (("pull" == s || "pullForce" == s) && 0 != D) if (m in k) {
       let s = k[m];
@@ -20579,7 +20847,7 @@ var databaseCache = {}, OpenKeyValueDatabase = async s => {
     }));
   }
   showJSONMergeDialogAndMerge(s, r) {
-    return serialized("conflict:merge-data", (() => new Promise((o => {
+    return new Promise((o => {
       Logger("Opening data-merging dialog", LOG_LEVEL_VERBOSE);
       const u = [ s, r ], g = stripAllPrefixes(s.path);
       new JsonResolveModal(this.app, g, [ s, r ], (async (s, r) => {
@@ -20624,7 +20892,7 @@ var databaseCache = {}, OpenKeyValueDatabase = async s => {
           o(false);
         }
       })).open();
-    }))));
+    }));
   }
   async scanInternalFiles() {
     const s = normalizePath(this.app.vault.configDir), r = this.settings.syncInternalFilesIgnorePatterns.replace(/\n| /g, "").split(",").filter((s => s)).map((s => new RegExp(s, "i"))), o = !this.settings.usePluginSync ? [] : Object.values(this.settings.pluginSyncExtendedSetting).filter((s => s.mode == MODE_SELECTIVE || s.mode == MODE_PAUSED)).map((s => s.files)).flat().map((r => `${s}/${r}`.toLowerCase())), u = this.app.vault.getRoot().path, g = (await this.getFiles(u, [], null, r)).filter((s => s.startsWith("."))).filter((s => !s.startsWith(".trash"))).filter((s => o.every((r => !s.toLowerCase().startsWith(r))))).map((async s => ({
@@ -20874,7 +21142,6 @@ var databaseCache = {}, OpenKeyValueDatabase = async s => {
       this.plugin.settings.suspendFileWatching = false;
       await this.plugin.syncAllFiles(true);
       await this.plugin.loadQueuedFiles();
-      this.plugin.procQueuedFiles();
       await this.plugin.saveSettings();
     }
   }
@@ -21128,7 +21395,7 @@ function create_if_block_14(s) {
 }
 
 function create_each_block4(s) {
-  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, x, R, P, N, B = s[26].mtimeDisp + "", F = s[26].dirname.split("/").join("​/") + "", M = s[26].filename + "", V = s[26].changes + "";
+  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, R, x, P, N, B = s[26].mtimeDisp + "", F = s[26].dirname.split("/").join("​/") + "", M = s[26].filename + "", V = s[26].changes + "";
   function click_handler_1() {
     return s[18](s[26]);
   }
@@ -21157,8 +21424,8 @@ function create_each_block4(s) {
       j.c();
       I = space();
       A = element("td");
-      x = text(V);
-      R = space();
+      R = text(V);
+      x = space();
       if (q) q.c();
       attr(o, "class", "mtime svelte-1vjy5r1");
       attr(b, "class", "path svelte-1vjy5r1");
@@ -21191,8 +21458,8 @@ function create_each_block4(s) {
       j.m(T, null);
       append(r, I);
       append(r, A);
-      append(A, x);
-      append(r, R);
+      append(A, R);
+      append(r, x);
       if (q) q.m(r, null);
       if (!P) {
         N = listen(O, "click", click_handler_1);
@@ -21212,7 +21479,7 @@ function create_each_block4(s) {
           j.m(T, null);
         }
       }
-      if (32 & g && V !== (V = s[26].changes + "")) set_data(x, V);
+      if (32 & g && V !== (V = s[26].changes + "")) set_data(R, V);
       if (s[1]) if (q) q.p(s, g); else {
         q = create_if_block_14(s);
         q.c();
@@ -21277,7 +21544,7 @@ function create_if_block4(s) {
 }
 
 function create_fragment4(s) {
-  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, x, R, P, N, B, F, M, V, G, j, q, U, z, W, H, K, Q, J, Y, X, Z, ee, te, ne, ie, se, ae, re, oe, le = s[6] && create_if_block_53(s), ce = s[1] && create_if_block_44(s);
+  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, R, x, P, N, B, F, M, V, G, j, q, U, z, W, H, K, Q, J, Y, X, Z, ee, te, ne, ie, se, ae, re, oe, le = s[6] && create_if_block_53(s), ce = s[1] && create_if_block_44(s);
   function select_block_type(s, r) {
     if (s[6]) return create_if_block_34; else return create_else_block_23;
   }
@@ -21312,8 +21579,8 @@ function create_fragment4(s) {
       I = element("input");
       A = element("span");
       A.textContent = "Diff";
-      x = space();
-      R = element("label");
+      R = space();
+      x = element("label");
       P = element("input");
       N = element("span");
       N.textContent = "Chunks";
@@ -21374,7 +21641,7 @@ function create_fragment4(s) {
       P.disabled = s[6];
       attr(P, "class", "svelte-1vjy5r1");
       attr(N, "class", "svelte-1vjy5r1");
-      attr(R, "class", "svelte-1vjy5r1");
+      attr(x, "class", "svelte-1vjy5r1");
       attr(M, "type", "checkbox");
       M.disabled = s[6];
       attr(M, "class", "svelte-1vjy5r1");
@@ -21418,11 +21685,11 @@ function create_fragment4(s) {
       append(T, I);
       I.checked = s[0];
       append(T, A);
-      append(D, x);
       append(D, R);
-      append(R, P);
+      append(D, x);
+      append(x, P);
       P.checked = s[1];
-      append(R, N);
+      append(x, N);
       append(D, B);
       append(D, F);
       append(F, M);
@@ -21560,9 +21827,9 @@ function instance4(s, r, o) {
               rev: A.rev
             }, true);
             if (false === k) continue;
-            const x = A.rev, R = "mtime" in k ? k.mtime : 0;
-            if (b > R) continue;
-            if (w < R) continue;
+            const R = A.rev, x = "mtime" in k ? k.mtime : 0;
+            if (b > x) continue;
+            if (w < x) continue;
             let P = "";
             if (g && !O) {
               const s = getDocData(k.data);
@@ -21587,7 +21854,7 @@ function instance4(s, r, o) {
             }
             const N = k._deleted || (null == k ? void 0 : k.deleted) || false;
             if (N) P += " 🗑️";
-            if (x == S._rev) if (m) {
+            if (R == S._rev) if (m) {
               const s = u.vaultAccess.getAbstractFileByPath(stripAllPrefixes(u.getPath(S)));
               if (s instanceof import_obsidian.TFile) {
                 let r = false;
@@ -21615,8 +21882,8 @@ function instance4(s, r, o) {
               path: B,
               dirname: M.reverse().join("/"),
               filename: F,
-              mtime: R,
-              mtimeDisp: mtimeToDate(R),
+              mtime: x,
+              mtimeDisp: mtimeToDate(x),
               size: null !== (r = null == k ? void 0 : k.size) && void 0 !== r ? r : 0,
               isDeleted: N,
               changes: P,
@@ -21717,12 +21984,12 @@ function add_css5(s) {
 
 function get_each_context5(s, r, o) {
   const u = s.slice();
-  u[10] = r[o];
+  u[11] = r[o];
   return u;
 }
 
 function create_each_block5(s) {
-  let r, o, u = s[10] + "";
+  let r, o, u = s[11] + "";
   return {
     c() {
       r = element("pre");
@@ -21735,7 +22002,7 @@ function create_each_block5(s) {
       append(r, o);
     },
     p(s, g) {
-      if (1 & g && u !== (u = s[10] + "")) set_data(o, u);
+      if (1 & g && u !== (u = s[11] + "")) set_data(o, u);
       if (2 & g) toggle_class(r, "wrap-right", s[1]);
     },
     d(s) {
@@ -21745,7 +22012,7 @@ function create_each_block5(s) {
 }
 
 function create_fragment5(s) {
-  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, x, R, P = ensure_array_like(s[0]), N = [];
+  let r, o, u, g, _, m, b, w, E, S, L, O, D, k, C, T, I, A, R, x, P = ensure_array_like(s[0]), N = [];
   for (let r = 0; r < P.length; r += 1) N[r] = create_each_block5(get_each_context5(s, P, r));
   return {
     c() {
@@ -21812,9 +22079,9 @@ function create_fragment5(s) {
       append(r, A);
       for (let s = 0; s < N.length; s += 1) if (N[s]) N[s].m(A, null);
       s[8](A);
-      if (!x) {
-        R = [ listen(b, "change", s[5]), listen(L, "change", s[6]), listen(C, "change", s[7]) ];
-        x = true;
+      if (!R) {
+        x = [ listen(b, "change", s[5]), listen(L, "change", s[6]), listen(C, "change", s[7]) ];
+        R = true;
       }
     },
     p(s, [r]) {
@@ -21842,25 +22109,27 @@ function create_fragment5(s) {
       if (o) detach(r);
       destroy_each(N, o);
       s[8](null);
-      x = false;
-      run_all(R);
+      R = false;
+      run_all(x);
     }
   };
 }
 
 function instance5(s, r, o) {
   let u, g, _ = [], m = false, b = true, w = false;
+  function updateLog(s) {
+    const r = s.value;
+    if (!w) {
+      o(0, _ = [ ...r ]);
+      setTimeout((() => {
+        if (g) o(4, g.scrollTop = g.scrollHeight, g);
+      }), 10);
+    }
+  }
   onMount((async () => {
-    u = logMessageStore.observe((s => {
-      if (!w) {
-        o(0, _ = [ ...s ]);
-        if (b) if (g) o(4, g.scrollTop = g.scrollHeight, g);
-      }
-    }));
-    logMessageStore.invalidate();
-    setTimeout((() => {
-      if (g) o(4, g.scrollTop = g.scrollHeight, g);
-    }), 100);
+    logMessages.onChanged(updateLog);
+    Logger("Log window opened");
+    u = () => logMessages.offChanged(updateLog);
   }));
   onDestroy((() => {
     if (u) u();
@@ -21966,7 +22235,8 @@ var SerializedFileAccess = class {
       await this.app.vault.modify(s, r, o);
       return true;
     })); else return await serialized(getFileLockKey(s), (async () => {
-      if (isDocContentSame(createBinaryBlob(await this.app.vault.readBinary(s)), createBinaryBlob(r))) return false;
+      const u = await this.app.vault.readBinary(s);
+      if (await isDocContentSame(createBinaryBlob(u), createBinaryBlob(r))) return false;
       await this.app.vault.modifyBinary(s, toArrayBuffer(r), o);
       return true;
     }));
@@ -22005,10 +22275,18 @@ setGlobalLogFunction(((s, r, o) => {
     level: r,
     key: o
   };
-  logStore.push(u);
+  logStore.enqueue(u);
 }));
 
-logStore.intercept((s => s.slice(Math.min(s.length - 200, 0))));
+var recentLogs = [], recentLogProcessor = new QueueProcessor((s => {
+  recentLogs = [ ...recentLogs, ...s ].splice(-200);
+  logMessages.value = recentLogs;
+}), {
+  batchSize: 25,
+  delay: 10,
+  suspended: false,
+  concurrentLimit: 1
+}).resumePipeLine();
 
 async function fetchByAPI(s) {
   var r, o;
@@ -22043,7 +22321,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     this.vaultAccess = new SerializedFileAccess(this.app);
     this._unloaded = false;
     this.processReplication = s => this.parseReplicationResult(s);
-    this.replicationStat = new ObservableStore({
+    this.replicationStat = reactiveSource({
       sent: 0,
       arrived: 0,
       maxPullSeq: 0,
@@ -22053,18 +22331,141 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       syncStatus: "CLOSED"
     });
     this.usedPassphrase = "";
+    this.vaultManager = new StorageEventManagerObsidian(this);
+    this.pendingFileEventCount = reactiveSource(0);
+    this.fileEventQueue = new KeyedQueueProcessor((s => this.handleFileEvent(s[0])), {
+      suspended: true,
+      batchSize: 1,
+      concurrentLimit: 5,
+      delay: 100,
+      yieldThreshold: FileWatchEventQueueMax,
+      totalRemainingReactiveSource: this.pendingFileEventCount
+    }).replaceEnqueueProcessor(((s, r) => this.queueNextFileEvent(s, r)));
     this.notifies = {};
-    this.lastLog = "";
-    this.queuedEntries = [];
-    this.dbChangeProcRunning = false;
-    this.queuedFiles = [];
-    this.queuedFilesStore = getGlobalStore("queuedFiles", {
-      queuedItems: [],
-      fileEventItems: []
-    });
-    this.chunkWaitTimeout = 6e4;
+    this.statusLog = reactiveSource("");
+    this.databaseQueueCount = reactiveSource(0);
+    this.databaseQueuedProcessor = new KeyedQueueProcessor((async s => {
+      var r;
+      const o = s[0], u = this.getPath(o), g = !("type" in o) || "notes" == o.type ? "newnote" : o.type, _ = await this.localDatabase.getDBEntryFromMeta({
+        ...o,
+        datatype: g,
+        data: []
+      }, {}, false, true, true);
+      if (_) if (isInternalMetadata(_._id) && this.settings.syncInternalFiles) {
+        const s = this.getPathWithoutPrefix(_);
+        this.isTargetFile(s).then((r => r ? this.addOnHiddenFileSync.procInternalFile(s) : Logger(`Skipped (Not target:${s})`, LOG_LEVEL_VERBOSE)));
+      } else if (isValidPath(this.getPath(_))) this.storageApplyingProcessor.enqueueWithKey(_.path, _); else Logger(`Skipped: ${_._id.substring(0, 8)}`, LOG_LEVEL_VERBOSE); else Logger(`Something went wrong while gathering content of ${u} (${o._id.substring(0, 8)}, ${null == (r = o._rev) ? void 0 : r.substring(0, 10)}) `, LOG_LEVEL_NOTICE);
+    }), {
+      suspended: true,
+      batchSize: 1,
+      concurrentLimit: 10,
+      yieldThreshold: 1,
+      delay: 0,
+      totalRemainingReactiveSource: this.databaseQueueCount
+    }).startPipeline();
+    this.storageApplyingCount = reactiveSource(0);
+    this.storageApplyingProcessor = new KeyedQueueProcessor((async s => {
+      var r, o;
+      const u = s[0], g = this.getPath(u);
+      Logger(`Applying ${g} (${u._id.substring(0, 8)}: ${null == (r = u._rev) ? void 0 : r.substring(0, 5)}) change...`, LOG_LEVEL_VERBOSE);
+      const _ = this.vaultAccess.getAbstractFileByPath(this.getPathWithoutPrefix(u));
+      if (null == _) {
+        if (u._deleted || u.deleted) return;
+        const s = u;
+        await this.doc2storage(s);
+      } else if (_ instanceof import_obsidian.TFile) {
+        const s = u, r = _;
+        if (this.settings.writeDocumentsIfConflicted) {
+          await this.doc2storage(s, r);
+          this.queueConflictCheck(r);
+        } else {
+          const o = await this.localDatabase.getDBEntryMeta(this.getPath(u), {
+            conflicts: true
+          }, true);
+          if (o && !o._conflicts) await this.doc2storage(s, r); else this.queueConflictCheck(r);
+        }
+      } else Logger(`${this.getPath(u)} is already exist as the folder`);
+      Logger(`Applied ${g} (${u._id.substring(0, 8)}:${null == (o = u._rev) ? void 0 : o.substring(0, 5)}) change...`);
+    }), {
+      suspended: true,
+      batchSize: 1,
+      concurrentLimit: 2,
+      yieldThreshold: 1,
+      delay: 0,
+      totalRemainingReactiveSource: this.storageApplyingCount
+    }).startPipeline();
+    this.replicationResultCount = reactiveSource(0);
+    this.replicationResultProcessor = new QueueProcessor((async s => {
+      if (this.settings.suspendParseReplicationResult) return;
+      const r = s[0];
+      if (!isChunk(r._id)) {
+        for (const s of this.addOns) if (await s.parseReplicationResultItem(r)) return;
+        if ("versioninfo" != r.type) {
+          if (r._id != SYNCINFO_ID && !r._id.startsWith("_design")) if ("plain" == r.type || "newnote" == r.type) {
+            if (this.databaseQueuedProcessor._isSuspended) Logger(`Processing scheduled: ${r.path}`, LOG_LEVEL_INFO);
+            this.databaseQueuedProcessor.enqueueWithKey(r.path, r);
+          }
+        } else if (r.version > VER) {
+          this.replicator.closeReplication();
+          Logger("Remote database updated to incompatible version. update your Self-hosted LiveSync plugin.", LOG_LEVEL_NOTICE);
+        }
+      } else sendValue(`leaf-${r._id}`, r);
+    }), {
+      batchSize: 1,
+      suspended: true,
+      concurrentLimit: 1,
+      delay: 0,
+      totalRemainingReactiveSource: this.replicationResultCount
+    }).startPipeline().onUpdateProgress((() => {
+      this.saveQueuedFiles();
+    }));
     this.lastMessage = "";
-    this.conflictedCheckFiles = [];
+    this.conflictProcessQueueCount = reactiveSource(0);
+    this.conflictResolveQueue = new KeyedQueueProcessor((async s => {
+      const r = s[0].filename, o = await this.checkConflictAndPerformAutoMerge(r);
+      if (o !== MISSING_OR_ERROR && o !== NOT_CONFLICTED && o !== CANCELLED) if (o !== AUTO_MERGED) {
+        if (this.settings.showMergeDialogOnlyOnActive) {
+          const s = this.app.workspace.getActiveFile();
+          if (s && s.path != r) {
+            Logger(`${r} is conflicted. Merging process has been postponed to the file have got opened.`, LOG_LEVEL_NOTICE);
+            return;
+          }
+        }
+        Logger("conflict:Manual merge required!");
+        await this.resolveConflictByUI(r, o);
+      } else {
+        if (this.settings.syncAfterMerge && !this.suspended) await shareRunningResult("replication", (() => this.replicate()));
+        Logger("conflict:Automatically merged, but we have to check it again");
+        this.conflictCheckQueue.enqueue(r);
+      }
+    }), {
+      suspended: false,
+      batchSize: 1,
+      concurrentLimit: 1,
+      delay: 10,
+      keepResultUntilDownstreamConnected: false
+    }).replaceEnqueueProcessor(((s, r) => {
+      sendValue("cancel-resolve-conflict:" + r.entity.filename, true);
+      return [ ...[ ...s ].filter((s => s.key != r.key)), r ];
+    }));
+    this.conflictCheckQueue = new QueueProcessor((s => {
+      const r = s[0], o = this.vaultAccess.getAbstractFileByPath(r);
+      if (o) if (o instanceof import_obsidian.TFile) return [ {
+        key: r,
+        entity: {
+          filename: r,
+          file: o
+        }
+      } ];
+    }), {
+      suspended: false,
+      batchSize: 1,
+      concurrentLimit: 5,
+      delay: 10,
+      keepResultUntilDownstreamConnected: true,
+      pipeTo: this.conflictResolveQueue,
+      totalRemainingReactiveSource: this.conflictProcessQueueCount
+    });
     this.ignoreFileCache = new LRUCache(300, 25e4, true);
     this.ignoreFiles = [];
   }
@@ -22279,13 +22680,14 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     const o = await askSelectString(this.app, "File to resolve conflict", r);
     if (o) {
       const r = s.find((s => s.dispPath == o));
-      await this.resolveConflicted(r.path);
+      this.resolveConflicted(r.path);
+      await this.conflictCheckQueue.waitForPipeline();
       return true;
     }
     return false;
   }
   async resolveConflicted(s) {
-    if (isInternalMetadata(s)) await this.addOnHiddenFileSync.resolveConflictOnInternalFile(s); else if (isPluginMetadata(s)) await this.resolveConflictByNewerEntry(s); else if (isCustomisationSyncMetadata(s)) await this.resolveConflictByNewerEntry(s); else await this.showIfConflicted(s);
+    if (isInternalMetadata(s)) this.addOnHiddenFileSync.queueConflictCheck(s); else if (isPluginMetadata(s)) await this.resolveConflictByNewerEntry(s); else if (isCustomisationSyncMetadata(s)) await this.resolveConflictByNewerEntry(s); else this.queueConflictCheck(s);
   }
   async collectDeletedFiles() {
     const s = this.settings.automaticallyDeleteMetadataOfDeletedFiles;
@@ -22343,9 +22745,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
         } else {
           this.settings.writeLogToTheFile = true;
           await this.openDatabase();
-          const s = "The red flag is raised! The whole initialize steps are skipped, and any file changes are not captured.";
-          Logger(s, LOG_LEVEL_NOTICE);
-          this.setStatusBarText(s);
+          Logger("The red flag is raised! The whole initialize steps are skipped, and any file changes are not captured.", LOG_LEVEL_NOTICE);
         }
       } else {
         if (this.settings.suspendFileWatching) Logger("'Suspend file watching' turned on. Are you sure this is what you intended? Every modification on the vault will be ignored.", LOG_LEVEL_NOTICE);
@@ -22425,9 +22825,9 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     this.addCommand({
       id: "livesync-checkdoc-conflicted",
       name: "Resolve if conflicted.",
-      editorCallback: async (s, r) => {
+      editorCallback: (s, r) => {
         const o = r.file;
-        if (o) await this.showIfConflicted(getPathFromTFile(o));
+        if (o) this.queueConflictCheck(o);
       }
     });
     this.addCommand({
@@ -22463,8 +22863,9 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     this.addCommand({
       id: "livesync-history",
       name: "Show history",
-      editorCallback: (s, r) => {
-        if (r.file) this.showHistory(r.file, null);
+      callback: () => {
+        const s = this.app.workspace.getActiveFile();
+        if (s) this.showHistory(s, null);
       }
     });
     this.addCommand({
@@ -22520,16 +22921,22 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     this.registerView(VIEW_TYPE_LOG, (s => new LogPaneView(s, this)));
   }
   async onload() {
-    logStore.subscribe((s => this.addLog(s.message, s.level, s.key)));
+    logStore.pipeTo(new QueueProcessor((s => s.forEach((s => this.addLog(s.message, s.level, s.key)))), {
+      suspended: false,
+      batchSize: 20,
+      concurrentLimit: 1,
+      delay: 0
+    })).startPipeline();
     Logger("loading plugin");
     this.addSettingTab(new ObsidianLiveSyncSettingTab(this.app, this));
     this.addUIs();
-    const s = "0.21.5", r = "0.21.5";
+    const s = "0.22.1", r = "0.22.1";
     this.manifestVersion = s;
     this.packageVersion = r;
     Logger(`Self-hosted LiveSync v${s} ${r} `);
     const o = "obsidian-live-sync-ver" + this.getVaultName(), u = localStorage.getItem(o);
     await this.loadSettings();
+    this.observeForLogs();
     this.statusBar = this.addStatusBarItem();
     this.statusBar.addClass("syncstatusbar");
     if (~~(versionNumberString2Number(s) / 1e3) > this.settings.lastReadUpdates) Logger("Self-hosted LiveSync has undergone a major upgrade. Please open the setting dialog, and check the information pane.", LOG_LEVEL_NOTICE);
@@ -22553,12 +22960,11 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     this.watchWorkspaceOpen = (0, import_obsidian.debounce)(this.watchWorkspaceOpen.bind(this), 1e3, false);
     this.watchWindowVisibility = (0, import_obsidian.debounce)(this.watchWindowVisibility.bind(this), 1e3, false);
     this.watchOnline = (0, import_obsidian.debounce)(this.watchOnline.bind(this), 500, false);
+    this.realizeSettingSyncMode = this.realizeSettingSyncMode.bind(this);
     this.parseReplicationResult = this.parseReplicationResult.bind(this);
     this.loadQueuedFiles = this.loadQueuedFiles.bind(this);
-    this.triggerRealizeSettingSyncMode = (0, import_obsidian.debounce)(this.triggerRealizeSettingSyncMode.bind(this), 1e3);
     await Promise.all(this.addOns.map((s => s.onload())));
     this.app.workspace.onLayoutReady(this.onLayoutReady.bind(this));
-    this.triggerRealizeSettingSyncMode = (0, import_obsidian.debounce)(this.triggerRealizeSettingSyncMode.bind(this), 1e3);
   }
   async showView(s) {
     const r = this.app.workspace.getLeavesOfType(s);
@@ -22576,6 +22982,9 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
   }
   onunload() {
     var s;
+    cancelAllPeriodicTask();
+    cancelAllTasks();
+    this._unloaded = true;
     for (const s of this.addOns) s.onunload();
     if (null != this.localDatabase) this.localDatabase.onunload();
     null == (s = this.periodicSyncProcessor) || s.disable();
@@ -22583,9 +22992,6 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       this.replicator.closeReplication();
       this.localDatabase.close();
     }
-    cancelAllPeriodicTask();
-    cancelAllTasks();
-    this._unloaded = true;
     Logger("unloading plugin");
   }
   async openDatabase() {
@@ -22594,7 +23000,6 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     Logger("Waiting for ready...");
     this.isMobile = this.app.isMobile;
     this.localDatabase = new LiveSyncLocalDB(s, this);
-    this.observeForLogs();
     return await this.localDatabase.initializeDatabase();
   }
   getPassphrase(s) {
@@ -22675,11 +23080,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     }
     this.deviceAndVaultName = localStorage.getItem(o) || "";
     this.ignoreFiles = this.settings.ignoreFiles.split(",").map((s => s.trim()));
-  }
-  triggerRealizeSettingSyncMode() {
-    (async () => {
-      await this.realizeSettingSyncMode();
-    })();
+    this.fileEventQueue.delay = this.settings.batchSave ? 5e3 : 100;
   }
   async saveSettingData() {
     const s = "obsidian-live-sync-vaultanddevicename-" + this.getVaultName();
@@ -22708,14 +23109,15 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     }
     await this.saveData(r);
     this.localDatabase.settings = this.settings;
+    this.fileEventQueue.delay = this.settings.batchSave ? 5e3 : 100;
     this.ignoreFiles = this.settings.ignoreFiles.split(",").map((s => s.trim()));
   }
   async saveSettings() {
     await this.saveSettingData();
-    this.triggerRealizeSettingSyncMode();
+    fireAndForget((() => this.realizeSettingSyncMode()));
   }
   registerFileWatchEvents() {
-    this.vaultManager = new StorageEventManagerObsidian(this);
+    this.vaultManager.beginWatch();
   }
   swapSaveCommand() {
     var s, r;
@@ -22776,58 +23178,64 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       this.periodicSyncProcessor.enable(this.settings.periodicReplication ? 1e3 * this.settings.periodicReplicationInterval : 0);
     }
   }
-  async procFileEvent(s) {
-    if (this.isReady) {
-      if (this.settings.batchSave && !this.settings.liveSync) if (!s && this.vaultManager.getQueueLength() < FileWatchEventQueueMax) {
-        scheduleTask("applyBatchAuto", 3e4, (() => {
-          this.procFileEvent(true);
-        }));
+  cancelRelativeEvent(s) {
+    this.fileEventQueue.modifyQueue((r => [ ...r.filter((r => r.entity.key != s.key)) ]));
+  }
+  queueNextFileEvent(s, r) {
+    if (this.settings.batchSave && !this.settings.liveSync) {
+      const o = r.entity.args.file;
+      let u = s.length;
+      e: for (;u >= 0; ) {
+        u--;
+        if (u < 0) break e;
+        if (s[u].entity.args.file.path == o.path) {
+          if (s[u].entity.type != r.entity.type) break e;
+          s.remove(s[u]);
+        }
+      }
+    }
+    s.push(r);
+    if ("DELETE" == r.entity.type || "RENAME" == r.entity.type) this.fileEventQueue.requestNextFlush();
+    return s;
+  }
+  async handleFileEvent(s) {
+    const r = s.args.file, o = `file-last-proc-${s.type}-${r.path}`, u = Number(await this.kvDB.get(o) || 0);
+    let g = r.mtime;
+    if ("DELETE" == s.type) {
+      await this.deleteFromDBbyPath(r.path);
+      g = r.mtime - 1;
+      const s = `file-last-proc-CREATE-${r.path}`, o = `file-last-proc-CHANGED-${r.path}`;
+      await this.kvDB.set(s, g);
+      await this.kvDB.set(o, g);
+    } else if ("INTERNAL" == s.type) {
+      await this.addOnHiddenFileSync.watchVaultRawEventsAsync(r.path);
+      await this.addOnConfigSync.watchVaultRawEventsAsync(r.path);
+    } else {
+      const o = this.vaultAccess.getAbstractFileByPath(r.path);
+      if (!(o instanceof import_obsidian.TFile)) {
+        Logger(`Target file was not found: ${r.path}`, LOG_LEVEL_INFO);
         return;
       }
-      cancelTask("applyBatchAuto");
-      return await skipIfDuplicated("procFiles", (async () => {
-        do {
-          const s = this.vaultManager.fetchEvent();
-          if (false === s) break;
-          if (void 0 === s) break;
-          const r = s.args.file, o = `file-last-proc-${s.type}-${r.path}`, u = Number(await this.kvDB.get(o) || 0);
-          let g = r.mtime;
-          if ("DELETE" == s.type) {
-            await this.deleteFromDBbyPath(r.path);
-            g = r.mtime - 1;
-            const s = `file-last-proc-CREATE-${r.path}`, o = `file-last-proc-CHANGED-${r.path}`;
-            await this.kvDB.set(s, g);
-            await this.kvDB.set(o, g);
-          } else if ("INTERNAL" == s.type) {
-            await this.addOnHiddenFileSync.watchVaultRawEventsAsync(r.path);
-            await this.addOnConfigSync.watchVaultRawEventsAsync(r.path);
-          } else {
-            const o = this.vaultAccess.getAbstractFileByPath(r.path);
-            if (!(o instanceof import_obsidian.TFile)) {
-              Logger(`Target file was not found: ${r.path}`, LOG_LEVEL_INFO);
-              continue;
-            }
-            if (r.mtime == u) {
-              Logger(`File has been already scanned on ${s.type}, skip: ${r.path}`, LOG_LEVEL_VERBOSE);
-              continue;
-            }
-            const _ = s.args.cache;
-            if ("CREATE" == s.type || "CHANGED" == s.type) {
-              const u = `file-last-proc-DELETED-${r.path}`;
-              await this.kvDB.set(u, g);
-              if (!await this.updateIntoDB(o, false, _)) {
-                Logger(`DB -> STORAGE: failed, cancel the relative operations: ${o.path}`, LOG_LEVEL_INFO);
-                this.vaultManager.cancelRelativeEvent(s);
-                continue;
-              }
-            }
-            if ("RENAME" == s.type) await this.watchVaultRenameAsync(o, s.args.oldPath);
-          }
-          await this.kvDB.set(o, g);
-        } while (this.vaultManager.getQueueLength() > 0);
-        return true;
-      }));
+      if (r.mtime == u) {
+        Logger(`File has been already scanned on ${s.type}, skip: ${r.path}`, LOG_LEVEL_VERBOSE);
+        return;
+      }
+      const _ = s.args.cache;
+      if ("CREATE" == s.type || "CHANGED" == s.type) {
+        const u = `file-last-proc-DELETED-${r.path}`;
+        await this.kvDB.set(u, g);
+        if (!await this.updateIntoDB(o, false, _)) {
+          Logger(`STORAGE -> DB: failed, cancel the relative operations: ${o.path}`, LOG_LEVEL_INFO);
+          this.cancelRelativeEvent(s);
+          return;
+        }
+      }
+      if ("RENAME" == s.type) await this.watchVaultRenameAsync(o, s.args.oldPath);
     }
+    await this.kvDB.set(o, g);
+  }
+  flushFileEventQueue() {
+    return this.fileEventQueue.flush();
   }
   watchWorkspaceOpen(s) {
     if (!this.settings.suspendFileWatching) if (this.isReady) if (s) this.watchWorkspaceOpenAsync(s);
@@ -22837,12 +23245,12 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       await this.applyBatchChange();
       if (null != s) {
         if (this.settings.syncOnFileOpen && !this.suspended) await this.replicate();
-        await this.showIfConflicted(getPathFromTFile(s));
+        this.queueConflictCheck(s);
       }
     }
   }
   async applyBatchChange() {
-    if (this.settings.batchSave && !this.settings.liveSync) return await this.procFileEvent(true);
+    if (this.settings.batchSave && !this.settings.liveSync) return await this.flushFileEventQueue();
   }
   getFilePath(s) {
     if (s instanceof import_obsidian.TFolder) if (s.isRoot()) return ""; else return this.getFilePath(s.parent) + "/" + s.name;
@@ -22857,48 +23265,44 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     }
   }
   async addLog(s, r = LOG_LEVEL_INFO, o = "") {
-    var u, g;
+    var u, g, _;
     if (r == LOG_LEVEL_DEBUG && !isDebug) return;
     if (r < LOG_LEVEL_INFO && this.settings && this.settings.lessInformationInLog) return;
     if (this.settings && !this.settings.showVerboseLog && r == LOG_LEVEL_VERBOSE) return;
-    const _ = this.getVaultName(), m = new Date, b = m.toLocaleString(), w = "string" == typeof s ? s : s instanceof Error ? `${s.name}:${s.message}` : JSON.stringify(s, null, 2);
+    const m = this.getVaultName(), b = new Date, w = b.toLocaleString(), E = "string" == typeof s ? s : s instanceof Error ? `${s.name}:${s.message}` : JSON.stringify(s, null, 2);
     if (s instanceof Error) console.dir(s.stack);
-    const E = b + "->" + w;
-    console.log(_ + ":" + E);
-    if (null == (u = this.settings) ? void 0 : u.writeLogToTheFile) {
-      const s = m.toISOString().split("T")[0], r = `${PREFIXMD_LOGFILE}${s}.md`;
+    const S = w + "->" + E;
+    console.log(m + ":" + S);
+    if (!(null == (u = this.settings) ? void 0 : u.showOnlyIconsOnEditor)) this.statusLog.value = E;
+    if (null == (g = this.settings) ? void 0 : g.writeLogToTheFile) {
+      const s = b.toISOString().split("T")[0], r = `${PREFIXMD_LOGFILE}${s}.md`;
       if (!this.vaultAccess.getAbstractFileByPath(normalizePath(r))) this.app.vault.adapter.append(normalizePath(r), "```\n");
-      this.app.vault.adapter.append(normalizePath(r), _ + ":" + E + "\n");
+      this.app.vault.adapter.append(normalizePath(r), m + ":" + S + "\n");
     }
-    logMessageStore.apply((s => [ ...s, E ].slice(-100)));
-    this.setStatusBarText(null, w);
+    recentLogProcessor.enqueue(S);
     if (r >= LOG_LEVEL_NOTICE) {
-      if (!o) o = w;
+      if (!o) o = E;
       if (o in this.notifies) {
-        if (!(null == (g = this.notifies[o].notice.noticeEl) ? void 0 : g.isShown())) this.notifies[o].notice = new import_obsidian.Notice(w, 0);
-        clearTimeout(this.notifies[o].timer);
-        if (o == w) {
+        if (!(null == (_ = this.notifies[o].notice.noticeEl) ? void 0 : _.isShown())) this.notifies[o].notice = new import_obsidian.Notice(E, 0);
+        cancelTask(`notify-${o}`);
+        if (o == E) {
           this.notifies[o].count++;
-          this.notifies[o].notice.setMessage(`(${this.notifies[o].count}):${w}`);
-        } else this.notifies[o].notice.setMessage(`${w}`);
-        this.notifies[o].timer = setTimeout((() => {
-          const s = this.notifies[o].notice;
-          delete this.notifies[o];
-          try {
-            s.hide();
-          } catch (s) {}
-        }), 5e3);
+          this.notifies[o].notice.setMessage(`(${this.notifies[o].count}):${E}`);
+        } else this.notifies[o].notice.setMessage(`${E}`);
       } else {
-        const s = new import_obsidian.Notice(w, 0);
+        const s = new import_obsidian.Notice(E, 0);
         this.notifies[o] = {
           count: 0,
-          notice: s,
-          timer: setTimeout((() => {
-            delete this.notifies[o];
-            s.hide();
-          }), 5e3)
+          notice: s
         };
       }
+      scheduleTask(`notify-${o}`, 5e3, (() => {
+        const s = this.notifies[o].notice;
+        delete this.notifies[o];
+        try {
+          s.hide();
+        } catch (s) {}
+      }));
     }
   }
   async ensureDirectory(s) {
@@ -22933,7 +23337,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
         await this.pullFile(_, null, true);
       } else {
         Logger(`Delete: ${r.path}: Conflicted revision has been deleted, but there were more conflicts...`);
-        this.queueConflictedOnlyActiveFile(r);
+        this.queueConflictCheck(r);
       } else {
         Logger(`Delete: ${r.path}: Conflict revision has been deleted and resolved`);
         await this.pullFile(_, null, true);
@@ -22944,7 +23348,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       rev: s._rev
     });
     if (false === w) return;
-    const E = `DB -> STORAGE (${g}${o ? ",force" : ""},${w.datatype}) `;
+    const E = `STORAGE <- DB (${g}${o ? ",force" : ""},${w.datatype}) `;
     if ("newnote" != w.datatype && "plain" != w.datatype) {
       Logger(E + "ERROR, Invalid datatype: " + _ + "(" + w.datatype + ")", LOG_LEVEL_NOTICE);
       return;
@@ -22993,77 +23397,19 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       await this.deleteVaultItem(r);
     }
   }
-  handleDBChanged(s) {
-    const r = app.workspace.getActiveFile();
-    if (r && r.path == this.getPath(s)) {
-      this.queuedEntries = this.queuedEntries.filter((r => r._id != s._id));
-      return this.handleDBChangedAsync(s);
-    }
-    this.queuedEntries.push(s);
-    this.execDBchanged();
-  }
-  async execDBchanged() {
-    var s;
-    if (this.dbChangeProcRunning) return false;
-    this.dbChangeProcRunning = true;
-    const r = Semaphore(4);
-    try {
-      do {
-        const o = this.queuedEntries.shift();
-        if (this.queuedEntries.some((s => s._id == o._id))) continue;
-        const u = getPath2(o);
-        try {
-          const s = await r.acquire(1);
-          serialized(`dbchanged-${u}`, (async () => {
-            var s, r;
-            Logger(`Applying ${u} (${o._id.substring(0, 8)}: ${null == (s = o._rev) ? void 0 : s.substring(0, 5)}) change...`, LOG_LEVEL_VERBOSE);
-            await this.handleDBChangedAsync(o);
-            Logger(`Applied ${u} (${o._id.substring(0, 8)}:${null == (r = o._rev) ? void 0 : r.substring(0, 5)}) change...`);
-          })).finally((() => {
-            s();
-          }));
-        } catch (r) {
-          Logger(`Failed to apply the change of ${u} (${o._id.substring(0, 8)}:${null == (s = o._rev) ? void 0 : s.substring(0, 5)})`);
-        }
-      } while (this.queuedEntries.length > 0);
-    } finally {
-      this.dbChangeProcRunning = false;
-    }
-  }
-  queueConflictedOnlyActiveFile(s) {
-    if (!this.settings.checkConflictOnlyOnOpen) {
-      this.queueConflictedCheck(s);
-      return true;
-    } else {
-      const r = this.app.workspace.getActiveFile();
-      if (r && r.path == s.path) {
-        this.queueConflictedCheck(s);
-        return true;
+  queueConflictCheck(s) {
+    const r = s instanceof import_obsidian.TFile ? getPathFromTFile(s) : s;
+    if (this.settings.checkConflictOnlyOnOpen) {
+      const o = this.app.workspace.getActiveFile();
+      if (o && o.path != r) {
+        Logger(`${s} is conflicted, merging process has been postponed.`, LOG_LEVEL_NOTICE);
+        return;
       }
     }
-    return false;
-  }
-  async handleDBChangedAsync(s) {
-    const r = this.vaultAccess.getAbstractFileByPath(this.getPathWithoutPrefix(s));
-    if (null == r) {
-      if (s._deleted || s.deleted) return;
-      const r = s;
-      await this.doc2storage(r);
-    } else if (r instanceof import_obsidian.TFile) {
-      const o = s, u = r;
-      if (this.settings.writeDocumentsIfConflicted) {
-        await this.doc2storage(o, u);
-        this.queueConflictedOnlyActiveFile(u);
-      } else {
-        const r = await this.localDatabase.getDBEntryMeta(this.getPath(s), {
-          conflicts: true
-        }, true);
-        if (r && !r._conflicts) await this.doc2storage(o, u); else if (!this.queueConflictedOnlyActiveFile(u)) Logger(`${this.getPath(s)} is conflicted, write to the storage has been postponed.`, LOG_LEVEL_NOTICE);
-      }
-    } else Logger(`${this.getPath(s)} is already exist as the folder`);
+    this.conflictCheckQueue.enqueue(r);
   }
   saveQueuedFiles() {
-    const s = JSON.stringify(this.queuedFiles.filter((s => !s.done)).map((s => s.entry._id))), r = "obsidian-livesync-queuefiles-" + this.getVaultName();
+    const s = JSON.stringify(this.replicationResultProcessor._queue.map((s => s._id))), r = "obsidian-livesync-queuefiles-" + this.getVaultName();
     localStorage.setItem(r, s);
   }
   async loadQueuedFiles() {
@@ -23072,116 +23418,12 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
         keys: r,
         include_docs: true
       });
-      for (const s of o.rows) if (s.doc && !this.queuedFiles.some((r => r.entry._id == s.doc._id))) await this.parseIncomingDoc(s.doc);
+      for (const s of o.rows) this.replicationResultProcessor.enqueue(s.doc);
     }
   }
-  procQueuedFiles() {
-    this.saveQueuedFiles();
-    for (const s of this.queuedFiles) {
-      if (s.done) continue;
-      const r = (new Date).getTime();
-      if (0 == s.missingChildren.length) {
-        s.done = true;
-        if (isInternalMetadata(s.entry._id) && this.settings.syncInternalFiles) {
-          const r = this.getPathWithoutPrefix(s.entry);
-          this.isTargetFile(r).then((s => s ? this.addOnHiddenFileSync.procInternalFile(r) : Logger(`Skipped (Not target:${r})`, LOG_LEVEL_VERBOSE)));
-        } else if (isValidPath(this.getPath(s.entry))) this.handleDBChanged(s.entry); else Logger(`Skipped: ${s.entry._id.substring(0, 8)}`, LOG_LEVEL_VERBOSE);
-      } else if (r > s.timeout) {
-        if (!s.warned) Logger(`Timed out: ${s.entry._id.substring(0, 8)} could not collect ${s.missingChildren.length} chunks. plugin keeps watching, but you have to check the file after the replication.`, LOG_LEVEL_NOTICE);
-        s.warned = true;
-        continue;
-      }
-    }
-    this.queuedFiles = this.queuedFiles.filter((s => !s.done));
-    this.queuedFilesStore.apply((s => ({
-      ...s,
-      queuedItems: this.queuedFiles
-    })));
-    this.saveQueuedFiles();
-  }
-  parseIncomingChunk(s) {
-    const r = (new Date).getTime();
-    let o = false;
-    for (const u of this.queuedFiles) if (!u.done) {
-      if (-1 !== u.missingChildren.indexOf(s._id)) {
-        u.missingChildren = u.missingChildren.filter((r => r != s._id));
-        u.timeout = r + this.chunkWaitTimeout;
-      }
-      if (0 == u.missingChildren.length) {
-        for (const s of this.queuedFiles) if (s.entry._id == u.entry._id && s.entry.mtime < u.entry.mtime) s.done = true;
-        o = true;
-      }
-    }
-    if (o) this.procQueuedFiles();
-  }
-  async parseIncomingDoc(s) {
-    var r, o, u, g;
-    const _ = this.getPath(s);
-    if (!await this.isTargetFile(_)) return;
-    const m = this.settings.skipOlderFilesOnSync && false;
-    if (isInternalMetadata(s._id) && !this.settings.syncInternalFiles) {
-      Logger(`Skipped: ${_} (${s._id.substring(0, 8)}, ${null == (r = s._rev) ? void 0 : r.substring(0, 10)}) Hidden file sync is disabled.`, LOG_LEVEL_VERBOSE);
-      return;
-    }
-    if (isCustomisationSyncMetadata(s._id) && !this.settings.usePluginSync) {
-      Logger(`Skipped: ${_} (${s._id.substring(0, 8)}, ${null == (o = s._rev) ? void 0 : o.substring(0, 10)}) Customization sync is disabled.`, LOG_LEVEL_VERBOSE);
-      return;
-    }
-    const b = [ "_design/replicate", "_design/chunks", FLAGMD_REDFLAG, FLAGMD_REDFLAG2, FLAGMD_REDFLAG3 ];
-    if (!isInternalMetadata(s._id) && b.contains(_)) return;
-    if (!isInternalMetadata(s._id) && m) {
-      const r = this.vaultAccess.getAbstractFileByPath(stripAllPrefixes(_));
-      if (r && r instanceof import_obsidian.TFile) if (~~(r.stat.mtime / 1e3) >= ~~(s.mtime / 1e3)) {
-        Logger(`${_} (${s._id.substring(0, 8)}, ${null == (u = s._rev) ? void 0 : u.substring(0, 10)}) Skipped, older than storage.`, LOG_LEVEL_VERBOSE);
-        return;
-      }
-    }
-    const w = {
-      entry: s,
-      missingChildren: [],
-      timeout: (new Date).getTime() + this.chunkWaitTimeout
-    };
-    if (!this.settings.readChunksOnline && "children" in s) {
-      const r = (await this.localDatabase.collectChunksWithCache(s.children)).filter((s => false === s.chunk)).map((s => s.id));
-      if (r.length > 0) Logger(`${_} (${s._id.substring(0, 8)}, ${null == (g = s._rev) ? void 0 : g.substring(0, 10)}) Queued (waiting ${r.length} items)`, LOG_LEVEL_VERBOSE);
-      w.missingChildren = r;
-      this.queuedFiles.push(w);
-    } else this.queuedFiles.push(w);
-    this.saveQueuedFiles();
-    this.procQueuedFiles();
-  }
-  async parseReplicationResult(s) {
-    const r = s.sort(((s, r) => {
-      var o, u;
-      return null != (u = null != (o = null == r ? void 0 : r.mtime) ? o : 0 - (null == s ? void 0 : s.mtime)) ? u : 0;
-    }));
-    e: for (const s of r) if (!isChunk(s._id)) {
-      if (!this.settings.suspendParseReplicationResult) for (const r of this.addOns) if (await r.parseReplicationResultItem(s)) continue e;
-      if (s._id != SYNCINFO_ID) if (!s._id.startsWith("_design")) {
-        if ("leaf" != s.type && "versioninfo" != s.type && "milestoneinfo" != s.type && "nodeinfo" != s.type) if (this.settings.suspendParseReplicationResult) {
-          if (isInternalMetadata(s._id) && !this.settings.syncInternalFiles) continue;
-          if (isCustomisationSyncMetadata(s._id) && !this.settings.usePluginSync) continue;
-          if (!s.path) continue;
-          const r = {
-            entry: s,
-            missingChildren: [],
-            timeout: 0
-          };
-          Logger(`Processing scheduled: ${s.path}`, LOG_LEVEL_INFO);
-          this.queuedFiles = this.queuedFiles.filter((r => r.entry.path != s.path));
-          this.queuedFiles.push(r);
-          this.saveQueuedFiles();
-          continue;
-        } else {
-          await this.parseIncomingDoc(s);
-          continue;
-        }
-        if ("versioninfo" == s.type) if (s.version > VER) {
-          this.replicator.closeReplication();
-          Logger("Remote database updated to incompatible version. update your self-hosted-livesync plugin.", LOG_LEVEL_NOTICE);
-        }
-      }
-    } else if (!this.settings.suspendParseReplicationResult) await this.parseIncomingChunk(s);
+  parseReplicationResult(s) {
+    if (this.settings.suspendParseReplicationResult) this.replicationResultProcessor.suspend(); else this.replicationResultProcessor.resume();
+    this.replicationResultProcessor.enqueueAll(s);
   }
   async realizeSettingSyncMode() {
     var s;
@@ -23198,82 +23440,81 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     this.periodicSyncProcessor.enable(this.settings.periodicReplication ? 1e3 * this.settings.periodicReplicationInterval : 0);
   }
   observeForLogs() {
-    const s = observeStores(this.queuedFilesStore, lockStore);
-    observeStores(s, this.replicationStat).observe((s => {
-      var r;
-      const o = s.sent, u = s.arrived, g = s.maxPullSeq, _ = s.maxPushSeq, m = s.lastSyncPullSeq, b = s.lastSyncPushSeq;
-      let w = "", E = "", S = "";
+    const s = reactive((() => {
+      const s = this.databaseQueueCount.value, r = this.replicationResultCount.value, o = this.storageApplyingCount.value, u = collectingChunks.value, g = pluginScanningCount.value, _ = hiddenFilesEventCount.value + hiddenFilesProcessingCount.value, m = this.conflictProcessQueueCount.value;
+      return `${r ? `📥 ${r} ` : ""}${s ? `📄 ${s} ` : ""}${o ? `💾 ${o}` : ""}${u ? `🧩${u} ` : ""}${g ? `🔌${g} ` : ""}${_ ? `⚙️${_} ` : ""}${m ? `🔩${m} ` : ""}`;
+    })), r = reactive((() => {
+      const s = this.replicationStat.value, r = s.sent, o = s.arrived, u = s.maxPullSeq, g = s.maxPushSeq, _ = s.lastSyncPullSeq, m = s.lastSyncPushSeq;
+      let b = "", w = "", E = "";
       switch (s.syncStatus) {
        case "CLOSED":
        case "COMPLETED":
        case "NOT_CONNECTED":
-        S = "⏹";
+        E = "⏹";
         break;
 
        case "STARTED":
-        S = "🌀";
+        E = "🌀";
         break;
 
        case "PAUSED":
-        S = "💤";
+        E = "💤";
         break;
 
        case "CONNECTED":
-        S = "⚡";
-        w = 0 == b ? "" : b >= _ ? " (LIVE)" : ` (${_ - b})`;
-        E = 0 == m ? "" : m >= g ? " (LIVE)" : ` (${g - m})`;
+        E = "⚡";
+        b = 0 == m ? "" : m >= g ? " (LIVE)" : ` (${g - m})`;
+        w = 0 == _ ? "" : _ >= u ? " (LIVE)" : ` (${u - _})`;
         break;
 
        case "ERRORED":
-        S = "⚠";
+        E = "⚠";
         break;
 
        default:
-        S = "?";
+        E = "?";
       }
-      this.statusBar.title = s.syncStatus;
-      let L = "";
-      if (this.settings.batchSave && !this.settings.liveSync) {
-        const s = null == (r = this.vaultManager) ? void 0 : r.getQueueLength();
-        if (0 != s) L = ` 🛫${s}`;
-      }
-      let O = "";
-      const D = Object.entries(s.queuedItems).filter((s => !s[1].warned)), k = D.length;
-      if (k) O = ` 🧩${k} (${D.map((s => s[1].missingChildren)).reduce(((s, r) => s + r.length), 0)})`;
-      const C = s.count, T = `Sync: ${S} ↑${o}${w} ↓${u}${E}${L}${0 == C ? "" : ` ⏳${C}`}${O}`;
-      function getProcKind(s) {
-        const r = s.indexOf("-");
-        if (-1 == r) return s; else return s.substring(0, r);
-      }
-      const I = s.pending.length ? s.pending.length < 10 ? "\nPending: " + Object.entries(s.pending.reduce(((s, r) => {
-        var o;
-        return {
-          ...s,
-          [getProcKind(r)]: (null != (o = s[getProcKind(r)]) ? o : 0) + 1
-        };
-      }), {})).map((s => `${s[0]}${1 == s[1] ? "" : `(${s[1]})`}`)).join(", ") : `\n Pending: ${s.pending.length}` : "", A = s.running.length ? s.running.length < 10 ? "\nRunning: " + Object.entries(s.running.reduce(((s, r) => {
-        var o;
-        return {
-          ...s,
-          [getProcKind(r)]: (null != (o = s[getProcKind(r)]) ? o : 0) + 1
-        };
-      }), {})).map((s => `${s[0]}${1 == s[1] ? "" : `(${s[1]})`}`)).join(", ") : `\n Running: ${s.running.length}` : "";
-      this.setStatusBarText(T + I + A);
+      return {
+        w: E,
+        sent: r,
+        pushLast: b,
+        arrived: o,
+        pullLast: w
+      };
+    })), o = reactive((() => {
+      const s = this.pendingFileEventCount.value, r = this.fileEventQueue.processingEntities, o = s - r;
+      return `${0 != r ? `⏳${r} ` : ""}${0 != o ? ` 🛫${o}` : ""}`;
+    })), u = reactive((() => {
+      const {w: u, sent: g, pushLast: _, arrived: m, pullLast: b} = r.value, w = s.value;
+      return {
+        message: `Sync: ${u} ↑${g}${_} ↓${m}${b}${o.value} ${w}`
+      };
+    })), g = reactive((() => {
+      const {message: s} = u.value;
+      return {
+        message: s,
+        status: this.statusLog.value
+      };
+    }));
+    let _ = 0;
+    const applyToDisplay = () => {
+      const s = g.value, r = Date.now();
+      if (!(r - _ < 10)) {
+        this.applyStatusBarText(s.message, s.status);
+        _ = r;
+      } else scheduleTask("applyToDisplay", 20, (() => applyToDisplay()));
+    };
+    g.onChanged(applyToDisplay);
+  }
+  applyStatusBarText(s, r) {
+    var o;
+    const u = s, g = r;
+    null == (o = this.statusBar) || o.setText(u.split("\n")[0]);
+    if (this.settings.showStatusOnEditor) activeDocument.documentElement.querySelectorAll(".CodeMirror-wrap,.cm-s-obsidian>.cm-editor,.canvas-wrapper").forEach((s => s.setAttr("data-log", u + "\n" + g))); else activeDocument.documentElement.querySelectorAll(".CodeMirror-wrap,.cm-s-obsidian>.cm-editor,.canvas-wrapper").forEach((s => s.setAttr("data-log", "")));
+    scheduleTask("log-hide", 3e3, (() => {
+      this.statusLog.value = "";
     }));
   }
-  refreshStatusText() {}
-  setStatusBarText(s = null, r = null) {
-    if (!this.statusBar) return;
-    const o = "string" == typeof s ? s : this.lastMessage, u = "string" == typeof r ? r : this.lastLog;
-    if (`${this.lastMessage}-${this.lastLog}` != `${o}-${u}`) {
-      this.statusBar.setText(o.split("\n")[0]);
-      if (this.settings.showStatusOnEditor) activeDocument.documentElement.querySelectorAll(".CodeMirror-wrap,.cm-s-obsidian>.cm-editor,.canvas-wrapper").forEach((s => s.setAttr("data-log", o + "\n" + u))); else activeDocument.documentElement.querySelectorAll(".CodeMirror-wrap,.cm-s-obsidian>.cm-editor,.canvas-wrapper").forEach((s => s.setAttr("data-log", "")));
-      scheduleTask("log-hide", 3e3, (() => this.setStatusBarText(null, "")));
-      this.lastMessage = o;
-      this.lastLog = u;
-    }
-  }
-  updateStatusBarText() {}
   async replicate(s) {
     if (!this.isReady) return;
     if (isLockAcquired("cleanup")) {
@@ -23322,7 +23563,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       if (this.localDatabase.isReady) await this.syncAllFiles(s);
       await Promise.all(this.addOns.map((r => r.onInitializeDatabase(s))));
       this.isReady = true;
-      await this.procFileEvent(true);
+      await this.flushFileEventQueue();
       return true;
     } else {
       this.isReady = false;
@@ -23373,61 +23614,92 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
     }
     const w = u.filter((s => -1 == _.indexOf(getPathFromTFile(s)))), E = _.filter((s => -1 == g.indexOf(s))), S = w.map((s => s.path)), L = u.filter((s => -1 == S.indexOf(s.path)));
     Logger("Updating database by new files");
-    this.setStatusBarText("UPDATE DATABASE");
-    const runAll = async (s, r, o) => {
-      Logger(s);
+    const O = [], runAll = async (r, o, u) => {
+      if (0 == o.length) {
+        Logger(`${r}: Nothing to do`);
+        return;
+      }
+      Logger(r);
       if (!this.localDatabase.isReady) throw Error("Database is not ready!");
-      const u = r.map((r => async () => {
-        try {
-          await o(r);
-          return true;
-        } catch (r) {
-          Logger(`Error while ${s}`, LOG_LEVEL_NOTICE);
-          Logger(r, LOG_LEVEL_VERBOSE);
-          return false;
-        }
-      }));
       let g = 0, _ = 0;
-      for await (const s of processAllTasksWithConcurrencyLimit(10, u)) if ("ok" in s && s.ok) g++; else _++;
-      Logger(`${s}: PASS:${g}, FAILED:${_}`);
+      const m = s ? LOG_LEVEL_NOTICE : LOG_LEVEL_INFO, b = new QueueProcessor((async s => {
+        try {
+          await u(s[0]);
+          g++;
+        } catch (s) {
+          Logger(`Error while ${r}`, LOG_LEVEL_NOTICE);
+          Logger(s, LOG_LEVEL_VERBOSE);
+          _++;
+        }
+        if ((g + _) % 10 == 0) Logger(`${r}: DONE:${g}, FAILED:${_}, LAST:${b._queue.length}`, m, `log-${r}`);
+      }), {
+        batchSize: 1,
+        concurrentLimit: 10,
+        delay: 0,
+        suspended: true
+      }, o);
+      await b.waitForPipeline();
+      Logger(`${r} All done: DONE:${g}, FAILED:${_}`, m, `log-${r}`);
     };
-    await runAll("UPDATE DATABASE", w, (async s => {
-      Logger(`UPDATE DATABASE ${s.path}`);
+    O.push(runAll("UPDATE DATABASE", w, (async s => {
       await this.updateIntoDB(s, r);
-    }));
-    if (!r) await runAll("UPDATE STORAGE", E, (async s => {
+    })));
+    if (!r) O.push(runAll("UPDATE STORAGE", E, (async s => {
       const r = await this.localDatabase.getDBEntryMeta(s, {}, true);
       if (r && !(r.deleted || r._deleted)) {
         Logger(`Check or pull from db:${s}`);
         await this.pullFile(s, u, false, null, false);
         Logger(`Check or pull from db:${s} OK`);
       } else if (r) Logger(`Deletion history skipped: ${s}`, LOG_LEVEL_VERBOSE); else Logger(`entry not found: ${s}`);
-    }));
+    })));
     if (!r) {
       let s = {};
       s = await this.kvDB.get("diff-caches") || {};
-      const o = [ ...arrayToChunkedArray(L, 100) ].map(((o, u, g) => async () => {
-        const _ = (await mapAllTasksWithConcurrencyLimit(10, o.map((s => async () => ({
-          file: s,
-          id: await this.path2id(getPathFromTFile(s))
-        }))))).map((s => "ok" in s ? s.ok : void 0)).filter((s => s)), m = (await this.localDatabase.allDocsRaw({
-          keys: _.map((s => s.id)),
+      const o = new QueueProcessor((async s => {
+        const r = s[0];
+        return [ {
+          file: r,
+          id: await this.path2id(getPathFromTFile(r))
+        } ];
+      }), {
+        batchSize: 1,
+        concurrentLimit: 10,
+        delay: 0,
+        suspended: true
+      }, L);
+      o.pipeTo(new QueueProcessor((async s => {
+        const r = (await this.localDatabase.allDocsRaw({
+          keys: s.map((s => s.id)),
           include_docs: true
         })).rows.reduce(((s, r) => ({
           ...s,
           [r.id]: r.doc
-        })), {}), b = _.map((s => ({
+        })), {});
+        return s.map((s => ({
           file: s.file,
-          doc: m[s.id]
+          doc: r[s.id]
         })));
-        await runAll(`CHECK FILE STATUS:${u + 1}/${g.length}`, b, (async o => {
-          s = await this.syncFileBetweenDBandStorage(o.file, o.doc, r, s);
-        }));
+      }), {
+        batchSize: 10,
+        concurrentLimit: 5,
+        delay: 10,
+        suspended: false
+      })).pipeTo(new QueueProcessor((async o => {
+        const u = o[0];
+        await this.syncFileBetweenDBandStorage(u.file, u.doc, r, s);
+      }), {
+        batchSize: 1,
+        concurrentLimit: 5,
+        delay: 10,
+        suspended: false
       }));
-      await mapAllTasksWithConcurrencyLimit(2, o);
-      await this.kvDB.set("diff-caches", s);
+      o.startPipeline();
+      O.push((async () => {
+        await o.waitForPipeline();
+        await this.kvDB.set("diff-caches", s);
+      }));
     }
-    this.setStatusBarText("NOW TRACKING!");
+    await Promise.all(O);
     Logger("Initialized, NOW TRACKING!");
     if (!b) await this.kvDB.set("initialized", true);
     if (s) Logger("Initialize done!", LOG_LEVEL_NOTICE, "syncAll");
@@ -23490,17 +23762,17 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       return r;
     }
     const I = splitDiffPiece(k), A = splitDiffPiece(T);
-    let x = 0, R = 0;
+    let R = 0, x = 0;
     const P = [];
     L = true;
     e: do {
-      if (R >= I.length && x >= A.length) break e;
-      const s = null != (g = I[R]) ? g : [ 0, "" ], r = null != (_ = A[x]) ? _ : [ 0, "" ];
-      R++;
+      if (x >= I.length && R >= A.length) break e;
+      const s = null != (g = I[x]) ? g : [ 0, "" ], r = null != (_ = A[R]) ? _ : [ 0, "" ];
       x++;
+      R++;
       if (s[0] != import_diff_match_patch.DIFF_EQUAL || r[0] != import_diff_match_patch.DIFF_EQUAL || s[1] != r[1]) {
         if (s[0] == import_diff_match_patch.DIFF_DELETE && r[0] == import_diff_match_patch.DIFF_DELETE && s[1] == r[1]) {
-          const r = R, o = x, [u, g] = [ null != (m = I[r]) ? m : [ 0, "" ], null != (b = A[o]) ? b : [ 0, "" ] ];
+          const r = x, o = R, [u, g] = [ null != (m = I[r]) ? m : [ 0, "" ], null != (b = A[o]) ? b : [ 0, "" ] ];
           if (u[0] == import_diff_match_patch.DIFF_INSERT && g[0] == import_diff_match_patch.DIFF_INSERT && u[1] != g[1]) {
             L = false;
             break;
@@ -23544,14 +23816,14 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
           Logger(`Weird condition:${s[0]},${s[1]} == ${r[0]},${r[1]}`, LOG_LEVEL_VERBOSE);
           break e;
         } else {
-          R--;
+          x--;
           P.push(r);
         } else {
-          x--;
+          R--;
           P.push(s);
         }
       } else P.push(s);
-    } while (R < I.length || x < A.length);
+    } while (x < I.length || R < A.length);
     if (L) {
       Logger("Sensibly merge available", LOG_LEVEL_VERBOSE);
       return P;
@@ -23588,16 +23860,16 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       return false;
     }
   }
-  async getConflictedStatus(s) {
+  async checkConflictAndPerformAutoMerge(s) {
     var r, o;
     const u = await this.localDatabase.getDBEntry(s, {
       conflicts: true,
       revs_info: true
     }, false, false, true);
-    if (false === u) return false;
-    if (null == u) return false;
-    if (!u._conflicts) return false;
-    if (0 == u._conflicts.length) return false;
+    if (false === u) return MISSING_OR_ERROR;
+    if (null == u) return MISSING_OR_ERROR;
+    if (!u._conflicts) return NOT_CONFLICTED;
+    if (0 == u._conflicts.length) return NOT_CONFLICTED;
     const g = u._conflicts.sort(((s, r) => Number(s.split("-")[0]) - Number(r.split("-")[0])));
     if ((isSensibleMargeApplicable(s) || isObjectMargeApplicable(s)) && !this.settings.disableMarkdownAutoMerge) {
       const _ = g[0], m = Number(_.split("-")[0]), b = null != (o = null == (r = (await this.localDatabase.getRaw(await this.path2id(s), {
@@ -23631,14 +23903,14 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
           }
           await this.pullFile(s);
           Logger(`Automatically merged (sensible) :${s}`, LOG_LEVEL_INFO);
-          return true;
+          return AUTO_MERGED;
         }
       }
     }
     const _ = await this.getConflictedDoc(s, u._rev), m = await this.getConflictedDoc(s, g[0]);
     if (false == _) {
       Logger(`could not get current revisions:${s}`, LOG_LEVEL_NOTICE);
-      return false;
+      return MISSING_OR_ERROR;
     }
     if (false == m) {
       await this.localDatabase.deleteDBEntry(s, {
@@ -23646,7 +23918,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       });
       await this.pullFile(s, null, true);
       Logger(`could not get old revisions, automatically used newer one:${s}`, LOG_LEVEL_NOTICE);
-      return true;
+      return AUTO_MERGED;
     }
     const b = _.data == m.data && _.deleted == m.deleted, w = !isPlainText(s), E = this.settings.resolveConflictsByNewerFile;
     if (b || w || E) {
@@ -23657,7 +23929,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       });
       await this.pullFile(s, null, true);
       Logger(`Automatically merged (${b ? "same," : ""}${w ? "binary," : ""}${E ? "alwaysNewer" : ""}) :${s}`, LOG_LEVEL_NOTICE);
-      return true;
+      return AUTO_MERGED;
     }
     const S = new import_diff_match_patch.diff_match_patch, L = S.diff_main(_.data, m.data);
     S.diff_cleanupSemantic(L);
@@ -23668,80 +23940,53 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       diff: L
     };
   }
-  showMergeDialog(s, r) {
-    return serialized("resolve-conflict:" + s, (() => new Promise(((o, u) => {
-      Logger("open conflict dialog", LOG_LEVEL_VERBOSE);
-      new ConflictResolveModal(this.app, s, r, (async u => {
-        const g = await this.localDatabase.getDBEntry(s, {
-          conflicts: true
-        }, false, false, true);
-        if (false === g) {
-          Logger("Missing file..", LOG_LEVEL_VERBOSE);
-          return o(true);
-        }
-        if (!g._conflicts) {
-          Logger("Nothing have to do with this conflict", LOG_LEVEL_VERBOSE);
-          return o(true);
-        }
-        const _ = u, m = r.left.rev != _ ? r.left.rev : r.right.rev;
-        if ("" == _) {
-          const o = r.diff.map((s => s[1])).join("");
-          await this.localDatabase.deleteDBEntry(s, {
-            rev: g._conflicts[0]
-          });
-          const u = this.vaultAccess.getAbstractFileByPath(stripAllPrefixes(s));
-          if (u) {
-            await this.vaultAccess.vaultModify(u, o);
-            await this.updateIntoDB(u);
-          } else {
-            const r = await this.vaultAccess.vaultCreate(s, o);
-            await this.updateIntoDB(r);
-          }
-          await this.pullFile(s);
-          Logger("concat both file");
-          if (this.settings.syncAfterMerge && !this.suspended) await this.replicate();
-          setTimeout((() => {
-            this.showIfConflicted(s);
-          }), 50);
-        } else if (null == _) Logger("Leave it still conflicted"); else {
-          await this.localDatabase.deleteDBEntry(s, {
-            rev: _
-          });
-          await this.pullFile(s, null, true, m);
-          Logger(`Conflict resolved:${s}`);
-          if (this.settings.syncAfterMerge && !this.suspended) await this.replicate();
-          setTimeout((() => {
-            this.showIfConflicted(s);
-          }), 50);
-        }
-        return o(true);
-      })).open();
-    }))));
-  }
-  queueConflictedCheck(s) {
-    this.conflictedCheckFiles = this.conflictedCheckFiles.filter((r => r != s.path));
-    this.conflictedCheckFiles.push(getPathFromTFile(s));
-    scheduleTask("check-conflict", 100, (async () => {
-      const s = JSON.parse(JSON.stringify(this.conflictedCheckFiles));
-      for (const r of s) try {
-        const s = this.vaultAccess.getAbstractFileByPath(r);
-        if (null != s && s instanceof import_obsidian.TFile) await this.showIfConflicted(getPathFromTFile(s));
-      } catch (s) {
-        Logger(s);
+  async resolveConflictByUI(s, r) {
+    Logger("Merge:open conflict dialog", LOG_LEVEL_VERBOSE);
+    const o = new ConflictResolveModal(this.app, s, r);
+    o.open();
+    const u = await o.waitForResult();
+    if (u === CANCELLED) {
+      Logger(`Merge: Cancelled ${s}`, LOG_LEVEL_INFO);
+      return;
+    }
+    const g = await this.localDatabase.getDBEntry(s, {
+      conflicts: true
+    }, false, false, true);
+    if (false === g) {
+      Logger(`Merge: Could not read ${s} from the local database`, LOG_LEVEL_VERBOSE);
+      return;
+    }
+    if (!g._conflicts) {
+      Logger(`Merge: Nothing to do ${s}`, LOG_LEVEL_VERBOSE);
+      return;
+    }
+    const _ = u, m = r.left.rev != _ ? r.left.rev : r.right.rev;
+    if (_ === LEAVE_TO_SUBSEQUENT) {
+      const o = r.diff.map((s => s[1])).join("");
+      await this.localDatabase.deleteDBEntry(s, {
+        rev: g._conflicts[0]
+      });
+      const u = this.vaultAccess.getAbstractFileByPath(stripAllPrefixes(s));
+      if (u) {
+        if (await this.vaultAccess.vaultModify(u, o)) await this.updateIntoDB(u);
+      } else {
+        const r = await this.vaultAccess.vaultCreate(s, o);
+        await this.updateIntoDB(r);
       }
-    }));
-  }
-  async showIfConflicted(s) {
-    await serialized("conflicted", (async () => {
-      const r = await this.getConflictedStatus(s);
-      if (false !== r) if (true !== r) await this.showMergeDialog(s, r); else {
-        if (this.settings.syncAfterMerge && !this.suspended) await this.replicate();
-        Logger("conflict:Automatically merged, but we have to check it again");
-        setTimeout((() => {
-          this.showIfConflicted(s);
-        }), 50);
-      }
-    }));
+      await this.pullFile(s);
+      Logger(`Merge: Changes has been concatenated: ${s}`);
+    } else if ("string" == typeof _) {
+      await this.localDatabase.deleteDBEntry(s, {
+        rev: _
+      });
+      await this.pullFile(s, null, true, m);
+      Logger(`Conflict resolved:${s}`);
+    } else {
+      Logger(`Merge: Something went wrong: ${s}, (${_})`, LOG_LEVEL_NOTICE);
+      return;
+    }
+    if (this.settings.syncAfterMerge && !this.suspended) await shareRunningResult("replication", (() => this.replicate()));
+    this.conflictCheckQueue.enqueue(s);
   }
   async pullFile(s, r, o, u, g = true) {
     const _ = this.vaultAccess.getAbstractFileByPath(stripAllPrefixes(s));
@@ -23852,7 +24097,7 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       children: [],
       datatype: _,
       type: _
-    }, w = `DB <- STORAGE (${_}) `;
+    }, w = `STORAGE -> DB (${_}) `;
     if (await serialized("file-" + m, (async () => {
       if (this.vaultAccess.recentlyTouched(s)) return true;
       try {
@@ -23876,22 +24121,10 @@ var ObsidianLiveSyncPlugin = class extends import_obsidian.Plugin {
       }
       return false;
     }))) {
-      this.queuedFiles = this.queuedFiles.map((s => ({
-        ...s,
-        ...s.entry._id == b._id ? {
-          done: true
-        } : {}
-      })));
       Logger(w + " Skip " + m, LOG_LEVEL_VERBOSE);
       return true;
     }
     const E = await this.localDatabase.putDBEntry(b, r);
-    this.queuedFiles = this.queuedFiles.map((s => ({
-      ...s,
-      ...s.entry._id == b._id ? {
-        done: true
-      } : {}
-    })));
     Logger(w + m);
     if (this.settings.syncOnSave && !this.suspended) await this.replicate();
     return false != E;

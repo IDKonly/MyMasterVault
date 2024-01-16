@@ -43,5 +43,6 @@
   "obsidian-view-mode-by-frontmatter",
   "obsidian-banners",
   "dataview",
-  "auto-moc"
+  "auto-moc",
+  "obsidian-livesync"
 ]
