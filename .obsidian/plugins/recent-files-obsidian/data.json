@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "24.01.16",
-      "path": "Room_2_daily notes/24년 01월/24.01.16.md"
-    },
-    {
-      "basename": "home network flow.excalidraw",
-      "path": "Excalidraw/home network flow.excalidraw.md"
+      "basename": "CouchDB",
+      "path": "Room_4_personal work/CouchDB.md"
     },
     {
       "basename": "Compute Platforms",
@@ -15,6 +11,14 @@
     {
       "basename": "Synology 패키지",
       "path": "Room_4_personal work/Synology 패키지.md"
+    },
+    {
+      "basename": "24.01.16",
+      "path": "Room_2_daily notes/24년 01월/24.01.16.md"
+    },
+    {
+      "basename": "home network flow.excalidraw",
+      "path": "Excalidraw/home network flow.excalidraw.md"
     },
     {
       "basename": "Dashboard++",
@@ -195,10 +199,6 @@
     {
       "basename": "Daily note template",
       "path": "Room_0_metadata/Shelf_1_template for templater/Daily note template.md"
-    },
-    {
-      "basename": "어제자 데일리 노트의 특정 섹션 가져오기",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/어제자 데일리 노트의 특정 섹션 가져오기.md"
     }
   ],
   "omittedPaths": [],
