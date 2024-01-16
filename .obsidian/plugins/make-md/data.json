@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "Spaces/Home",
+  "activeView": "Dashboard++",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "yy.MM.dd",
@@ -41,7 +41,6 @@
     "//Room_4_personal work/Room_4_personal work/Shelf_1_How to zettelkasten",
     "//Room_4_personal work/Room_4_personal work/Shelf_1_How to zettelkasten",
     "//Room_0_metadata/Room_0_metadata/Shelf_0_Resource",
-    "//Spaces",
     "//Room_4_personal work/Room_4_personal work/Shelf_1_How to zettelkasten",
     "//Room_4_personal work/Room_4_personal work/Shelf_1_How to zettelkasten",
     "//Room_3_Lab/Room_3_Lab/Shelf_2_library",
@@ -51,10 +50,18 @@
     "spaces://#PCR",
     "spaces://#Chromotograpy",
     "//Excalidraw/Excalidraw/Scripts",
-    "//Spaces/Spaces/Home",
-    "//Spaces",
     "//Room_4_personal work",
-    "spaces://#옵시디언_업그레이드하기"
+    "spaces://#옵시디언_업그레이드하기",
+    "//Dashboard++",
+    "//Room_4_personal work",
+    "//Room_4_personal work",
+    "//Room_4_personal work",
+    "//Room_4_personal work",
+    "//Room_4_personal work/Room_4_personal work/InBox",
+    "//Room_4_personal work",
+    "//Room_4_personal work",
+    "//Room_4_personal work",
+    "//Dashboard++"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -81,7 +88,8 @@
   "waypoints": [
     "Spaces/Home",
     "/",
-    "spaces://$tags"
+    "spaces://$tags",
+    "Dashboard++"
   ],
   "spacesUseAlias": true,
   "fmKeyAlias": "aliases",
