@@ -77,8 +77,6 @@ Past ^4SPRL4BA
 
 Future ^mIYYJn2h
 
-https://researchrabbitapp.com/home ^PRXuKBADPcUPKLnTxhVnW
-
 
 # Embedded files
 072039dbd98fad94d6e3c513c90542c720bd830d: [[Pasted Image 20231210141432_200.png]]
@@ -90,13 +88,14 @@ c2b7b5d680dfb1ad0642941a8a8e77b0da63e913: [[Pasted Image 20231210140215_062.png]
 6646219cc94cb176c4986ead8d44df51994b2f1f: [[Pasted Image 20231210141748_212.png]]
 f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]]
 401ca9ab356b511cd6f02c8cd925645d8d545581: [[Pasted Image 20231210143201_343.png]]
+
 %%
 # Drawing
 ```json
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.8",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.17",
 	"elements": [
 		{
 			"type": "image",
@@ -1507,12 +1506,12 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 			"roundness": null,
 			"boundElements": [],
 			"updated": 1702201134166,
-			"link": "[[DIKW model.excalidraw]]",
+			"link": "[[Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw]]",
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 1,
 			"text": "📍[[DIKW model]]",
-			"rawText": "[[DIKW model.excalidraw|DIKW model]]",
+			"rawText": "[[Room_4_personal work/Shelf_1_How to zettelkasten/DIKW model.excalidraw|DIKW model]]",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -2715,6 +2714,43 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 					11.604058506013018
 				]
 			]
+		},
+		{
+			"id": "Ja0YBBz2",
+			"type": "text",
+			"x": -1421.3174922890616,
+			"y": -110.27022654343102,
+			"width": 10,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1254602887,
+			"version": 2,
+			"versionNonce": 1852465737,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1705326003064,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 21,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
@@ -2732,8 +2768,25 @@ f19678f6ec57b311c380a431e868669c2ce42491: [[Pasted Image 20231210142949_321.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
+		"scrollX": 1951.3174922890616,
+		"scrollY": 1122.145226543431,
+		"zoom": {
+			"value": 0.6000000000000001
+		},
 		"currentItemRoundness": "sharp",
-		"gridSize": 0
+		"gridSize": null,
+		"gridColor": {
+			"Bold": "#C9C9C9FF",
+			"Regular": "#EDEDEDFF"
+		},
+		"currentStrokeOptions": null,
+		"previousGridSize": null,
+		"frameRendering": {
+			"enabled": true,
+			"clip": true,
+			"name": true,
+			"outline": true
+		}
 	},
 	"files": {}
 }
