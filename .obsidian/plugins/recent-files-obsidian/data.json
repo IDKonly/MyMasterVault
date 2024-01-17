@@ -1,64 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "240116.excalidraw",
-      "path": "Excalidraw/240116.excalidraw.md"
+      "basename": "Compute Platforms",
+      "path": "Room_4_personal work/Compute Platforms.md"
     },
     {
-      "basename": "Swd2-TAP interactom analysis work pipeline.excalidraw",
-      "path": "Excalidraw/Swd2-TAP interactom analysis work pipeline.excalidraw.md"
-    },
-    {
-      "basename": "중견연구보고서 작성",
-      "path": "Room_5_MOCs/중견연구보고서 작성.md"
+      "basename": "CouchDB",
+      "path": "Room_4_personal work/CouchDB.md"
     },
     {
       "basename": "Dashboard++",
       "path": "Dashboard++.md"
     },
     {
-      "basename": "24.01.16",
-      "path": "Room_2_daily notes/24년 01월/24.01.16.md"
-    },
-    {
       "basename": "24.01.17",
       "path": "Room_2_daily notes/24년 01월/24.01.17.md"
     },
     {
-      "basename": "Swd2 Associated proteins",
-      "path": "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/Swd2 Associated proteins.md"
+      "basename": "Synology 패키지",
+      "path": "Room_4_personal work/Synology 패키지.md"
+    },
+    {
+      "basename": "24.01.16",
+      "path": "Room_2_daily notes/24년 01월/24.01.16.md"
+    },
+    {
+      "basename": "home network flow.excalidraw",
+      "path": "Excalidraw/home network flow.excalidraw.md"
     },
     {
       "basename": "Personal system summery.excalidraw",
       "path": "Excalidraw/Personal system summery.excalidraw.md"
     },
     {
+      "basename": "Obsidian",
+      "path": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/서비스/Obsidian.md"
+    },
+    {
+      "basename": "Knowledge based workflow",
+      "path": "Room_0_metadata/Shelf_0_Resource/Knowledge based workflow.md"
+    },
+    {
+      "basename": "Improve use Obsidian",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/Improve use Obsidian.md"
+    },
+    {
+      "basename": "Main practice",
+      "path": "Room_5_MOCs/Main practice.md"
+    },
+    {
+      "basename": "CODE",
+      "path": "Room_3_Lab/Shelf_3_knowledge particle/CODE.md"
+    },
+    {
+      "basename": "Swd2-TAP COMPASS activity check Western blot.excalidraw",
+      "path": "Room_0_metadata/Shelf_0_Resource/Swd2-TAP COMPASS activity check Western blot.excalidraw.md"
+    },
+    {
+      "basename": "옵시디언에서의 파일관리.excalidraw",
+      "path": "Room_1_rules/옵시디언에서의 파일관리.excalidraw.md"
+    },
+    {
       "basename": "System summery",
-      "path": "Room_5_MOCs/System summery.md"
+      "path": "System summery.md"
     },
     {
-      "basename": "_Myvault",
-      "path": "_Myvault.md"
-    },
-    {
-      "basename": "_MyMasterVault",
-      "path": "_MyMasterVault.md"
-    },
-    {
-      "basename": "점심메뉴",
-      "path": "Room_4_personal work/점심메뉴.md"
-    },
-    {
-      "basename": "_Dashboard++",
-      "path": "_Dashboard++.md"
-    },
-    {
-      "basename": "Room_4_personal work",
-      "path": "Room_4_personal work/Room_4_personal work.md"
-    },
-    {
-      "basename": "Daily note template",
-      "path": "Room_0_metadata/Shelf_1_template for templater/Daily note template.md"
+      "basename": "NAS(OMV)",
+      "path": "Room_4_personal work/InBox/Shelf_1_MyNetwork setting/Device/NAS(OMV).md"
     },
     {
       "basename": "24.01.15",
@@ -129,6 +137,10 @@
       "path": "Room_3_Lab/Shelf_2_library/Box_2_methods/_Methods.md"
     },
     {
+      "basename": "중견연구보고서 작성",
+      "path": "Room_5_MOCs/중견연구보고서 작성.md"
+    },
+    {
       "basename": "@lee2007",
       "path": "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@lee2007.md"
     },
@@ -143,6 +155,10 @@
     {
       "basename": "23.10.12",
       "path": "Room_2_daily notes/23년/23년 10월/23.10.12.md"
+    },
+    {
+      "basename": "_Myvault",
+      "path": "_Myvault.md"
     },
     {
       "basename": "23.09.27",
@@ -179,26 +195,6 @@
     {
       "basename": "231016 랩미팅",
       "path": "Room_3_Lab/Shelf_1_my works/Box_3_랩미팅/231016 랩미팅.md"
-    },
-    {
-      "basename": "24.01.14",
-      "path": "Room_2_daily notes/24년 01월/24.01.14.md"
-    },
-    {
-      "basename": "어제자 데일리 노트의 특정 섹션 가져오기",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/어제자 데일리 노트의 특정 섹션 가져오기.md"
-    },
-    {
-      "basename": "Daily Note를 요일별, 날짜별 다르게 쓰기",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Daily Note를 요일별, 날짜별 다르게 쓰기.md"
-    },
-    {
-      "basename": "Full Calendar ICS 플러그인",
-      "path": "Room_3_Lab/Shelf_3_knowledge particle/Box_3_web clips/Full Calendar ICS 플러그인.md"
-    },
-    {
-      "basename": "24.01.13",
-      "path": "Room_2_daily notes/24.01.13.md"
     }
   ],
   "omittedPaths": [],

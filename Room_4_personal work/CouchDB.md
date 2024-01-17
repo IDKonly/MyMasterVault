@@ -10,19 +10,19 @@ Status:
 PARA:
 ---
 ``` docker web editer
-version: "3.9"
+version: '3'
 services:
-  couchdb:
+  couchserver:
     image: couchdb
-    container_name: CouchDB
-    hostname: couchdb
-    mem_limit: 2g
-    network_mode: host
-    volumes:
-      - /volume1/docker/couchdb:/opt/couchdb/data:rw
+    restart: always
+    ports:
+      - "22345:5984"
     environment:
-     COUCHDB_USER: youde1230
-     COUCHDB_PASSWORD: ehdgus97
-    restart: on-failure:5
+      - COUCHDB_USER=kill9749
+      - COUCHDB_PASSWORD=Wnsud2006^
+    volumes:
+        - /volume1/docker/couchdb:/opt/couchdb/data
 ```
 
+[How to Install CouchDB on Your Synology NAS – Marius Hosting](https://mariushosting.com/how-to-install-couchdb-on-your-synology-nas/)
+[Install CouchDB using Docker and Docker-compose](https://medevel.com/tutorial-install-couchdb-with-docker/)
