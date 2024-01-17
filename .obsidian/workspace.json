@@ -46,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.17.md",
+                "file": "Room_2_daily notes/24년 01월/24.01.16.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.17.md"
+                "file": "Room_2_daily notes/24년 01월/24.01.16.md"
               }
             }
           }
@@ -219,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.17.md",
+                "file": "Room_2_daily notes/24년 01월/24.01.16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.17.md",
+                "file": "Room_2_daily notes/24년 01월/24.01.16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +256,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_2_daily notes/24년 01월/24.01.17.md",
+                "file": "Room_2_daily notes/24년 01월/24.01.16.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -332,6 +332,7 @@
   },
   "active": "b3a522762a3a6cee",
   "lastOpenFiles": [
+    "Dashboard++.md",
     "Room_2_daily notes/24년 01월/24.01.16.md",
     "Room_2_daily notes/24년 01월/24.01.17.md",
     "Room_3_Lab/Shelf_1_my works/Box_2_실험일지/23년 5월~9월/Swd2 Associated proteins.md",
@@ -344,7 +345,6 @@
     "Room_5_MOCs/중견연구보고서 작성.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240116155716_767.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240116150801_725.png",
-    "Dashboard++.md",
     "Excalidraw/Personal system summery.excalidraw.md",
     "Room_5_MOCs/System summery.md",
     "Vault.md",
