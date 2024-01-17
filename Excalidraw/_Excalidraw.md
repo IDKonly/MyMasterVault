@@ -15,6 +15,7 @@ tags:
 📄 [[Excalidraw/231207 western blot loading design.excalidraw|231207 western blot loading design.excalidraw]]
 📄 [[Excalidraw/231208.excalidraw|231208.excalidraw]]
 📄 [[Excalidraw/240116.excalidraw|240116.excalidraw]]
+📄 [[Excalidraw/240117.excalidraw|240117.excalidraw]]
 📄 [[Excalidraw/home network flow.excalidraw|home network flow.excalidraw]]
 📄 [[Excalidraw/NNS complexexcalidraw|NNS complexexcalidraw]]
 📄 [[Excalidraw/Personal system summery.excalidraw|Personal system summery.excalidraw]]

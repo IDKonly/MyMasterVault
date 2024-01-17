@@ -19,9 +19,12 @@
             "id": "8100b12e833468c2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/home network flow.excalidraw.md"
+                "file": "Room_2_daily notes/24년 01월/24.01.17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -35,6 +38,16 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "fd6191250a0be4f8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/240117.excalidraw.md"
               }
             }
           },
@@ -91,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -156,7 +169,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "7d671dac6e36c056",
@@ -238,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room_4_personal work/Compute Platforms.md"
+                "file": "Excalidraw/240117.excalidraw.md"
               }
             }
           }
@@ -255,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room_4_personal work/Compute Platforms.md",
+                "file": "Excalidraw/240117.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room_4_personal work/Compute Platforms.md",
+                "file": "Excalidraw/240117.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +306,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Room_4_personal work/Compute Platforms.md",
+                "file": "Excalidraw/240117.excalidraw.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -369,12 +383,13 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "44d8a7d7eb9f9c15",
+  "active": "fd6191250a0be4f8",
   "lastOpenFiles": [
-    "Room_4_personal work/CouchDB.md",
     "Room_4_personal work/Compute Platforms.md",
-    "Dashboard++.md",
+    "Excalidraw/240117.excalidraw.md",
     "Room_2_daily notes/24년 01월/24.01.17.md",
+    "Room_4_personal work/CouchDB.md",
+    "Dashboard++.md",
     "_Dashboard++.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240116160313_753.png",
     "Room_0_metadata/Shelf_0_Resource/Pasted Image 20240116160313_724.png",
@@ -405,7 +420,6 @@
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@wellinger2012/image-4-x49-y450.png",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@wellinger2012/image-4-x47-y272.png",
     "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/0_resources/@wellinger2012",
-    "Room_3_Lab/Shelf_2_library/Box_1_manuscripts/@bae2020.md",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240115163806.png",
     "Room_5_MOCs",
     "Room_0_metadata/Shelf_0_Resource/Pasted image 20240115144724.png"
