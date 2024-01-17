@@ -14,6 +14,7 @@ tags:
 📄 [[Room_4_personal work/_PersonalWork|_PersonalWork]]
 📄 [[Room_4_personal work/점심메뉴|점심메뉴]]
 📄 [[Room_4_personal work/Compute Platforms|Compute Platforms]]
+📄 [[Room_4_personal work/CouchDB|CouchDB]]
 📄 [[Room_4_personal work/Obcidian citation 개선하기|Obcidian citation 개선하기]]
 📄 [[Room_4_personal work/Obsidian - Todoist - google calinder.excalidraw|Obsidian - Todoist - google calinder.excalidraw]]
 📄 [[Room_4_personal work/Personal work main Page|Personal work main Page]]
