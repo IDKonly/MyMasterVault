@@ -377,10 +377,7 @@
       "random-note:랜덤 노트 열기": false,
       "audio-recorder:녹음 시작/중지": false,
       "workspaces:작업 공간 레이아웃 관리": false,
-      "auto-moc:AutoMOC": false,
-      "obsidian-livesync:Replicate": false,
-      "obsidian-livesync:Show log": false,
-      "obsidian-livesync:Show Customization sync": false
+      "auto-moc:AutoMOC": false
     }
   },
   "active": "fd6191250a0be4f8",
